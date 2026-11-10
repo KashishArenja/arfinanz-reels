@@ -4,7 +4,11 @@ Text is placed inside the Instagram safe zone and never over a face
 (faces are detected on frames every 0.2 s across the whole clip).
 
 usage: python3 make_reel.py clip.mp4 spec.json out.mp4
-spec.json: {"blocks": [["text", size, "white"|"blue"], ...]}
+spec.json: {"blocks": [["text", size, "white"|"blue"], ...],
+            "start": 2.0,                       # optional: where to cut into clip.mp4
+            "segments": [{"clip": "a.mov", "start": 0, "dur": 2.5},
+                         {"clip": "b.mov", "start": 3, "dur": 2.6}]}   # optional: combine several clips
+            (with "segments" the clip argument is ignored; use "-")
 """
 import json, os, subprocess, sys, tempfile
 import cv2
@@ -25,12 +29,20 @@ def run(*a):
     subprocess.run(a, check=True)
 
 
-def normalize(src, dst):
-    """Autorotate, fill 9:16, exactly 5.1 s, 30 fps, silent stereo track."""
-    vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
-          f"tpad=stop_mode=clone:stop_duration={DUR},trim=duration={DUR},setpts=PTS-STARTPTS,format=yuv420p")
-    run("ffmpeg", "-v", "error", "-y", "-i", src, "-f", "lavfi", "-t", str(DUR), "-i",
-        "anullsrc=r=44100:cl=stereo", "-filter_complex", f"[0:v]{vf}[v]", "-map", "[v]", "-map", "1:a",
+def normalize(segments, dst):
+    """segments: [{"clip": path, "start": s, "dur": d}, ...] (one or more cuts).
+    Each cut: autorotate, fill 9:16, 30 fps. Cuts are joined, total exactly 5.1 s, silent stereo."""
+    args, chains = [], []
+    for i, sg in enumerate(segments):
+        args += ["-ss", str(sg.get("start", 0)), "-t", str(sg.get("dur", DUR)), "-i", sg["clip"]]
+        chains.append(f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
+                      f"setsar=1,format=yuv420p,setpts=PTS-STARTPTS[s{i}]")
+    n = len(segments)
+    join = "".join(f"[s{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[c]"
+    tail = (f"[c]tpad=stop_mode=clone:stop_duration={DUR},trim=duration={DUR},setpts=PTS-STARTPTS[v]")
+    fc = ";".join(chains + [join, tail])
+    run("ffmpeg", "-v", "error", "-y", *args, "-f", "lavfi", "-t", str(DUR), "-i", "anullsrc=r=44100:cl=stereo",
+        "-filter_complex", fc, "-map", "[v]", "-map", f"{n}:a",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-c:a", "aac", "-t", str(DUR), dst)
 
 
@@ -145,10 +157,11 @@ def render_parts(parts, path):
 
 
 def main(clip, spec, out):
-    blocks = json.load(open(spec))["blocks"]
+    sp = json.load(open(spec)); blocks = sp["blocks"]
+    segments = sp.get("segments") or [{"clip": clip, "start": sp.get("start", 0), "dur": DUR}]
     tmp = tempfile.mkdtemp()
     base = os.path.join(tmp, "base.mp4"); ov = os.path.join(tmp, "ov.png")
-    normalize(clip, base)
+    normalize(segments, base)
     faces = face_boxes(base)
     parts, scale = place_split(blocks, faces) if len(blocks) > 1 else (None, None)
     if parts:

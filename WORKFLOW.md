@@ -6,7 +6,7 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Clips: Google-Drive-Ordner „01_Clips roh“ – ID `1VrlzH-tNNoF0emWmWnrY0l8vUKsCQeZs` (per Link freigegeben)
   - Liste: Google-Drive-Connector `search_files` mit `parentId = '<ID>'`
   - Download (jede Größe): `curl -sSL "https://drive.usercontent.google.com/download?id=<FILE_ID>&export=download&confirm=t" -o clip.mov`
-- Bereits benutzte Clips: `used_clips.json` (nie zweimal verwenden, nach dem Einplanen eintragen und pushen)
+- Clip-Nutzung: `used_clips.json` (nach dem Einplanen jeden verwendeten Abschnitt eintragen: Datei, start, dur, Datum, Thema, und pushen)
 - Metricool-Brand: blogId `7984611` (Instagram @arfinanz, Facebook-Seite verbunden → Sounds möglich), Zeitzone Europe/Berlin
 
 ## Reel-Format
@@ -43,5 +43,11 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Themen-Mix: Proof, Teach, Opinion; Immobilie (Eigenheim + Kapitalanlage), Steuern, Rente, Versicherung
 - Freigabe: Kashish bekommt alle Vorschauen + Captions; erst nach „Ja“ einplanen
 
+## Clips mehrfach nutzen und kombinieren (von Kashish ausdrücklich erlaubt)
+- Ein Clip darf mehrfach verwendet werden, auch in derselben Woche – dann aber mit einem anderen Abschnitt (`start`) und anderem Thema.
+- Mehrere Clips dürfen zu einem Reel geschnitten werden (`segments` in spec.json, z. B. 2 × ~2,5 s). Schnitte möglichst auf ruhige Momente legen.
+- Derselbe Abschnitt (gleicher Clip + ähnlicher start) frühestens nach 3 Wochen wieder, und nie zweimal direkt hintereinander im Feed.
+- Ziel: jede Woche 12 Reels, auch bei wenigen Clips. Neue, noch nie genutzte Clips zuerst einsetzen.
+
 ## Clip-Vorrat
-- Weniger als 14 unbenutzte Clips → Kashish sofort Bescheid geben, wie viele fehlen.
+- Weniger als 6 noch nie genutzte Clips → Kashish freundlich Bescheid geben, dass neues Material die Reels abwechslungsreicher macht (kein Blocker).
