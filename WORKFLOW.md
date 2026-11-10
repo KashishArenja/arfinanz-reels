@@ -75,7 +75,7 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 
 ## Sound
 - Metricool `instagramData.audioConfiguration.audioId`: erst mit Suchbegriff aufrufen → Kandidatenliste → numerische ID wählen. `videoVolume: 0`.
-- **Trend-Sounds statt ruhiger Standardmusik (Kashish 10.11.: „die Sounds sind langweilig“).** Vor dem Einplanen die aktuellen Instagram-Trend-Sounds der Woche recherchieren (z. B. Buffer, Later, SocialPilot, Kabo – Wochen-Charts), bevorzugt Bollywood-/Desi-Trends für unsere Zielgruppe.
+- **Trend-Sounds statt ruhiger Standardmusik (Kashish 10.11.: „die Sounds sind langweilig“).** Vor dem Einplanen die aktuellen Instagram-Trend-Sounds der Woche recherchieren (z. B. Buffer, Later, SocialPilot, Kabo – Wochen-Charts). **Keine Bollywood-Lieder** (Kashish 10.11.).
 - Chart-Songs als „music“ gibt es im Business-Katalog meist nicht. Dann: (1) `original_sound` des Trend-Songs aus der Kandidatenliste (Risiko: Instagram kann den Ton bei Business-Accounts stummschalten), oder (2) Metas Trend-Format-Sounds „… (Reels Sound - Listicle/Reaction/Photo Dump)“ – sicher und gemacht für Listen/Vergleiche.
 - Nicht zweimal am selben Tag denselben Sound.
 
