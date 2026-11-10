@@ -10,6 +10,7 @@ spec.json: {"blocks": [["text", size, "white"|"blue"], ...],
                          {"clip": "b.mov", "start": 3, "dur": 2.6}]}   # optional: combine several clips
             (with "segments" the clip argument is ignored; use "-")
             "labels": ["India", "Germany"]      # optional: one label above each person (left to right)
+            "table": {"title": "...", "headers": [...], "rows": [[...]], "highlight": 1, "note": "..."}  # optional: data table (clips without people)
 """
 import json, os, subprocess, sys, tempfile
 import cv2
@@ -199,6 +200,63 @@ def place_labels(labels, anchors, faces, scale=1.0, size=56):
     return res
 
 
+RAIL_TOP = 1100   # Instagram's like/comment/share buttons start roughly here on the right
+
+
+def _fit(d, texts, size, maxw, minsize=22):
+    while size > minsize and max(d.textlength(str(x), font=ImageFont.truetype(FONT, size)) for x in texts) > maxw:
+        size -= 2
+    return ImageFont.truetype(FONT, size)
+
+
+def table_card(t, faces):
+    """Clean table card, centred. t = {"title","headers","rows","highlight"(row index),"note"}
+    Wide (900 px) when it sits above the button rail, otherwise narrow enough to clear it."""
+    d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
+    cols = len(t["headers"]); pad, rh = 36, 76
+    for width in (900, MAXW):
+        inner = width - 2 * pad; colw = inner / cols
+        tf = ImageFont.truetype(FONT, 46)
+        title_lines = wrap_balanced(d, t["title"], tf, inner)
+        hf = _fit(d, t["headers"], 30, colw - 16)
+        cf = _fit(d, [c for r in t["rows"] for c in r], 40, colw - 16)
+        nf = _fit(d, [t.get("note", "")], 24, inner)
+        th = len(title_lines) * 58
+        h = pad + th + 24 + 56 + rh * len(t["rows"]) + (44 if t.get("note") else 0) + pad
+        limit = RAIL_TOP if width > MAXW else SAFE["bottom"]
+        cands = [y for y in range(SAFE["top"], limit - h + 1, 10)
+                 if not any(overlap((CX - width / 2, y, CX + width / 2, y + h), f) for f in faces)]
+        if cands:
+            break
+    else:
+        return None, None
+    y0 = min(cands, key=lambda y: abs(y - (SAFE["top"] + 40)))
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(img)
+    x0 = CX - width / 2
+    g.rounded_rectangle([x0, y0, x0 + width, y0 + h], radius=28, fill=(255, 255, 255, 246))
+    y = y0 + pad
+    for l in title_lines:
+        g.text((CX - g.textlength(l, font=tf) / 2, y), l, font=tf, fill=(10, 10, 10, 255)); y += 58
+    y += 24
+    g.rounded_rectangle([x0 + pad - 12, y - 6, x0 + width - pad + 12, y + 50], radius=12, fill=(14, 42, 92, 255))
+    for c, hd in enumerate(t["headers"]):
+        cx = x0 + pad + colw * c + colw / 2
+        g.text((cx - g.textlength(hd, font=hf) / 2, y + 22 - hf.size / 2), hd, font=hf, fill=(255, 255, 255, 255))
+    y += 56
+    for r, row in enumerate(t["rows"]):
+        if r == t.get("highlight"):
+            g.rounded_rectangle([x0 + pad - 12, y + 6, x0 + width - pad + 12, y + rh - 6], radius=12, fill=(255, 214, 102, 255))
+        elif r % 2:
+            g.rectangle([x0 + pad - 12, y + 6, x0 + width - pad + 12, y + rh - 6], fill=(240, 243, 248, 255))
+        for c, cell in enumerate(row):
+            cx = x0 + pad + colw * c + colw / 2
+            g.text((cx - g.textlength(str(cell), font=cf) / 2, y + rh / 2 - cf.size * 0.62), str(cell), font=cf, fill=(10, 10, 10, 255))
+        y += rh
+    if t.get("note"):
+        g.text((CX - g.textlength(t["note"], font=nf) / 2, y + 10), t["note"], font=nf, fill=(90, 90, 90, 255))
+    return img, (x0, y0, x0 + width, y0 + h)
+
+
 def render(lay, y0, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for b, r in zip(lay, rects_at(lay, y0)):
@@ -230,6 +288,19 @@ def main(clip, spec, out):
     normalize(segments, base)
     faces = face_boxes(base)
     labels = sp.get("labels")
+    if sp.get("table"):
+        img, rect = table_card(sp["table"], faces)
+        if img is None:
+            sys.exit("table does not fit without covering a face - use a clip without people")
+        if blocks:   # short hint below the table, e.g. the keyword ask
+            lay, yb, _ = place(blocks, faces + [rect], prefer="bottom")
+            d = ImageDraw.Draw(img)
+            for b, r in zip(lay, rects_at(lay, yb)):
+                bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
+                d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
+                for l in b["lines"]:
+                    d.text((r[0] + (b["w"] - d.textlength(l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+        img.save(ov); y0 = rect[1]; scale = None; parts = "done"; labels = None
     if labels:
         anchors = person_anchors(base, len(labels))
         if anchors:
@@ -247,7 +318,7 @@ def main(clip, spec, out):
         else:
             print("warning: could not find", len(labels), "people consistently; labels skipped", file=sys.stderr)
             parts = None; scale = None
-    else:
+    elif not sp.get("table"):
         parts = None
     if parts == "done":
         pass

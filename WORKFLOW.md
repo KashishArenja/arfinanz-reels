@@ -44,6 +44,19 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
   `https://raw.githubusercontent.com/KashishArenja/arfinanz-reels/main/reels/<datei>.mp4`
 - Metricool kopiert die Datei beim Einplanen → danach aus `reels/` löschen und pushen.
 
+## Datenbasis für jede Woche (Pflicht, vor dem Planen)
+Kashish: „Du siehst, was bei uns und bei der Konkurrenz gut läuft – darauf baust du unseren Content.“
+1. **Eigene Zahlen** (Metricool, letzte 4 Wochen, Reels: IGRE02, IGRE06, IGRE11, IGRE23, IGRE07, IGRE12, IGRE21, IGRE24, IGRE28; Captions per IGRE03 tageweise): typischer Wert = Median der Aufrufe; Ausreißer = Aufrufe ÷ Median. Für Top 5 und Flop 5 ansehen: Thema, Hook-Art, 3-Sekunden-Rate (IGRE28), Shares, Saves, Kommentare.
+2. **Konkurrenz** (IGCR01/04/05/07/08/09, Texte per IGCR03 tageweise): Ausreißer je Account gegen dessen eigenen Normalwert.
+3. **Daraus der Plan:** Gewinner-Themen und -Muster bekommen den meisten Platz (neuer Hook/Clip, gleiches Muster), Flop-Muster fallen raus. In der Montags-Übersicht pro Reel eine kurze Begründung: „basiert auf …“ (eigener Hit X / Konkurrenz-Muster Y / neuer Test).
+4. Etwa 2 von 12 Reels bewusst als Test für neue Formate/Themen.
+
+## Tabellen-Reels (Clips ohne Personen)
+- Clips, auf denen niemand zu sehen ist (Dachboden, Wohnung, Straße, Auto ohne Personen), eignen sich für Tabellen.
+- spec.json: `"table": {"title": "...", "headers": [...], "rows": [[...]], "highlight": 1, "note": "Example: …"}`, dazu in `blocks` nur die Stichwort-Zeile (z. B. „Comment PENSION for the free PDF guide“).
+- Max. 3 Spalten, 3–6 Zeilen, eine hervorgehobene Zeile. Alle Zahlen per Python ausrechnen bzw. mit Quelle belegen, nie schätzen; Annahmen in `note`.
+- Ideen: Brutto→Netto nach Gehalt, Sparen ab Alter X bis 67, Kaufnebenkosten nach Bundesland, Rentenpunkte pro Kind, Steuerersparnis nach Steuersatz.
+
 ## Wochenplan
 - 12 Reels Mo–So: 1–2 pro Tag, nie 3+ (Daten: ab dem 3. Reel pro Tag sinken die Aufrufe)
 - Uhrzeiten zwischen 08:00 und 14:00; 11:00 lief am besten
