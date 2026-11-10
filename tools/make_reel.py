@@ -82,8 +82,9 @@ def _greedy(d, words, font, maxw):
 
 
 def wrap_balanced(d, text, font, maxw):
-    """Fewest lines possible, and those lines as even as possible (no lone last word)."""
-    words = text.split()
+    """Fewest lines possible, and those lines as even as possible (no lone last word).
+    Use "~" to glue words that must stay together, e.g. "at~30"."""
+    words = [w.replace("~", " ") for w in text.split()]
     n = len(_greedy(d, words, font, maxw))
     lo, hi = 1, int(maxw)
     while lo < hi:                       # narrowest width that still gives n lines
@@ -219,7 +220,8 @@ def table_card(t, faces):
         tf = ImageFont.truetype(FONT, 46)
         title_lines = wrap_balanced(d, t["title"], tf, inner)
         hf = _fit(d, t["headers"], 30, colw - 16)
-        cf = _fit(d, [c for r in t["rows"] for c in r], 40, colw - 16)
+        cfs = [_fit(d, [r[c] for r in t["rows"]], 44, colw - 16) for c in range(cols)]
+        cf = min(cfs, key=lambda f: f.size)   # one size for all cells keeps it clean
         nf = _fit(d, [t.get("note", "")], 24, inner)
         th = len(title_lines) * 58
         h = pad + th + 24 + 56 + rh * len(t["rows"]) + (44 if t.get("note") else 0) + pad
@@ -230,7 +232,9 @@ def table_card(t, faces):
             break
     else:
         return None, None
-    y0 = min(cands, key=lambda y: abs(y - (SAFE["top"] + 40)))
+    # visually centred: as low as possible above the button rail (wide), else centred in the safe zone
+    mid = (SAFE["top"] + SAFE["bottom"] - h) / 2
+    y0 = max(cands) if width > MAXW else min(cands, key=lambda y: abs(y - mid))
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(img)
     x0 = CX - width / 2
     g.rounded_rectangle([x0, y0, x0 + width, y0 + h], radius=28, fill=(255, 255, 255, 246))

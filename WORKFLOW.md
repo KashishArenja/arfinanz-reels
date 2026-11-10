@@ -9,6 +9,11 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Clip-Nutzung: `used_clips.json` (nach dem Einplanen jeden verwendeten Abschnitt eintragen: Datei, start, dur, Datum, Thema, und pushen)
 - Metricool-Brand: blogId `7984611` (Instagram @arfinanz, Facebook-Seite verbunden → Sounds möglich), Zeitzone Europe/Berlin
 
+## Pflicht: Skills nutzen und Expat-Bezug
+- Für jedes Reel den Reel-Skill (ig-reel) anwenden: 3 Hooks aus verschiedenen Formeln, jeweils bewerten (LENGTH, SPECIFICITY, STAKES, FRONTLOAD, ADDRESS; Gesamt = Mittel × 0,6 + schwächster × 0,4), nur STRONG (≥ 70) verwenden, Ranking in der Montags-Übersicht zeigen. Captions mit ig-caption, Karussells mit ig-content.
+- Jedes Thema muss einen klaren Expat-Bezug haben (was ist für Inder/Expats in Deutschland anders: später angekommen → weniger Beitragsjahre, Visum/Blue Card, Familie in Indien, Steuerklasse, Bank ohne SCHUFA-Historie, Rückkehr nach Indien …). Allgemeine Finanztipps ohne Expat-Dreh sind nicht gut genug.
+- Muss interessant sein: ein überraschender Vergleich oder eine konkrete Zahl, die weh tut (z. B. „€340 less pension than your German colleague“).
+
 ## Reel-Format
 - Genau 5,1 s, 1080×1920, stumme Clips (Originalton wird entfernt)
 - Bau: `python3 tools/make_reel.py clip.mov spec.json out.mp4` (braucht `pip install --break-system-packages opencv-python-headless`)
@@ -54,6 +59,8 @@ Kashish: „Du siehst, was bei uns und bei der Konkurrenz gut läuft – darauf 
 ## Tabellen-Reels (Clips ohne Personen)
 - Clips, auf denen niemand zu sehen ist (Dachboden, Wohnung, Straße, Auto ohne Personen), eignen sich für Tabellen.
 - spec.json: `"table": {"title": "...", "headers": [...], "rows": [[...]], "highlight": 1, "note": "Example: …"}`, dazu in `blocks` nur die Stichwort-Zeile (z. B. „Comment PENSION for the free PDF guide“).
+- Tabelle sitzt optisch mittig (so tief wie möglich über der Button-Leiste), nicht oben am Rand.
+- Spalten kurz halten (max. ~12 Zeichen), damit die Schrift groß bleibt; zusammengehörige Wörter im Titel mit „~“ verbinden (z. B. „at~30“).
 - Titel = die Pointe mit Zahl im POV-Stil (z. B. „POV: You start at 30 instead of 25 and lose €190,000“), nie nur das Thema oder eine harmlose Frage. Die hervorgehobene Zeile ist genau der Fall aus dem Titel.
 - Bevorzugt ruhige Clips ohne Personen (Schreibtisch, Laptop, Stadt) als Hintergrund.
 - Max. 3 Spalten, 3–6 Zeilen, eine hervorgehobene Zeile. Alle Zahlen per Python ausrechnen bzw. mit Quelle belegen, nie schätzen; Annahmen in `note`.
