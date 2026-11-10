@@ -54,6 +54,8 @@ Kashish: „Du siehst, was bei uns und bei der Konkurrenz gut läuft – darauf 
 ## Tabellen-Reels (Clips ohne Personen)
 - Clips, auf denen niemand zu sehen ist (Dachboden, Wohnung, Straße, Auto ohne Personen), eignen sich für Tabellen.
 - spec.json: `"table": {"title": "...", "headers": [...], "rows": [[...]], "highlight": 1, "note": "Example: …"}`, dazu in `blocks` nur die Stichwort-Zeile (z. B. „Comment PENSION for the free PDF guide“).
+- Titel = die Pointe mit Zahl im POV-Stil (z. B. „POV: You start at 30 instead of 25 and lose €190,000“), nie nur das Thema oder eine harmlose Frage. Die hervorgehobene Zeile ist genau der Fall aus dem Titel.
+- Bevorzugt ruhige Clips ohne Personen (Schreibtisch, Laptop, Stadt) als Hintergrund.
 - Max. 3 Spalten, 3–6 Zeilen, eine hervorgehobene Zeile. Alle Zahlen per Python ausrechnen bzw. mit Quelle belegen, nie schätzen; Annahmen in `note`.
 - Ideen: Brutto→Netto nach Gehalt, Sparen ab Alter X bis 67, Kaufnebenkosten nach Bundesland, Rentenpunkte pro Kind, Steuerersparnis nach Steuersatz.
 
