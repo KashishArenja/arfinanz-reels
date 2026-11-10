@@ -1,5 +1,8 @@
 """Build a 5.1 s Instagram reel: clip in background, text boxes in front.
 
+Design template (see WORKFLOW.md "Design-Vorlage"): Barlow Condensed Bold, one tight box per line,
+styles "white" / "red" / "yellow" (legacy "blue"), small CTA line fades in at 1.5 s.
+
 Text is placed inside the Instagram safe zone and never over a face
 (faces are detected on frames every 0.2 s across the whole clip).
 
@@ -18,13 +21,26 @@ from PIL import Image, ImageDraw, ImageFont
 
 W, H, DUR, FPS = 1080, 1920, 5.1, 30
 SAFE = dict(top=250, bottom=1440, left=90, right=W - 230)
-FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
-YUNET = os.path.join(os.path.dirname(os.path.abspath(__file__)), "yunet.onnx")
+HERE = os.path.dirname(os.path.abspath(__file__))
+# ---- AR DESIGN TEMPLATE (native Instagram text look, from our top reels + competitor hits, 10.11.2026) ----
+# Condensed bold font, one tight box per text line, three colours, no shadows, no big panels.
+FONT = os.path.join(HERE, "fonts", "BarlowCondensed-700.ttf")
+FONT_SCALE = 1.22          # spec sizes were tuned for Poppins; the condensed font needs a bit more px
+STYLES = {                 # box colour, text colour
+    "white":  ((255, 255, 255, 250), (12, 12, 12, 255)),   # hook, info, CTA
+    "red":    ((228, 0, 43, 250), (255, 255, 255, 255)),   # problem / "worse" side / headline accent
+    "yellow": ((255, 208, 0, 250), (12, 12, 12, 255)),     # solution / "better" side / result
+    "blue":   ((14, 42, 92, 245), (255, 255, 255, 255)),   # legacy (navy), avoid in new reels
+}
+RADIUS = 10                # small, like Instagram's text background
+LPAD_X, LPAD_Y = 16, 6     # tight padding around each line
+CTA_FROM = 1.5             # the last (small) block fades in at this second, like "Read the caption 👇"
+YUNET = os.path.join(HERE, "yunet.onnx")
 MIN_FACE_H = 110     # px in 1920 frame: only people in the foreground (crowd faces are smaller)
 MAX_FACE_H = 700     # larger boxes are false positives (lights, patterns)
 MIN_SCORE = 0.85
 FACE_MARGIN = 45     # px clearance around each face
-PAD, GAP = 26, 18
+PAD, GAP = LPAD_Y, 18
 CX = W / 2                                   # all text blocks centred on the frame
 MAXW = 2 * (SAFE["right"] - CX)              # widest box that stays clear of the right-hand buttons
 RAIL_TOP = 1100   # Instagram like/comment/share buttons start roughly here on the right
@@ -85,6 +101,28 @@ def rich_draw(img, xy, text, font, fill):
             x += e.width + 6
         else:
             d.text((x, y), seg, font=font, fill=fill); x += d.textlength(seg, font=font)
+
+
+LATE = {"img": None}   # small CTA lines are drawn on a second layer that fades in at CTA_FROM
+
+
+def paint_block(img, b, r):
+    """Instagram-style text: one tight rounded box per line, centred in rect r, boxes touching."""
+    target = img
+    if b.get("late"):
+        if LATE["img"] is None:
+            LATE["img"] = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        target = LATE["img"]
+    d = ImageDraw.Draw(target)
+    bg, fg = STYLES.get(b["style"], STYLES["white"])
+    cx = (r[0] + r[2]) / 2; y = r[1]
+    widths = b.get("widths") or [rich_len(d, l, font=b["font"]) + 2 * LPAD_X for l in b["lines"]]
+    for l, w in zip(b["lines"], widths):
+        d.rounded_rectangle([cx - w / 2, y, cx + w / 2, y + b["lh"]], radius=RADIUS, fill=bg)
+        tw = rich_len(d, l, font=b["font"])
+        top = y + (b["lh"] - b["font"].size) / 2 - b["font"].size * 0.12
+        rich_draw(target, (cx - tw / 2, top), l, font=b["font"], fill=fg)
+        y += b["lh"]
 
 
 def run(*a):
@@ -157,17 +195,18 @@ def wrap_balanced(d, text, font, maxw):
 def layout(blocks, scale, maxw=None):
     d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
     maxw = (maxw or MAXW) - 2 * PAD
+    maxw = maxw - 2 * LPAD_X + 2 * PAD
     out = []
     for text, size, style in blocks:
-        px = int(size * scale)
+        px = int(size * scale * FONT_SCALE)
         f = ImageFont.truetype(FONT, px)
         if size <= 46:                   # small hint lines always stay on one line
             while rich_len(d, text, font=f) > maxw and px > 26:
                 px -= 2; f = ImageFont.truetype(FONT, px)
         lines = wrap_balanced(d, text, f, maxw)
-        lh = int(f.size * 1.25)
-        bw = max(rich_len(d, l, font=f) for l in lines) + 2 * PAD
-        out.append(dict(lines=lines, font=f, lh=lh, w=bw, h=len(lines) * lh + 2 * PAD, style=style))
+        lh = int(f.size * 1.08) + 2 * LPAD_Y     # one tight box per line, boxes touch (Instagram look)
+        widths = [rich_len(d, l, font=f) + 2 * LPAD_X for l in lines]
+        out.append(dict(lines=lines, widths=widths, font=f, lh=lh, w=max(widths), h=len(lines) * lh, style=style, late=size <= 46))
     total = sum(b["h"] for b in out) + GAP * (len(out) - 1)
     return out, total
 
@@ -267,7 +306,7 @@ def place_labels(labels, anchors, faces, scale=1.0, size=56):
     y = min(o[2] for o in out)
     res = []
     for b, cx, _, th in out:
-        b["w"] = bw
+        b["w"] = bw; b["widths"] = [bw] * len(b["lines"])   # same width for every label
         res.append((b, (cx - bw / 2, y, cx + bw / 2, y + th)))
     return res
 
@@ -309,7 +348,7 @@ def table_card(t, faces):
     for l in title_lines:
         rich_draw(img, (CX - rich_len(g, l, font=tf) / 2, y), l, font=tf, fill=(10, 10, 10, 255)); y += 58
     y += 24
-    g.rounded_rectangle([x0 + pad - 12, y - 6, x0 + width - pad + 12, y + 50], radius=12, fill=(14, 42, 92, 255))
+    g.rounded_rectangle([x0 + pad - 12, y - 6, x0 + width - pad + 12, y + 50], radius=RADIUS, fill=STYLES["red"][0])
     for c, hd in enumerate(t["headers"]):
         cx = x0 + pad + colw * c + colw / 2
         rich_draw(img, (cx - rich_len(g, hd, font=hf) / 2, y + 22 - hf.size / 2), hd, font=hf, fill=(255, 255, 255, 255))
@@ -329,21 +368,25 @@ def table_card(t, faces):
 
 
 def compare_card(c, faces, avoid=(), reserve=0, min_y=None):
-    """Two-column comparison: c = {"left": {"title": "🇮🇳 India", "points": [...]}, "right": {...}}.
-    Placed clear of faces, as low as possible above the button rail (wide), centred on the frame."""
+    """Two-column comparison in the native Instagram look (like our Ehegattenschaukel hit):
+    c = {"left": {"title": "🇮🇳 India", "points": [...], "style": "red", "point_style": "white"},
+         "right": {"title": "🇩🇪 Germany", "points": [...], "style": "yellow"}}
+    Each side: a header box, then one tight box per point. Defaults: left red, right yellow,
+    points in the header colour. Placed clear of faces, right under the hook, centred."""
     d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
-    pad, gap = 30, 22
+    gap, vgap = 24, 8
+    sides = ("left", "right")
+    style = {"left": c["left"].get("style", "red"), "right": c["right"].get("style", "yellow")}
+    pstyle = {k: c[k].get("point_style", style[k]) for k in sides}
     for width in (WIDE, CARD_LOW):
-        colw = (width - 2 * pad - gap) / 2
-        tf = _fit(d, [c["left"]["title"], c["right"]["title"]], 46, colw - 20)
-        pts = c["left"]["points"] + c["right"]["points"]
-        pf = _fit(d, ["• " + p for p in pts], 38, colw - 24, minsize=28)
-        lh = int(pf.size * 1.3)
-        wrap = lambda p: wrap_balanced(d, "• " + p, pf, colw - 24)
-        lines = {k: [wrap(p) for p in c[k]["points"]] for k in ("left", "right")}
-        body = max(sum(len(x) for x in lines[k]) * lh + (len(lines[k]) - 1) * 10 for k in lines)
-        head = int(tf.size * 1.6)
-        h = pad + head + 16 + body + pad
+        colw = (width - gap) / 2
+        tf = _fit(d, [c[k]["title"] for k in sides], int(52 * FONT_SCALE), colw - 2 * LPAD_X)
+        pf = _fit(d, [p for k in sides for p in c[k]["points"]], int(40 * FONT_SCALE), colw - 2 * LPAD_X, minsize=34)
+        th = int(tf.size * 1.08) + 2 * LPAD_Y
+        plh = int(pf.size * 1.08) + 2 * LPAD_Y
+        wrapped = {k: [wrap_balanced(d, p, pf, colw - 2 * LPAD_X) for p in c[k]["points"]] for k in sides}
+        body = max(sum(len(x) * plh for x in wrapped[k]) + vgap * len(wrapped[k]) for k in sides)
+        h = th + vgap + body
         limit = RAIL_TOP if width > CARD_LOW else SAFE["bottom"] - reserve
         blocked = list(faces) + list(avoid)
         start = int(min_y) if min_y is not None else SAFE["top"]
@@ -354,33 +397,24 @@ def compare_card(c, faces, avoid=(), reserve=0, min_y=None):
     else:
         return None, None
     y0 = min(cands) if min_y is not None else max(cands)   # reading order: right under the hook
-    img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(img)
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     x0 = CX - width / 2
-    for i, k in enumerate(("left", "right")):
-        cx0 = x0 + i * (width / 2 + gap / 2) - (gap / 2 if i else 0)
-        cx0 = x0 + i * (colw + gap + pad) + (0 if i else 0)
-        bx0 = x0 + (0 if i == 0 else (width + gap) / 2)
-        bx1 = bx0 + (width - gap) / 2
-        g.rounded_rectangle([bx0, y0, bx1, y0 + h], radius=24, fill=(255, 255, 255, 246))
-        g.rounded_rectangle([bx0 + 14, y0 + 14, bx1 - 14, y0 + 14 + head], radius=16, fill=(14, 42, 92, 255))
-        t = c[k]["title"]; mid = (bx0 + bx1) / 2
-        rich_draw(img, (mid - rich_len(g, t, font=tf) / 2, y0 + 14 + (head - tf.size) / 2 - tf.size * 0.12), t, font=tf, fill=(255, 255, 255, 255))
-        y = y0 + 14 + head + 16
-        for pl in lines[k]:
-            for j, l in enumerate(pl):
-                rich_draw(img, (bx0 + 22 + (0 if j == 0 else rich_len(g, "• ", font=pf)), y), l if j == 0 else l, font=pf, fill=(10, 10, 10, 255)); y += lh
-            y += 10
+    for i, k in enumerate(sides):
+        cx = x0 + colw / 2 + i * (colw + gap)
+        hb = dict(lines=[c[k]["title"]], font=tf, lh=th, style=style[k])
+        paint_block(img, hb, (cx - colw / 2, y0, cx + colw / 2, y0 + th))
+        y = y0 + th + vgap
+        for pl in wrapped[k]:
+            pb = dict(lines=pl, font=pf, lh=plh, style=pstyle[k])
+            paint_block(img, pb, (cx - colw / 2, y, cx + colw / 2, y + len(pl) * plh))
+            y += len(pl) * plh + vgap
     return img, (x0, y0, x0 + width, y0 + h)
 
 
 def render(lay, y0, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for b, r in zip(lay, rects_at(lay, y0)):
-        bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
-        d.rounded_rectangle(r, radius=22, fill=bg)
-        ty = r[1] + PAD
-        for l in b["lines"]:
-            rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+        paint_block(img, b, r)
     img.save(path)
 
 
@@ -388,11 +422,7 @@ def render_parts(parts, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for lay, y0 in parts:
         for b, r in zip(lay, rects_at(lay, y0)):
-            bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
-            d.rounded_rectangle(r, radius=22, fill=bg)
-            ty = r[1] + PAD
-            for l in b["lines"]:
-                rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+            paint_block(img, b, r)
     img.save(path)
 
 
@@ -432,10 +462,7 @@ def main(clip, spec, out):
         d = ImageDraw.Draw(img)
         for lay_, y_ in parts:
             for b, r in zip(lay_, rects_at(lay_, y_)):
-                bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
-                d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
-                for l in b["lines"]:
-                    rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+                paint_block(img, b, r)
         img.save(ov); y0 = {"hook": yh, "card": rect[1]}; scale = None; parts = "done"; labels = None
     if sp.get("table"):
         img, rect = table_card(sp["table"], faces)
@@ -445,10 +472,7 @@ def main(clip, spec, out):
             lay, yb, _ = place(blocks, faces + [rect], prefer="bottom")
             d = ImageDraw.Draw(img)
             for b, r in zip(lay, rects_at(lay, yb)):
-                bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
-                d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
-                for l in b["lines"]:
-                    rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+                paint_block(img, b, r)
         img.save(ov); y0 = rect[1]; scale = None; parts = "done"; labels = None
     if labels:
         anchors = person_anchors(base, len(labels))
@@ -459,10 +483,7 @@ def main(clip, spec, out):
             lay, y0, scale = place(blocks, faces + lab_rects, prefer="bottom")
             img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
             for b, r in lab + list(zip(lay, rects_at(lay, y0))):
-                bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
-                d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
-                for l in b["lines"]:
-                    rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+                paint_block(img, b, r)
             img.save(ov); y0 = {"labels": [r[1] for r in lab_rects], "text": y0}; parts = "done"
         else:
             print("warning: could not find", len(labels), "people consistently; labels skipped", file=sys.stderr)
@@ -478,8 +499,16 @@ def main(clip, spec, out):
     else:
         lay, y0, scale = place(blocks, faces)
         render(lay, y0, ov)
-    run("ffmpeg", "-v", "error", "-y", "-i", base, "-i", ov, "-filter_complex",
-        "[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v]", "-map", "[v]", "-map", "0:a",
+    if LATE["img"] is not None:          # CTA layer fades in at CTA_FROM (like "Read the caption 👇")
+        ov2 = os.path.join(tmp, "late.png"); LATE["img"].save(ov2)
+        inputs = ["-i", base, "-i", ov, "-loop", "1", "-t", str(DUR), "-i", ov2]
+        fc = ("[0:v][1:v]overlay=0:0:format=auto[a];"
+              f"[2:v]format=rgba,fade=t=in:st={CTA_FROM}:d=0.3:alpha=1[l];"
+              "[a][l]overlay=0:0:format=auto:shortest=1,format=yuv420p[v]")
+    else:
+        inputs = ["-i", base, "-i", ov]
+        fc = "[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v]"
+    run("ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fc, "-map", "[v]", "-map", "0:a",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-profile:v", "high", "-c:a", "aac", "-b:a", "128k",
         "-movflags", "+faststart", out)
     # contact sheet for checking: 5 frames

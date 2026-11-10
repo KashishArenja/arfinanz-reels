@@ -19,23 +19,38 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 ## Reel-Format
 - Genau 5,1 s, 1080×1920, stumme Clips (Originalton wird entfernt)
 - Bau: `python3 tools/make_reel.py clip.mov spec.json out.mp4` (braucht `pip install --break-system-packages opencv-python-headless`)
-  - spec.json: `{"blocks": [["Hook", 62, "white"], ["Auflösung", 58, "blue"], ["Here's how: see caption", 42, "blue"]]}`
+  - spec.json: `{"blocks": [["Hook", 62, "white"], ["Auflösung", 58, "yellow"], ["More in the caption 👇", 42, "white"]]}` (Stile: white / red / yellow, siehe Design-Vorlage)
   - Hook oben, Rest unten, nie über Gesichtern (YuNet-Erkennung), immer in der Safe Zone (oben 250 px, unten ab 1440 px, rechts 230 px frei)
   - Danach `out_check.jpg` ansehen: Gesichter frei? Text lesbar? Sieht es clean aus?
   - Clean-Regeln (Kashish): alle Textboxen exakt mittig im Bild, Zeilen gleichmäßig umbrochen (kein einzelnes Wort allein in der letzten Zeile), Hinweiszeile („see caption“) immer einzeilig, Vergleichs-Labels auf gleicher Höhe und gleich breit. Das Skript macht das automatisch – trotzdem jedes Ergebnis ansehen.
-- Text: Englisch, max. ~18 Wörter gesamt, Hook im POV-Stil, leicht verständlich, keine unerklärten Fachbegriffe
+- Text: Englisch, Menge siehe Design-Vorlage (Vergleichs-Reels ca. 30–40 Wörter, einfache Reels ~18), Hook im POV-Stil, leicht verständlich, keine unerklärten Fachbegriffe
 - Thema passend zum Clip wählen (z. B. Dachboden → Ausbau/Wertsteigerung, Auto → Kfz-Versicherung, Telefonat → Finanzierungszusage)
 - Keine erfundenen Kundenfälle: Beispielrechnungen als Beispiel kennzeichnen („can be enough“, nicht „this couple did it“), außer Kashish bestätigt einen echten Fall
+
+## DESIGN-VORLAGE (fest, Stand 10.11.2026 – im Skript eingebaut)
+Abgeleitet aus unseren Top-Reels (DdGbZA8Nxpn Ehegattenschaukel, DfNDc8eNan9 Urlaubsplanung, Deg3pQLt-I4 Millionaire Couple, Dd1PbGrMz7w Augsburg) und den Konkurrenz-Hits (expats.phil DdMXq3BCitY, iamsarahrahimi DdrI9dxKYAx, fionn_kelly_de Dd6XvODMom5).
+Gemeinsamer Nenner: Text sieht aus wie nativer Instagram-Text – kein Grafik-Panel, keine großen Karten.
+- **Schrift:** Barlow Condensed Bold (`tools/fonts/`, OFL) – schmal und fett wie der Instagram-Text in unseren Hits. Emoji/Flaggen über Noto Color Emoji.
+- **Boxen:** pro Textzeile eine eng anliegende Box (kleiner Radius 10 px, wenig Innenabstand), Zeilen stoßen direkt aneinander, alles mittig.
+- **Farben (nur diese drei):**
+  - `white` – weiß / schwarze Schrift: Hook, Infos, CTA
+  - `red` – Rot #E4002B / weiße Schrift: Problem, schlechtere Seite, Akzent-Headline („Millionaire Couple“, „Not-So-Smart Man“)
+  - `yellow` – Gelb #FFD000 / schwarze Schrift: Lösung, bessere Seite, Ergebnis („Smart Man“, „Net wealth effect“)
+  - Navy (`blue`) nur noch für Poster/Karussells, nicht mehr in Reels.
+- **Aufbau (von oben nach unten):** Hook oben (größte Schrift, weiß oder rot) → Vergleich/Inhalt direkt darunter (Kopf-Box pro Seite in Rot bzw. Gelb, darunter je Stichpunkt eine eigene Box) → kleine CTA-Zeile („Comment HOME for the free PDF guide 👇“), die bei 1,5 s eingeblendet wird (wie „Read the Caption 👇“ / „SAVE this“ bei den Hits). Hook und Inhalt stehen ab Bild 1.
+- **Vergleichs-Karte:** `"compare": {"left": {"title": "Renting", "points": [...], "style": "red", "point_style": "white"}, "right": {"title": "Buying", "points": [...], "style": "yellow"}}` – Standard links rot, rechts gelb, Stichpunkte in der Kopf-Farbe, außer `point_style` ist gesetzt. Bei India vs Germany: India rot mit weißen Punkten (nicht abwertend), Germany gelb.
+- **Textmenge:** Unsere Hits haben deutlich mehr Text als 18 Wörter (Ehegattenschaukel ~60, Millionaire Couple ~80 Wörter) – die Leute pausieren und schauen das 5-s-Reel mehrfach. Für Vergleichs-Reels daher: Hook ≤ 12 Wörter + 3–4 Stichpunkte je Seite (≤ 22 Zeichen) + CTA, insgesamt ca. 30–40 Wörter. Keine Fließtext-Absätze. (Kashish entscheidet, ob wir noch mehr Text testen.)
+- **Was die Konkurrenz zusätzlich zeigt:** Phil – Labels „Dumb“/„Smart“ farbig über den Köpfen (= unsere `labels`); Sara – große Tabelle zum Screenshotten + „SAVE this“ am Ende (= `table` + CTA); Fionn – rotes Banner mit Emoji-Flagge + kleine weiße Datums-Pille darunter.
 
 ## STANDARD: Vergleichs-Reel mit Stichpunkten (von Kashish festgelegt, immer so)
 Der Mehrwert steht IM VIDEO, nicht in der Caption.
 ```
 Oben:   Hook (POV, konkrete Zahl), weiße Box
-Mitte:  Vergleichs-Karte: 🇮🇳 India | 🇩🇪 Germany – je 3 kurze Stichpunkte (max. ~20 Zeichen, parallel formuliert, z. B. „10 months deposit“ | „3 months deposit“)
+Mitte:  Vergleichs-Karte: 🇮🇳 India | 🇩🇪 Germany – je 3–4 kurze Stichpunkte (max. ~22 Zeichen, parallel formuliert, z. B. „10 months deposit“ | „3 months deposit“)
 Unten:  „More in the caption 👇“
 Caption: Zeile 1 „Comment HOME/STRATEGY/TAX/PENSION for the free PDF guide 👇“, dann dieselben Stichpunkte ausführlich + nächster Schritt + Compliance + 5 Hashtags
 ```
-spec.json: `{"compare": {"left": {"title": "🇮🇳 India", "points": [...]}, "right": {"title": "🇩🇪 Germany", "points": [...]}}, "blocks": [["POV: …", 56, "white"], ["More in the caption 👇", 44, "blue"]]}`
+spec.json: `{"compare": {"left": {"title": "🇮🇳 India", "points": [...], "style": "red", "point_style": "white"}, "right": {"title": "🇩🇪 Germany", "points": [...], "style": "yellow"}}, "blocks": [["POV: …", 56, "white"], ["Comment HOME for the free PDF guide 👇", 44, "white"]]}`
 Das Skript hält die Lesereihenfolge (Hook → Karte → Hinweis) und lässt Gesichter frei. Stichpunkte so kurz, dass nichts umbricht.
 Spalten nach Stimmung (Regel Kashish): Bei zwei Personen bekommt die lachende/zufriedene Person die bessere Seite (meist 🇩🇪 bzw. die Lösung, z. B. „Buying“), die ernste/genervte Person die schlechtere (🇮🇳 bzw. das Problem, z. B. „Renting“). Vor dem Rendern im Vorschaubild prüfen, wer links/rechts wie schaut, und „left“/„right“ entsprechend setzen.
 Zielgruppe (Regel Kashish): Kunden sind Expats, die IN DEUTSCHLAND leben. Jedes Thema muss ihnen bei einer Entscheidung hier helfen (kaufen, Steuern, Rente, Versicherung in DE). India vs. Germany nur, wenn der Vergleich zeigt, was in Deutschland möglich/besser ist – keine Themen, die nur das Leben in Indien betreffen (z. B. Mieten in Bangalore).
