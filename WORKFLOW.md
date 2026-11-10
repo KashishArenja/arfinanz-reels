@@ -32,6 +32,7 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
   - Eigenheim / selbst bewohnte Immobilie → **HOME**
   - Kapitalanlage-Immobilie → **STRATEGY** oder **TAX**
   - Rente / Altersvorsorge → **PENSION**
+- Zu jedem Stichwort gibt es einen kostenlosen PDF-Guide (Kashish bestätigt). Aufruf immer konkret: „Comment HOME / STRATEGY / TAX / PENSION and we'll send you the free PDF guide 👇“ – in Zeile 1 der Caption und kurz im Reel-Text unten.
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
 
