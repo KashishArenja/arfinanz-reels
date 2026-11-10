@@ -27,7 +27,19 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Thema passend zum Clip wählen (z. B. Dachboden → Ausbau/Wertsteigerung, Auto → Kfz-Versicherung, Telefonat → Finanzierungszusage)
 - Keine erfundenen Kundenfälle: Beispielrechnungen als Beispiel kennzeichnen („can be enough“, nicht „this couple did it“), außer Kashish bestätigt einen echten Fall
 
-## Vergleichs-Reels (Clips mit beiden Personen)
+## STANDARD: Vergleichs-Reel mit Stichpunkten (von Kashish festgelegt, immer so)
+Der Mehrwert steht IM VIDEO, nicht in der Caption.
+```
+Oben:   Hook (POV, konkrete Zahl), weiße Box
+Mitte:  Vergleichs-Karte: 🇮🇳 India | 🇩🇪 Germany – je 3 kurze Stichpunkte (max. ~20 Zeichen, parallel formuliert, z. B. „10 months deposit“ | „3 months deposit“)
+Unten:  „More in the caption 👇“
+Caption: Zeile 1 „Comment HOME/STRATEGY/TAX/PENSION for the free PDF guide 👇“, dann dieselben Stichpunkte ausführlich + nächster Schritt + Compliance + 5 Hashtags
+```
+spec.json: `{"compare": {"left": {"title": "🇮🇳 India", "points": [...]}, "right": {"title": "🇩🇪 Germany", "points": [...]}}, "blocks": [["POV: …", 56, "white"], ["More in the caption 👇", 44, "blue"]]}`
+Das Skript hält die Lesereihenfolge (Hook → Karte → Hinweis) und lässt Gesichter frei. Stichpunkte so kurz, dass nichts umbricht.
+Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks ohne klaren Sinn („8 leave days. 16 days in India“); Stichwort, das nicht zum Thema passt (HOME unter Urlaub). Themen ohne passendes PDF-Stichwort gar nicht erst planen.
+
+## Vergleichs-Reels mit Labels über Personen (Variante)
 - Bei Clips mit zwei Personen gern Vergleiche: über jedem Kopf ein Label, z. B. India / Germany, Renter / Owner, Poor / Rich, Employee / Self-employed, Bank / Broker, Single / Married.
 - spec.json: `"labels": ["India", "Germany"]` (links → rechts). Hook + Hinweis werden dann automatisch unten platziert.
 - Labels kurz halten (1–2 Wörter). Der konkrete Vergleich mit Zahlen steht in der Caption.

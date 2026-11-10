@@ -28,6 +28,8 @@ PAD, GAP = 26, 18
 CX = W / 2                                   # all text blocks centred on the frame
 MAXW = 2 * (SAFE["right"] - CX)              # widest box that stays clear of the right-hand buttons
 RAIL_TOP = 1100   # Instagram like/comment/share buttons start roughly here on the right
+WIDE = 900        # max box width where no buttons are (above RAIL_TOP)
+CARD_LOW = 2 * (W - 150 - CX)   # 780: card width below RAIL_TOP, clear of the button icons
 
 
 EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
@@ -152,9 +154,9 @@ def wrap_balanced(d, text, font, maxw):
     return _greedy(d, words, font, lo)
 
 
-def layout(blocks, scale):
+def layout(blocks, scale, maxw=None):
     d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
-    maxw = MAXW - 2 * PAD
+    maxw = (maxw or MAXW) - 2 * PAD
     out = []
     for text, size, style in blocks:
         px = int(size * scale)
@@ -326,6 +328,51 @@ def table_card(t, faces):
     return img, (x0, y0, x0 + width, y0 + h)
 
 
+def compare_card(c, faces, avoid=(), reserve=0, min_y=None):
+    """Two-column comparison: c = {"left": {"title": "🇮🇳 India", "points": [...]}, "right": {...}}.
+    Placed clear of faces, as low as possible above the button rail (wide), centred on the frame."""
+    d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
+    pad, gap = 30, 22
+    for width in (WIDE, CARD_LOW):
+        colw = (width - 2 * pad - gap) / 2
+        tf = _fit(d, [c["left"]["title"], c["right"]["title"]], 46, colw - 20)
+        pts = c["left"]["points"] + c["right"]["points"]
+        pf = _fit(d, ["• " + p for p in pts], 38, colw - 24, minsize=28)
+        lh = int(pf.size * 1.3)
+        wrap = lambda p: wrap_balanced(d, "• " + p, pf, colw - 24)
+        lines = {k: [wrap(p) for p in c[k]["points"]] for k in ("left", "right")}
+        body = max(sum(len(x) for x in lines[k]) * lh + (len(lines[k]) - 1) * 10 for k in lines)
+        head = int(tf.size * 1.6)
+        h = pad + head + 16 + body + pad
+        limit = RAIL_TOP if width > CARD_LOW else SAFE["bottom"] - reserve
+        blocked = list(faces) + list(avoid)
+        start = int(min_y) if min_y is not None else SAFE["top"]
+        cands = [y for y in range(start, limit - h + 1, 10)
+                 if not any(overlap((CX - width / 2, y, CX + width / 2, y + h), f) for f in blocked)]
+        if cands:
+            break
+    else:
+        return None, None
+    y0 = min(cands) if min_y is not None else max(cands)   # reading order: right under the hook
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(img)
+    x0 = CX - width / 2
+    for i, k in enumerate(("left", "right")):
+        cx0 = x0 + i * (width / 2 + gap / 2) - (gap / 2 if i else 0)
+        cx0 = x0 + i * (colw + gap + pad) + (0 if i else 0)
+        bx0 = x0 + (0 if i == 0 else (width + gap) / 2)
+        bx1 = bx0 + (width - gap) / 2
+        g.rounded_rectangle([bx0, y0, bx1, y0 + h], radius=24, fill=(255, 255, 255, 246))
+        g.rounded_rectangle([bx0 + 14, y0 + 14, bx1 - 14, y0 + 14 + head], radius=16, fill=(14, 42, 92, 255))
+        t = c[k]["title"]; mid = (bx0 + bx1) / 2
+        rich_draw(img, (mid - rich_len(g, t, font=tf) / 2, y0 + 14 + (head - tf.size) / 2 - tf.size * 0.12), t, font=tf, fill=(255, 255, 255, 255))
+        y = y0 + 14 + head + 16
+        for pl in lines[k]:
+            for j, l in enumerate(pl):
+                rich_draw(img, (bx0 + 22 + (0 if j == 0 else rich_len(g, "• ", font=pf)), y), l if j == 0 else l, font=pf, fill=(10, 10, 10, 255)); y += lh
+            y += 10
+    return img, (x0, y0, x0 + width, y0 + h)
+
+
 def render(lay, y0, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for b, r in zip(lay, rects_at(lay, y0)):
@@ -357,6 +404,39 @@ def main(clip, spec, out):
     normalize(segments, base)
     faces = face_boxes(base)
     labels = sp.get("labels")
+    if sp.get("compare"):
+        # hook on top (clear of faces), comparison card below the faces, small hint at the bottom
+        hook, rest = blocks[:1], blocks[1:]
+        reserve = (layout(rest, 1.0)[1] + 18) if rest else 0
+        # 1) hook at the top (wide, the top of the frame has no buttons), clear of faces
+        lay = yh = None
+        for sc in (1.0, 0.9, 0.8):
+            lay, th = layout(hook, sc, maxw=WIDE)
+            free = [y for y in range(SAFE["top"], SAFE["bottom"] - th + 1, 10)
+                    if not any(overlap(r, f) for r in rects_at(lay, y) for f in faces)]
+            if free:
+                yh = min(free); break
+        hook_rect = (0, yh, W, yh + th)
+        # 2) comparison right under the hook, clear of faces
+        img, rect = compare_card(sp["compare"], faces, avoid=[hook_rect], reserve=reserve, min_y=yh + th + 18)
+        if img is None:
+            sys.exit("comparison card does not fit without covering a face")
+        parts = [(lay, yh)]
+        # 3) hint right under the comparison
+        if rest:
+            lr, rh_ = layout(rest, 1.0)
+            yr = int(rect[3]) + 18
+            if yr + rh_ > SAFE["bottom"] or any(overlap(r, f) for r in rects_at(lr, yr) for f in faces):
+                lr, yr, _ = place(rest, faces + [rect, hook_rect], prefer="bottom")
+            parts.append((lr, yr))
+        d = ImageDraw.Draw(img)
+        for lay_, y_ in parts:
+            for b, r in zip(lay_, rects_at(lay_, y_)):
+                bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
+                d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
+                for l in b["lines"]:
+                    rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+        img.save(ov); y0 = {"hook": yh, "card": rect[1]}; scale = None; parts = "done"; labels = None
     if sp.get("table"):
         img, rect = table_card(sp["table"], faces)
         if img is None:
@@ -387,7 +467,7 @@ def main(clip, spec, out):
         else:
             print("warning: could not find", len(labels), "people consistently; labels skipped", file=sys.stderr)
             parts = None; scale = None
-    elif not sp.get("table"):
+    elif not sp.get("table") and not sp.get("compare"):
         parts = None
     if parts == "done":
         pass
