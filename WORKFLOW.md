@@ -12,6 +12,8 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 ## Pflicht: Skills nutzen und Expat-Bezug
 - Für jedes Reel den Reel-Skill (ig-reel) anwenden: 3 Hooks aus verschiedenen Formeln, jeweils bewerten (LENGTH, SPECIFICITY, STAKES, FRONTLOAD, ADDRESS; Gesamt = Mittel × 0,6 + schwächster × 0,4), nur STRONG (≥ 70) verwenden, Ranking in der Montags-Übersicht zeigen. Captions mit ig-caption, Karussells mit ig-content.
 - Jedes Thema muss einen klaren Expat-Bezug haben (was ist für Inder/Expats in Deutschland anders: später angekommen → weniger Beitragsjahre, Visum/Blue Card, Familie in Indien, Steuerklasse, Bank ohne SCHUFA-Historie, Rückkehr nach Indien …). Allgemeine Finanztipps ohne Expat-Dreh sind nicht gut genug.
+- Deutschland-Bezug mit reinnehmen: der Vergleich „du als Expat“ vs. „der deutsche Kollege / das deutsche System“ macht es greifbar.
+- Flaggen 🇮🇳 🇩🇪 gezielt einsetzen (Labels, Tabellenzeilen, Hook), z. B. „🇮🇳 India“ / „🇩🇪 Germany“, „22 🇩🇪“ vs. „30 🇮🇳“. Das Skript rendert Emoji-Flaggen sauber (Noto Color Emoji). Sparsam: max. 2 Flaggen pro Textblock.
 - Muss interessant sein: ein überraschender Vergleich oder eine konkrete Zahl, die weh tut (z. B. „€340 less pension than your German colleague“).
 
 ## Reel-Format

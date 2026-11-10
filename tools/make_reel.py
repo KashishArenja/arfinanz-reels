@@ -27,6 +27,62 @@ FACE_MARGIN = 45     # px clearance around each face
 PAD, GAP = 26, 18
 CX = W / 2                                   # all text blocks centred on the frame
 MAXW = 2 * (SAFE["right"] - CX)              # widest box that stays clear of the right-hand buttons
+RAIL_TOP = 1100   # Instagram like/comment/share buttons start roughly here on the right
+
+
+EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+_EMO = None
+
+
+def _is_emoji(ch):
+    o = ord(ch)
+    return 0x1F1E6 <= o <= 0x1F1FF or 0x1F300 <= o <= 0x1FAFF or 0x2600 <= o <= 0x27BF or o in (0xFE0F, 0x200D)
+
+
+def _runs(text):
+    runs, cur, emo = [], "", None
+    for ch in text:
+        e = _is_emoji(ch)
+        if emo is None or e == emo:
+            cur += ch
+        else:
+            runs.append((emo, cur)); cur = ch
+        emo = e
+    if cur:
+        runs.append((emo, cur))
+    return runs
+
+
+def _emoji_img(seq, size):
+    global _EMO
+    if _EMO is None:
+        _EMO = ImageFont.truetype(EMOJI_FONT, 109, layout_engine=ImageFont.Layout.RAQM)
+    d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
+    w = int(d.textlength(seq, font=_EMO)) + 4
+    im = Image.new("RGBA", (w, 140), (0, 0, 0, 0))
+    ImageDraw.Draw(im).text((2, 0), seq, font=_EMO, embedded_color=True)
+    im = im.crop(im.getbbox() or (0, 0, w, 140))
+    h = int(size * 0.95)
+    return im.resize((max(1, int(im.width * h / im.height)), h), Image.LANCZOS)
+
+
+def rich_len(d, text, font):
+    """Width of text that may contain emoji flags such as 🇮🇳 🇩🇪."""
+    total = 0
+    for emo, seg in _runs(text):
+        total += _emoji_img(seg, font.size).width + 6 if emo else d.textlength(seg, font=font)
+    return total
+
+
+def rich_draw(img, xy, text, font, fill):
+    d = ImageDraw.Draw(img); x, y = xy
+    for emo, seg in _runs(text):
+        if emo:
+            e = _emoji_img(seg, font.size)
+            img.alpha_composite(e, (int(x + 3), int(y + font.size * 0.12)))
+            x += e.width + 6
+        else:
+            d.text((x, y), seg, font=font, fill=fill); x += d.textlength(seg, font=font)
 
 
 def run(*a):
@@ -73,7 +129,7 @@ def _greedy(d, words, font, maxw):
     lines, line = [], ""
     for w in words:
         t = (line + " " + w).strip()
-        if d.textlength(t, font=font) <= maxw or not line:
+        if rich_len(d, t, font=font) <= maxw or not line:
             line = t
         else:
             lines.append(line); line = w
@@ -104,11 +160,11 @@ def layout(blocks, scale):
         px = int(size * scale)
         f = ImageFont.truetype(FONT, px)
         if size <= 46:                   # small hint lines always stay on one line
-            while d.textlength(text, font=f) > maxw and px > 26:
+            while rich_len(d, text, font=f) > maxw and px > 26:
                 px -= 2; f = ImageFont.truetype(FONT, px)
         lines = wrap_balanced(d, text, f, maxw)
         lh = int(f.size * 1.25)
-        bw = max(d.textlength(l, font=f) for l in lines) + 2 * PAD
+        bw = max(rich_len(d, l, font=f) for l in lines) + 2 * PAD
         out.append(dict(lines=lines, font=f, lh=lh, w=bw, h=len(lines) * lh + 2 * PAD, style=style))
     total = sum(b["h"] for b in out) + GAP * (len(out) - 1)
     return out, total
@@ -182,30 +238,39 @@ def person_anchors(video, n):
 
 
 def place_labels(labels, anchors, faces, scale=1.0, size=56):
-    """One label box above each person's head, inside the safe zone, clear of all faces."""
-    out = []
-    for text, (x, y, w, h) in zip(labels, anchors):
-        lay, th = layout([[text, size, "white"]], scale)
-        b = lay[0]
-        cx = min(max(x + w / 2, SAFE["left"] + b["w"] / 2), SAFE["right"] - b["w"] / 2)
-        top_face = min(f[1] for f in faces if f[0] < cx < f[2]) if any(f[0] < cx < f[2] for f in faces) else y
-        yl = max(SAFE["top"], top_face - th - 10)
-        out.append((b, cx, yl, th))
-    y = min(o[2] for o in out)                 # one shared line, above the higher head
-    bw = max(o[0]["w"] for o in out)           # same width for every label
+    """One label above each person, same height, same width, never overlapping, inside the safe zone."""
+    gap = 24
+    for sz in (size, 50, 44, 40, 36):
+        out = []
+        for text, (x, y, w, h) in zip(labels, anchors):
+            lay, th = layout([[text, sz, "white"]], scale)
+            b = lay[0]
+            cx = x + w / 2
+            top_face = min([f[1] for f in faces if f[0] < cx < f[2]] or [y])
+            out.append([b, cx, max(SAFE["top"], top_face - th - 10), th])
+        bw = max(o[0]["w"] for o in out)
+        # push centres apart so boxes never touch, keep the pair centred on the people
+        for i in range(1, len(out)):
+            need = bw + gap - (out[i][1] - out[i - 1][1])
+            if need > 0:
+                out[i - 1][1] -= need / 2; out[i][1] += need / 2
+        # the button rail only sits on the lower right; above it labels may use the full width
+        right_edge = W - 40 if max(o[2] + o[3] for o in out) < RAIL_TOP else SAFE["right"]
+        lo, hi = SAFE["left"] + bw / 2, right_edge - bw / 2
+        for o in out:                       # clamp each label on its own, so the others stay above their person
+            o[1] = min(max(o[1], lo), hi)
+        fits = out[0][1] >= lo - 1 and out[-1][1] <= hi + 1
+        if fits:
+            break
+    y = min(o[2] for o in out)
     res = []
     for b, cx, _, th in out:
         b["w"] = bw
-        cx = min(max(cx, SAFE["left"] + bw / 2), SAFE["right"] - bw / 2)
         res.append((b, (cx - bw / 2, y, cx + bw / 2, y + th)))
     return res
 
-
-RAIL_TOP = 1100   # Instagram's like/comment/share buttons start roughly here on the right
-
-
 def _fit(d, texts, size, maxw, minsize=22):
-    while size > minsize and max(d.textlength(str(x), font=ImageFont.truetype(FONT, size)) for x in texts) > maxw:
+    while size > minsize and max(rich_len(d, str(x), font=ImageFont.truetype(FONT, size)) for x in texts) > maxw:
         size -= 2
     return ImageFont.truetype(FONT, size)
 
@@ -240,12 +305,12 @@ def table_card(t, faces):
     g.rounded_rectangle([x0, y0, x0 + width, y0 + h], radius=28, fill=(255, 255, 255, 246))
     y = y0 + pad
     for l in title_lines:
-        g.text((CX - g.textlength(l, font=tf) / 2, y), l, font=tf, fill=(10, 10, 10, 255)); y += 58
+        rich_draw(img, (CX - rich_len(g, l, font=tf) / 2, y), l, font=tf, fill=(10, 10, 10, 255)); y += 58
     y += 24
     g.rounded_rectangle([x0 + pad - 12, y - 6, x0 + width - pad + 12, y + 50], radius=12, fill=(14, 42, 92, 255))
     for c, hd in enumerate(t["headers"]):
         cx = x0 + pad + colw * c + colw / 2
-        g.text((cx - g.textlength(hd, font=hf) / 2, y + 22 - hf.size / 2), hd, font=hf, fill=(255, 255, 255, 255))
+        rich_draw(img, (cx - rich_len(g, hd, font=hf) / 2, y + 22 - hf.size / 2), hd, font=hf, fill=(255, 255, 255, 255))
     y += 56
     for r, row in enumerate(t["rows"]):
         if r == t.get("highlight"):
@@ -254,10 +319,10 @@ def table_card(t, faces):
             g.rectangle([x0 + pad - 12, y + 6, x0 + width - pad + 12, y + rh - 6], fill=(240, 243, 248, 255))
         for c, cell in enumerate(row):
             cx = x0 + pad + colw * c + colw / 2
-            g.text((cx - g.textlength(str(cell), font=cf) / 2, y + rh / 2 - cf.size * 0.62), str(cell), font=cf, fill=(10, 10, 10, 255))
+            rich_draw(img, (cx - rich_len(g, str(cell), font=cf) / 2, y + rh / 2 - cf.size * 0.62), str(cell), font=cf, fill=(10, 10, 10, 255))
         y += rh
     if t.get("note"):
-        g.text((CX - g.textlength(t["note"], font=nf) / 2, y + 10), t["note"], font=nf, fill=(90, 90, 90, 255))
+        rich_draw(img, (CX - rich_len(g, t["note"], font=nf) / 2, y + 10), t["note"], font=nf, fill=(90, 90, 90, 255))
     return img, (x0, y0, x0 + width, y0 + h)
 
 
@@ -268,7 +333,7 @@ def render(lay, y0, path):
         d.rounded_rectangle(r, radius=22, fill=bg)
         ty = r[1] + PAD
         for l in b["lines"]:
-            d.text((r[0] + (b["w"] - d.textlength(l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+            rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
     img.save(path)
 
 
@@ -280,7 +345,7 @@ def render_parts(parts, path):
             d.rounded_rectangle(r, radius=22, fill=bg)
             ty = r[1] + PAD
             for l in b["lines"]:
-                d.text((r[0] + (b["w"] - d.textlength(l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+                rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
     img.save(path)
 
 
@@ -303,7 +368,7 @@ def main(clip, spec, out):
                 bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
                 d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
                 for l in b["lines"]:
-                    d.text((r[0] + (b["w"] - d.textlength(l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+                    rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
         img.save(ov); y0 = rect[1]; scale = None; parts = "done"; labels = None
     if labels:
         anchors = person_anchors(base, len(labels))
@@ -317,7 +382,7 @@ def main(clip, spec, out):
                 bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
                 d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
                 for l in b["lines"]:
-                    d.text((r[0] + (b["w"] - d.textlength(l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+                    rich_draw(img, (r[0] + (b["w"] - rich_len(d, l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
             img.save(ov); y0 = {"labels": [r[1] for r in lab_rects], "text": y0}; parts = "done"
         else:
             print("warning: could not find", len(labels), "people consistently; labels skipped", file=sys.stderr)
