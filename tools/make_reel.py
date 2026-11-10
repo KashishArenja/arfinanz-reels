@@ -40,6 +40,7 @@ MIN_FACE_H = 110     # px in 1920 frame: only people in the foreground (crowd fa
 MAX_FACE_H = 700     # larger boxes are false positives (lights, patterns)
 MIN_SCORE = 0.85
 FACE_MARGIN = 45     # px clearance around each face
+HEAD_MIN_SCORE = 1.0 # HOG person detections below this are ignored (false positives)
 PAD, GAP = LPAD_Y, 18
 CX = W / 2                                   # all text blocks centred on the frame
 MAXW = 2 * (SAFE["right"] - CX)              # widest box that stays clear of the right-hand buttons
@@ -163,6 +164,28 @@ def face_boxes(video):
                         boxes.append((x - FACE_MARGIN, y - FACE_MARGIN, x + w + FACE_MARGIN, y + h + FACE_MARGIN))
         i += 1
     return boxes
+
+
+def head_boxes(video):
+    """Heads of people who turn their back / side to the camera (the face detector misses them).
+    OpenCV's HOG person detector finds the body; the head sits in the top part of that box."""
+    hog = cv2.HOGDescriptor(); hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
+    cap = cv2.VideoCapture(video); out = []; i = 0
+    while True:
+        ok, fr = cap.read()
+        if not ok:
+            break
+        if i % 6 == 0:
+            sm = cv2.resize(fr, (W // 2, H // 2))
+            rects, weights = hog.detectMultiScale(sm, winStride=(8, 8), padding=(8, 8), scale=1.05)
+            for (x, y, w, h), sc in zip(rects, (weights.ravel() if len(weights) else [])):
+                if sc < HEAD_MIN_SCORE:
+                    continue
+                x, y, w, h = 2 * x, 2 * y, 2 * w, 2 * h
+                cx = x + w / 2
+                out.append((cx - 0.24 * w, y + 0.04 * h, cx + 0.24 * w, y + 0.30 * h))
+        i += 1
+    return out
 
 
 def _greedy(d, words, font, maxw):
@@ -433,6 +456,10 @@ def main(clip, spec, out):
     base = os.path.join(tmp, "base.mp4"); ov = os.path.join(tmp, "ov.png")
     normalize(segments, base)
     faces = face_boxes(base)
+    # people seen from behind/side: keep their head free too; plus manual zones from spec "avoid": [[x0,y0,x1,y1], ...]
+    if sp.get("avoid_heads", True):
+        faces += head_boxes(base)
+    faces += [tuple(r) for r in sp.get("avoid", [])]
     labels = sp.get("labels")
     if sp.get("compare"):
         # hook on top (clear of faces), comparison card below the faces, small hint at the bottom

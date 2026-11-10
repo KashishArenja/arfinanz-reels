@@ -21,6 +21,7 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Bau: `python3 tools/make_reel.py clip.mov spec.json out.mp4` (braucht `pip install --break-system-packages opencv-python-headless`)
   - spec.json: `{"blocks": [["Hook", 62, "white"], ["Auflösung", 58, "yellow"], ["More in the caption 👇", 42, "white"]]}` (Stile: white / red / yellow, siehe Design-Vorlage)
   - Hook oben, Rest unten, nie über Gesichtern (YuNet-Erkennung), immer in der Safe Zone (oben 250 px, unten ab 1440 px, rechts 230 px frei)
+  - Auch Köpfe von Personen, die mit dem Rücken/seitlich zur Kamera stehen, bleiben frei (Personen-Erkennung, Kopf = oberer Teil des Körpers; Feedback Kashish 10.11.: Text nie über dem Kopf). Bei Bedarf zusätzlich `"avoid": [[x0, y0, x1, y1]]` in spec.json für Zonen, die frei bleiben sollen.
   - Danach `out_check.jpg` ansehen: Gesichter frei? Text lesbar? Sieht es clean aus?
   - Clean-Regeln (Kashish): alle Textboxen exakt mittig im Bild, Zeilen gleichmäßig umbrochen (kein einzelnes Wort allein in der letzten Zeile), Hinweiszeile („see caption“) immer einzeilig, Vergleichs-Labels auf gleicher Höhe und gleich breit. Das Skript macht das automatisch – trotzdem jedes Ergebnis ansehen.
 - Text: Englisch, Menge siehe Design-Vorlage (Vergleichs-Reels ca. 30–40 Wörter, einfache Reels ~18), Hook im POV-Stil, leicht verständlich, keine unerklärten Fachbegriffe
