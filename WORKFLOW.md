@@ -58,3 +58,13 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 
 ## Clip-Vorrat
 - Weniger als 6 noch nie genutzte Clips → Kashish freundlich Bescheid geben, dass neues Material die Reels abwechslungsreicher macht (kein Blocker).
+
+## Konkurrenz-Learnings (Stand 10.11.2026, Metricool-Wettbewerber, 3 Monate)
+Wettbewerber in Metricool: fionn_kelly_de, expats.phil, iamsarahrahimi, realestate.sandeep_ (nicht „realestate.sandeep“ ohne Unterstrich – falscher Account).
+Gemessen wird der Ausreißer-Faktor: Interaktionen eines Reels ÷ typischer Wert desselben Accounts. Nur Muster übernehmen, nie Texte kopieren.
+1. **Zielgruppen-Callout + Gratis-Guide** (Fionn: AVD-Guide ~3.000 Kommentare, V0800 „Parents, pay attention“ ~1.800, Kinderzuschlag „KID“ ~900): Gruppe direkt ansprechen („POV: You're a parent in Germany…“), konkreter €-Betrag, in Zeile 1 der Caption ein konkretes Gratis-Ding fürs Stichwort (Guide, Checkliste, Rechner) – nicht nur „we'll calculate“. Nur versprechen, was es wirklich gibt.
+2. **Gleiches Gehalt, anderes Ergebnis** (expats.phil: „€1,624 in taxes vs €12. Same salary“ ≈ 40× sein Normalwert, zweimal gepostet): ideal für Vergleichs-Reels mit Labels, z. B. „Employee“ / „Employee + rental flat“, Stichwort TAX.
+3. **Zahlen-Tabellen zum Screenshotten** (Sara: Netto-Gehaltstabelle ≈ 380× Normalwert): als Karussell (Brutto→Netto, Rentenlücke nach Gehalt, Steuerersparnis nach Gehalt).
+4. **Gewinner wiederholen** mit neuem Hook/Clip (expats.phil und wir selbst: Ehegattenschaukel).
+5. **Familien-Themen** ziehen stark: Kindererziehungszeiten, Kinderzuschlag + Bildungspaket, Elternzeit/Elterngeld, Kinder und Rente.
+Monatlich (erster Montag im Monat): Wettbewerber-Reels der letzten 4 Wochen abrufen (IGCR-Metriken), Ausreißer lesen, diese Liste aktualisieren und 2–3 Reels der Woche danach ausrichten. In der Montags-Übersicht kurz sagen, welches Reel von welchem Muster kommt.
