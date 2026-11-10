@@ -37,6 +37,8 @@ Caption: Zeile 1 „Comment HOME/STRATEGY/TAX/PENSION for the free PDF guide �
 ```
 spec.json: `{"compare": {"left": {"title": "🇮🇳 India", "points": [...]}, "right": {"title": "🇩🇪 Germany", "points": [...]}}, "blocks": [["POV: …", 56, "white"], ["More in the caption 👇", 44, "blue"]]}`
 Das Skript hält die Lesereihenfolge (Hook → Karte → Hinweis) und lässt Gesichter frei. Stichpunkte so kurz, dass nichts umbricht.
+Spalten nach Stimmung (Regel Kashish): Bei zwei Personen bekommt die lachende/zufriedene Person die bessere Seite (meist 🇩🇪 bzw. die Lösung, z. B. „Buying“), die ernste/genervte Person die schlechtere (🇮🇳 bzw. das Problem, z. B. „Renting“). Vor dem Rendern im Vorschaubild prüfen, wer links/rechts wie schaut, und „left“/„right“ entsprechend setzen.
+Zielgruppe (Regel Kashish): Kunden sind Expats, die IN DEUTSCHLAND leben. Jedes Thema muss ihnen bei einer Entscheidung hier helfen (kaufen, Steuern, Rente, Versicherung in DE). India vs. Germany nur, wenn der Vergleich zeigt, was in Deutschland möglich/besser ist – keine Themen, die nur das Leben in Indien betreffen (z. B. Mieten in Bangalore).
 Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks ohne klaren Sinn („8 leave days. 16 days in India“); Stichwort, das nicht zum Thema passt (HOME unter Urlaub). Themen ohne passendes PDF-Stichwort gar nicht erst planen.
 
 ## Vergleichs-Reels mit Labels über Personen (Variante)
