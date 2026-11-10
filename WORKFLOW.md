@@ -14,7 +14,8 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Bau: `python3 tools/make_reel.py clip.mov spec.json out.mp4` (braucht `pip install --break-system-packages opencv-python-headless`)
   - spec.json: `{"blocks": [["Hook", 62, "white"], ["Auflösung", 58, "blue"], ["Here's how: see caption", 42, "blue"]]}`
   - Hook oben, Rest unten, nie über Gesichtern (YuNet-Erkennung), immer in der Safe Zone (oben 250 px, unten ab 1440 px, rechts 230 px frei)
-  - Danach `out_check.jpg` ansehen: Gesichter frei? Text lesbar?
+  - Danach `out_check.jpg` ansehen: Gesichter frei? Text lesbar? Sieht es clean aus?
+  - Clean-Regeln (Kashish): alle Textboxen exakt mittig im Bild, Zeilen gleichmäßig umbrochen (kein einzelnes Wort allein in der letzten Zeile), Hinweiszeile („see caption“) immer einzeilig, Vergleichs-Labels auf gleicher Höhe und gleich breit. Das Skript macht das automatisch – trotzdem jedes Ergebnis ansehen.
 - Text: Englisch, max. ~18 Wörter gesamt, Hook im POV-Stil, leicht verständlich, keine unerklärten Fachbegriffe
 - Thema passend zum Clip wählen (z. B. Dachboden → Ausbau/Wertsteigerung, Auto → Kfz-Versicherung, Telefonat → Finanzierungszusage)
 - Keine erfundenen Kundenfälle: Beispielrechnungen als Beispiel kennzeichnen („can be enough“, nicht „this couple did it“), außer Kashish bestätigt einen echten Fall

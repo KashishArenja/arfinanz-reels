@@ -24,6 +24,8 @@ MAX_FACE_H = 700     # larger boxes are false positives (lights, patterns)
 MIN_SCORE = 0.85
 FACE_MARGIN = 45     # px clearance around each face
 PAD, GAP = 26, 18
+CX = W / 2                                   # all text blocks centred on the frame
+MAXW = 2 * (SAFE["right"] - CX)              # widest box that stays clear of the right-hand buttons
 
 
 def run(*a):
@@ -66,20 +68,43 @@ def face_boxes(video):
     return boxes
 
 
+def _greedy(d, words, font, maxw):
+    lines, line = [], ""
+    for w in words:
+        t = (line + " " + w).strip()
+        if d.textlength(t, font=font) <= maxw or not line:
+            line = t
+        else:
+            lines.append(line); line = w
+    lines.append(line)
+    return lines
+
+
+def wrap_balanced(d, text, font, maxw):
+    """Fewest lines possible, and those lines as even as possible (no lone last word)."""
+    words = text.split()
+    n = len(_greedy(d, words, font, maxw))
+    lo, hi = 1, int(maxw)
+    while lo < hi:                       # narrowest width that still gives n lines
+        mid = (lo + hi) // 2
+        if len(_greedy(d, words, font, mid)) <= n:
+            hi = mid
+        else:
+            lo = mid + 1
+    return _greedy(d, words, font, lo)
+
+
 def layout(blocks, scale):
     d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
-    maxw = SAFE["right"] - SAFE["left"] - 2 * PAD
+    maxw = MAXW - 2 * PAD
     out = []
     for text, size, style in blocks:
-        f = ImageFont.truetype(FONT, int(size * scale))
-        lines, line = [], ""
-        for w in text.split():
-            t = (line + " " + w).strip()
-            if d.textlength(t, font=f) <= maxw:
-                line = t
-            else:
-                lines.append(line); line = w
-        lines.append(line)
+        px = int(size * scale)
+        f = ImageFont.truetype(FONT, px)
+        if size <= 46:                   # small hint lines always stay on one line
+            while d.textlength(text, font=f) > maxw and px > 26:
+                px -= 2; f = ImageFont.truetype(FONT, px)
+        lines = wrap_balanced(d, text, f, maxw)
         lh = int(f.size * 1.25)
         bw = max(d.textlength(l, font=f) for l in lines) + 2 * PAD
         out.append(dict(lines=lines, font=f, lh=lh, w=bw, h=len(lines) * lh + 2 * PAD, style=style))
@@ -88,7 +113,7 @@ def layout(blocks, scale):
 
 
 def rects_at(lay, y0):
-    cx = (SAFE["left"] + SAFE["right"]) / 2
+    cx = CX
     rs, y = [], y0
     for b in lay:
         rs.append((cx - b["w"] / 2, y, cx + b["w"] / 2, y + b["h"])); y += b["h"] + GAP
@@ -163,8 +188,15 @@ def place_labels(labels, anchors, faces, scale=1.0, size=56):
         cx = min(max(x + w / 2, SAFE["left"] + b["w"] / 2), SAFE["right"] - b["w"] / 2)
         top_face = min(f[1] for f in faces if f[0] < cx < f[2]) if any(f[0] < cx < f[2] for f in faces) else y
         yl = max(SAFE["top"], top_face - th - 10)
-        out.append((b, (cx - b["w"] / 2, yl, cx + b["w"] / 2, yl + th)))
-    return out
+        out.append((b, cx, yl, th))
+    y = min(o[2] for o in out)                 # one shared line, above the higher head
+    bw = max(o[0]["w"] for o in out)           # same width for every label
+    res = []
+    for b, cx, _, th in out:
+        b["w"] = bw
+        cx = min(max(cx, SAFE["left"] + bw / 2), SAFE["right"] - bw / 2)
+        res.append((b, (cx - bw / 2, y, cx + bw / 2, y + th)))
+    return res
 
 
 def render(lay, y0, path):
