@@ -19,6 +19,12 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Thema passend zum Clip wählen (z. B. Dachboden → Ausbau/Wertsteigerung, Auto → Kfz-Versicherung, Telefonat → Finanzierungszusage)
 - Keine erfundenen Kundenfälle: Beispielrechnungen als Beispiel kennzeichnen („can be enough“, nicht „this couple did it“), außer Kashish bestätigt einen echten Fall
 
+## Vergleichs-Reels (Clips mit beiden Personen)
+- Bei Clips mit zwei Personen gern Vergleiche: über jedem Kopf ein Label, z. B. India / Germany, Renter / Owner, Poor / Rich, Employee / Self-employed, Bank / Broker, Single / Married.
+- spec.json: `"labels": ["India", "Germany"]` (links → rechts). Hook + Hinweis werden dann automatisch unten platziert.
+- Labels kurz halten (1–2 Wörter). Der konkrete Vergleich mit Zahlen steht in der Caption.
+- Bei „Poor / Rich“ nichts Abwertendes: es geht um Verhalten (z. B. „Spends the bonus“ / „Invests the bonus“), nicht um Menschen.
+
 ## Caption
 - Zeile 1 = Aufruf mit Stichwort, dann 2–5 kurze Absätze mit konkretem Mehrwert (was tun, warum es nützt)
 - Stichwort nach Thema:

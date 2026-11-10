@@ -9,6 +9,7 @@ spec.json: {"blocks": [["text", size, "white"|"blue"], ...],
             "segments": [{"clip": "a.mov", "start": 0, "dur": 2.5},
                          {"clip": "b.mov", "start": 3, "dur": 2.6}]}   # optional: combine several clips
             (with "segments" the clip argument is ignored; use "-")
+            "labels": ["India", "Germany"]      # optional: one label above each person (left to right)
 """
 import json, os, subprocess, sys, tempfile
 import cv2
@@ -98,9 +99,9 @@ def overlap(r, f):
     return max(0, min(r[2], f[2]) - max(r[0], f[0])) * max(0, min(r[3], f[3]) - max(r[1], f[1]))
 
 
-def place(blocks, faces):
+def place(blocks, faces, prefer="upper"):
     """Return (layout, y0) with no face overlap; prefer upper-middle, shrink text if needed."""
-    pref = SAFE["top"] + 180
+    pref = SAFE["top"] + 180 if prefer == "upper" else SAFE["bottom"]
     tries = [(blocks, s) for s in (1.0, 0.88, 0.76, 0.68)]
     if len(blocks) > 2:  # last resort: drop the small hint line
         tries += [(blocks[:-1], s) for s in (1.0, 0.88, 0.76, 0.68)]
@@ -133,6 +134,39 @@ def place_split(blocks, faces):
     return None, None
 
 
+def person_anchors(video, n):
+    """Median face box per person (left to right) across the clip, foreground faces only."""
+    det = cv2.FaceDetectorYN.create(YUNET, "", (W, H), MIN_SCORE)
+    cap = cv2.VideoCapture(video); per = []; i = 0
+    while True:
+        ok, fr = cap.read()
+        if not ok:
+            break
+        if i % 6 == 0:
+            _, f = det.detect(fr)
+            fs = [] if f is None else sorted([r[:4] for r in f if MIN_FACE_H <= r[3] <= MAX_FACE_H], key=lambda r: r[0])
+            if len(fs) == n:
+                per.append(fs)
+        i += 1
+    if not per:
+        return None
+    import statistics as st
+    return [tuple(st.median(fr[k][j] for fr in per) for j in range(4)) for k in range(n)]
+
+
+def place_labels(labels, anchors, faces, scale=1.0, size=56):
+    """One label box above each person's head, inside the safe zone, clear of all faces."""
+    out = []
+    for text, (x, y, w, h) in zip(labels, anchors):
+        lay, th = layout([[text, size, "white"]], scale)
+        b = lay[0]
+        cx = min(max(x + w / 2, SAFE["left"] + b["w"] / 2), SAFE["right"] - b["w"] / 2)
+        top_face = min(f[1] for f in faces if f[0] < cx < f[2]) if any(f[0] < cx < f[2] for f in faces) else y
+        yl = max(SAFE["top"], top_face - th - 10)
+        out.append((b, (cx - b["w"] / 2, yl, cx + b["w"] / 2, yl + th)))
+    return out
+
+
 def render(lay, y0, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for b, r in zip(lay, rects_at(lay, y0)):
@@ -163,8 +197,30 @@ def main(clip, spec, out):
     base = os.path.join(tmp, "base.mp4"); ov = os.path.join(tmp, "ov.png")
     normalize(segments, base)
     faces = face_boxes(base)
-    parts, scale = place_split(blocks, faces) if len(blocks) > 1 else (None, None)
-    if parts:
+    labels = sp.get("labels")
+    if labels:
+        anchors = person_anchors(base, len(labels))
+        if anchors:
+            lab = place_labels(labels, anchors, faces)
+            lab_rects = [r for _, r in lab]
+            # remaining text goes to the free area below, clear of faces and labels
+            lay, y0, scale = place(blocks, faces + lab_rects, prefer="bottom")
+            img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
+            for b, r in lab + list(zip(lay, rects_at(lay, y0))):
+                bg, fg = ((255, 255, 255, 245), (10, 10, 10, 255)) if b["style"] == "white" else ((14, 42, 92, 240), (255, 255, 255, 255))
+                d.rounded_rectangle(r, radius=22, fill=bg); ty = r[1] + PAD
+                for l in b["lines"]:
+                    d.text((r[0] + (b["w"] - d.textlength(l, font=b["font"])) / 2, ty), l, font=b["font"], fill=fg); ty += b["lh"]
+            img.save(ov); y0 = {"labels": [r[1] for r in lab_rects], "text": y0}; parts = "done"
+        else:
+            print("warning: could not find", len(labels), "people consistently; labels skipped", file=sys.stderr)
+            parts = None; scale = None
+    else:
+        parts = None
+    if parts == "done":
+        pass
+    elif len(blocks) > 1 and (parts := place_split(blocks, faces)[0]):
+        scale = None
         y0 = [y for _, y in parts]
         render_parts(parts, ov)
     else:
@@ -177,7 +233,7 @@ def main(clip, spec, out):
     # contact sheet for checking: 5 frames
     sheet = out.rsplit(".", 1)[0] + "_check.jpg"
     run("ffmpeg", "-v", "error", "-y", "-i", out, "-vf", "fps=1,scale=270:-1,tile=5x1", "-frames:v", "1", sheet)
-    print(json.dumps(dict(out=out, faces=len(faces), text_y=y0, scale=scale, sheet=sheet)))
+    print(json.dumps(dict(out=out, faces=len(faces), text_y=y0, scale=scale, sheet=sheet), default=float))
 
 
 if __name__ == "__main__":
