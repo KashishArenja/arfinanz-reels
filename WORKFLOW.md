@@ -154,3 +154,11 @@ Zusätzlich zu den 12 Reels der Woche: **jeden Tag 4 Trial Reels zu EINEM Thema*
   - **Nichts abgegangen** → NICHT posten. Mitdenken: woran lag es (Hook, Format, Thema, Clip, erste Sekunde)? Learning unter „Learnings aus eigenen Reels“ eintragen, Status `kein_gewinner`, und beim nächsten Durchlauf dieses Themas andere Formate/Hooks testen.
   - Fehlen die Trial-Reel-Zahlen in Metricool: Kashish um einen Insights-Screenshot der 4 Trials bitten, nicht raten.
 - Kashish bekommt jeden Tag eine kurze Nachricht: Thema + 4 Vorschaubilder der neuen Trials, und (wenn fällig) das Ergebnis der Auswertung mit Zahlen.
+
+## Inspo von Kashish (seit 11.11.2026)
+Kashish schickt Screenshots von Reels, die ihm gefallen – entweder direkt im Chat oder in den Drive-Ordner **„02_Inspo“** (liegt neben „01_Clips roh“).
+- Jede Inspo ansehen: Was ist das Muster (Hook-Art, Format, Text-Aufbau, Farben, Stichwort-Angebot)? Nie Texte oder Design 1:1 kopieren – nur das Muster.
+- Auf unsere Zielgruppe übertragen: Expats in Deutschland, §34i/§34d-Themen, konkrete Zahl, Mehrwert im Video, passendes Stichwort.
+- Muster als Zeile unter „Inspo-Muster“ eintragen (Datum, Datei, Muster, wie wir es nutzen) und im nächsten Trial-Tag oder Wochenplan als eines der Formate testen. Danach die Datei in Drive nicht löschen, sondern hier als „umgesetzt am …“ markieren.
+
+### Inspo-Muster
