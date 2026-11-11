@@ -71,6 +71,7 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
   - Rente / Altersvorsorge → **PENSION**
   - Altersvorsorgedepot (AVD, ab 01.01.2027) → **AVD** (eigener AVD-Guide vorhanden, Kashish 10.11.)
   - Lebensversicherung → **PROTECT** (Kashish 11.11.)
+  - Private Krankenversicherung → **PKV** = Vergleichsgespräch: „Comment PKV for a free comparison call 👇“ (Kashish 11.11.)
   - Alle Themen ohne eigenes Stichwort (z. B. Kfz-Versicherung) → **CALL** = Gesprächstermin, kein PDF: „Comment CALL for a free comparison call 👇“ (Kashish 11.11.)
 - Zu jedem Stichwort gibt es einen kostenlosen PDF-Guide (Kashish bestätigt). Aufruf immer konkret: „Comment HOME / STRATEGY / TAX / PENSION / AVD and we'll send you the free PDF guide 👇“ – in Zeile 1 der Caption und kurz im Reel-Text unten.
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
