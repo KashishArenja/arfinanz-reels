@@ -70,6 +70,8 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
   - Kapitalanlage-Immobilie → **STRATEGY** oder **TAX**
   - Rente / Altersvorsorge → **PENSION**
   - Altersvorsorgedepot (AVD, ab 01.01.2027) → **AVD** (eigener AVD-Guide vorhanden, Kashish 10.11.)
+  - Lebensversicherung → **PROTECT** (Kashish 11.11.)
+  - Alle Themen ohne eigenes Stichwort (z. B. Kfz-Versicherung) → **CALL** = Gesprächstermin, kein PDF: „Comment CALL for a free comparison call 👇“ (Kashish 11.11.)
 - Zu jedem Stichwort gibt es einen kostenlosen PDF-Guide (Kashish bestätigt). Aufruf immer konkret: „Comment HOME / STRATEGY / TAX / PENSION / AVD and we'll send you the free PDF guide 👇“ – in Zeile 1 der Caption und kurz im Reel-Text unten.
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
@@ -142,8 +144,8 @@ Täglich 07:35 (geplante Aufgabe „Konkurrenz-Check täglich“, seit 11.11.202
 ## Tägliche Trial Reels (Kashish 11.11.2026 – komplett automatisch, ohne Freigabe)
 Zusätzlich zu den 12 Reels der Woche: **jeden Tag 4 Trial Reels zu EINEM Thema** (Instagram `TRIAL_REEL` – wird nur Nicht-Followern gezeigt). Kashish hat ausdrücklich freigegeben, dass Trial Reels und Gewinner-Reposts ohne Rückfrage rausgehen. Für die 12 normalen Wochen-Reels gilt weiter: erst nach „Ja“.
 - **Ein Thema pro Tag, 4 verschiedene Formate**, die alle auf dasselbe hinauslaufen. Formate z. B.: Tabelle zum Screenshotten · Myth ❌ / Reality ✅-Karte · rotes News-Banner + Zahl + Datum · 3-Punkte-Liste · 🇮🇳/🇩🇪-Vergleichskarte · Labels über zwei Personen („Employee“ / „Employee + rental flat“) · „Gleiches Gehalt, anderes Ergebnis“. Mindestens 3 verschiedene Formate und 4 verschiedene Hooks pro Tag. Alle Regeln oben gelten (POV-Hook, Mehrwert im Video, Expat-Bezug, Gesichter frei, gelbe Stichwort-Pille „Comment X for a free PDF guide 👇“, Caption mit Stichwort in Zeile 1, Compliance, 5 Hashtags).
-- **Themen jeden Tag neu**, gleiches Thema frühestens nach 7 Tagen wieder. Pool (Beispiele Kashish): Altersvorsorgedepot (AVD) · Investmentimmobilie (STRATEGY/TAX) · Kfz-Versicherungscheck · Lebensversicherung · Eigenheim für Expats (HOME) · Rentenlücke (PENSION) · Steuern mit Vermietung (TAX) · Berufsunfähigkeit · Familie/Kinder & Rente (PENSION). Versicherungsthemen nur, wenn unten ein Stichwort mit PDF steht.
-  - Stichwort für Versicherungsthemen: **offen – Kashish fragen** (Stand 11.11.). Solange offen: an diesem Tag ein Thema mit PDF nehmen.
+- **Themen jeden Tag neu**, gleiches Thema frühestens nach 7 Tagen wieder. Pool (Beispiele Kashish): Altersvorsorgedepot (AVD) · Investmentimmobilie (STRATEGY/TAX) · Kfz-Versicherungscheck · Lebensversicherung · Eigenheim für Expats (HOME) · Rentenlücke (PENSION) · Steuern mit Vermietung (TAX) · Berufsunfähigkeit · Familie/Kinder & Rente (PENSION). Jedes Thema ist erlaubt – Stichwort siehe unten.
+  - Stichworte für Themen ohne eigenes PDF-Stichwort (Kashish 11.11.): **Lebensversicherung → PROTECT** („Comment PROTECT for a free PDF guide 👇“). **Alles andere ohne Stichwort (z. B. Kfz-Versicherung, Berufsunfähigkeit, Hausrat) → CALL**: „Comment CALL for a free comparison call 👇“ – Ziel: Termin vereinbaren, wir vergleichen den Vertrag direkt. In der Caption Zeile 1 entsprechend, z. B. „Comment CALL and we'll compare your car insurance with you – for free 👇“.
 - **Zeiten:** 16:00, 16:30, 17:00, 17:30 (zählen nicht zum Limit von 2 normalen Reels pro Tag). Jeder Trial ein anderer Sound.
 - **Clips:** unbenutzte zuerst; Trials dürfen genutzte Clips mit anderem `start` verwenden. In used_clips.json eintragen („Trial: …“).
 - **Log:** jeden Test in `trials.json` eintragen (Datum, Thema, Format, Clip, Metricool-uuid, Sound, Status).
