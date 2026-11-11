@@ -434,6 +434,57 @@ def compare_card(c, faces, avoid=(), reserve=0, min_y=None):
     return img, (x0, y0, x0 + width, y0 + h)
 
 
+def list_card(lst, faces, reserve=0):
+    """Inspo format (finanzherzen 11.11.): big red banner headline at the top, then a long
+    left-aligned list, one tight white box per item with an emoji in front. The list sits on the
+    side of the frame that is free of faces (default left).
+    lst = {"title": "🚨 ...", "items": ["🪪 Passport", ...], "side": "left"|"right"}"""
+    d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    # 1) banner
+    for size in range(int(76 * FONT_SCALE), 40, -2):
+        tf = ImageFont.truetype(FONT, size)
+        lines = wrap_balanced(d, lst["title"], tf, WIDE - 2 * 28)
+        if len(lines) <= 2:
+            break
+    lh = int(tf.size * 1.05)
+    bh = lh * len(lines) + 2 * 22
+    bw = max(rich_len(d, l, tf) for l in lines) + 2 * 34
+    by = SAFE["top"]
+    d2 = ImageDraw.Draw(img)
+    d2.rounded_rectangle([CX - bw / 2, by, CX + bw / 2, by + bh], radius=28, fill=STYLES["red"][0])
+    y = by + 22 - tf.size * 0.12
+    for l in lines:
+        tw = rich_len(d, l, tf)
+        rich_draw(img, (CX - tw / 2, y), l, tf, STYLES["red"][1])
+        y += lh
+    banner = (CX - bw / 2, by, CX + bw / 2, by + bh)
+    # 2) list
+    items = lst["items"]; side = lst.get("side", "left"); x_margin = 36
+    top = by + bh + 40; bottom = SAFE["bottom"] - reserve
+    for size in range(int(50 * FONT_SCALE), 26, -2):
+        f = ImageFont.truetype(FONT, size)
+        ih = int(f.size * 1.08) + 2 * LPAD_Y
+        total = len(items) * ih + (len(items) - 1) * 4
+        widths = [rich_len(d, it, f) + 2 * LPAD_X for it in items]
+        if total > bottom - top or max(widths) > W * 0.62:
+            continue
+        y0 = top + (bottom - top - total) // 3
+        rects = []
+        yy = y0
+        for w in widths:
+            x0 = x_margin if side == "left" else W - 230 - w
+            rects.append((x0, yy, x0 + w, yy + ih)); yy += ih + 4
+        if not any(overlap(r, fc) for r in rects for fc in faces):
+            break
+    else:
+        return None, None
+    for it, r in zip(items, rects):
+        d2.rounded_rectangle(r, radius=RADIUS, fill=STYLES["white"][0])
+        rich_draw(img, (r[0] + LPAD_X, r[1] + (ih - f.size) / 2 - f.size * 0.12), it, f, STYLES["white"][1])
+    return img, (min(r[0] for r in rects), banner[1], max(r[2] for r in rects), rects[-1][3])
+
+
 def render(lay, y0, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for b, r in zip(lay, rects_at(lay, y0)):
@@ -491,6 +542,16 @@ def main(clip, spec, out):
             for b, r in zip(lay_, rects_at(lay_, y_)):
                 paint_block(img, b, r)
         img.save(ov); y0 = {"hook": yh, "card": rect[1]}; scale = None; parts = "done"; labels = None
+    if sp.get("list"):
+        reserve = (layout(blocks, 1.0)[1] + 30) if blocks else 0
+        img, rect = list_card(sp["list"], faces, reserve=reserve)
+        if img is None:
+            sys.exit("list does not fit without covering a face")
+        if blocks:
+            lay, yb, _ = place(blocks, faces + [rect], prefer="bottom")
+            for b, r in zip(lay, rects_at(lay, yb)):
+                paint_block(img, b, r)
+        img.save(ov); y0 = rect[1]; scale = None; parts = "done"; labels = None
     if sp.get("table"):
         img, rect = table_card(sp["table"], faces)
         if img is None:
@@ -515,7 +576,7 @@ def main(clip, spec, out):
         else:
             print("warning: could not find", len(labels), "people consistently; labels skipped", file=sys.stderr)
             parts = None; scale = None
-    elif not sp.get("table") and not sp.get("compare"):
+    elif not sp.get("table") and not sp.get("compare") and not sp.get("list"):
         parts = None
     if parts == "done":
         pass
