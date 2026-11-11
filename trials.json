@@ -1,0 +1,78 @@
+{
+ "note": "Log der täglichen Trial-Reel-Tests. status: läuft | gewinner_gepostet | kein_gewinner | eigener_task",
+ "tests": [
+  {
+   "date": "2026-11-10",
+   "topic": "Altersvorsorgedepot",
+   "keyword": "AVD",
+   "evaluate_after": "2026-11-12T17:00",
+   "status": "eigener_task",
+   "note": "Auswertung + Repost durch geplante Aufgabe 'AVD Test-Reel Gewinner posten' (12.11. 09:47). Nicht doppelt auswerten.",
+   "reels": [
+    {
+     "time": "17:15",
+     "format": "Myth/Reality-Karte"
+    },
+    {
+     "time": "17:45",
+     "format": "Tabelle Zulagen"
+    },
+    {
+     "time": "18:15",
+     "format": "Zahl-Blöcke Familie"
+    },
+    {
+     "time": "18:45",
+     "format": "News-Banner Datum"
+    }
+   ],
+   "specs": "specs/2026-11-10_avd_trials"
+  },
+  {
+   "date": "2026-11-11",
+   "topic": "Investmentimmobilie",
+   "keyword": "STRATEGY/TAX",
+   "evaluate_after": "2026-11-13T17:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-11_trials_investment",
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Tabelle Mieter zahlt Rate",
+     "spec": "t1.json",
+     "clip": "IMG_1990.MOV",
+     "keyword": "STRATEGY",
+     "metricool_uuid": "407441732833462674",
+     "sound": "262842866768900"
+    },
+    {
+     "time": "16:30",
+     "format": "Myth/Reality-Karte",
+     "spec": "t2.json",
+     "clip": "IMG_9990.MOV",
+     "keyword": "STRATEGY",
+     "metricool_uuid": "6708127763986006759",
+     "sound": "3677382602485634"
+    },
+    {
+     "time": "17:00",
+     "format": "News-Banner rot + Zahl (degressive AfA)",
+     "spec": "t3.json",
+     "clip": "IMG_2859.MOV",
+     "keyword": "TAX",
+     "metricool_uuid": "3850042497636322330",
+     "sound": "5213434452215987"
+    },
+    {
+     "time": "17:30",
+     "format": "3-Punkte-Liste",
+     "spec": "t4.json",
+     "clip": "3c84da1e-a7ac-49a8-80e8-d2a305138b82.mp4",
+     "keyword": "STRATEGY",
+     "metricool_uuid": "1685074891355867548",
+     "sound": "3941167316128568"
+    }
+   ]
+  }
+ ]
+}
