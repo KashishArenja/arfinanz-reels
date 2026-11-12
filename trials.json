@@ -92,7 +92,7 @@
      "spec": "t1.json",
      "clip": "IMG_7262.mov",
      "keyword": "PROTECT",
-     "hook": "POV: Only earner in Germany on €70k? Your family needs €210k–€350k cover",
+     "hook": "POV: Only earner in Germany on €70k? Your family needs €210k–€350k life insurance",
      "hook_score": 80,
      "metricool_uuid": "256134762364750431",
      "sound": "1426198805228805"
@@ -103,7 +103,7 @@
      "spec": "t2.json",
      "clip": "IMG_8768.MOV",
      "keyword": "PROTECT",
-     "hook": "POV: You think €500k life cover in Germany is too expensive",
+     "hook": "POV: You think €500k life insurance in Germany is too expensive",
      "hook_score": 80,
      "metricool_uuid": "2595647920163602708",
      "sound": "1608625260578425"
@@ -114,7 +114,7 @@
      "spec": "t3.json",
      "clip": "IMG_0162.MOV",
      "keyword": "PROTECT",
-     "hook": "POV: Expat with a home loan. Same €500k life cover, 3× the price",
+     "hook": "POV: Expat with a home loan. Same €500k life insurance, 3× the price",
      "hook_score": 80,
      "metricool_uuid": "657454221895943317",
      "sound": "1746895239515815"
@@ -125,12 +125,13 @@
      "spec": "t4.json",
      "clip": "IMG_6518.MOV",
      "keyword": "PROTECT",
-     "hook": "POV: Expat in Germany? 5 signs you need life cover",
+     "hook": "POV: 5 signs you need life insurance as an expat in Germany",
      "hook_score": 78,
      "metricool_uuid": "-339663561747445184",
      "sound": "798148105935087"
     }
-   ]
+   ],
+   "note": "12.11. 09:57 neu gerendert: 'life insurance' statt 'life cover' (Kashish), Captions mit 'term plan'/'sum assured'. Metricool-uuids unverändert."
   }
  ]
 }
