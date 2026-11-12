@@ -6,24 +6,56 @@
    "topic": "Altersvorsorgedepot",
    "keyword": "AVD",
    "evaluate_after": "2026-11-12T17:00",
-   "status": "eigener_task",
-   "note": "Auswertung + Repost durch geplante Aufgabe 'AVD Test-Reel Gewinner posten' (12.11. 09:47). Nicht doppelt auswerten.",
+   "status": "gewinner_gepostet",
+   "note": "Ausgewertet 12.11. 09:50 (~40 h): Gewinner Zulagen-Tabelle (2.249 Aufrufe) knapp vor Familie (2.068, <20 % → Shares+Saves+Kommentare 7 vs 6). Hook nachgeschärft ('with 1 kid', Spec avd_table_reel.json), als REEL 12.11. 13:00 eingeplant, Metricool-uuid -1967439341562412205, Sound 1877995702757449. Alle 4 unter Median (4.319) – Repost auf ausdrücklichen Auftrag Kashish 10.11.",
    "reels": [
     {
      "time": "17:15",
-     "format": "Myth/Reality-Karte"
+     "format": "Myth/Reality-Karte",
+     "result": {
+      "views": 555,
+      "reach": 303,
+      "view_rate_3s": 61.5,
+      "shares": 0,
+      "saves": 0,
+      "comments": 0
+     }
     },
     {
      "time": "17:45",
-     "format": "Tabelle Zulagen"
+     "format": "Tabelle Zulagen",
+     "result": {
+      "views": 2249,
+      "reach": 1171,
+      "view_rate_3s": 53.8,
+      "shares": 2,
+      "saves": 5,
+      "comments": 0
+     }
     },
     {
      "time": "18:15",
-     "format": "Zahl-Blöcke Familie"
+     "format": "Zahl-Blöcke Familie",
+     "result": {
+      "views": 2068,
+      "reach": 1121,
+      "view_rate_3s": 62.7,
+      "shares": 2,
+      "saves": 4,
+      "comments": 0
+     }
     },
     {
      "time": "18:45",
-     "format": "News-Banner Datum"
+     "format": "News-Banner Datum",
+     "result": {
+      "views": 401,
+      "reach": 269,
+      "view_rate_3s": 44.6,
+      "shares": 1,
+      "saves": 1,
+      "comments": 0
+     }
     }
    ],
    "specs": "specs/2026-11-10_avd_trials"
