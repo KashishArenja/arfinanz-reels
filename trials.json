@@ -73,6 +73,64 @@
      "sound": "3941167316128568"
     }
    ]
+  },
+  {
+   "date": "2026-11-12",
+   "topic": "Lebensversicherung (Risikoleben)",
+   "keyword": "PROTECT",
+   "evaluate_after": "2026-11-14T17:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-12_trials_lebensversicherung",
+   "sources": [
+    "test.de Risikolebensversicherung-Vergleich, Finanztest 12/2026 (09.11.2026): 500k bis 67, Nichtraucher BMI 22, günstigster 456 €/J (35), 628 €/J (45), teure >3×, Richtwert 3–5× Bruttojahresgehalt",
+    "DRV BW PM 11.08.2025 Hinterbliebenenrente: 5 J. Wartezeit, große Witwenrente 55 %"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Tabelle Absicherung 3–5× Brutto",
+     "spec": "t1.json",
+     "clip": "IMG_7262.mov",
+     "keyword": "PROTECT",
+     "hook": "POV: Only earner in Germany on €70k? Your family needs €210k–€350k cover",
+     "hook_score": 80,
+     "metricool_uuid": "256134762364750431",
+     "sound": "1426198805228805"
+    },
+    {
+     "time": "16:30",
+     "format": "Myth/Reality-Karte",
+     "spec": "t2.json",
+     "clip": "IMG_8768.MOV",
+     "keyword": "PROTECT",
+     "hook": "POV: You think €500k life cover in Germany is too expensive",
+     "hook_score": 80,
+     "metricool_uuid": "2595647920163602708",
+     "sound": "1608625260578425"
+    },
+    {
+     "time": "17:00",
+     "format": "News-Banner rot + Zahl + Datum (Finanztest 12/2026)",
+     "spec": "t3.json",
+     "clip": "IMG_0162.MOV",
+     "keyword": "PROTECT",
+     "hook": "POV: Expat with a home loan. Same €500k life cover, 3× the price",
+     "hook_score": 80,
+     "metricool_uuid": "657454221895943317",
+     "sound": "1746895239515815"
+    },
+    {
+     "time": "17:30",
+     "format": "Inspo-Liste (finanzherzen): rotes Banner + 5 Emoji-Punkte",
+     "spec": "t4.json",
+     "clip": "IMG_6518.MOV",
+     "keyword": "PROTECT",
+     "hook": "POV: Expat in Germany? 5 signs you need life cover",
+     "hook_score": 78,
+     "metricool_uuid": "-339663561747445184",
+     "sound": "798148105935087"
+    }
+   ]
   }
  ]
 }

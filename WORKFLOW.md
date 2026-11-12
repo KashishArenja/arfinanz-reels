@@ -166,3 +166,5 @@ Kashish schickt Screenshots von Reels, die ihm gefallen – entweder direkt im C
 - Muster als Zeile unter „Inspo-Muster“ eintragen (Datum, Datei, Muster, wie wir es nutzen) und im nächsten Trial-Tag oder Wochenplan als eines der Formate testen. Danach die Datei in Drive nicht löschen, sondern hier als „umgesetzt am …“ markieren.
 
 ### Inspo-Muster
+- 11.11.2026 – finanzherzen (Screenshot im Chat): großes rotes Banner mit 🚨 oben, darunter lange linksbündige Liste, je Punkt eine weiße Box mit Emoji vorn, Stichwort-Pille unten. Muster: Checkliste zum Speichern. Für uns: `list` in make_reel.py (Clip mit freier Bildseite), z. B. Bank-Dokumente (HOME). Umgesetzt am 12.11. (Reel 11:00 Dokumente) und 12.11. Trial t4 „5 signs you need life cover“ (PROTECT).
+- 12.11.2026: Drive-Ordner „02_Inspo“ existiert (noch) nicht – im Drive liegen neben „01_Clips roh“ nur „02_Fertig“ und „03_Gepostet“. Keine neuen Inspo-Screenshots.
