@@ -91,7 +91,10 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 ## Sound
 - Metricool `instagramData.audioConfiguration.audioId`: erst mit Suchbegriff aufrufen → Kandidatenliste → numerische ID wählen. `videoVolume: 0`.
 - **Trend-Sounds statt ruhiger Standardmusik (Kashish 10.11.: „die Sounds sind langweilig“).** Vor dem Einplanen die aktuellen Instagram-Trend-Sounds der Woche recherchieren (z. B. Buffer, Later, SocialPilot, Kabo – Wochen-Charts). **Keine Bollywood-Lieder** (Kashish 10.11.).
-- Chart-Songs als „music“ gibt es im Business-Katalog meist nicht. Dann: (1) `original_sound` des Trend-Songs aus der Kandidatenliste (Risiko: Instagram kann den Ton bei Business-Accounts stummschalten), oder (2) Metas Trend-Format-Sounds „… (Reels Sound - Listicle/Reaction/Photo Dump)“ – sicher und gemacht für Listen/Vergleiche.
+- **NUR reine Hintergrundmusik (Kashish 13.11., wichtig!):** ausschließlich Sounds mit `audioType: music` aus dem Metricool-Katalog, also Instrumentals/Songs ohne Sprache. **Niemals `original_sound`** – das sind Tonspuren aus fremden Reels, oft mit einer Person, die redet („guck mal, wie ich mein Büro umbaue“). Auch keine Titel mit „voiceover“, „talking“, „vlog“, „story“, „tutorial“, „POV“ im Namen.
+- Sichere Wahl: Metas Format-Sounds „… (Reels Sound - Listicle/Reaction/Photo Dump)“ **nur wenn audioType = music** (z. B. „Bling (Reels Sound - Listicle)“ 262842866768900, „Tinsel and Memories (Reels Sound - Photo Dump)“ 5213434452215987, „Good Time“ 622819303274042, „Euphoria“ 2488847887958999). Im Zweifel einen davon nehmen statt etwas Unbekanntes.
+- Nach dem Einplanen in der Antwort von createScheduledPost prüfen: `audioType` muss `music` sein – sonst sofort mit updateScheduledPost auf einen music-Sound ändern.
+- Talking-Head-Reels (Kashish spricht): keine Musik.
 - Nicht zweimal am selben Tag denselben Sound.
 
 ## KI-Übersetzung (Kashish 13.11.)
