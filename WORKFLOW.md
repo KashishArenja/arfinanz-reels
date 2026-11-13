@@ -94,6 +94,10 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Chart-Songs als „music“ gibt es im Business-Katalog meist nicht. Dann: (1) `original_sound` des Trend-Songs aus der Kandidatenliste (Risiko: Instagram kann den Ton bei Business-Accounts stummschalten), oder (2) Metas Trend-Format-Sounds „… (Reels Sound - Listicle/Reaction/Photo Dump)“ – sicher und gemacht für Listen/Vergleiche.
 - Nicht zweimal am selben Tag denselben Sound.
 
+## KI-Übersetzung (Kashish 13.11.)
+- Instagrams KI-Übersetzung (Meta AI, Stimme) lässt sich über Metricool NICHT aktivieren – nur beim Posten direkt in der Instagram-App.
+- Darum: **Talking-Head-Videos (Kashish spricht) immer mit `autoPublish: false` einplanen** → Metricool schickt zur Uhrzeit eine Push-Nachricht, Kashish postet in der App und schaltet die Übersetzung ein. Reels ohne Stimme (Text + Musik) weiter automatisch.
+
 ## Upload für Metricool
 - Fertiges MP4 nach `reels/` in diesem Repo pushen, Metricool-Media-URL:
   `https://raw.githubusercontent.com/KashishArenja/arfinanz-reels/main/reels/<datei>.mp4`
