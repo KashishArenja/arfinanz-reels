@@ -339,7 +339,7 @@ def _fit(d, texts, size, maxw, minsize=22):
     return ImageFont.truetype(FONT, size)
 
 
-def table_card(t, faces):
+def table_card(t, faces, min_y=None):
     """Clean table card, centred. t = {"title","headers","rows","highlight"(row index),"note"}
     Wide (900 px) when it sits above the button rail, otherwise narrow enough to clear it."""
     d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
@@ -355,12 +355,14 @@ def table_card(t, faces):
         th = len(title_lines) * 58
         h = pad + th + 24 + 56 + rh * len(t["rows"]) + (44 if t.get("note") else 0) + pad
         limit = RAIL_TOP if width > MAXW else SAFE["bottom"]
-        cands = [y for y in range(SAFE["top"], limit - h + 1, 10)
+        cands = [y for y in range(int(min_y) if min_y is not None else SAFE["top"], limit - h + 1, 10)
                  if not any(overlap((CX - width / 2, y, CX + width / 2, y + h), f) for f in faces)]
         if cands:
             break
     else:
         return None, None
+    if min_y is not None:      # stacked layout (hook on top): table directly under the hook
+        cands = [min(cands)]
     # visually centred: as low as possible above the button rail (wide), else centred in the safe zone
     mid = (SAFE["top"] + SAFE["bottom"] - h) / 2
     y0 = max(cands) if width > MAXW else min(cands, key=lambda y: abs(y - mid))
@@ -552,7 +554,29 @@ def main(clip, spec, out):
             for b, r in zip(lay, rects_at(lay, yb)):
                 paint_block(img, b, r)
         img.save(ov); y0 = rect[1]; scale = None; parts = "done"; labels = None
-    if sp.get("table"):
+    if sp.get("table") and sp.get("table_hook"):
+        # stacked: big hook on top -> table right under it -> extra lines + hint right under the table
+        hook, rest = blocks[:1], blocks[1:]
+        for sc in (1.0, 0.9, 0.8):
+            lay, th = layout(hook, sc, maxw=WIDE)
+            free = [y for y in range(SAFE["top"], SAFE["bottom"] - th + 1, 10)
+                    if not any(overlap(r, f) for r in rects_at(lay, y) for f in faces)]
+            if free:
+                yh = min(free); break
+        img, rect = table_card(sp["table"], faces, min_y=yh + th + 14)
+        if img is None:
+            sys.exit("table does not fit under the hook without covering a face")
+        for b, r in zip(lay, rects_at(lay, yh)):
+            paint_block(img, b, r)
+        if rest:
+            lr, rh_ = layout(rest, 1.0, maxw=800)   # 800 px centred stays clear of the right button rail
+            yr = int(rect[3]) + 14
+            if yr + rh_ > SAFE["bottom"] or any(overlap(r, f) for r in rects_at(lr, yr) for f in faces):
+                print("warning: lines under the table overlap a head/face", file=sys.stderr)
+            for b, r in zip(lr, rects_at(lr, yr)):
+                paint_block(img, b, r)
+        img.save(ov); y0 = {"hook": yh, "table": rect[1]}; scale = None; parts = "done"; labels = None
+    elif sp.get("table"):
         img, rect = table_card(sp["table"], faces)
         if img is None:
             sys.exit("table does not fit without covering a face - use a clip without people")
