@@ -29,6 +29,14 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 - Thema passend zum Clip wählen (z. B. Dachboden → Ausbau/Wertsteigerung, Auto → Kfz-Versicherung, Telefonat → Finanzierungszusage)
 - Keine erfundenen Kundenfälle: Beispielrechnungen als Beispiel kennzeichnen („can be enough“, nicht „this couple did it“), außer Kashish bestätigt einen echten Fall
 
+## HOOK-REGELN (Kashish 13.11.2026 – „genau deswegen geht kein Video viral“) – gelten VOR allem anderen
+1. **1-Sekunden-Test:** Versteht ein Inder in Deutschland beim Wischen in 1 Sekunde, worum es geht und warum es IHN betrifft? Wenn nein → nicht bauen.
+2. **Heute, nicht mit 81:** Fernes Thema (Rente, BU) immer über etwas erzählen, das JETZT passiert – Eltern in Indien, der deutsche Kollege, Rückkehr nach Indien, EPF, EMI/Familie.
+3. **Bild und Hook erzählen dieselbe Geschichte** (Telefonat → Eltern, zwei Personen → Kollege, Tempel/Reise → Rückkehr nach Indien, ernster Blick → Burnout). Lachende Person bei ernstem Thema = falscher Clip.
+4. **Max. eine Zahl im Hook**, keine Rechnung zum Verstehen. Tabelle/Details kommen danach, nie statt des Hooks.
+5. Gute Beispiele: „Your parents' pension = you 🇮🇳 / Your pension in Germany = ? 🇩🇪“ · „Same job. Same salary. You get €340 less pension“ · „No EPF in Germany? Your boss still pays into your pension“ · „Burnout? Your full salary stops after 6 weeks“. Schlechte: „POV: You retire with €150k. At €1,000/mo it's gone at 81“ (abstrakt, Rechnung, Bild = Urlaub).
+Posting-Rhythmus (Kashish 13.11.): ab Mo 16.11. täglich 2 normale Reels (08–14 Uhr) + abends das längere Talking-Head-Video; Trial Reels wie gehabt.
+
 ## DESIGN-VORLAGE (fest, Stand 10.11.2026 – im Skript eingebaut)
 Abgeleitet aus unseren Top-Reels (DdGbZA8Nxpn Ehegattenschaukel, DfNDc8eNan9 Urlaubsplanung, Deg3pQLt-I4 Millionaire Couple, Dd1PbGrMz7w Augsburg) und den Konkurrenz-Hits (expats.phil DdMXq3BCitY, iamsarahrahimi DdrI9dxKYAx, fionn_kelly_de Dd6XvODMom5).
 Gemeinsamer Nenner: Text sieht aus wie nativer Instagram-Text – kein Grafik-Panel, keine großen Karten.

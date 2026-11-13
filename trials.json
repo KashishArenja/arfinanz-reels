@@ -185,21 +185,23 @@
      "spec": "t1.json",
      "clip": "IMG_2855.MOV",
      "keyword": "CALL",
-     "hook": "POV: You earn €3,500 net in Germany and burn out. Gap: €2,383 a month",
+     "hook": "Burnout? Your full salary stops after 6 weeks 🇩🇪 (+ Zeitstrahl-Tabelle)",
      "hook_score": 78,
      "metricool_uuid": "-2066836224989904334",
-     "sound": "4168948856760090 Light (Reels Sound - Listicle)"
+     "sound": "4168948856760090 Light (Reels Sound - Listicle)",
+     "hook_v1_replaced": true
     },
     {
      "time": "16:30",
      "format": "Myth/Reality-Karte",
      "spec": "t2.json",
-     "clip": "IMG_4854.MOV",
+     "clip": "IMG_0222.mov",
      "keyword": "CALL",
-     "hook": "POV: You think Germany pays you if burnout ends your career",
+     "hook": "#1 reason people in Germany can't work anymore: mental health 🧠",
      "hook_score": 75,
      "metricool_uuid": "-3792968090341584917",
-     "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes"
+     "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
+     "hook_v1_replaced": true
     },
     {
      "time": "17:00",
@@ -207,10 +209,11 @@
      "spec": "t3.json",
      "clip": "IMG_1989.MOV",
      "keyword": "CALL",
-     "hook": "POV: Same job, same burnout in Germany. One lives on €1,117 a month",
+     "hook": "Same job. Same burnout. One lives on €1,117 a month 🇩🇪",
      "hook_score": 79,
      "metricool_uuid": "8859807067176191380",
-     "sound": "1108285910189784 Knockout – Adam Griffith"
+     "sound": "1108285910189784 Knockout – Adam Griffith",
+     "hook_v1_replaced": true
     },
     {
      "time": "17:30",
@@ -218,12 +221,14 @@
      "spec": "t4.json",
      "clip": "IMG_2854.mov",
      "keyword": "CALL",
-     "hook": "🚨 POV: 5 things expats in Germany learn too late about burnout",
+     "hook": "🚨 Can't work anymore? Who pays your family's bills? 🇮🇳",
      "hook_score": 75,
      "metricool_uuid": "6736844394102736149",
-     "sound": "4081506028794633 Go (Reels Sound - Listicle)"
+     "sound": "4081506028794633 Go (Reels Sound - Listicle)",
+     "hook_v1_replaced": true
     }
-   ]
+   ],
+   "note": "13.11. ~09:10 auf v2 umgebaut (Feedback Kashish: 1-Sekunden-Test), Metricool-Posts per update ersetzt (uuids unverändert)."
   }
  ]
 }
