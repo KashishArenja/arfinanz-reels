@@ -164,6 +164,66 @@
     }
    ],
    "note": "12.11. 09:57 neu gerendert: 'life insurance' statt 'life cover' (Kashish), Captions mit 'term plan'/'sum assured'. Metricool-uuids unverändert."
+  },
+  {
+   "date": "2026-11-13",
+   "topic": "Berufsunfähigkeit (BU)",
+   "keyword": "CALL",
+   "evaluate_after": "2026-11-15T17:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-13_trials_berufsunfaehigkeit",
+   "sources": [
+    "Bundestag hib 909/2026 (09.11.2026): Ø Zahlbetrag volle EM-Rente Ende 2025 = 1.117 €",
+    "GDV/dieversicherer.de 08.05.2025 (Morgen & Morgen): BU-Ursachen Psyche 35,75 %, Unfälle 6,96 %",
+    "Dr. Klein: EM-Rente 5 J. Wartezeit, 3 J. Pflichtbeiträge, < 3 h/Tag allg. Arbeitsmarkt",
+    "EFZG §3 6 Wochen, SGB V §48 Krankengeld max. 78 Wochen"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Tabelle Netto vs. Ø EM-Rente (Lücke/Monat)",
+     "spec": "t1.json",
+     "clip": "IMG_2855.MOV",
+     "keyword": "CALL",
+     "hook": "POV: You earn €3,500 net in Germany and burn out. Gap: €2,383 a month",
+     "hook_score": 78,
+     "metricool_uuid": "-2066836224989904334",
+     "sound": "4168948856760090 Light (Reels Sound - Listicle)"
+    },
+    {
+     "time": "16:30",
+     "format": "Myth/Reality-Karte",
+     "spec": "t2.json",
+     "clip": "IMG_4854.MOV",
+     "keyword": "CALL",
+     "hook": "POV: You think Germany pays you if burnout ends your career",
+     "hook_score": 75,
+     "metricool_uuid": "-3792968090341584917",
+     "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes"
+    },
+    {
+     "time": "17:00",
+     "format": "Vergleichskarte State only | State + BU (gleicher Job, anderes Ergebnis)",
+     "spec": "t3.json",
+     "clip": "IMG_1989.MOV",
+     "keyword": "CALL",
+     "hook": "POV: Same job, same burnout in Germany. One lives on €1,117 a month",
+     "hook_score": 79,
+     "metricool_uuid": "8859807067176191380",
+     "sound": "1108285910189784 Knockout – Adam Griffith"
+    },
+    {
+     "time": "17:30",
+     "format": "Inspo-Liste (finanzherzen): rotes Banner + 5 Emoji-Punkte",
+     "spec": "t4.json",
+     "clip": "IMG_2854.mov",
+     "keyword": "CALL",
+     "hook": "🚨 POV: 5 things expats in Germany learn too late about burnout",
+     "hook_score": 75,
+     "metricool_uuid": "6736844394102736149",
+     "sound": "4081506028794633 Go (Reels Sound - Listicle)"
+    }
+   ]
   }
  ]
 }
