@@ -12,3 +12,5 @@ Quellen:
 - EFZG §3 (6 Wochen Entgeltfortzahlung), SGB V §48 (Krankengeld max. 78 Wochen in 3 Jahren)
 Python: Lücke = Netto − 1.117 (2.500→1.383, 3.000→1.883, 3.500→2.383, 4.000→2.883, 5.000→3.883).
 Bewusst NICHT behauptet: „<5 Jahre = 0 € Staatsrente“ (Abkommen DE–Indien / Ausnahmen §53 SGB VI unklar). „+€2,000“ = gewählte Beispiel-Rente, als „e.g.“ gekennzeichnet.
+
+v2 (13.11., nach Feedback Kashish „1-Sekunden-Test“): alte Specs in v1/. Neue Hooks: t1 roter Hook „Burnout? Your full salary stops after 6 weeks“ + Zeitstrahl-Tabelle (table_hook) + Expat-/Lösungs-Zeile; t2 „#1 reason people in Germany can't work anymore: mental health“, Clip jetzt IMG_0222.mov (ernster Blick; IMG_4854 lief schon 11:00); t3 Hook gekürzt; t4 „🚨 Can't work anymore? Who pays your family's bills? 🇮🇳“. Krankengeld 70 % brutto, max. 90 % netto (§47 SGB V).
