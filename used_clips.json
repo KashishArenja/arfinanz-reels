@@ -1,244 +1,260 @@
 {
- "uses": [
-  {
-   "file": "3c84da1e-a7ac-49a8-80e8-d2a305138b82.mp4",
-   "drive_id": "1vL2Pbn2KQC38c70ud3fBsv3jHBbOJmUI",
-   "start": 0,
-   "dur": 5.1,
-   "posted": "2026-11-10",
-   "topic": "WG mit 12.500 € (STRATEGY)"
-  },
-  {
-   "file": "IMG_7878.MOV",
-   "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
-   "start": 2.0,
-   "dur": 5.1,
-   "posted": "2026-11-10",
-   "topic": "Expat-Rentenlücke vs. deutscher Kollege, Tabelle (PENSION)"
-  },
-  {
-   "file": "IMG_2869.mov",
-   "drive_id": "13QZRixUjopidHEwPijpSw5oIjHlqsR5i",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-10",
-   "topic": "Trial: AVD Mythen-Buster (PENSION)"
-  },
-  {
-   "file": "IMG_7878.MOV",
-   "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
-   "start": 4.5,
-   "dur": 5.1,
-   "posted": "2026-11-10",
-   "topic": "Trial: AVD Zulagen-Tabelle (PENSION)"
-  },
-  {
-   "file": "IMG_7200.MOV",
-   "drive_id": "1PpPZRLFE5uycQWhM_hyJKIy-WywgZQ7S",
-   "start": 0.0,
-   "dur": 5.1,
-   "posted": "2026-11-10",
-   "topic": "Trial: AVD Familien 2 Kinder (PENSION)"
-  },
-  {
-   "file": "IMG_7180.MOV",
-   "drive_id": "1uiNw52ueKfDJgVc8SD-rKZaesqg-_jyo",
-   "start": 3.7,
-   "dur": 5.1,
-   "posted": "2026-11-10",
-   "topic": "Trial: AVD News ab 01.01.2027 (PENSION)"
-  },
-  {
-   "file": "IMG_2869.mov",
-   "drive_id": "13QZRixUjopidHEwPijpSw5oIjHlqsR5i",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-11",
-   "topic": "Wohnungskauf Germany vs. India, Vergleichskarte (HOME)"
-  },
-  {
-   "file": "IMG_7180.MOV",
-   "drive_id": "1uiNw52ueKfDJgVc8SD-rKZaesqg-_jyo",
-   "start": 1.0,
-   "dur": 5.1,
-   "posted": "2026-11-11",
-   "topic": "Mieten vs. Kaufen in Deutschland, Vergleichskarte (HOME)"
-  },
-  {
-   "file": "IMG_1990.MOV",
-   "drive_id": "1WZmSCJFILdb2H8b6LDR9AwGQFZgqLOX9",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-11",
-   "topic": "Trial: Investment Tabelle Mieter zahlt Rate (STRATEGY)"
-  },
-  {
-   "file": "IMG_9990.MOV",
-   "drive_id": "17ccj3FF_qaY9IOykIkLYROeoo9L8M32N",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-11",
-   "topic": "Trial: Investment Myth/Reality (STRATEGY)"
-  },
-  {
-   "file": "IMG_2859.MOV",
-   "drive_id": "1Bzgt99zJFuSV-Pm9cnE8qqWwSdNvvP3n",
-   "start": 2.0,
-   "dur": 5.1,
-   "posted": "2026-11-11",
-   "topic": "Trial: Degressive AfA 5% Neubau (TAX)"
-  },
-  {
-   "file": "3c84da1e-a7ac-49a8-80e8-d2a305138b82.mp4",
-   "drive_id": "1vL2Pbn2KQC38c70ud3fBsv3jHBbOJmUI",
-   "start": 1.0,
-   "dur": 5.1,
-   "posted": "2026-11-11",
-   "topic": "Trial: 3 Zahlen vor Kapitalanlage (STRATEGY)"
-  },
-  {
-   "file": "IMG_9990.MOV",
-   "drive_id": "17ccj3FF_qaY9IOykIkLYROeoo9L8M32N",
-   "start": 0.0,
-   "dur": 5.1,
-   "posted": "2026-11-12",
-   "topic": "Inspo-Liste: 10 Dokumente für die Bank (HOME)"
-  },
-  {
-   "file": "IMG_7262.mov",
-   "drive_id": "1O3D-bBChTbVWqkHvocxS6LLFUkxm-vuH",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-12",
-   "topic": "Trial: Lebensversicherung Tabelle Absicherung (PROTECT)"
-  },
-  {
-   "file": "IMG_8768.MOV",
-   "drive_id": "1L7Ob4T9XPypA7MPGqRapmEZ2cxl3WHh5",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-12",
-   "topic": "Trial: Lebensversicherung Myth/Reality (PROTECT)"
-  },
-  {
-   "file": "IMG_0162.MOV",
-   "drive_id": "1ArVPMDt43tD1xXeENlXgfXR-U8w9Fro7",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-12",
-   "topic": "Trial: Lebensversicherung News Finanztest (PROTECT)"
-  },
-  {
-   "file": "IMG_6518.MOV",
-   "drive_id": "1TNa_hgJdunyVEH5jdfWpLcKR4RZepHZI",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-12",
-   "topic": "Trial: Lebensversicherung Inspo-Liste 5 Zeichen (PROTECT)"
-  },
-  {
-   "file": "IMG_7878.MOV",
-   "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
-   "start": 4.5,
-   "dur": 5.1,
-   "posted": "2026-11-12",
-   "topic": "AVD Gewinner-Repost Zulagen-Tabelle (REEL 13:00, AVD)"
-  },
-  {
-   "file": "IMG_2855.MOV",
-   "drive_id": "1-z20ikk0wWt-AcZbVQhkteVLkeJ11Agk",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-13",
-   "topic": "Trial: BU Tabelle Netto-Lücke (CALL)"
-  },
-  {
-   "file": "IMG_0222.mov",
-   "drive_id": "1Y-v-8TEtfYbc3jWhqduG-vDx17PK4X2M",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-13",
-   "topic": "Trial: BU Myth/Reality v2 mental health (CALL)"
-  },
-  {
-   "file": "IMG_1989.MOV",
-   "drive_id": "1DC2UEn7lXc4cRbNzuwueu5QGaFioI2Gc",
-   "start": 1.0,
-   "dur": 5.1,
-   "posted": "2026-11-13",
-   "topic": "Trial: BU State only vs State + BU (CALL)"
-  },
-  {
-   "file": "IMG_2854.mov",
-   "drive_id": "1xf-4NbxEuB8xqtYPI2ZbHvw4gvyJUcbr",
-   "start": 0.0,
-   "dur": 5.1,
-   "posted": "2026-11-13",
-   "topic": "Trial: BU Inspo-Liste 5 Dinge (CALL)"
-  },
-  {
-   "file": "IMG_4854.MOV",
-   "drive_id": "1H2fGjQq3D1jrwVNHz23pWVR5MzTi5UMy",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-13",
-   "topic": "REEL 11:00 Eltern-Rente „Your parents pension = you“ (PENSION)"
-  },
-  {
-   "file": "IMG_0570.MOV",
-   "drive_id": "1ddZqaMFUi8O_-wkM9CHy2atpbeJIT43R",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-13",
-   "topic": "REEL 13:30 deutscher Kollege – Tabelle Startalter (PENSION)"
-  },
-  {
-   "file": "IMG_4638.MOV",
-   "drive_id": "1m17C-rfl-KHGl58C6_LGqFZLqmdXpBXk",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-14",
-   "topic": "REEL 10:00 Rente nach Indien (PENSION)"
-  },
-  {
-   "file": "IMG_6328.MOV",
-   "drive_id": "1t2eSV9UBeytjaXcHb37NxJBpza892Jbr",
-   "start": 0.3,
-   "dur": 5.1,
-   "posted": "2026-11-15",
-   "topic": "REEL 11:00 No EPF / bAV 15 % (PENSION)"
-  },
-  {
-   "file": "IMG_8769.MOV",
-   "drive_id": "1duIke-7XSLWTVtRA3We9nMddRNRZuDYJ",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-14",
-   "topic": "Trial: PKV Tabelle Find your family (PKV)"
-  },
-  {
-   "file": "IMG_8099.MOV",
-   "drive_id": "1xWE5Pusv3UlEFMtxqfzrj9iSAM2rvkY4",
-   "start": 2.1,
-   "dur": 5.1,
-   "posted": "2026-11-14",
-   "topic": "Trial: PKV Myth/Reality (PKV)"
-  },
-  {
-   "file": "IMG_4635.MOV",
-   "drive_id": "1ll4Jxa1bESgMYw083xjYGtSKB13h_V4H",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-14",
-   "topic": "Trial: PKV gleiches Gehalt, 4 Verträge (PKV)"
-  },
-  {
-   "file": "IMG_9380.MOV",
-   "drive_id": "1HFGEhDOrUnPsTY-d6kNXZq1wXsVbm1oL",
-   "start": 0.5,
-   "dur": 5.1,
-   "posted": "2026-11-14",
-   "topic": "Trial: PKV Liste JAEG 2027 (PKV)"
-  }
- ]
+  "uses": [
+    {
+      "file": "3c84da1e-a7ac-49a8-80e8-d2a305138b82.mp4",
+      "drive_id": "1vL2Pbn2KQC38c70ud3fBsv3jHBbOJmUI",
+      "start": 0,
+      "dur": 5.1,
+      "posted": "2026-11-10",
+      "topic": "WG mit 12.500 € (STRATEGY)"
+    },
+    {
+      "file": "IMG_7878.MOV",
+      "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
+      "start": 2.0,
+      "dur": 5.1,
+      "posted": "2026-11-10",
+      "topic": "Expat-Rentenlücke vs. deutscher Kollege, Tabelle (PENSION)"
+    },
+    {
+      "file": "IMG_2869.mov",
+      "drive_id": "13QZRixUjopidHEwPijpSw5oIjHlqsR5i",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-10",
+      "topic": "Trial: AVD Mythen-Buster (PENSION)"
+    },
+    {
+      "file": "IMG_7878.MOV",
+      "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
+      "start": 4.5,
+      "dur": 5.1,
+      "posted": "2026-11-10",
+      "topic": "Trial: AVD Zulagen-Tabelle (PENSION)"
+    },
+    {
+      "file": "IMG_7200.MOV",
+      "drive_id": "1PpPZRLFE5uycQWhM_hyJKIy-WywgZQ7S",
+      "start": 0.0,
+      "dur": 5.1,
+      "posted": "2026-11-10",
+      "topic": "Trial: AVD Familien 2 Kinder (PENSION)"
+    },
+    {
+      "file": "IMG_7180.MOV",
+      "drive_id": "1uiNw52ueKfDJgVc8SD-rKZaesqg-_jyo",
+      "start": 3.7,
+      "dur": 5.1,
+      "posted": "2026-11-10",
+      "topic": "Trial: AVD News ab 01.01.2027 (PENSION)"
+    },
+    {
+      "file": "IMG_2869.mov",
+      "drive_id": "13QZRixUjopidHEwPijpSw5oIjHlqsR5i",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-11",
+      "topic": "Wohnungskauf Germany vs. India, Vergleichskarte (HOME)"
+    },
+    {
+      "file": "IMG_7180.MOV",
+      "drive_id": "1uiNw52ueKfDJgVc8SD-rKZaesqg-_jyo",
+      "start": 1.0,
+      "dur": 5.1,
+      "posted": "2026-11-11",
+      "topic": "Mieten vs. Kaufen in Deutschland, Vergleichskarte (HOME)"
+    },
+    {
+      "file": "IMG_1990.MOV",
+      "drive_id": "1WZmSCJFILdb2H8b6LDR9AwGQFZgqLOX9",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-11",
+      "topic": "Trial: Investment Tabelle Mieter zahlt Rate (STRATEGY)"
+    },
+    {
+      "file": "IMG_9990.MOV",
+      "drive_id": "17ccj3FF_qaY9IOykIkLYROeoo9L8M32N",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-11",
+      "topic": "Trial: Investment Myth/Reality (STRATEGY)"
+    },
+    {
+      "file": "IMG_2859.MOV",
+      "drive_id": "1Bzgt99zJFuSV-Pm9cnE8qqWwSdNvvP3n",
+      "start": 2.0,
+      "dur": 5.1,
+      "posted": "2026-11-11",
+      "topic": "Trial: Degressive AfA 5% Neubau (TAX)"
+    },
+    {
+      "file": "3c84da1e-a7ac-49a8-80e8-d2a305138b82.mp4",
+      "drive_id": "1vL2Pbn2KQC38c70ud3fBsv3jHBbOJmUI",
+      "start": 1.0,
+      "dur": 5.1,
+      "posted": "2026-11-11",
+      "topic": "Trial: 3 Zahlen vor Kapitalanlage (STRATEGY)"
+    },
+    {
+      "file": "IMG_9990.MOV",
+      "drive_id": "17ccj3FF_qaY9IOykIkLYROeoo9L8M32N",
+      "start": 0.0,
+      "dur": 5.1,
+      "posted": "2026-11-12",
+      "topic": "Inspo-Liste: 10 Dokumente für die Bank (HOME)"
+    },
+    {
+      "file": "IMG_7262.mov",
+      "drive_id": "1O3D-bBChTbVWqkHvocxS6LLFUkxm-vuH",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-12",
+      "topic": "Trial: Lebensversicherung Tabelle Absicherung (PROTECT)"
+    },
+    {
+      "file": "IMG_8768.MOV",
+      "drive_id": "1L7Ob4T9XPypA7MPGqRapmEZ2cxl3WHh5",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-12",
+      "topic": "Trial: Lebensversicherung Myth/Reality (PROTECT)"
+    },
+    {
+      "file": "IMG_0162.MOV",
+      "drive_id": "1ArVPMDt43tD1xXeENlXgfXR-U8w9Fro7",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-12",
+      "topic": "Trial: Lebensversicherung News Finanztest (PROTECT)"
+    },
+    {
+      "file": "IMG_6518.MOV",
+      "drive_id": "1TNa_hgJdunyVEH5jdfWpLcKR4RZepHZI",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-12",
+      "topic": "Trial: Lebensversicherung Inspo-Liste 5 Zeichen (PROTECT)"
+    },
+    {
+      "file": "IMG_7878.MOV",
+      "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
+      "start": 4.5,
+      "dur": 5.1,
+      "posted": "2026-11-12",
+      "topic": "AVD Gewinner-Repost Zulagen-Tabelle (REEL 13:00, AVD)"
+    },
+    {
+      "file": "IMG_2855.MOV",
+      "drive_id": "1-z20ikk0wWt-AcZbVQhkteVLkeJ11Agk",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-13",
+      "topic": "Trial: BU Tabelle Netto-Lücke (CALL)"
+    },
+    {
+      "file": "IMG_0222.mov",
+      "drive_id": "1Y-v-8TEtfYbc3jWhqduG-vDx17PK4X2M",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-13",
+      "topic": "Trial: BU Myth/Reality v2 mental health (CALL)"
+    },
+    {
+      "file": "IMG_1989.MOV",
+      "drive_id": "1DC2UEn7lXc4cRbNzuwueu5QGaFioI2Gc",
+      "start": 1.0,
+      "dur": 5.1,
+      "posted": "2026-11-13",
+      "topic": "Trial: BU State only vs State + BU (CALL)"
+    },
+    {
+      "file": "IMG_2854.mov",
+      "drive_id": "1xf-4NbxEuB8xqtYPI2ZbHvw4gvyJUcbr",
+      "start": 0.0,
+      "dur": 5.1,
+      "posted": "2026-11-13",
+      "topic": "Trial: BU Inspo-Liste 5 Dinge (CALL)"
+    },
+    {
+      "file": "IMG_4854.MOV",
+      "drive_id": "1H2fGjQq3D1jrwVNHz23pWVR5MzTi5UMy",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-13",
+      "topic": "REEL 11:00 Eltern-Rente „Your parents pension = you“ (PENSION)"
+    },
+    {
+      "file": "IMG_0570.MOV",
+      "drive_id": "1ddZqaMFUi8O_-wkM9CHy2atpbeJIT43R",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-13",
+      "topic": "REEL 13:30 deutscher Kollege – Tabelle Startalter (PENSION)"
+    },
+    {
+      "file": "IMG_4638.MOV",
+      "drive_id": "1m17C-rfl-KHGl58C6_LGqFZLqmdXpBXk",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-14",
+      "topic": "REEL 10:00 Rente nach Indien (PENSION)"
+    },
+    {
+      "file": "IMG_6328.MOV",
+      "drive_id": "1t2eSV9UBeytjaXcHb37NxJBpza892Jbr",
+      "start": 0.3,
+      "dur": 5.1,
+      "posted": "2026-11-15",
+      "topic": "REEL 11:00 No EPF / bAV 15 % (PENSION)"
+    },
+    {
+      "file": "IMG_8769.MOV",
+      "drive_id": "1duIke-7XSLWTVtRA3We9nMddRNRZuDYJ",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-14",
+      "topic": "Trial: PKV Tabelle Find your family (PKV)"
+    },
+    {
+      "file": "IMG_8099.MOV",
+      "drive_id": "1xWE5Pusv3UlEFMtxqfzrj9iSAM2rvkY4",
+      "start": 2.1,
+      "dur": 5.1,
+      "posted": "2026-11-14",
+      "topic": "Trial: PKV Myth/Reality (PKV)"
+    },
+    {
+      "file": "IMG_4635.MOV",
+      "drive_id": "1ll4Jxa1bESgMYw083xjYGtSKB13h_V4H",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-14",
+      "topic": "Trial: PKV gleiches Gehalt, 4 Verträge (PKV)"
+    },
+    {
+      "file": "IMG_9380.MOV",
+      "drive_id": "1HFGEhDOrUnPsTY-d6kNXZq1wXsVbm1oL",
+      "start": 0.5,
+      "dur": 5.1,
+      "posted": "2026-11-14",
+      "topic": "Trial: PKV Liste JAEG 2027 (PKV)"
+    },
+    {
+      "file": "IMG_6330.MOV",
+      "drive_id": "1-Uby_WGPrrfR0Qe6OS6Jp2PNWJZo_Tud",
+      "start": 3.1,
+      "dur": 5.1,
+      "posted": "2026-11-16",
+      "topic": "REEL 11:00 KfW 308 Jung kauft Alt – Checkliste „Parents in Germany“ (HOME), uuid 6995950824061880099"
+    },
+    {
+      "file": "IMG_7878.MOV",
+      "drive_id": "1rx76_vPXROi1JlGHtNMBKkEOIT-XBZv3",
+      "start": 0.0,
+      "dur": 5.1,
+      "posted": "2026-11-17",
+      "topic": "REEL 11:00 KfW 308 – Tabelle „Find your family“ (HOME), uuid 6066928826144539096"
+    }
+  ]
 }

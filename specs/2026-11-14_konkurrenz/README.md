@@ -6,4 +6,4 @@ Muster 17 (fionn_kelly_de Kinderzuschlag 7,1× / Couples 2,4×): Callout + Betra
   Alternativen: „Parents in Germany: KfW lends up to €180k for an old house“ 73, „Kids + €90k income or less? Find your KfW amount“ 73.
 Quellen: KfW-Merkblatt 308 Stand 08/2026 (Höchstbeträge 140/160/180k, Einkommen 90k + 10k je weiteres Kind, Schnitt 2./3. Jahr vor Antrag, Ausschluss nur bei Wohneigentum in Deutschland, Klasse F/G/H, Sanierung 4,5 Jahre); kfw.de Produktseite 308.
 Sounds (music, Workflow-Liste): A „Bling (Reels Sound - Listicle)“ 262842866768900, B „Good Time“ 622819303274042. videoVolume 0.
-Vorschlag: A Mo 16.11. 11:00, B Di 17.11. 11:00.
+Eingeplant 14.11. nach „Ja“: A Mo 16.11. 11:00 (uuid 6995950824061880099, Bling, music), B Di 17.11. 11:00 (uuid 6066928826144539096, Good Time, music). MP4s aus reels/ gelöscht.
