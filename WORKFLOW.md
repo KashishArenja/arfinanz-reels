@@ -38,6 +38,11 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 6. **Verweildauer 7–8 s (Kashish 13.11.):** zu wenig Text = Leute wischen nach 2 s weg. Hook bleibt kurz, die LÄNGE kommt aus dem Inhalt darunter: Tabellen mit 6–8 Zeilen, in denen man sich selbst sucht („Find your age 👇“ – jedes Startalter, jedes Gehalt), Vergleichskarten/Listen mit 5–7 Punkten je Seite, stärkster Punkt zuletzt, Stichwort-Pille ganz unten. Ziel ca. 55–80 Wörter im Bild. Grenze: max. ~8 Zeilen, Schrift muss lesbar bleiben. Clip so wählen, dass dafür Platz ist (Köpfe unten oder keine Personen). Test geplant: 8–9-s-Reel mit Punkten, die nacheinander erscheinen (erst als Trial).
 Posting-Rhythmus (Kashish 13.11.): ab Mo 16.11. täglich 2 normale Reels (08–14 Uhr) + abends das längere Talking-Head-Video; Trial Reels wie gehabt.
 
+## STICHWORT-REGEL (Kashish 14.11.2026 – gilt ab sofort für alle Reels)
+- Stichwort ist das Hauptangebot: ab Sekunde 0 groß und gelb im Bild, zwei Blöcke: `["Comment HOME 👇", 64, "yellow"]` + `["Free home-buying guide for expats", 50, "yellow"]` (Größe > 46 → keine Einblendung bei 1,5 s mehr). Die alte kleine Pille „Comment X for the free PDF guide 👇“ (44) nicht mehr verwenden.
+- Zweite Zeile = konkret, was ManyChat schickt (nur versprechen, was es gibt). ManyChat-DM läuft (Kashish 14.11.).
+- Gewinn-Rahmen („Geld, das dir zusteht“) und breite Gruppe im Hook („Parents/Couples/Employees in Germany“), Expat-Dreh in Zeile 2.
+
 ## DESIGN-VORLAGE (fest, Stand 10.11.2026 – im Skript eingebaut)
 Abgeleitet aus unseren Top-Reels (DdGbZA8Nxpn Ehegattenschaukel, DfNDc8eNan9 Urlaubsplanung, Deg3pQLt-I4 Millionaire Couple, Dd1PbGrMz7w Augsburg) und den Konkurrenz-Hits (expats.phil DdMXq3BCitY, iamsarahrahimi DdrI9dxKYAx, fionn_kelly_de Dd6XvODMom5).
 Gemeinsamer Nenner: Text sieht aus wie nativer Instagram-Text – kein Grafik-Panel, keine großen Karten.
