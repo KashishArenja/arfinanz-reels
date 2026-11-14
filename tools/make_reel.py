@@ -471,7 +471,7 @@ def list_card(lst, faces, reserve=0):
         widths = [rich_len(d, it, f) + 2 * LPAD_X for it in items]
         if total > bottom - top or max(widths) > W * 0.62:
             continue
-        y0 = top + (bottom - top - total) // 3
+        y0 = top if lst.get("align") == "top" else top + (bottom - top - total) // 3   # "align": "top" = list directly under the banner (person walks through the lower half)
         rects = []
         yy = y0
         for w in widths:

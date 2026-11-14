@@ -1,6 +1,6 @@
 # 14.11.2026 – Konkurrenz-Check → 2 Reels KfW 308 „Jung kauft Alt“ (HOME)
 Muster 17 (fionn_kelly_de Kinderzuschlag 7,1× / Couples 2,4×): Callout + Betrag + Bedingungs-Checkliste.
-- a_kfw_checklist: IMG_6330.MOV (neu), start 0.5, `list`. Hook „Own a flat in India? You can still get KfW's €180k family loan“ – 79 STRONG (Permission).
+- a_kfw_checklist v2 (Feedback Kashish 14.11.: Hook nicht gut, Person soll früher gehen): IMG_6330.MOV start 3.1 (er läuft ab Bild 1 zum Auto), `list` mit `align: top` + kurze Punkte (größere Schrift). Neuer Hook „Kids + old house? Most expats miss this €180k state loan“ – 82 STRONG (Nobody tells you; Bild = Altbau, ohne Fachwort KfW im Hook). v1: IMG_6330.MOV start 0.5, `list`. Hook „Own a flat in India? You can still get KfW's €180k family loan“ – 79 STRONG (Permission).
   Alternativen: „Parents in Germany: KfW lends you up to €180,000“ 73 STRONG (Callout), „Nobody tells expat parents about this €180k KfW loan“ 70 STRONG-Grenze (Nobody tells you).
 - b_kfw_table: IMG_7878.MOV (Dachboden), start 0.0, `table_hook`. Hook „Buying an old home with kids? Don't skip KfW's €180k loan“ – 80 STRONG (Cost/Stakes).
   Alternativen: „Parents in Germany: KfW lends up to €180k for an old house“ 73, „Kids + €90k income or less? Find your KfW amount“ 73.
