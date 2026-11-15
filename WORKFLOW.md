@@ -43,6 +43,12 @@ Posting-Rhythmus (Kashish 13.11., Trials geändert 14.11.): ab Mo 16.11. täglic
 - Zweite Zeile = konkret, was ManyChat schickt (nur versprechen, was es gibt). ManyChat-DM läuft (Kashish 14.11.).
 - Gewinn-Rahmen („Geld, das dir zusteht“) und breite Gruppe im Hook („Parents/Couples/Employees in Germany“), Expat-Dreh in Zeile 2.
 
+## CONTENT-MIX + KONKURRENZ-REGEL (Kashish 15.11.2026)
+- **70 % Produkt, 30 % allgemeine Tipps/News für Expats.** Produkt = Baufinanzierung, Kapitalanlage, Rente/AVD/Rürup, Versicherung, Steuern sparen damit (Stichwort HOME/STRATEGY/TAX/PENSION/AVD/PROTECT/PKV/CALL). Allgemein = Steuer-Hacks ohne Produkt (z. B. Unterhalt an Eltern in Indien §33a), Gesetzesänderungen, Fristen, Behörden-/Alltagswissen für Expats in Deutschland – für Reichweite. Allgemeine Reels dürfen statt Stichwort „Save this 📌 / Send it to …“ als CTA haben (nichts versprechen, was ManyChat nicht schickt). Beleg: September-News (29.08.) 90k Aufrufe.
+- Auch allgemeine Tipps: konkrete €-Zahl oder Datum für den Zuschauer + Expat-Dreh (reine Meinung/News ohne Zahl zieht nicht, siehe Muster 16).
+- **Konkurrenz-Hits immer nachbauen, nur leicht umschreiben:** gleiches Thema, gleiche Regel/Zahl, gleiche Struktur (Hook-Formel, Checkliste, Farben), dazu Expat-Dreh. Was wir NICHT übernehmen: den Wortlaut 1:1, ihr Video/Bild und ihr Gratis-Ding – Text in eigenen Worten, eigener Clip, eigene geprüfte Zahl (urheberrechtlich sauber und Instagram stuft Kopien ab; Phils fast wortgleiche Wiederholung 10.11. nur 1,2× statt 27,6×).
+- Jeden Tag beim Konkurrenz-Check: Ausreißer ≥ 3× (auch Steuer-/Allgemein-Themen) → direkt 1–2 Reels nach diesem Muster bauen und Kashish zur Freigabe schicken.
+
 ## STEUERSPAR-REGEL (Kashish 15.11.2026 – Korrektur)
 Steuern sparen IST unser Content, nicht „fremdes Thema“. Wir zeigen, wie man legal Steuern spart – mit Kapitalanlage-Immobilie (AfA, Zinsen, Kosten, 15-%-Grenze, 10-Jahres-Regel, Ehegattenschaukel), mit Rürup/Basisrente, bAV, AVD-Zulagen und anderen Hacks (z. B. steuerfreie Arbeitgeber-Extras, Kita-Zuschuss, Steuerklassen/Splitting für Paare, Werbungskosten). Konkurrenz-Reels zu Steuerthemen also NICHT mehr als „nicht für uns“ aussortieren, sondern als Muster übernehmen.
 - Immer mit Expat-Dreh (z. B. „Like 80C back home“, Blue Card + Mietwohnung, Partner in Indien/ohne Job → Steuerklasse) und einer €-Zahl für den Zuschauer, per Python mit §32a EStG des Jahres gerechnet.
