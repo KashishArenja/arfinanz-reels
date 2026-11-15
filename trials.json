@@ -148,7 +148,7 @@
    "topic": "Lebensversicherung (Risikoleben)",
    "keyword": "PROTECT",
    "evaluate_after": "2026-11-14T17:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-12_trials_lebensversicherung",
    "sources": [
     "test.de Risikolebensversicherung-Vergleich, Finanztest 12/2026 (09.11.2026): 500k bis 67, Nichtraucher BMI 22, günstigster 456 €/J (35), 628 €/J (45), teure >3×, Richtwert 3–5× Bruttojahresgehalt",
@@ -200,7 +200,53 @@
      "sound": "798148105935087"
     }
    ],
-   "note": "12.11. 09:57 neu gerendert: 'life insurance' statt 'life cover' (Kashish), Captions mit 'term plan'/'sum assured'. Metricool-uuids unverändert."
+   "note": "12.11. 09:57 neu gerendert: 'life insurance' statt 'life cover' (Kashish), Captions mit 'term plan'/'sum assured'. Metricool-uuids unverändert.",
+   "evaluation": {
+    "date": "2026-11-15 08:10",
+    "hours": "~64 h",
+    "median_normal_reels_4w": 5094,
+    "median_shares_saves": 24,
+    "results": {
+     "t1 Tabelle": {
+      "views": 1235,
+      "reach": 703,
+      "shares": 1,
+      "saves": 1,
+      "comments": 0,
+      "avg_watch_s": 5.53,
+      "rate_3s": 48.1
+     },
+     "t2 Myth/Reality": {
+      "views": 2471,
+      "reach": 1098,
+      "shares": 0,
+      "saves": 0,
+      "comments": 0,
+      "avg_watch_s": 8.73,
+      "rate_3s": 64.5
+     },
+     "t3 News Finanztest": {
+      "views": 1140,
+      "reach": 672,
+      "shares": 0,
+      "saves": 3,
+      "comments": 0,
+      "avg_watch_s": 8.87,
+      "rate_3s": 51.0
+     },
+     "t4 Liste 5 Zeichen": {
+      "views": 1483,
+      "reach": 846,
+      "shares": 0,
+      "saves": 0,
+      "comments": 2,
+      "avg_watch_s": 5.99,
+      "rate_3s": 48.7
+     }
+    },
+    "winner": "t2 Myth/Reality (2.471 = 0,49× Median; 1,92× Schnitt der anderen 1.286 → unter 2×; Shares+Saves 0)",
+    "decision": "nicht posten"
+   }
   },
   {
    "date": "2026-11-13",
@@ -328,6 +374,57 @@
      "hook_score": 75,
      "metricool_uuid": "-1330237345686993622",
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
+     "audioType": "music"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "topic": "Recycling: Gehalts-Perzentile (TAX) + Rürup/Basisrente (PENSION)",
+   "keyword": "TAX / PENSION",
+   "evaluate_after": "2026-11-17T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-15_recycling",
+   "sources": [
+    "Destatis PM 01.04.2026: Median Vollzeit 2025 54.066 €, Top 10 % ab 100.719 €, Top 1 % ab 219.110 €, untere 10 % bis 33.828 €",
+    "§32a EStG 2026 (gesetze-im-internet.de): 42 % ab 69.879 €, 45 % ab 277.826 €",
+    "steuerschroeder.de: Basisrente-Höchstbetrag 2026 30.826 € / 61.652 €, Abzugsquote 100 %"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – table_hook 'Find your salary'",
+     "original_url": "https://www.instagram.com/reel/Dc8REnyNG7y/",
+     "original_date": "2026-09-06",
+     "original_views": 59330,
+     "spec": "r1_salary.json",
+     "clip": "IMG_2855.MOV",
+     "clip_start": 2.8,
+     "persons": 0,
+     "keyword": "TAX",
+     "hook_old": "Most people completely misjudge where they stand. (Median €4,505 / Top 10 % €8,395)",
+     "hook": "Half of Germany's full-timers earn under €4,505. You? 🇩🇪",
+     "hook_score": 73,
+     "metricool_uuid": "5219613121666958502",
+     "sound": "1108285910189784 Knockout – Adam Griffith",
+     "audioType": "music"
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – table_hook 'Rürup – find your income'",
+     "original_url": "https://www.instagram.com/reel/Dcx8uTltlj3/",
+     "original_date": "2026-09-02",
+     "original_views": 94870,
+     "spec": "r2_ruerup.json",
+     "clip": "IMG_1989.MOV",
+     "clip_start": 2.7,
+     "persons": 0,
+     "keyword": "PENSION",
+     "hook_old": "Most expats only know two ways to deal with taxes: pay them or complain (Finanzamt pays up to 42–45 % of your retirement savings)",
+     "hook": "High earner? The tax office pays 42% of your pension savings 🇩🇪",
+     "hook_score": 75,
+     "metricool_uuid": "-1749023431608088436",
+     "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
      "audioType": "music"
     }
    ]
