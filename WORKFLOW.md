@@ -151,6 +151,7 @@ Kashish: „Du siehst, was bei uns und bei der Konkurrenz gut läuft – darauf 
 - Freigabe: Kashish bekommt alle Vorschauen + Captions; erst nach „Ja“ einplanen
 
 ## Clips mehrfach nutzen und kombinieren (von Kashish ausdrücklich erlaubt)
+- Clips, die bisher nur in Trial Reels liefen (nur Nicht-Followern gezeigt), dürfen für normale Reels wieder genutzt werden (Kashish 15.11.).
 - Ein Clip darf mehrfach verwendet werden, auch in derselben Woche – dann aber mit einem anderen Abschnitt (`start`) und anderem Thema.
 - Mehrere Clips dürfen zu einem Reel geschnitten werden (`segments` in spec.json, z. B. 2 × ~2,5 s). Schnitte möglichst auf ruhige Momente legen.
 - Derselbe Abschnitt (gleicher Clip + ähnlicher start) frühestens nach 3 Wochen wieder, und nie zweimal direkt hintereinander im Feed.

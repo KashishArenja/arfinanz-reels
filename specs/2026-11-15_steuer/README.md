@@ -6,6 +6,7 @@ s1_parents_india (30-%-Topf „allgemeine Tipps“): IMG_8769.MOV ab 2,1 s (Back
 Hooks (L/S/St/F/A → Gesamt): „🚨 Sending money to your parents in India? Get up to €1,297 back per parent“ 70/90/75/75/90 → **76 STRONG** ✅ · „Supporting parents in India? The Finanzamt pays up to €2,593 back“ 85/90/70/80/85 → 77 (setzt 2 Eltern + 42 % voraus) · „Indians in Germany, listen up 🚨 Your parents' support = tax back“ (am nächsten an Fionn) 85/60/70/85/90 → 71.
 Zahlen (Python): §33a Höchstbetrag 2026 12.348 € (lohnsteuer-kompakt), Indien Ländergruppe 4 = ¼ (BMF-Schreiben Ländergruppen, steuerschroeder.de) → 3.087 €/Elternteil; × 42 % = 1.297 €; 2 Eltern 2.593 €; anrechnungsfreie eigene Einkünfte 624 € × ¼ = 156 €. Seit 2025 keine Barzahlungen.
 
-s2_couples (nah an Fionn): Spec fertig, aber kein passender Clip – auf IMG_2864 verdeckt die Liste den Kopf, Paar-Clip fehlt. Wartet auf Paar-Footage.
+s2_couples (nah an Fionn): kein Paar-Clip vorhanden → Kashish 15.11.: passenden Clip nehmen, auch aus Trials. IMG_7262.mov ab 1,0 s (leere Wohnung/Küche = gemeinsamer Haushalt, 0 Personen, bisher nur LV-Trial 12.11.). Hook „💑 Couples, not married? Up to €12,348 off your taxable income“ 75 STRONG (L80/S90/St65/F80/A85).
+Eingeplant: REEL Fr 20.11. 11:00, Sound Good Time 622819303274042 (music), uuid 2916759542200221916.
 
 Eingeplant (Freigabe Kashish 15.11.): s1 als REEL Do 19.11. 11:00, Sound Euphoria 2488847887958999 (music), uuid -6969570146217931194.
