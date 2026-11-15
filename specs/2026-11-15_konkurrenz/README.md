@@ -7,4 +7,4 @@ Muster 18 (fionn_kelly_de 14.11., 6,7× nach <24 h, 729 Kommentare = 62 %): Datu
 Zahlen (Python): Zulage = 50 % × min(E, 360) + 25 % × (min(E, 1.800) − 360) + Kinder × min(E, 300) → bei €1.800/Jahr 540 / 840 / 1.140 / 1.440; ×10 Jahre 5.400 / 8.400 / 11.400 / 14.400.
 Quellen: AVD-Guide (guides/arfinanz_AVD_guide.pdf, Altersvorsorgereformgesetz BT 27.03.2026 / BR 08.05.2026); Gegencheck 15.11. biallo.de „300 Euro pro Kind“, stuttgarter-zeitung.de „bis zu 540 Euro vom Staat“.
 Sounds (music, Workflow-Liste): A „Knockout“ (Adam Griffith) 1108285910189784, B „Tinsel and Memories (Reels Sound - Photo Dump)“ 5213434452215987. videoVolume 0.
-Vorschlag: A Di 17.11. 09:00, B Mi 18.11. 11:00 (16.11. 15:30 läuft schon das AVD-Talking-Head-Video). Wartet auf „Ja“.
+Vorschlag: A Di 17.11. 09:00, B Mi 18.11. 11:00 (16.11. 15:30 läuft schon das AVD-Talking-Head-Video). Eingeplant 15.11. nach Freigabe: A Di 17.11. 09:00 (uuid -7242087739906570825, Knockout, music), B Mi 18.11. 11:00 (uuid -6000409166209922965, Tinsel and Memories, music). MP4s aus reels/ gelöscht.
