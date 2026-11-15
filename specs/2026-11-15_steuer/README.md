@@ -7,3 +7,5 @@ Hooks (L/S/St/F/A → Gesamt): „🚨 Sending money to your parents in India? G
 Zahlen (Python): §33a Höchstbetrag 2026 12.348 € (lohnsteuer-kompakt), Indien Ländergruppe 4 = ¼ (BMF-Schreiben Ländergruppen, steuerschroeder.de) → 3.087 €/Elternteil; × 42 % = 1.297 €; 2 Eltern 2.593 €; anrechnungsfreie eigene Einkünfte 624 € × ¼ = 156 €. Seit 2025 keine Barzahlungen.
 
 s2_couples (nah an Fionn): Spec fertig, aber kein passender Clip – auf IMG_2864 verdeckt die Liste den Kopf, Paar-Clip fehlt. Wartet auf Paar-Footage.
+
+Eingeplant (Freigabe Kashish 15.11.): s1 als REEL Do 19.11. 11:00, Sound Euphoria 2488847887958999 (music), uuid -6969570146217931194.
