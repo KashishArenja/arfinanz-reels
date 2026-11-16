@@ -1,5 +1,5 @@
 {
- "note": "Log der täglichen Trial-Reel-Tests. status: läuft | gewinner_gepostet | kein_gewinner | eigener_task",
+ "note": "Log der täglichen Trial-Reel-Tests. status: läuft | teilen_empfohlen | geteilt | gewinner_gepostet | kein_gewinner | eigener_task",
  "tests": [
   {
    "date": "2026-11-10",
@@ -355,7 +355,7 @@
    "topic": "Private Krankenversicherung (PKV vs GKV)",
    "keyword": "PKV",
    "evaluate_after": "2026-11-16T17:30",
-   "status": "läuft",
+   "status": "teilen_empfohlen",
    "specs": "specs/2026-11-14_trials_pkv",
    "sources": [
     "BMG beitraege: 14,6 % + Ø Zusatzbeitrag 2,9 %, BBG KV 5.812,50 €/Monat (2026) → AN-Anteil KV max 508,59 €",
@@ -411,16 +411,25 @@
      "hook_score": 75,
      "metricool_uuid": "-1330237345686993622",
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 5287,
+      "reach": 2484,
+      "view_rate_3s": 65.6,
+      "shares": 0,
+      "saves": 1,
+      "comments": 0
+     }
     }
-   ]
+   ],
+   "note": "16.11.: Liste 17:30 'Going private in 2027?' 5.287 Aufrufe ≥ Median 5.282 + 1 Save → Kashish soll in der App mit Followern teilen (neue Regel 16.11.)."
   },
   {
    "date": "2026-11-15",
    "topic": "Recycling: Gehalts-Perzentile (TAX) + Rürup/Basisrente (PENSION)",
    "keyword": "TAX / PENSION",
    "evaluate_after": "2026-11-17T16:30",
-   "status": "läuft",
+   "status": "teilen_empfohlen",
    "specs": "specs/2026-11-15_recycling",
    "sources": [
     "Destatis PM 01.04.2026: Median Vollzeit 2025 54.066 €, Top 10 % ab 100.719 €, Top 1 % ab 219.110 €, untere 10 % bis 33.828 €",
@@ -444,7 +453,15 @@
      "hook_score": 73,
      "metricool_uuid": "5219613121666958502",
      "sound": "1108285910189784 Knockout – Adam Griffith",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 4583,
+      "reach": 2222,
+      "view_rate_3s": 52.4,
+      "shares": 4,
+      "saves": 2,
+      "comments": 2
+     }
     },
     {
      "time": "16:30",
@@ -464,7 +481,8 @@
      "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
      "audioType": "music"
     }
-   ]
+   ],
+   "note": "16.11.: Gehalts-Perzentile 16:00 4.583 Aufrufe (Metricool, in der App lt. Kashish > 5.000), 2 Kommentare, 4 Shares → Kashish soll mit Followern teilen (neue Regel 16.11.)."
   },
   {
    "date": "2026-11-16",
