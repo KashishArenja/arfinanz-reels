@@ -490,7 +490,7 @@
      "persons": 0,
      "keyword": "STRATEGY",
      "hook_old": "Be honest – are you ahead or behind? (Under 35: €17,300)",
-     "hook": "Under 35 in Germany? Half own less than €17,300. You?",
+     "hook": "Half of under-35s in Germany have less than €17,300 💰",
      "hook_score": 74,
      "metricool_uuid": "-3672778826494030330",
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
@@ -507,13 +507,14 @@
      "persons": 0,
      "keyword": "HOME",
      "hook_old": "Average gross salary by German state (BW €4,356 / MV €3,204)",
-     "hook": "Your state in Germany = up to €1,271 more pay a month 🇩🇪",
+     "hook": "Same country, other state: up to €1,271 more salary a month 🇩🇪",
      "hook_score": 77,
      "metricool_uuid": "8233412776494711923",
      "sound": "2488847887958999 Euphoria – Giulio Cercato",
      "audioType": "music"
     }
-   ]
+   ],
+   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert)."
   }
  ]
 }
