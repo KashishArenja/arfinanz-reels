@@ -476,7 +476,8 @@
    "sources": [
     "IW-Kurzbericht 59/2025 (09.07.2025) auf Basis Bundesbank PHF 2023: Median Nettovermögen Haushalte < 35 J. 17.300 €, 55–64 J. 241.100 €",
     "Bundesbank PHF 2023 (Pressegespräch / Monatsbericht 04/2025): Median alle Haushalte 103.200 € nominal",
-    "BA Presseinfo 27 (20.07.2026): Median Bruttomonatsentgelt Vollzeit 31.12.2025: DE 4.217 €, HH 4.768, BW 4.546, HE 4.530, ST 3.563, TH 3.508, MV 3.497"
+    "BA Presseinfo 27 (20.07.2026): Median Bruttomonatsentgelt Vollzeit 31.12.2025: DE 4.217 €, HH 4.768, BW 4.546, HE 4.530, ST 3.563, TH 3.508, MV 3.497",
+    "BIAJ-Tabelle 21.07.2026 (BA Entgeltstatistik 31.12.2025, Arbeitsort): Erlangen 6.083, Wolfsburg 5.775, München 5.600, Stuttgart 5.551, Frankfurt 5.469, Hamburg 4.768, Berlin 4.459, Leipzig 4.026, Erfurt 3.763 €"
    ],
    "reels": [
     {
@@ -498,7 +499,7 @@
     },
     {
      "time": "16:30",
-     "format": "Recycling – table_hook 'Find your state'",
+     "format": "Recycling – table_hook 'Find your city' (v3: Städte statt Bundesländer, Wunsch Kashish)",
      "original_url": "https://www.instagram.com/reel/Db0wDOqMHgY/",
      "original_date": "2026-08-09",
      "original_views": 39206,
@@ -507,14 +508,14 @@
      "persons": 0,
      "keyword": "HOME",
      "hook_old": "Average gross salary by German state (BW €4,356 / MV €3,204)",
-     "hook": "Same country, other state: up to €1,271 more salary a month 🇩🇪",
+     "hook": "Same country, other city: up to €2,057 more salary a month 🇩🇪",
      "hook_score": 77,
      "metricool_uuid": "8233412776494711923",
      "sound": "2488847887958999 Euphoria – Giulio Cercato",
      "audioType": "music"
     }
    ],
-   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert)."
+   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption."
   }
  ]
 }
