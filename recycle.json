@@ -196,8 +196,14 @@
    "views": 47617,
    "shares": 99,
    "saves": 67,
-   "topic": "Vermögen nach Alter (Bundesbank: <35 J. Median €17.300) → Hebel/Steuern (CALL)",
-   "recycled": []
+   "topic": "Vermögen nach Alter (Bundesbank PHF: <35 J. Median €17.300) → Hebel/Steuern (CALL→STRATEGY), kein Personen-Vergleich (Tabelle); Zahlen 16.11. geprüft (PHF 2023/IW 2025)",
+   "recycled": [
+    {
+     "date": "2026-11-16",
+     "uuid": "-3672778826494030330",
+     "type": "TRIAL_REEL 16:00"
+    }
+   ]
   },
   {
    "posted": "2026-10-02",
@@ -206,7 +212,7 @@
    "views": 45512,
    "shares": 83,
    "saves": 67,
-   "topic": null,
+   "topic": "High earner 2026 – Gehaltsklassen brutto/Monat (SALARY/CALL) = gleicher Inhalt wie Gehalts-Perzentile (Trial 15.11.) → frühestens 27.12.",
    "recycled": []
   },
   {
@@ -216,7 +222,7 @@
    "views": 42208,
    "shares": 112,
    "saves": 276,
-   "topic": null,
+   "topic": "Rürup/Basisrente €5.000 → ~€2.100 zurück (PENSION) = gleicher Inhalt wie Dcx8uTltlj3 (Trial 15.11.) → frühestens 27.12.",
    "recycled": []
   },
   {
@@ -236,8 +242,14 @@
    "views": 39198,
    "shares": 134,
    "saves": 136,
-   "topic": null,
-   "recycled": []
+   "topic": "Gehalt nach Bundesland (Original BW €4.356 / MV €3.204) → aktualisiert BA 31.12.2025: HH €4.768 / MV €3.497, Lücke €1.271 (HOME), kein Personen-Vergleich (Ranking)",
+   "recycled": [
+    {
+     "date": "2026-11-16",
+     "uuid": "8233412776494711923",
+     "type": "TRIAL_REEL 16:30"
+    }
+   ]
   },
   {
    "posted": "2026-08-24",
@@ -246,7 +258,7 @@
    "views": 36970,
    "shares": 101,
    "saves": 69,
-   "topic": null,
+   "topic": "€100K brutto → ~€58K netto, Netto optimieren (TAX), kein Personen-Vergleich – Kandidat für nächsten Lauf (Netto 2026 per Python neu rechnen)",
    "recycled": []
   },
   {
@@ -256,7 +268,7 @@
    "views": 36134,
    "shares": 21,
    "saves": 34,
-   "topic": null,
+   "topic": "Ärzte-Gehalt Indien vs Deutschland (CALL), Vergleich Länder (keine 2 Personen bekannt) – Zahlen neu prüfen",
    "recycled": []
   },
   {

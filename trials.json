@@ -253,7 +253,7 @@
    "topic": "Berufsunfähigkeit (BU)",
    "keyword": "CALL",
    "evaluate_after": "2026-11-15T17:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-13_trials_berufsunfaehigkeit",
    "sources": [
     "Bundestag hib 909/2026 (09.11.2026): Ø Zahlbetrag volle EM-Rente Ende 2025 = 1.117 €",
@@ -272,7 +272,16 @@
      "hook_score": 78,
      "metricool_uuid": "-2066836224989904334",
      "sound": "4168948856760090 Light (Reels Sound - Listicle)",
-     "hook_v1_replaced": true
+     "hook_v1_replaced": true,
+     "result": {
+      "views": 3017,
+      "reach": 1417,
+      "view_rate_3s": 57.6,
+      "avg_watch_s": 9.1,
+      "shares": 1,
+      "saves": 1,
+      "comments": 0
+     }
     },
     {
      "time": "16:30",
@@ -284,7 +293,16 @@
      "hook_score": 75,
      "metricool_uuid": "-3792968090341584917",
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
-     "hook_v1_replaced": true
+     "hook_v1_replaced": true,
+     "result": {
+      "views": 4091,
+      "reach": 1772,
+      "view_rate_3s": 65.9,
+      "avg_watch_s": 9.5,
+      "shares": 0,
+      "saves": 1,
+      "comments": 0
+     }
     },
     {
      "time": "17:00",
@@ -296,7 +314,16 @@
      "hook_score": 79,
      "metricool_uuid": "8859807067176191380",
      "sound": "1108285910189784 Knockout – Adam Griffith",
-     "hook_v1_replaced": true
+     "hook_v1_replaced": true,
+     "result": {
+      "views": 1948,
+      "reach": 1074,
+      "view_rate_3s": 59.6,
+      "avg_watch_s": 6.7,
+      "shares": 0,
+      "saves": 0,
+      "comments": 0
+     }
     },
     {
      "time": "17:30",
@@ -308,10 +335,20 @@
      "hook_score": 75,
      "metricool_uuid": "6736844394102736149",
      "sound": "4081506028794633 Go (Reels Sound - Listicle)",
-     "hook_v1_replaced": true
+     "hook_v1_replaced": true,
+     "result": {
+      "views": 2152,
+      "reach": 1143,
+      "view_rate_3s": 59.0,
+      "avg_watch_s": 7.1,
+      "shares": 0,
+      "saves": 0,
+      "comments": 0
+     }
     }
    ],
-   "note": "13.11. ~09:10 auf v2 umgebaut (Feedback Kashish: 1-Sekunden-Test), Metricool-Posts per update ersetzt (uuids unverändert)."
+   "note": "13.11. ~09:10 auf v2 umgebaut (Feedback Kashish: 1-Sekunden-Test), Metricool-Posts per update ersetzt (uuids unverändert).",
+   "evaluation": "Ausgewertet 16.11. 08:20 (~63 h): Gewinner Myth/Reality 4.091 Aufrufe (35 % vor Tabelle 3.017) = 0,77× Median normaler Reels 19.10.–15.11. (5.282, 58 Reels) und 1,72× Schnitt der anderen drei (2.372); Shares+Saves 1 (Median 24) → nicht abgegangen, kein Repost."
   },
   {
    "date": "2026-11-14",
@@ -425,6 +462,55 @@
      "hook_score": 75,
      "metricool_uuid": "-1749023431608088436",
      "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
+     "audioType": "music"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "topic": "Recycling: Vermögen nach Alter (STRATEGY) + Gehalt nach Bundesland (HOME)",
+   "keyword": "STRATEGY / HOME",
+   "evaluate_after": "2026-11-18T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-16_recycling",
+   "sources": [
+    "IW-Kurzbericht 59/2025 (09.07.2025) auf Basis Bundesbank PHF 2023: Median Nettovermögen Haushalte < 35 J. 17.300 €, 55–64 J. 241.100 €",
+    "Bundesbank PHF 2023 (Pressegespräch / Monatsbericht 04/2025): Median alle Haushalte 103.200 € nominal",
+    "BA Presseinfo 27 (20.07.2026): Median Bruttomonatsentgelt Vollzeit 31.12.2025: DE 4.217 €, HH 4.768, BW 4.546, HE 4.530, ST 3.563, TH 3.508, MV 3.497"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – table_hook 'Find your age'",
+     "original_url": "https://www.instagram.com/reel/DdB8S5atA-Y/",
+     "original_date": "2026-09-08",
+     "original_views": 47619,
+     "spec": "r1_wealth.json",
+     "clip": "3e0890b3.mp4 (4,15 s) + IMG_0570.MOV (4,0 s)",
+     "persons": 0,
+     "keyword": "STRATEGY",
+     "hook_old": "Be honest – are you ahead or behind? (Under 35: €17,300)",
+     "hook": "Under 35 in Germany? Half own less than €17,300. You?",
+     "hook_score": 74,
+     "metricool_uuid": "-3672778826494030330",
+     "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
+     "audioType": "music"
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – table_hook 'Find your state'",
+     "original_url": "https://www.instagram.com/reel/Db0wDOqMHgY/",
+     "original_date": "2026-08-09",
+     "original_views": 39206,
+     "spec": "r2_states.json",
+     "clip": "IMG_8776.mov (3,9 s) + IMG_8769.MOV (4,4 s)",
+     "persons": 0,
+     "keyword": "HOME",
+     "hook_old": "Average gross salary by German state (BW €4,356 / MV €3,204)",
+     "hook": "Your state in Germany = up to €1,271 more pay a month 🇩🇪",
+     "hook_score": 77,
+     "metricool_uuid": "8233412776494711923",
+     "sound": "2488847887958999 Euphoria – Giulio Cercato",
      "audioType": "music"
     }
    ]

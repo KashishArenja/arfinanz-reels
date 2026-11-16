@@ -1,0 +1,4 @@
+{"segments": [{"clip": "/home/claude/clips/3e0890b3.mp4", "start": 4.15, "dur": 2.39}, {"clip": "/home/claude/clips/IMG_0570.MOV", "start": 4.0, "dur": 2.71}],
+ "table_hook": true,
+ "table": {"title": "Find your age 👇", "headers": ["Household", "Median wealth"], "rows": [["Under 35", "€17,300"], ["All ages", "€103,200"], ["Age 55–64", "€241,100"]], "highlight": 0, "note": "Bundesbank PHF 2023 via IW Köln 2025: median net wealth per household."},
+ "blocks": [["Under 35 in Germany? Half own less than €17,300. You?", 60, "red"], ["🇮🇳 Started late here? Time alone won't do it", 48, "red"], ["Comment STRATEGY 👇", 64, "yellow"], ["Free investment-property guide", 50, "yellow"]]}
