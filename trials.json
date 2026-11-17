@@ -513,7 +513,16 @@
      "hook_score": 74,
      "metricool_uuid": "-3672778826494030330",
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 2189,
+      "reach": 1128,
+      "view_rate_3s": 51.8,
+      "shares": 0,
+      "saves": 0,
+      "comments": 0,
+      "as_of": "2026-11-17 08:10"
+     }
     },
     {
      "time": "16:30",
@@ -530,10 +539,67 @@
      "hook_score": 77,
      "metricool_uuid": "8233412776494711923",
      "sound": "2488847887958999 Euphoria – Giulio Cercato",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 2250,
+      "reach": 1143,
+      "view_rate_3s": 52.6,
+      "shares": 1,
+      "saves": 1,
+      "comments": 0,
+      "as_of": "2026-11-17 08:10"
+     }
     }
    ],
-   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption."
+   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption. 17.11. Prüfung (~16 h): 2.189 / 2.250 Aufrufe < Median 5.297 (normale Reels 20.10.–16.11.) → läuft weiter, 72-h-Grenze 19.11. 16:00/16:30."
+  },
+  {
+   "date": "2026-11-17",
+   "topic": "Recycling: €100K brutto → Netto (TAX) + EU-Bargeldobergrenze 2027 (HOME)",
+   "keyword": "TAX / HOME",
+   "evaluate_after": "2026-11-20T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-17_recycling",
+   "sources": [
+    "§32a EStG ab VZ 2026 (gesetze-im-internet.de): Zonen 12.348/17.799/69.878/277.825; eigene Python-Rechnung: zvE 81.866 €, ESt 23.248 €, Soli 345 € (Freigrenze 20.350, Milderungszone), RV 9,3 %, AV 1,3 %, KV 8,75 % + PV 2,4 % bis BBG 69.750 € → Netto 58.030 € (Online-Rechner nettocalc/brutto-netto-rechner.digital zeigen 56.2–56.9k, u. a. Soli ohne Milderungszone)",
+    "finanz.de News Bargeld-Grenze 2027: €10.000 für Unternehmen ab 10.07.2027 (VO (EU) 2024/1624), Identifizierung ab €3.000, privat ohne Obergrenze, Immobilien bar verboten seit 04/2023"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – table_hook 'Where the other €42K goes'",
+     "original_url": "https://www.instagram.com/reel/DcbPyvZNx7c/",
+     "original_date": "2026-08-24",
+     "original_views": 36970,
+     "spec": "r1_net.json",
+     "clip": "IMG_2858.mov 4,6–6,0 s + IMG_2355.MOV 4,4–6,6 s (je 0,7× verlangsamt)",
+     "persons": 0,
+     "keyword": "TAX",
+     "hook_old": "I wish more people knew this before negotiating their salary in Germany (Out of €100K gross, you keep roughly €58K)",
+     "hook": "€100K salary? Only about €58K reaches your account 🇩🇪",
+     "hook_score": 82,
+     "metricool_uuid": "6809376162051408770",
+     "sound": "262842866768900 Bling (Reels Sound - Listicle)",
+     "audioType": "music"
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – News-Blöcke (rotes Banner + 3 Punkte + Expat-Zeile)",
+     "original_url": "https://www.instagram.com/reel/DbdJ5O1tJkM/",
+     "original_date": "2026-07-31",
+     "original_views": 26029,
+     "spec": "r2_cash.json",
+     "clip": "IMG_7874.mov (0,3 s)",
+     "persons": 1,
+     "keyword": "HOME",
+     "hook_old": "From 10 July 2027, new EU rules kick in — and most people in Germany have no idea.",
+     "hook": "🚨 Paying cash in Germany? From July 2027, max €10,000",
+     "hook_score": 78,
+     "metricool_uuid": "531085808794158600",
+     "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
+     "audioType": "music"
+    }
+   ]
   }
  ]
 }
