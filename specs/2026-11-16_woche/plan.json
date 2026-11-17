@@ -1,6 +1,6 @@
 {
  "week": "2026-11-16",
- "status": "Freigegeben (Kashish 17.11.) und in Metricool eingeplant; w02 von Mo 16. 13:30 (vorbei) auf So 22. 13:30, w06 auf Mi 25. 11:00 verschoben",
+ "status": "Freigegeben (Kashish 17.11.) und in Metricool eingeplant; w02 von Mo 16. 13:30 (vorbei) auf So 22. 13:30, w06 auf Mi 25. 11:00 verschoben; 17.11. Kashish: alle 12 bis So 22. → w09 Mi 09:00, w12 Do 09:00, w11 Fr 12:00, w06 Sa 09:00, w07 So 09:00 (3 Reels/Tag Mi–So)",
  "posts": [
   {
    "id": "w02_pension_india",
@@ -65,41 +65,37 @@
   },
   {
    "id": "w06_gold_avd",
-   "date": "2026-11-25T11:00",
+   "date": "2026-11-21T09:00",
    "type": "REEL",
    "sound": "2488847887958999",
    "uuid": "-5610855426295054229"
   },
   {
    "id": "w11_india_vs_de_invest",
-   "date": "2026-11-23T09:00",
+   "date": "2026-11-20T12:00",
    "type": "REEL",
-   "sound": "262842866768900",
-   "note": "Reserve, Folgewoche",
+   "sound": "1108285910189784",
    "uuid": "415541601377992826"
   },
   {
    "id": "w07_handwerker",
-   "date": "2026-11-23T13:00",
+   "date": "2026-11-22T09:00",
    "type": "REEL",
    "sound": "622819303274042",
-   "note": "Reserve, Folgewoche",
    "uuid": "-7143398861797636817"
   },
   {
    "id": "w09_bank_check",
-   "date": "2026-11-24T09:00",
+   "date": "2026-11-18T09:00",
    "type": "REEL",
-   "sound": "5213434452215987",
-   "note": "Reserve, Folgewoche",
+   "sound": "2488847887958999",
    "uuid": "7174915309908738929"
   },
   {
    "id": "w12_afa_newbuild",
-   "date": "2026-11-24T13:00",
+   "date": "2026-11-19T09:00",
    "type": "REEL",
    "sound": "2603949126473975",
-   "note": "Reserve, Folgewoche",
    "uuid": "-618078214608175068"
   }
  ]

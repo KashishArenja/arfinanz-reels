@@ -413,16 +413,16 @@
    "drive_id": "1cpfauQ1IMCA6DfhZiV9SSNDnhVz4SUg6",
    "start": 3.0,
    "dur": 5.1,
-   "posted": "2026-11-22",
-   "topic": "REEL 13:30 Gold vs. AVD (AVD), uuid -5610855426295054229"
+   "posted": "2026-11-21",
+   "topic": "REEL 09:00 Gold vs. AVD (AVD), uuid -5610855426295054229"
   },
   {
    "file": "IMG_7874.mov",
    "drive_id": "1svdNgSlVyOCNGSiCTWkg4ommQ7Az3-LX",
    "start": 0.5,
    "dur": 5.1,
-   "posted": "2026-11-23",
-   "topic": "REEL 13:00 Handwerker 20 % §35a (allgemein), uuid -7143398861797636817"
+   "posted": "2026-11-22",
+   "topic": "REEL 09:00 Handwerker 20 % §35a (allgemein), uuid -7143398861797636817"
   },
   {
    "file": "IMG_2355.MOV",
@@ -445,7 +445,7 @@
    "drive_id": "1iUF0gC0HIFx6w3L_Vp3fKqOTjjeaMPIz",
    "start": 0.0,
    "dur": 2.4,
-   "posted": "2026-11-24",
+   "posted": "2026-11-18",
    "topic": "REEL 09:00 Was Banken prüfen, Blue Card (HOME), uuid 7174915309908738929 (Segment 1)"
   },
   {
@@ -453,7 +453,7 @@
    "drive_id": "13apDocBgJZB6UKDWBkliirgZv5VcSI-b",
    "start": 0.8,
    "dur": 2.7,
-   "posted": "2026-11-24",
+   "posted": "2026-11-18",
    "topic": "REEL 09:00 Was Banken prüfen, Blue Card (HOME), uuid 7174915309908738929 (Segment 2)"
   },
   {
@@ -469,24 +469,24 @@
    "drive_id": "10GSKBIFHTiY5rZQve1Ah6y6IMRyc3Yt8",
    "start": 3.55,
    "dur": 2.6,
-   "posted": "2026-11-23",
-   "topic": "REEL 09:00 Wohnung Indien vs. Deutschland als Kapitalanlage (STRATEGY), uuid 415541601377992826 (Segment 1)"
+   "posted": "2026-11-20",
+   "topic": "REEL 12:00 Wohnung Indien vs. Deutschland als Kapitalanlage (STRATEGY), uuid 415541601377992826 (Segment 1)"
   },
   {
    "file": "IMG_8776.mov",
    "drive_id": "10GSKBIFHTiY5rZQve1Ah6y6IMRyc3Yt8",
    "start": 3.65,
    "dur": 2.5,
-   "posted": "2026-11-23",
-   "topic": "REEL 09:00 Wohnung Indien vs. Deutschland als Kapitalanlage (STRATEGY), uuid 415541601377992826 (Segment 2)"
+   "posted": "2026-11-20",
+   "topic": "REEL 12:00 Wohnung Indien vs. Deutschland als Kapitalanlage (STRATEGY), uuid 415541601377992826 (Segment 2)"
   },
   {
    "file": "IMG_2858.mov",
    "drive_id": "1ndGNLXw6mDp-arIyfXESSNPNYm97iNsb",
    "start": 2.0,
    "dur": 5.1,
-   "posted": "2026-11-24",
-   "topic": "REEL 13:00 Degressive AfA Neubau, Tabelle (TAX), uuid -618078214608175068"
+   "posted": "2026-11-19",
+   "topic": "REEL 09:00 Degressive AfA Neubau, Tabelle (TAX), uuid -618078214608175068"
   }
  ]
 }
