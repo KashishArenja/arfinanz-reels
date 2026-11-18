@@ -36,7 +36,7 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 4. **Max. eine Zahl im Hook**, keine Rechnung zum Verstehen. Tabelle/Details kommen danach, nie statt des Hooks.
 5. Gute Beispiele: „Your parents' pension = you 🇮🇳 / Your pension in Germany = ? 🇩🇪“ · „Same job. Same salary. You get €340 less pension“ · „No EPF in Germany? Your boss still pays into your pension“ · „Burnout? Your full salary stops after 6 weeks“. Schlechte: „POV: You retire with €150k. At €1,000/mo it's gone at 81“ (abstrakt, Rechnung, Bild = Urlaub).
 6. **Verweildauer 7–8 s (Kashish 13.11.):** zu wenig Text = Leute wischen nach 2 s weg. Hook bleibt kurz, die LÄNGE kommt aus dem Inhalt darunter: Tabellen mit 6–8 Zeilen, in denen man sich selbst sucht („Find your age 👇“ – jedes Startalter, jedes Gehalt), Vergleichskarten/Listen mit 5–7 Punkten je Seite, stärkster Punkt zuletzt, Stichwort-Pille ganz unten. Ziel ca. 55–80 Wörter im Bild. Grenze: max. ~8 Zeilen, Schrift muss lesbar bleiben. Clip so wählen, dass dafür Platz ist (Köpfe unten oder keine Personen). Test geplant: 8–9-s-Reel mit Punkten, die nacheinander erscheinen (erst als Trial).
-Posting-Rhythmus (Kashish 13.11., Trials geändert 14.11.): ab Mo 16.11. täglich 2 normale Reels (08–14 Uhr) + abends das längere Talking-Head-Video; dazu 2 Trial Reels (Recycling, siehe „Tägliche Trial Reels“).
+Posting-Rhythmus (Kashish 13.11., Trials geändert 14.11.): ab Mo 16.11. täglich 2 normale Reels (seit 18.11.: 11:00 + 13:30, 09:00 frei) + abends das längere Talking-Head-Video; dazu 2 Trial Reels (Recycling, siehe „Tägliche Trial Reels“).
 7. **Verständlichkeit (Kashish 16.11.: „schwer verstehbar“):** keine Statistik-Wörter im Bild (median, net wealth, gross, household) – stattdessen Alltagssprache („Half have less than“, „before tax“, „savings + property minus loans“). Bundesländer auf Englisch (Hesse, Saxony-Anhalt, Mecklenburg), keine Abkürzungen wie „Meckl.-Vorp.“. Die rote Expat-Zeile muss die Brücke zum Stichwort schlagen („Higher salary = bigger home loan“ → HOME), nicht ein vager Satz („Time alone won't do it“). Test: Versteht ein Inder ohne Finanzwissen jede Zeile beim ersten Lesen?
 
 8. **Deutschland im Hook (Kashish 18.11.):** Jeder Hook nennt Deutschland ausdrücklich („in Germany“, „German …“ oder 🇩🇪), z. B. „Rental flat in Germany? Stop waiting a year for your €2,349 refund“ statt „Rental flat? …“. Hooks sollen ≥ 90 Punkte (ig-reel-Bewertung) erreichen, nicht nur ≥ 70.
@@ -111,6 +111,13 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
 
+## FESTE POSTING-ZEITEN (Kashish 18.11. – gilt vor allen älteren Zeit-Angaben)
+- **Normale Reels: genau 2 pro Tag, um 11:00 und 13:30.** Karussells belegen einen dieser zwei Slots (kein dritter Post).
+- **09:00 bleibt IMMER frei** – dort postet Kashish selbst, wenn ein Test-Reel viral geht.
+- **Test-Reels (TRIAL_REEL): max. 2 pro Tag, zwischen 15:00 und 18:00** (Standard 16:00 und 16:30).
+- Talking-Head-Videos mit Kashish: 15:30, manuell (Push), zählen nicht zu den 2 normalen Reels.
+- Vor jedem Einplanen getScheduledPosts prüfen; ist ein Slot belegt, den nächsten freien 11:00/13:30-Slot nehmen – nie 3 normale Posts an einem Tag.
+
 ## Hooks müssen sofort verständlich sein (Kashish 18.11.)
 - Test vor jedem Hook: Versteht ein Expat, der gerade erst in Deutschland ist, den Satz **ohne Vorwissen in 1 Sekunde**? Wenn nein → umschreiben.
 - Einfache Wörter, keine Abkürzungen/Fachbegriffe im Hook (kein „AVD“, „PKV“, „KfW“, „bAV“, „SF-Klasse“, „Grunderwerbsteuer“) – stattdessen „new pension depot“, „private health insurance“, „buying costs“. Fachbegriffe erst in der Tabelle/Caption, mit Erklärung.
@@ -157,7 +164,7 @@ Kashish: „Du siehst, was bei uns und bei der Konkurrenz gut läuft – darauf 
 
 ## Wochenplan
 - 12 Reels Mo–So: 1–2 pro Tag, nie 3+ (Daten: ab dem 3. Reel pro Tag sinken die Aufrufe)
-- Uhrzeiten zwischen 08:00 und 14:00; 11:00 lief am besten
+- Uhrzeiten: 11:00 und 13:30 (Kashish 18.11.); 09:00 frei für virale Test-Reels
 - 2 Karussells (1080×1350, 6–10 Folien: Cover ≤ 6 Wörter, Stake, je eine Idee, Recap, CTA; Handle klein auf jeder Folie), z. B. Di und Fr
 - Themen-Mix: Proof, Teach, Opinion; Immobilie (Eigenheim + Kapitalanlage), Steuern, Rente, Versicherung
 - Freigabe: Kashish bekommt alle Vorschauen + Captions; erst nach „Ja“ einplanen
@@ -240,7 +247,7 @@ Zusätzlich zu den 12 Reels der Woche: **jeden Tag 4 Trial Reels zu EINEM Thema*
 - **Log:** jeden Test in `trials.json` eintragen (Datum, Thema, Format, Clip, Metricool-uuid, Sound, Status).
 - **NEU AB 16.11.2026 (Kashish) – Teilen statt Neu-Posten, täglich prüfen:** Jeden Morgen ALLE Trials der letzten 3 Tage prüfen (nicht erst nach 48 h). Ein Trial gilt als **abgegangen**, sobald es ≥ Median der Aufrufe unserer normalen Reels der letzten 4 Wochen hat UND mindestens 1 Reaktion (Save, Share oder Kommentar). Dann NICHT neu posten, sondern Kashish sofort per PushNotification + SendUserMessage: „Jetzt in der Instagram-App ‚mit Followern teilen‘: <Hook>, <Datum/Uhrzeit>, <Aufrufe/Reaktionen>“ – das Trial wird so zum normalen Reel und behält Aufrufe, Kommentare und Schwung (ein Neu-Post startet bei 0 und wird als Kopie abgestuft). Status `teilen_empfohlen` (Datum), nach Bestätigung `geteilt`. Jeder Trial wird nur einmal gemeldet. Bleibt ein Trial nach 72 h unter dem Median → durchgefallen: Status `kein_gewinner`, Learning eintragen. Die alte Regel unten (Gewinner neu rendern und als REEL einplanen) gilt nicht mehr.
 - **Auswertung nach 48 h (ALT, ersetzt durch die Regel oben)** (Kashish 11.11.): Reel-Metriken (Aufrufe, Reichweite, Ø Wiedergabezeit, Shares, Saves, Kommentare). Gewinner = meiste Aufrufe; bei < 20 % Abstand entscheiden Shares + Saves + Kommentare.
-  - **Abgegangen** = Gewinner hat mindestens 1,5× den Median der Aufrufe unserer normalen Reels der letzten 4 Wochen ODER mindestens 2× den Schnitt der anderen drei Trials, und Shares + Saves liegen nicht unter dem Median. Dann: Spec aus specs/ neu rendern (bei Bedarf Hook nachschärfen) und als normales REEL im nächsten freien Slot 08–14 Uhr einplanen (max. 2 normale Reels pro Tag), anderer Sound. Status `gewinner_gepostet`.
+  - **Abgegangen** = Gewinner hat mindestens 1,5× den Median der Aufrufe unserer normalen Reels der letzten 4 Wochen ODER mindestens 2× den Schnitt der anderen drei Trials, und Shares + Saves liegen nicht unter dem Median. Dann: Spec aus specs/ neu rendern (bei Bedarf Hook nachschärfen) und als normales REEL im nächsten freien Slot 11:00/13:30 einplanen (max. 2 normale Reels pro Tag), anderer Sound. Status `gewinner_gepostet`.
   - **Nichts abgegangen** → NICHT posten. Mitdenken: woran lag es (Hook, Format, Thema, Clip, erste Sekunde)? Learning unter „Learnings aus eigenen Reels“ eintragen, Status `kein_gewinner`, und beim nächsten Durchlauf dieses Themas andere Formate/Hooks testen.
   - Fehlen die Trial-Reel-Zahlen in Metricool: Kashish um einen Insights-Screenshot der 4 Trials bitten, nicht raten.
 - Kashish bekommt jeden Tag eine kurze Nachricht: Thema + 4 Vorschaubilder der neuen Trials, und (wenn fällig) das Ergebnis der Auswertung mit Zahlen.
