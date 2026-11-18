@@ -39,6 +39,8 @@ Jeden Montag bis 08:00 (Europe/Berlin) vorbereiten, Kashish gibt frei, dann übe
 Posting-Rhythmus (Kashish 13.11., Trials geändert 14.11.): ab Mo 16.11. täglich 2 normale Reels (08–14 Uhr) + abends das längere Talking-Head-Video; dazu 2 Trial Reels (Recycling, siehe „Tägliche Trial Reels“).
 7. **Verständlichkeit (Kashish 16.11.: „schwer verstehbar“):** keine Statistik-Wörter im Bild (median, net wealth, gross, household) – stattdessen Alltagssprache („Half have less than“, „before tax“, „savings + property minus loans“). Bundesländer auf Englisch (Hesse, Saxony-Anhalt, Mecklenburg), keine Abkürzungen wie „Meckl.-Vorp.“. Die rote Expat-Zeile muss die Brücke zum Stichwort schlagen („Higher salary = bigger home loan“ → HOME), nicht ein vager Satz („Time alone won't do it“). Test: Versteht ein Inder ohne Finanzwissen jede Zeile beim ersten Lesen?
 
+8. **Deutschland im Hook (Kashish 18.11.):** Jeder Hook nennt Deutschland ausdrücklich („in Germany“, „German …“ oder 🇩🇪), z. B. „Rental flat in Germany? Stop waiting a year for your €2,349 refund“ statt „Rental flat? …“. Hooks sollen ≥ 90 Punkte (ig-reel-Bewertung) erreichen, nicht nur ≥ 70.
+
 ## STICHWORT-REGEL (Kashish 14.11.2026 – gilt ab sofort für alle Reels)
 - Stichwort ist das Hauptangebot: ab Sekunde 0 groß und gelb im Bild, zwei Blöcke: `["Comment HOME 👇", 64, "yellow"]` + `["Free home-buying guide for expats", 50, "yellow"]` (Größe > 46 → keine Einblendung bei 1,5 s mehr). Die alte kleine Pille „Comment X for the free PDF guide 👇“ (44) nicht mehr verwenden.
 - Zweite Zeile = konkret, was ManyChat schickt (nur versprechen, was es gibt). ManyChat-DM läuft (Kashish 14.11.).

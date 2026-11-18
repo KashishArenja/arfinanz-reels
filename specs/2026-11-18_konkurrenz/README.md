@@ -20,4 +20,6 @@ Regeln: §39a Abs. 1 Nr. 5 EStG (Freibetrag negative V+V-Einkünfte), erst ab Fo
 IMG_1990.MOV ab 0,5 s (Mehrfamilienhaus, keine Personen; zuletzt Trial 11.11. ab 0,3 s). Ungenutzte Clips (IMG_7163/0623/2864/8740) haben alle eine Person mittig → Tabelle passt nicht.
 Sound: Bling (Reels Sound - Listicle) 262842866768900, music. Vorschlag: Mo 23.11. 11:00 (18.–22.11. schon 3 Reels/Tag belegt).
 
+Hook v3 (Kashish 18.11.: „kein Deutschlandbezug – Rental flat in Germany?“): **„Rental flat in Germany? Stop waiting a year for your €2,349 refund“**, Größe 54 (2 Zeilen), Titel „Get it monthly – find your salary 👇“. L 90 (12 Wörter) / S 95 / St 90 / F 95 / A 95 → Mittel 93 × 0,6 + 90 × 0,4 = **92 STRONG**. Metricool-Post per updateScheduledPost getauscht (neue id 432493374, uuid gleich, audioType music ✓).
+
 Eingeplant 18.11. (Freigabe Kashish): Mo 23.11.2026 11:00, REEL, Bling 262842866768900 (audioType music ✓), videoVolume 0, uuid 4349483830158576264. reels/ geleert.
