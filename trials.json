@@ -667,6 +667,44 @@
     }
    ],
    "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'."
+  },
+  {
+   "date": "2026-11-18",
+   "topic": "Farbtabellen (Inspo Sandeep) – Extra-Runde",
+   "keyword": "HOME/PKV/PENSION",
+   "evaluate_after": "2026-11-20T19:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-18_colortables",
+   "reels": [
+    {
+     "time": "18:00",
+     "format": "Farbtabelle Miete 10 Jahre",
+     "metricool_uuid": "-6610656892305128928",
+     "sound": "2603949126473975",
+     "audioType": "music"
+    },
+    {
+     "time": "18:30",
+     "format": "Farbtabelle PKV +15%",
+     "metricool_uuid": "-669262268622877361",
+     "sound": "2488847887958999",
+     "audioType": "music"
+    },
+    {
+     "time": "19:00",
+     "format": "Farbtabelle Kinder-Rente",
+     "metricool_uuid": "-3378893037468038946",
+     "sound": "5213434452215987",
+     "audioType": "music"
+    },
+    {
+     "time": "19:30",
+     "format": "Farbtabelle Gehalt→Kredit",
+     "metricool_uuid": "2351670009418105996",
+     "sound": "1108285910189784",
+     "audioType": "music"
+    }
+   ]
   }
  ]
 }
