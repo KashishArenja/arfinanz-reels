@@ -135,6 +135,13 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Wie normale Reels: Entwürfe im Montags-Wochenpaket zeigen, **erst nach Kashishs „Ja“ einplanen**.
 - Erste Posts: Do 19.11. (Story „why we started“), Di 24.11. (5 Fehler im ersten Jahr).
 
+## HINTERGRUND-CLIPS: EIN GANZER CLIP, NICHTS ZUSAMMENSCHNEIDEN (Kashish 18.11., gilt vor allen älteren Clip-Tricks)
+- **Pro Reel genau EIN Clip, und zwar komplett von Anfang bis Ende** – keine `segments` aus mehreren Clips, keine Rest-Abschnitte, keine „halben Videos“, kein Loop (`-stream_loop` nur als Sicherheitsnetz, Länge = Clip-Länge).
+- Reel-Länge = Clip-Länge (`dur` = Clipdauer / speed − 0,07 s). Zu kurzer Clip (< 6 s) → leicht verlangsamen (speed 0,7–0,8), aber ganz zeigen.
+- **Bereits genutzte Clips dürfen einfach wiederverwendet werden** (Kashish: „nutz sie einfach nochmal“) – nur nicht derselbe Clip zweimal am selben Tag.
+- Gesichter-Regel gilt weiter: Clip, in dem eine Person hinter Tabelle/Text läuft → anderen Clip nehmen. Personenfrei bewährt: IMG_1990 (Haus), IMG_2859 (Baustelle/Windräder, 12,6 s), Dachboden-Clip (t7878, 9,6 s), IMG_9380 nur ohne Tabelle (Person läuft durchs Bild).
+- Der 17.11.-Clip-Trick (Rest-Abschnitte verlangsamen und kombinieren) ist damit **abgeschafft**.
+
 ## Hooks müssen sofort verständlich sein (Kashish 18.11.)
 - Test vor jedem Hook: Versteht ein Expat, der gerade erst in Deutschland ist, den Satz **ohne Vorwissen in 1 Sekunde**? Wenn nein → umschreiben.
 - Einfache Wörter, keine Abkürzungen/Fachbegriffe im Hook (kein „AVD“, „PKV“, „KfW“, „bAV“, „SF-Klasse“, „Grunderwerbsteuer“) – stattdessen „new pension depot“, „private health insurance“, „buying costs“. Fachbegriffe erst in der Tabelle/Caption, mit Erklärung.
