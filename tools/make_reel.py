@@ -343,13 +343,13 @@ def table_card(t, faces, min_y=None):
     """Clean table card, centred. t = {"title","headers","rows","highlight"(row index),"note"}
     Wide (900 px) when it sits above the button rail, otherwise narrow enough to clear it."""
     d = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
-    cols = len(t["headers"]); pad, rh = 36, 76
+    cols = len(t["headers"]); pad, rh = 36, t.get("row_h", 76)   # row_h < 76 = more rows fit above 1440 px
     for width in (900, MAXW):
         inner = width - 2 * pad; colw = inner / cols
         tf = ImageFont.truetype(FONT, 46)
         title_lines = wrap_balanced(d, t["title"], tf, inner)
         hf = _fit(d, t["headers"], 30, colw - 16)
-        cfs = [_fit(d, [r[c] for r in t["rows"]], 44, colw - 16) for c in range(cols)]
+        cfs = [_fit(d, [r[c] for r in t["rows"]], min(44, rh - 20), colw - 16) for c in range(cols)]
         cf = min(cfs, key=lambda f: f.size)   # one size for all cells keeps it clean
         nf = _fit(d, [t.get("note", "")], 24, inner)
         th = len(title_lines) * 58
