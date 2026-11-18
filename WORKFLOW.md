@@ -248,3 +248,10 @@ Kashish schickt Screenshots von Reels, die ihm gefallen – entweder direkt im C
 - 12.11.2026: Drive-Ordner „02_Inspo“ existiert (noch) nicht – im Drive liegen neben „01_Clips roh“ nur „02_Fertig“ und „03_Gepostet“. Keine neuen Inspo-Screenshots.
 - 13.11.2026: „02_Inspo“ weiterhin nicht im Drive (Suche nach „Inspo“ leer) → keine neue Inspo. finanzherzen-Liste erneut genutzt: Trial t4 BU „5 things expats learn too late about burnout“ (CALL). Hinweis: `list` braucht eine freie Bildhälfte – bei Personen in der Mitte bricht das Skript ab bzw. wird die Schrift winzig; Clips ohne Gesicht nehmen (Auto innen, Gebäude).
 - 14.11.2026: „02_Inspo“ weiterhin nicht im Drive (Suche nach „Inspo“ leer) → keine neue Inspo. finanzherzen-Liste erneut genutzt, kombiniert mit Konkurrenz-Muster 8 (News + Datum): Trial t4 PKV „🚨 Going private in 2027? You'll need €84,150+“. Clip-Hinweis: `list` passte nur auf IMG_9380 (Auto, Mann geht von rechts ins Bild); `compare` brauchte einen Clip ohne Gesichter in der Mitte (IMG_8099 ab 2,1 s).
+- 18.11.2026 · realestate.sandeep_ (3 Screenshots Kashish, `inspo/2026-11-18_sandeep_*.png`) · **Rotes Banner-Hook + große Farb-Tabelle**: Hook als Aussage mit Zahl/Kontrast („You need THIS much net income for THAT much house“, „Same 75 m². €570 vs. €1,624 rent“), darunter 3 Spalten mit **blauen Kopfzellen**, 1. Spalte gelb, Werte rot (Kosten) bzw. grün (Einkommen/Gewinn), **12–16 Zeilen** sortiert von hoch nach niedrig, unten schwarzer Kasten mit Annahmen + Quelle + Stand. Funktioniert, weil jeder „seine“ Zeile sucht (Stadt, Bundesland, Preis) → Verweildauer + Saves. Nicht seine Tabellen nachbauen, eigene Themen:
+  - „10 years of rent = THIS much“ – 75 m² Kaltmiete × 120 Monate je Stadt (HOME)
+  - „Your monthly AVD amount → state bonus per year“ – €10 … €150 + Kinder (AVD)
+  - „Your PKV premium now → 2027 → extra per year“ bei +15 % (PKV)
+  - „1, 2, 3 kids → extra pension per month“ via V0800 (PENSION)
+  - „Blue Card salary → max. home loan“ (HOME)
+  Alle Zahlen per Python rechnen bzw. mit Quelle + Stand im schwarzen Kasten. Noch nicht umgesetzt.
