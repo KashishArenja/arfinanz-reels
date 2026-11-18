@@ -111,6 +111,14 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
 
+## FUNNEL-AUFTEILUNG (Kashish 18.11., ab Wochenpaket 23.11.)
+Jede Woche 14 normale Posts (12 Reels + 2 Karussells) aufteilen:
+- **6× TOFU (Aufmerksamkeit):** breite, teilbare Themen, Powerwort-Hooks, Geld-das-dir-zusteht. KPI: Reichweite, Shares. (Test-Reels sind immer TOFU.)
+- **5× MOFU (Vertrauen):** Tabellen, Rechenbeispiele, Talking-Heads, Mythen. KPI: Saves, Follows, Kommentare.
+- **3× BOFU (Conversion):** echte Kundenfälle (nur Eckdaten, keine Namen ohne Einverständnis), Ablauf der Zusammenarbeit, Einwände („Was kostet das?“, „Auf Englisch?“), Wer-wir-sind/Behind the Scenes. CTA = kostenloser Termin (Buchungslink in Bio / DM „CALL“). KPI: DMs, Termine.
+- Im Wochenpaket jeden Post mit TOFU/MOFU/BOFU markieren. Dazu BOFU-Stories über die Woche vorschlagen.
+- **Nichts erfinden:** Kundenfälle nur aus Kashishs Antworten (Datei `bofu_faelle.json` bzw. Antworten im Chat). Fehlen Fälle → Ablauf/Einwand/Wer-wir-sind statt Fallbeispiel.
+
 ## FESTE POSTING-ZEITEN (Kashish 18.11. – gilt vor allen älteren Zeit-Angaben)
 - **Normale Reels: genau 2 pro Tag, um 11:00 und 13:30.** Karussells belegen einen dieser zwei Slots (kein dritter Post).
 - **09:00 bleibt IMMER frei** – dort postet Kashish selbst, wenn ein Test-Reel viral geht.
