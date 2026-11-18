@@ -111,6 +111,13 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
 
+## Hooks müssen sofort verständlich sein (Kashish 18.11.)
+- Test vor jedem Hook: Versteht ein Expat, der gerade erst in Deutschland ist, den Satz **ohne Vorwissen in 1 Sekunde**? Wenn nein → umschreiben.
+- Einfache Wörter, keine Abkürzungen/Fachbegriffe im Hook (kein „AVD“, „PKV“, „KfW“, „bAV“, „SF-Klasse“, „Grunderwerbsteuer“) – stattdessen „new pension depot“, „private health insurance“, „buying costs“. Fachbegriffe erst in der Tabelle/Caption, mit Erklärung.
+- Ein Gedanke pro Hook, mit einer konkreten Zahl und einem klaren „Was heißt das für mich?“.
+- Keine vagen Platzhalter wie „THIS much / THAT much“ ohne Bezug – lieber die echte Zahl nennen.
+- Gut: „You pay €1,048 rent in Hamburg. In 10 years that's €125,760 – gone.“ · Schlecht: „Pay THIS much – the state adds THAT much“.
+
 ## Sound
 - Metricool `instagramData.audioConfiguration.audioId`: erst mit Suchbegriff aufrufen → Kandidatenliste → numerische ID wählen. `videoVolume: 0`.
 - **Trend-Sounds statt ruhiger Standardmusik (Kashish 10.11.: „die Sounds sind langweilig“).** Vor dem Einplanen die aktuellen Instagram-Trend-Sounds der Woche recherchieren (z. B. Buffer, Later, SocialPilot, Kabo – Wochen-Charts). **Keine Bollywood-Lieder** (Kashish 10.11.).
