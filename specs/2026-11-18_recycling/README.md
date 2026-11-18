@@ -32,3 +32,8 @@ r2: 1) „Lowest EMI on your home loan? It can cost €185K more 🇩🇪“ Obj
 - r1: Hook „Your 10-year pay rise? Prices ate 82% of it 🇩🇪“ (95/90/90/80/90 → 85 STRONG), Tabelle „Find your pay“ 6 Zeilen (€2.500–6.000: Gehaltsplus 2015→2025 und was nach Preisen übrig bleibt; Faktoren 1,3532 / 1,2896 aus Destatis-Indizes, 82 % = Preisanteil am Plus), rote Zeile „🇮🇳 Only a salary? Rent out a flat too“.
 - r2: Hook „Small EMI feels safe. It costs you €185,000 more 🇩🇪“ (95/85/95/75/85 → 82 STRONG), Tabelle „Find your EMI“ 6 Zeilen (Tilgung 1/1,5/2/2,5/3/4 %), rote Zeile „🇩🇪 Pay extra later? Check your contract“.
 - make_reel.py: neue Option `row_h` (62) → 6 Zeilen passen über 1.440 px. Metricool per update ersetzt, Sounds unverändert (music).
+
+## v3 (~09:07, Kashish: Hooks müssen > 90 Punkte haben)
+- r1: „Your raise since 2015? 82% went to higher prices 🇩🇪“ L95/S95/St90/F90/A95 → Mittel 93, min 90 → **92**
+- r2: „Smallest EMI? You pay the bank €185,000 extra 🇩🇪“ L100/S95/St95/F90/A90 → Mittel 94, min 90 → **92**
+- verworfen: „Got a raise? Prices took 82% of it“ 89 (ohne Zeitraum S 85), „Choosing the smallest EMI costs you €185,000“ 88 (F 80)
