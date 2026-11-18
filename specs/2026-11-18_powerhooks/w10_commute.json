@@ -1,5 +1,5 @@
 {
- "start": 0.0,
+ "start": 3.0,
  "blocks": [
   [
    "The TAX GIFT for drivers in Germany: 30 km to work = up to €537 back 🇩🇪",
@@ -27,5 +27,5 @@
    "yellow"
   ]
  ],
- "full_clip": true
+ "dur": 5.1
 }

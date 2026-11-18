@@ -1,5 +1,5 @@
 {
- "start": 0.0,
+ "start": 0.5,
  "table_hook": true,
  "table": {
   "title": "Year 1–5: new build vs old flat 👇",
@@ -56,5 +56,5 @@
   ]
  ],
  "avoid_heads": true,
- "full_clip": true
+ "dur": 5.1
 }
