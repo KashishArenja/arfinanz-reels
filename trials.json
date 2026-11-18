@@ -515,13 +515,13 @@
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
      "audioType": "music",
      "result": {
-      "views": 2189,
-      "reach": 1128,
+      "views": 2241,
+      "reach": 1153,
       "view_rate_3s": 51.8,
-      "shares": 0,
-      "saves": 0,
       "comments": 0,
-      "as_of": "2026-11-17 08:10"
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-18 08:10"
      }
     },
     {
@@ -541,17 +541,16 @@
      "sound": "2488847887958999 Euphoria – Giulio Cercato",
      "audioType": "music",
      "result": {
-      "views": 2250,
-      "reach": 1143,
-      "view_rate_3s": 52.6,
-      "shares": 1,
-      "saves": 1,
+      "views": 2950,
+      "reach": 1450,
+      "view_rate_3s": 55.0,
       "comments": 0,
-      "as_of": "2026-11-17 08:10"
+      "reactions_saves_shares": "1 / 3",
+      "as_of": "2026-11-18 08:10"
      }
     }
    ],
-   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption. 17.11. Prüfung (~16 h): 2.189 / 2.250 Aufrufe < Median 5.297 (normale Reels 20.10.–16.11.) → läuft weiter, 72-h-Grenze 19.11. 16:00/16:30."
+   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption. 17.11. Prüfung (~16 h): 2.189 / 2.250 Aufrufe < Median 5.297 (normale Reels 20.10.–16.11.) → läuft weiter, 72-h-Grenze 19.11. 16:00/16:30. 18.11. Prüfung (~40 h): 2.241 / 2.950 Aufrufe < Median 5.797 (normale Reels 21.10.–17.11., 57 Reels) → läuft, 72-h-Grenze 19.11."
   },
   {
    "date": "2026-11-17",
@@ -580,7 +579,16 @@
      "hook_score": 82,
      "metricool_uuid": "6809376162051408770",
      "sound": "262842866768900 Bling (Reels Sound - Listicle)",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 1331,
+      "reach": 716,
+      "view_rate_3s": 51.7,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-18 08:10"
+     }
     },
     {
      "time": "16:30",
@@ -597,6 +605,64 @@
      "hook_score": 78,
      "metricool_uuid": "531085808794158600",
      "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
+     "audioType": "music",
+     "result": {
+      "views": 4110,
+      "reach": 1860,
+      "view_rate_3s": 63.9,
+      "comments": 0,
+      "reactions_saves_shares": "2 / 1",
+      "as_of": "2026-11-18 08:10"
+     }
+    }
+   ],
+   "note": "18.11. Prüfung (~16 h): 1.331 / 4.110 Aufrufe (16:30 Bargeld: 3-s-Rate 63,9 %, 3 Reaktionen) < Median 5.797 → läuft, 72-h-Grenze 20.11."
+  },
+  {
+   "date": "2026-11-18",
+   "topic": "Recycling: Gehalt vs. Preise seit 2015 (STRATEGY) + Tilgung 1/2/3 % (HOME)",
+   "keyword": "STRATEGY / HOME",
+   "evaluate_after": "2026-11-21T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-18_recycling",
+   "sources": [
+    "Destatis Nominallohnindex 2015 73,9 → 2025 100 (+35 %), Reallohnindex 95,3 → 100 (+5 %), 2019 100,5 (über Stuttgarter Zeitung 'Alles wird immer teurer', 2026); Destatis PM 068 vom 27.02.2026: Reallohnindex 2025 = 100 vs 2019 = 100,5",
+    "Dr. Klein aktuelle Bauzinsen Stand 17.11.2026: 10 J. Sollzins 4,01 %, eff. 4,11 %; eigene Python-Annuitätenrechnung €350.000, Zins für Gesamtlaufzeit konstant"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – table_hook 'Germany since 2015'",
+     "original_url": "https://www.instagram.com/reel/DdbYDV5tjsH/",
+     "original_date": "2026-09-18",
+     "original_views": 23837,
+     "spec": "r1_prices.json",
+     "clip": "IMG_2855.MOV 0–1,85 s (0,7×) + IMG_1989.MOV 4,0–6,6 s",
+     "persons": 0,
+     "keyword": "STRATEGY",
+     "hook_old": "Prices doubled in some places. Salaries didn't.",
+     "hook": "10 years of pay rises. You can buy just 5% more 🇩🇪",
+     "hook_score": 82,
+     "metricool_uuid": "4353490518346122833",
+     "sound": "262842866768900 Bling (Reels Sound - Listicle)",
+     "audioType": "music",
+     "note": "Original-Behauptung 'Preise teils verdoppelt, Gehalt +34 %' nicht je Posten belegbar → nur belegte Destatis-Indizes (Gehalt +35 %, Preise +29 %, Kaufkraft +5 %)."
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – table_hook 'Same €350K loan' (EMI je Tilgung)",
+     "original_url": "https://www.instagram.com/reel/DdEDn77NnGt/",
+     "original_date": "2026-09-09",
+     "original_views": 21219,
+     "spec": "r2_emi.json",
+     "clip": "IMG_1990.MOV 2,0–5,6 s (0,7×)",
+     "persons": 0,
+     "keyword": "HOME",
+     "hook_old": "I wish more people knew this before signing their mortgage in Germany (Same €350,000 loan, 3.95 %)",
+     "hook": "Lowest EMI on your home loan? It can cost €185K more 🇩🇪",
+     "hook_score": 86,
+     "metricool_uuid": "-6304706528385087247",
+     "sound": "622819303274042 Good Time – Alex Blue",
      "audioType": "music"
     }
    ]
