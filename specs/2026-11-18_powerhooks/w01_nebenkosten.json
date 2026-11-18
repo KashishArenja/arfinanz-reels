@@ -1,0 +1,70 @@
+{
+ "table_hook": true,
+ "table": {
+  "title": "Find your state 👇 (€400k flat)",
+  "headers": [
+   "State",
+   "Tax",
+   "Cash~needed"
+  ],
+  "rows": [
+   [
+    "Bavaria",
+    "3.5%",
+    "€36,280"
+   ],
+   [
+    "Baden-W.",
+    "5.0%",
+    "€42,280"
+   ],
+   [
+    "Hamburg",
+    "5.5%",
+    "€44,280"
+   ],
+   [
+    "Berlin",
+    "6.0%",
+    "€46,280"
+   ],
+   [
+    "Hesse",
+    "6.0%",
+    "€46,280"
+   ],
+   [
+    "NRW",
+    "6.5%",
+    "€48,280"
+   ]
+  ],
+  "highlight": 3,
+  "note": "Example: transfer tax + ~2% notary/land registry + 3.57% agent."
+ },
+ "blocks": [
+  [
+   "The SHOCKING extra cost: a €400,000 flat in Germany needs ~€46,000 cash on top 🇩🇪",
+   62,
+   "red"
+  ],
+  [
+   "🇮🇳 Many banks want this from savings – plan it first",
+   46,
+   "red"
+  ],
+  [
+   "Comment HOME 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free home-buying guide for expats",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": true,
+ "start": 0.0,
+ "full_clip": true
+}

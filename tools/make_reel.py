@@ -504,6 +504,14 @@ def render_parts(parts, path):
 
 def main(clip, spec, out):
     sp = json.load(open(spec)); blocks = sp["blocks"]
+    global DUR
+    if sp.get("full_clip") and clip != "-":
+        # Kashish 18.11.: ein ganzer Clip, Reel-Länge = Clip-Länge (ab start)
+        d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                           "-of", "csv=p=0", clip]).decode())
+        DUR = round(d - sp.get("start", 0) - 0.07, 2)
+    elif sp.get("dur"):
+        DUR = float(sp["dur"])
     segments = sp.get("segments") or [{"clip": clip, "start": sp.get("start", 0), "dur": DUR}]
     tmp = tempfile.mkdtemp()
     base = os.path.join(tmp, "base.mp4"); ov = os.path.join(tmp, "ov.png")

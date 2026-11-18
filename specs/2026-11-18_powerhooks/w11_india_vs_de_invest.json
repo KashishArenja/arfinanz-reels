@@ -1,0 +1,45 @@
+{
+ "avoid_heads": false,
+ "compare": {
+  "left": {
+   "title": "🇮🇳 Flat in India",
+   "points": [
+    "Rent yield often 2–4%",
+    "Managed from abroad",
+    "No German tax break",
+    "Rupee vs euro risk"
+   ],
+   "style": "red",
+   "point_style": "white"
+  },
+  "right": {
+   "title": "🇩🇪 Flat in Germany",
+   "points": [
+    "Rent paid in euro",
+    "2% AfA cuts your tax",
+    "Bank can finance it",
+    "Near you to manage"
+   ],
+   "style": "yellow"
+  }
+ },
+ "blocks": [
+  [
+   "The 2–4% TRAP: buying a flat in India as an investment? Compare with Germany first",
+   58,
+   "white"
+  ],
+  [
+   "Comment STRATEGY 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free investment-property guide",
+   50,
+   "yellow"
+  ]
+ ],
+ "start": 0.0,
+ "full_clip": true
+}

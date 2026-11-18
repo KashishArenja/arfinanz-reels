@@ -1,0 +1,25 @@
+{
+ "start": 1.5,
+ "labels": [
+  "Salary only",
+  "+ Rental flat"
+ ],
+ "blocks": [
+  [
+   "Feels ILLEGAL: same €85,000 salary – €2,700 less tax 🇩🇪",
+   62,
+   "white"
+  ],
+  [
+   "Comment TAX 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free guide: how a rental flat lowers your tax",
+   50,
+   "yellow"
+  ]
+ ],
+ "full_clip": true
+}
