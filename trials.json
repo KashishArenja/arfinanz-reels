@@ -632,7 +632,7 @@
    "reels": [
     {
      "time": "16:00",
-     "format": "Recycling – table_hook 'Find your pay' (6 Zeilen)",
+     "format": "Recycling – table_hook Beispiel €4.000 Schritt für Schritt (5 Zeilen)",
      "original_url": "https://www.instagram.com/reel/DdbYDV5tjsH/",
      "original_date": "2026-09-18",
      "original_views": 23837,
@@ -641,7 +641,7 @@
      "persons": 0,
      "keyword": "STRATEGY",
      "hook_old": "Prices doubled in some places. Salaries didn't.",
-     "hook": "Your raise since 2015? 82% went to higher prices 🇩🇪",
+     "hook": "Your salary went up. But prices went up almost as much 🇩🇪",
      "hook_score": 92,
      "metricool_uuid": "4353490518346122833",
      "sound": "262842866768900 Bling (Reels Sound - Listicle)",
@@ -659,14 +659,14 @@
      "persons": 0,
      "keyword": "HOME",
      "hook_old": "I wish more people knew this before signing their mortgage in Germany (Same €350,000 loan, 3.95 %)",
-     "hook": "Smallest EMI? You pay the bank €185,000 extra 🇩🇪",
+     "hook": "Lower monthly EMI sounds good. But you pay the bank €185,000 more 🇩🇪",
      "hook_score": 92,
      "metricool_uuid": "-6304706528385087247",
      "sound": "622819303274042 Good Time – Alex Blue",
      "audioType": "music"
     }
    ],
-   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music)."
+   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'."
   }
  ]
 }

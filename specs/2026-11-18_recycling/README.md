@@ -37,3 +37,8 @@ r2: 1) „Lowest EMI on your home loan? It can cost €185K more 🇩🇪“ Obj
 - r1: „Your raise since 2015? 82% went to higher prices 🇩🇪“ L95/S95/St90/F90/A95 → Mittel 93, min 90 → **92**
 - r2: „Smallest EMI? You pay the bank €185,000 extra 🇩🇪“ L100/S95/St95/F90/A90 → Mittel 94, min 90 → **92**
 - verworfen: „Got a raise? Prices took 82% of it“ 89 (ohne Zeitraum S 85), „Choosing the smallest EMI costs you €185,000“ 88 (F 80)
+
+## v4 (~10:50, Kashish: v3 trotz 92 Punkten unverständlich, „formulier das länger, aber so, dass das jeder versteht“)
+- r1: Hook „Your salary went up. But prices went up almost as much 🇩🇪“; Tabelle „Example: €4,000 salary“ Schritt für Schritt: 2015 €4.000 → 2025 €5.413 → +€1.413 auf dem Papier → −€1.159 höhere Preise → +€254 wirklich mehr.
+- r2: Hook „Lower monthly EMI sounds good. But you pay the bank €185,000 more 🇩🇪“; Spalten „You pay monthly / Years to pay / Extra to the bank“; rote Zeile „🇩🇪 Choose your EMI before you sign“.
+- Punkte (zur Info, Länge zieht runter): r1 L80/S75/St85/F90/A95 → ≈ 80; r2 L80/S95/St95/F85/A90 → ≈ 85. Verständlichkeit hat Vorrang (Regel im WORKFLOW).
