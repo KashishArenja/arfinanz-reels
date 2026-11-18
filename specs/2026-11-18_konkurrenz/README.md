@@ -13,6 +13,11 @@ zvE = Brutto − 1.230 − 36 − RV 9,3 % (BBG 101.400) − KV (7,3 % + 1,45 %)
 50k: 1.984 (165/Monat) · 60k: 2.166 (180) · 70k: 2.349 (196) · 80k: 2.557 (213) · 90k: 2.749 (229). Gegenprobe zvE 85.000: 2.772 = „~€2,700“ aus w04 (21.11.).
 Regeln: §39a Abs. 1 Nr. 5 EStG (Freibetrag negative V+V-Einkünfte), erst ab Folgejahr der Anschaffung (§37 Abs. 3, H 39a.2 LStH), Antrag ab 01.10. fürs Folgejahr, Pflichtveranlagung §46 Abs. 2 Nr. 4.
 
+## Hook neu (Kashish 18.11.: alter Hook gefällt nicht, Ziel > 90)
+4) „Rental flat? Stop waiting a year for your €2,349 refund“ (Negative Command + Zahl) L 95 / S 95 / St 90 / F 95 / A 95 → Mittel 94 × 0,6 + 90 × 0,4 = **92 STRONG** ✅ – Tabellen-Titel dazu „Get it every month – find your salary 👇“, €2,349 = hervorgehobene 70k-Zeile.
+
 ## Clip / Sound / Termin
 IMG_1990.MOV ab 0,5 s (Mehrfamilienhaus, keine Personen; zuletzt Trial 11.11. ab 0,3 s). Ungenutzte Clips (IMG_7163/0623/2864/8740) haben alle eine Person mittig → Tabelle passt nicht.
 Sound: Bling (Reels Sound - Listicle) 262842866768900, music. Vorschlag: Mo 23.11. 11:00 (18.–22.11. schon 3 Reels/Tag belegt).
+
+Eingeplant 18.11. (Freigabe Kashish): Mo 23.11.2026 11:00, REEL, Bling 262842866768900 (audioType music ✓), videoVolume 0, uuid 4349483830158576264. reels/ geleert.
