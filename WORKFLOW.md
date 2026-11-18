@@ -223,6 +223,7 @@ Täglich 07:35 (geplante Aufgabe „Konkurrenz-Check täglich“, seit 11.11.202
 
 ## Tägliche Trial Reels (Kashish 11.11.2026 – komplett automatisch, ohne Freigabe)
 **AB 15.11.2026 (Kashish 14.11.) ersetzt das die 4-Trials-Regel unten: jeden Tag 2 Trial Reels, beide RECYCELTE Hits.**
+- **Max. 2 Trial Reels pro Tag – auch mit Extra-Tests (Kashish 18.11.).** Sind die Slots 16:00/16:30 eines Tages schon belegt (z. B. Farbtabellen, siehe trials.json), an diesem Tag KEINE weiteren Trials einplanen. Belegt: **19.11.** (Miete 10 J. 16:00, PKV 16:30) und **20.11.** (Kinder-Rente 16:00, Gehalt→Kredit 16:30).
 - Quelle: `recycle.json` = alle eigenen Reels mit 10.000+ Aufrufen (nach Aufrufen sortiert). Höchste Aufrufe zuerst; ein Inhalt frühestens 6 Wochen nach seinem letzten Post (Original oder Recycling) wieder; nicht zweimal dasselbe Thema am selben Tag.
 - Inhalt nachlesen: Caption per Metricool IGRE03 (tageweise abfragen), `topic` in recycle.json eintragen. Inhalte mit abgelaufenen Daten/Zahlen (z. B. „November-Änderungen“, Fristen) nur mit aktualisierten, belegten Zahlen – sonst überspringen.
 - „Ganz leicht verändern“ (Kashish): gleiche Kernaussage, gleiche Zahl, gleiches Format – nur der Hook leicht umformuliert (gleiches Versprechen, andere Worte), anderer Clip bzw. anderer Clip-Abschnitt, anderer music-Sound, Stichwort groß ab Sekunde 0 (Stichwort-Regel). Caption: Original als Basis, Zahlen auf aktuellen Stand prüfen, Compliance-Fußzeile + 5 Hashtags.
