@@ -164,6 +164,21 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Keine vagen Platzhalter wie „THIS much / THAT much“ ohne Bezug – lieber die echte Zahl nennen.
 - Gut: „You pay €1,048 rent in Hamburg. In 10 years that's €125,760 – gone.“ · Schlecht: „Pay THIS much – the state adds THAT much“.
 
+## KASHISHS SOUND-LISTE (18.11. – NUR diese Sounds für Instagram, gilt vor allen älteren Sound-Regeln)
+Kashish 18.11.: „die Musik gefällt mir gar nicht“ → ab jetzt ausschließlich diese 7 Sounds (alle audioType music), rotieren, nie zweimal am selben Tag:
+| Sound | audioId |
+|---|---|
+| Sheesh – Sugartapes | 1220205582894644 |
+| Dale – Giulio Cercato | 851305135953613 |
+| Dirty – Tony Dark Eyes | 344621657711735 |
+| Last Summer – Giulio Cercato | 503254218286065 |
+| Showcase – Shanice | 1351750949663964 |
+| Super Soca (Instrumental) – Makana | 5442350415868235 |
+| C'est La Vie – Jennah Bell | 5490902791025441 |
+- Alte Sounds (Euphoria, Good Time, Bling, Dark Slowed, Tinsel and Memories, Knockout, Forecast Gorgeous) NICHT mehr verwenden.
+- Neue Wünsche von Kashish: per Suchbegriff in audioConfiguration suchen (Kandidatenliste), nur `music` übernehmen, hier ergänzen. Nicht im Katalog: „Jogi“ (nur original_sound), „Fire Fire“ (Künstler unklar), C'est La Vie „Before and After“-Version.
+- Montags im Wochenpaket zusätzlich bis zu 5 Trend-Sounds zur Auswahl zeigen – nur nach „Ja“ in die Liste.
+
 ## Sound
 - Metricool `instagramData.audioConfiguration.audioId`: erst mit Suchbegriff aufrufen → Kandidatenliste → numerische ID wählen. `videoVolume: 0`.
 - **Trend-Sounds statt ruhiger Standardmusik (Kashish 10.11.: „die Sounds sind langweilig“).** Vor dem Einplanen die aktuellen Instagram-Trend-Sounds der Woche recherchieren (z. B. Buffer, Later, SocialPilot, Kabo – Wochen-Charts). **Keine Bollywood-Lieder** (Kashish 10.11.).
