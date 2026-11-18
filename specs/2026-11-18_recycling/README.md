@@ -27,3 +27,8 @@ r2: 1) „Lowest EMI on your home loan? It can cost €185K more 🇩🇪“ Obj
 ## Clips / Sounds
 - r1: IMG_2855.MOV 0–1,85 s (Wohnblock, 0,7×) + IMG_1989.MOV 4,0–6,6 s (Garten/Himmel), 0 Personen – Bling 262842866768900, music – uuid 4353490518346122833
 - r2: IMG_1990.MOV 2,0–5,6 s (Wohnhaus, 0,7×), 0 Personen – Good Time 622819303274042, music – uuid -6304706528385087247
+
+## v2 (~09:00, Feedback Kashish: Tabellen größer, Hook besser, Englisch zu schwer)
+- r1: Hook „Your 10-year pay rise? Prices ate 82% of it 🇩🇪“ (95/90/90/80/90 → 85 STRONG), Tabelle „Find your pay“ 6 Zeilen (€2.500–6.000: Gehaltsplus 2015→2025 und was nach Preisen übrig bleibt; Faktoren 1,3532 / 1,2896 aus Destatis-Indizes, 82 % = Preisanteil am Plus), rote Zeile „🇮🇳 Only a salary? Rent out a flat too“.
+- r2: Hook „Small EMI feels safe. It costs you €185,000 more 🇩🇪“ (95/85/95/75/85 → 82 STRONG), Tabelle „Find your EMI“ 6 Zeilen (Tilgung 1/1,5/2/2,5/3/4 %), rote Zeile „🇩🇪 Pay extra later? Check your contract“.
+- make_reel.py: neue Option `row_h` (62) → 6 Zeilen passen über 1.440 px. Metricool per update ersetzt, Sounds unverändert (music).

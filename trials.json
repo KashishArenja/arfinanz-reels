@@ -632,7 +632,7 @@
    "reels": [
     {
      "time": "16:00",
-     "format": "Recycling – table_hook 'Germany since 2015'",
+     "format": "Recycling – table_hook 'Find your pay' (6 Zeilen)",
      "original_url": "https://www.instagram.com/reel/DdbYDV5tjsH/",
      "original_date": "2026-09-18",
      "original_views": 23837,
@@ -641,8 +641,8 @@
      "persons": 0,
      "keyword": "STRATEGY",
      "hook_old": "Prices doubled in some places. Salaries didn't.",
-     "hook": "10 years of pay rises. You can buy just 5% more 🇩🇪",
-     "hook_score": 82,
+     "hook": "Your 10-year pay rise? Prices ate 82% of it 🇩🇪",
+     "hook_score": 85,
      "metricool_uuid": "4353490518346122833",
      "sound": "262842866768900 Bling (Reels Sound - Listicle)",
      "audioType": "music",
@@ -650,7 +650,7 @@
     },
     {
      "time": "16:30",
-     "format": "Recycling – table_hook 'Same €350K loan' (EMI je Tilgung)",
+     "format": "Recycling – table_hook 'Find your EMI' (6 Zeilen)",
      "original_url": "https://www.instagram.com/reel/DdEDn77NnGt/",
      "original_date": "2026-09-09",
      "original_views": 21219,
@@ -659,13 +659,14 @@
      "persons": 0,
      "keyword": "HOME",
      "hook_old": "I wish more people knew this before signing their mortgage in Germany (Same €350,000 loan, 3.95 %)",
-     "hook": "Lowest EMI on your home loan? It can cost €185K more 🇩🇪",
-     "hook_score": 86,
+     "hook": "Small EMI feels safe. It costs you €185,000 more 🇩🇪",
+     "hook_score": 82,
      "metricool_uuid": "-6304706528385087247",
      "sound": "622819303274042 Good Time – Alex Blue",
      "audioType": "music"
     }
-   ]
+   ],
+   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music)."
   }
  ]
 }

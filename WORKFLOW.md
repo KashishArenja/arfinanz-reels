@@ -41,6 +41,8 @@ Posting-Rhythmus (Kashish 13.11., Trials geändert 14.11.): ab Mo 16.11. täglic
 
 8. **Deutschland im Hook (Kashish 18.11.):** Jeder Hook nennt Deutschland ausdrücklich („in Germany“, „German …“ oder 🇩🇪), z. B. „Rental flat in Germany? Stop waiting a year for your €2,349 refund“ statt „Rental flat? …“. Hooks sollen ≥ 90 Punkte (ig-reel-Bewertung) erreichen, nicht nur ≥ 70.
 
+8. **Tabellen groß + einfaches Englisch (Kashish 18.11.: „Tabellen größer, mehr drin, Hook besser – das Englisch versteht man nicht“):** Tabellen-Reels immer 6 Zeilen „Find your X 👇“ (Gehalt, EMI, Alter …), damit sich jeder selbst findet; `"row_h": 62` in der Tabelle setzen, dann passen 6 Zeilen + 2-zeiliger Hook + 1 rote Zeile + Stichwort über 1.440 px. Hook = kurzer Alltagssatz mit Gefühl + eine Zahl („Small EMI feels safe. It costs you €185,000 more“, „Your 10-year pay rise? Prices ate 82% of it“), keine Fachwörter (repayment, Tilgung, buying power). Spaltenköpfe in Alltagssprache („EMI a month“, „Loan paid off in“, „Interest you pay“). Rote Zeile max. ~7 Wörter, zweite gelbe Zeile einzeilig („Free home-buying guide“).
+
 ## STICHWORT-REGEL (Kashish 14.11.2026 – gilt ab sofort für alle Reels)
 - Stichwort ist das Hauptangebot: ab Sekunde 0 groß und gelb im Bild, zwei Blöcke: `["Comment HOME 👇", 64, "yellow"]` + `["Free home-buying guide for expats", 50, "yellow"]` (Größe > 46 → keine Einblendung bei 1,5 s mehr). Die alte kleine Pille „Comment X for the free PDF guide 👇“ (44) nicht mehr verwenden.
 - Zweite Zeile = konkret, was ManyChat schickt (nur versprechen, was es gibt). ManyChat-DM läuft (Kashish 14.11.).
