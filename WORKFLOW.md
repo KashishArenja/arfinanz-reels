@@ -142,6 +142,20 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Gesichter-Regel gilt weiter: Clip, in dem eine Person hinter Tabelle/Text läuft → anderen Clip nehmen. Personenfrei bewährt: IMG_1990 (Haus), IMG_2859 (Baustelle/Windräder, 12,6 s), Dachboden-Clip (t7878, 9,6 s), IMG_9380 nur ohne Tabelle (Person läuft durchs Bild).
 - Der 17.11.-Clip-Trick (Rest-Abschnitte verlangsamen und kombinieren) ist damit **abgeschafft**.
 
+## POWERWÖRTER IN JEDEM HOOK (Kashish 18.11. – „wie ein Bild-Zeitungs-Journalist“)
+- **Jeder On-Screen-Hook enthält genau EIN Powerwort in GROSSBUCHSTABEN** (normale Reels, Trials, Karussell-Cover). Dazu weiter: echte Zahl, „Germany“/🇩🇪, sofort verständlich.
+- Pool (erweitern erlaubt, Wiederholung am selben Tag vermeiden):
+  Geheimnis: DARK SECRET · HIDDEN · BEST-KEPT secret · SECRET form · nobody tells you
+  Verboten/Regel: feels ILLEGAL (– but 100% legal) · LOOPHOLE (legal) · FORBIDDEN-looking
+  Macht: MOST POWERFUL · DOMINATE · SCALE · GAME-CHANGER · UNFAIR advantage · WEAPON
+  Schock: SHOCK · BRUTAL truth · SHOCKING · TRAP · DANGEROUS mistake · WAKE-UP call
+  Größe: BIGGEST · MASSIVE · INSANE · RECORD · GOLDMINE · JACKPOT
+  Geschenk: TAX GIFT · FREE MONEY from the state · BONUS · HIDDEN refund
+  Dringlichkeit: LAST CHANCE · DEADLINE · BEFORE IT'S GONE · GAME OVER
+- Grenzen (lizenzierter Makler): „illegal“ nur als „feels ILLEGAL – but legal“; nichts Erfundenes („banks hate this“ nur wenn belegt); Zahl im Hook bleibt echt; kein Garantie-Versprechen.
+- Beispiele 18.11.: „It feels ILLEGAL: same €85,000 salary – €2,700 less tax“, „The BRUTAL truth: €1,500 rent in Germany = the EMI on a €300,000 loan“, „SHOCK letter in January: private health insurance in Germany goes up 15%“.
+- Länge: Hook max. 3 Zeilen; bei Labels über Personen max. 2 Zeilen (sonst überdeckt der Text die Labels).
+
 ## Hooks müssen sofort verständlich sein (Kashish 18.11.)
 - Test vor jedem Hook: Versteht ein Expat, der gerade erst in Deutschland ist, den Satz **ohne Vorwissen in 1 Sekunde**? Wenn nein → umschreiben.
 - Einfache Wörter, keine Abkürzungen/Fachbegriffe im Hook (kein „AVD“, „PKV“, „KfW“, „bAV“, „SF-Klasse“, „Grunderwerbsteuer“) – stattdessen „new pension depot“, „private health insurance“, „buying costs“. Fachbegriffe erst in der Tabelle/Caption, mit Erklärung.
