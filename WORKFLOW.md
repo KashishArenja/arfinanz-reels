@@ -135,12 +135,13 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Wie normale Reels: Entwürfe im Montags-Wochenpaket zeigen, **erst nach Kashishs „Ja“ einplanen**.
 - Erste Posts: Do 19.11. (Story „why we started“), Di 24.11. (5 Fehler im ersten Jahr).
 
-## HINTERGRUND-CLIPS: EIN GANZER CLIP, NICHTS ZUSAMMENSCHNEIDEN (Kashish 18.11., gilt vor allen älteren Clip-Tricks)
-- **Pro Reel genau EIN Clip, und zwar komplett von Anfang bis Ende** – keine `segments` aus mehreren Clips, keine Rest-Abschnitte, keine „halben Videos“, kein Loop (`-stream_loop` nur als Sicherheitsnetz, Länge = Clip-Länge).
-- Reel-Länge = Clip-Länge (`dur` = Clipdauer / speed − 0,07 s). Zu kurzer Clip (< 6 s) → leicht verlangsamen (speed 0,7–0,8), aber ganz zeigen.
-- **Bereits genutzte Clips dürfen einfach wiederverwendet werden** (Kashish: „nutz sie einfach nochmal“) – nur nicht derselbe Clip zweimal am selben Tag.
-- Gesichter-Regel gilt weiter: Clip, in dem eine Person hinter Tabelle/Text läuft → anderen Clip nehmen. Personenfrei bewährt: IMG_1990 (Haus), IMG_2859 (Baustelle/Windräder, 12,6 s), Dachboden-Clip (t7878, 9,6 s), IMG_9380 nur ohne Tabelle (Person läuft durchs Bild).
-- Der 17.11.-Clip-Trick (Rest-Abschnitte verlangsamen und kombinieren) ist damit **abgeschafft**.
+## HINTERGRUND-CLIP + LÄNGE (Kashish 18.11., gilt vor allen älteren Clip-Tricks)
+- **Reel-Länge immer 5,1 s (max. 5,2 s)** – NIE länger (Fehler 18.11.: ganze Clips mit 7–13 s → Kashish: „Die Länge hättest du nicht ändern sollen“).
+- **Pro Reel EIN Clip, EIN durchgehender Abschnitt** – keine `segments` aus mehreren Clips/Stücken, nichts zusammenschneiden, keine Schleifen.
+- **Abschnitt = dynamischste Stelle des Clips:** `python3 tools/best_window.py clip.mov 5.1 3` → Startzeiten (beste zuerst) als `start`; scheitert die Platzierung (Gesicht), nächste Startzeit nehmen.
+- Bereits genutzte Clips dürfen wiederverwendet werden (nur nicht derselbe Clip zweimal am selben Tag).
+- Gesichter-Regel gilt weiter. Personenfrei bewährt: IMG_1990, IMG_2859, IMG_8769, t7878 (Dachboden); IMG_2859 braucht `"avoid_heads": false` (Windräder = Fehltreffer).
+- Der 17.11.-Trick (Rest-Abschnitte kombinieren) ist abgeschafft. `full_clip` in make_reel.py NICHT benutzen.
 
 ## POWERWÖRTER IN JEDEM HOOK (Kashish 18.11. – „wie ein Bild-Zeitungs-Journalist“)
 - **Jeder On-Screen-Hook enthält genau EIN Powerwort in GROSSBUCHSTABEN** (normale Reels, Trials, Karussell-Cover). Dazu weiter: echte Zahl, „Germany“/🇩🇪, sofort verständlich.
