@@ -118,6 +118,14 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Talking-Head-Videos mit Kashish: 15:30, manuell (Push), zählen nicht zu den 2 normalen Reels.
 - Vor jedem Einplanen getScheduledPosts prüfen; ist ein Slot belegt, den nächsten freien 11:00/13:30-Slot nehmen – nie 3 normale Posts an einem Tag.
 
+## LINKEDIN (Kashish 18.11.)
+- **2 Text-Posts pro Woche: Dienstag und Donnerstag um 08:30**, nur Provider `linkedin`, `linkedinData: {type: "post"}`, keine Medien.
+- Verbundenes Profil = **Mayurs persönliches LinkedIn** → Ich-Form aus **Mayurs Perspektive** (Mitgründer, „Kashish and I…“). Nichts über Mayurs Werdegang erfinden.
+- Englisch, kurze Zeilen, viel Weißraum. Abwechselnd **Story/Meinung** und **Mehrwert-Liste** (konkrete Tipps zum Speichern).
+- Kein Kommentar-Stichwort, CTA = „send me a message“. 3 Hashtags (z. B. #IndiansInGermany #Expats #PersonalFinance).
+- Wie normale Reels: Entwürfe im Montags-Wochenpaket zeigen, **erst nach Kashishs „Ja“ einplanen**.
+- Erste Posts: Do 19.11. (Story „why we started“), Di 24.11. (5 Fehler im ersten Jahr).
+
 ## Hooks müssen sofort verständlich sein (Kashish 18.11.)
 - Test vor jedem Hook: Versteht ein Expat, der gerade erst in Deutschland ist, den Satz **ohne Vorwissen in 1 Sekunde**? Wenn nein → umschreiben.
 - Einfache Wörter, keine Abkürzungen/Fachbegriffe im Hook (kein „AVD“, „PKV“, „KfW“, „bAV“, „SF-Klasse“, „Grunderwerbsteuer“) – stattdessen „new pension depot“, „private health insurance“, „buying costs“. Fachbegriffe erst in der Tabelle/Caption, mit Erklärung.
