@@ -118,6 +118,15 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Talking-Head-Videos mit Kashish: 15:30, manuell (Push), zählen nicht zu den 2 normalen Reels.
 - Vor jedem Einplanen getScheduledPosts prüfen; ist ein Slot belegt, den nächsten freien 11:00/13:30-Slot nehmen – nie 3 normale Posts an einem Tag.
 
+## TIKTOK + YOUTUBE SHORTS (Kashish 18.11.)
+- **Jedes normale Reel (11:00/13:30) geht zusätzlich auf TikTok + YouTube Shorts**, gleiche Uhrzeit. Test-Reels (TRIAL_REEL) NICHT. Karussells nur zusätzlich auf TikTok (Bild-Post, `autoAddMusic: true`), nicht auf YouTube.
+- TikTok/YouTube können über Metricool keinen Sound wählen → **eigener Metricool-Post** (Provider `tiktok` + `youtube`) mit Musik-Version des Videos:
+  `python3 tools/add_music.py reels/X.mp4 reels/mx_X.mp4` (rotiert automatisch durch `music/library.json`, lizenzfreie YouTube-Audio-Library-Tracks von Kashish; Abschnitt + Lautstärke vorberechnet, -14 LUFS).
+- Instagram-Post bleibt unverändert (stummes Video + Trend-Sound über audioConfiguration).
+- Payload: `text` = Caption; `tiktokData.title` = **gleiche Caption** (Pflichtfeld, ist die TikTok-Beschreibung), `autoAddMusic: false`; `youtubeData`: `type: "short"`, eigener Titel ≤ 100 Zeichen (klar, mit „Germany“), `madeForKids: false`, `category: "EDUCATION"`.
+- Talking-Head-Videos (eigene Tonspur): add_music.py lässt den Ton unverändert.
+- Neue Tracks: MP3 nach `music/`, Offset + LUFS in `library.json` ergänzen (energischster 6-s-Abschnitt).
+
 ## LINKEDIN (Kashish 18.11.)
 - **2 Text-Posts pro Woche: Dienstag und Donnerstag um 08:30**, nur Provider `linkedin`, `linkedinData: {type: "post"}`, keine Medien.
 - Verbundenes Profil = **Mayurs persönliches LinkedIn** → Ich-Form aus **Mayurs Perspektive** (Mitgründer, „Kashish and I…“). Nichts über Mayurs Werdegang erfinden.
