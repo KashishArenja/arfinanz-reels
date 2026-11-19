@@ -125,6 +125,7 @@ Jede Woche 14 normale Posts (12 Reels + 2 Karussells) aufteilen:
 - **Test-Reels (TRIAL_REEL): max. 2 pro Tag, zwischen 15:00 und 18:00** (Standard 16:00 und 16:30).
 - Talking-Head-Videos mit Kashish: 15:30, manuell (Push), zählen nicht zu den 2 normalen Reels.
 - Vor jedem Einplanen getScheduledPosts prüfen; ist ein Slot belegt, den nächsten freien 11:00/13:30-Slot nehmen – nie 3 normale Posts an einem Tag.
+- **Nächste Woche laufend auffüllen (Kashish 19.11.):** Wer beim täglichen Check etwas lernt und ein neues Reel bauen will, darf es jederzeit in einen freien 11:00/13:30-Slot der kommenden Tage/Woche setzen (z. B. Mo 11:00 oder Mo 13:30), solange dort noch nichts geplant ist. „Alle Slots belegt“ ist also nie ein Grund, nichts zu bauen – dann den nächsten freien Slot (auch in der Folgewoche) vorschlagen. Das Montags-Wochenpaket füllt danach nur noch die übrigen Slots.
 
 ## TIKTOK + YOUTUBE SHORTS (Kashish 18.11.)
 - **Jedes normale Reel (11:00/13:30) geht zusätzlich auf TikTok + YouTube Shorts**, gleiche Uhrzeit. Test-Reels (TRIAL_REEL) NICHT. Karussells nur zusätzlich auf TikTok (Bild-Post, `autoAddMusic: true`), nicht auf YouTube.

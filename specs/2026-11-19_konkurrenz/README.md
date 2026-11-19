@@ -4,3 +4,4 @@
 - Hooks (ig-reel, L/S/St/F/A → Gesamt): 1) „🚨 From 1 January: Germany adds a €540 BONUS to your pension. Every year“ 85/90/85/90/80 → **84 STRONG** ✅ · 2) „FREE MONEY from the state: €540 a year for your pension in Germany“ 90/85/80/80/70 → 79 · 3) „Your kids earn you €300 a year – Germany's new pension BONUS“ 90/80/75/70/75 → 76.
 - Zahlen (Python): 0,5×360 + 0,25×(1.800−360) = 540; €150×12 = 1.800; Kinderzulage bis 300 €/Kind (wie 18.11.).
 - Vorschlag: 26.11. 11:00 REEL, Sound Last Summer 503254218286065 (music), + TikTok/YouTube (add_music.py).
+- Eingeplant 19.11. nach Freigabe Kashish: 26.11. 11:00 IG uuid 5518831049893298860 (audioType music geprüft), TikTok+YouTube uuid 6358411049281998171.
