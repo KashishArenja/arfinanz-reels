@@ -489,7 +489,7 @@
    "topic": "Recycling: Vermögen nach Alter (STRATEGY) + Gehalt nach Bundesland (HOME)",
    "keyword": "STRATEGY / HOME",
    "evaluate_after": "2026-11-18T16:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-16_recycling",
    "sources": [
     "IW-Kurzbericht 59/2025 (09.07.2025) auf Basis Bundesbank PHF 2023: Median Nettovermögen Haushalte < 35 J. 17.300 €, 55–64 J. 241.100 €",
@@ -515,13 +515,13 @@
      "sound": "2603949126473975 Dark (Slowed) – Tony Dark Eyes",
      "audioType": "music",
      "result": {
-      "views": 2241,
-      "reach": 1153,
-      "view_rate_3s": 51.8,
+      "views": 2294,
+      "reach": 1177,
+      "view_rate_3s": 51.7,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-18 08:10"
+      "as_of": "2026-11-19 08:15"
      }
     },
     {
@@ -541,16 +541,17 @@
      "sound": "2488847887958999 Euphoria – Giulio Cercato",
      "audioType": "music",
      "result": {
-      "views": 2950,
-      "reach": 1450,
-      "view_rate_3s": 55.0,
+      "views": 3048,
+      "reach": 1480,
+      "view_rate_3s": 55.5,
       "comments": 0,
-      "reactions_saves_shares": "1 / 3",
-      "as_of": "2026-11-18 08:10"
+      "saves": 1,
+      "shares": 3,
+      "as_of": "2026-11-19 08:15"
      }
     }
    ],
-   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption. 17.11. Prüfung (~16 h): 2.189 / 2.250 Aufrufe < Median 5.297 (normale Reels 20.10.–16.11.) → läuft weiter, 72-h-Grenze 19.11. 16:00/16:30. 18.11. Prüfung (~40 h): 2.241 / 2.950 Aufrufe < Median 5.797 (normale Reels 21.10.–17.11., 57 Reels) → läuft, 72-h-Grenze 19.11."
+   "note": "16.11. ~08:55 auf v2 umgebaut (Feedback Kashish: schwer verständlich) – Fachwörter raus (median, net wealth, own), Tabellen-Spalte 'Half have less than', Bundesländer auf Englisch, Expat-Zeile mit klarem Bezug zum Stichwort ('Higher salary = bigger home loan'). Metricool-Posts per update ersetzt (uuids unverändert). ~09:05 Reel 16:30 auf Städte umgebaut (Kashish: 'du kannst doch viel mehr Städte vergleichen'): 7 Städte im Bild, 23 Städte in der Caption, Expat-Zeile aus Platzgründen nur in der Caption. 17.11. Prüfung (~16 h): 2.189 / 2.250 Aufrufe < Median 5.297 (normale Reels 20.10.–16.11.) → läuft weiter, 72-h-Grenze 19.11. 16:00/16:30. 18.11. Prüfung (~40 h): 2.241 / 2.950 Aufrufe < Median 5.797 (normale Reels 21.10.–17.11., 57 Reels) → läuft, 72-h-Grenze 19.11. | 19.11. Prüfung (~65 h): 2.294 / 3.048 Aufrufe = 0,39× / 0,52× Median 5.908 (normale Reels 22.10.–18.11., 59 Reels); Zuwachs seit 18.11. nur +53 / +98 → Median bis 72 h unerreichbar → kein_gewinner, Learning in WORKFLOW.md."
   },
   {
    "date": "2026-11-17",
@@ -581,13 +582,13 @@
      "sound": "262842866768900 Bling (Reels Sound - Listicle)",
      "audioType": "music",
      "result": {
-      "views": 1331,
-      "reach": 716,
-      "view_rate_3s": 51.7,
+      "views": 2036,
+      "reach": 1115,
+      "view_rate_3s": 48.6,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-18 08:10"
+      "as_of": "2026-11-19 08:15"
      }
     },
     {
@@ -607,12 +608,13 @@
      "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
      "audioType": "music",
      "result": {
-      "views": 4110,
-      "reach": 1860,
+      "views": 10537,
+      "reach": 4469,
       "view_rate_3s": 63.9,
-      "comments": 0,
-      "reactions_saves_shares": "2 / 1",
-      "as_of": "2026-11-18 08:10"
+      "comments": 2,
+      "saves": 14,
+      "shares": 8,
+      "as_of": "2026-11-19 08:15"
      }
     }
    ],
@@ -646,7 +648,16 @@
      "metricool_uuid": "4353490518346122833",
      "sound": "262842866768900 Bling (Reels Sound - Listicle)",
      "audioType": "music",
-     "note": "Original-Behauptung 'Preise teils verdoppelt, Gehalt +34 %' nicht je Posten belegbar → nur belegte Destatis-Indizes (Gehalt +35 %, Preise +29 %, Kaufkraft +5 %)."
+     "note": "Original-Behauptung 'Preise teils verdoppelt, Gehalt +34 %' nicht je Posten belegbar → nur belegte Destatis-Indizes (Gehalt +35 %, Preise +29 %, Kaufkraft +5 %).",
+     "result": {
+      "views": 2264,
+      "reach": 1221,
+      "view_rate_3s": 49.3,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "as_of": "2026-11-19 08:15"
+     }
     },
     {
      "time": "16:30",
@@ -663,10 +674,19 @@
      "hook_score": 92,
      "metricool_uuid": "-6304706528385087247",
      "sound": "622819303274042 Good Time – Alex Blue",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 1956,
+      "reach": 1043,
+      "view_rate_3s": 46.4,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "as_of": "2026-11-19 08:15"
+     }
     }
    ],
-   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'."
+   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'. | 19.11. Prüfung (~17 h): 2.264 / 1.956 Aufrufe < Median 5.908 → läuft, 72-h-Grenze 21.11. 16:00/16:30."
   },
   {
    "date": "2026-11-19/20",
@@ -704,7 +724,8 @@
      "sound": "1108285910189784",
      "audioType": "music"
     }
-   ]
+   ],
+   "note": "19.11.: Slots 19.11./20.11. 16:00/16:30 damit belegt → an diesen Tagen kein Recycling (max. 2 Trials/Tag, Kashish 18.11.); alle 4 audioType music geprüft."
   }
  ]
 }
