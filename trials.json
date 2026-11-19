@@ -557,7 +557,7 @@
    "topic": "Recycling: €100K brutto → Netto (TAX) + EU-Bargeldobergrenze 2027 (HOME)",
    "keyword": "TAX / HOME",
    "evaluate_after": "2026-11-20T16:30",
-   "status": "läuft",
+   "status": "teilen_empfohlen",
    "specs": "specs/2026-11-17_recycling",
    "sources": [
     "§32a EStG ab VZ 2026 (gesetze-im-internet.de): Zonen 12.348/17.799/69.878/277.825; eigene Python-Rechnung: zvE 81.866 €, ESt 23.248 €, Soli 345 € (Freigrenze 20.350, Milderungszone), RV 9,3 %, AV 1,3 %, KV 8,75 % + PV 2,4 % bis BBG 69.750 € → Netto 58.030 € (Online-Rechner nettocalc/brutto-netto-rechner.digital zeigen 56.2–56.9k, u. a. Soli ohne Milderungszone)",
@@ -616,7 +616,7 @@
      }
     }
    ],
-   "note": "18.11. Prüfung (~16 h): 1.331 / 4.110 Aufrufe (16:30 Bargeld: 3-s-Rate 63,9 %, 3 Reaktionen) < Median 5.797 → läuft, 72-h-Grenze 20.11."
+   "note": "18.11. Prüfung (~16 h): 1.331 / 4.110 Aufrufe (16:30 Bargeld: 3-s-Rate 63,9 %, 3 Reaktionen) < Median 5.797 → läuft, 72-h-Grenze 20.11. | 19.11. Prüfung: 16:30 Bargeld-News 10.537 Aufrufe (3,7× Median 2.867 der letzten 2 Wochen inkl. Trials; ≥ Median normale Reels 5.797), 2 Kommentare, 14 Saves, 8 Shares, 3-s-Rate 63,9 % → Kashish soll in der App mit Followern teilen. 16:00 €100K-Netto 2.036, 0 Reaktionen → läuft bis 20.11., voraussichtlich kein_gewinner."
   },
   {
    "date": "2026-11-18",
