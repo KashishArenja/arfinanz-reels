@@ -582,14 +582,15 @@
      "sound": "262842866768900 Bling (Reels Sound - Listicle)",
      "audioType": "music",
      "result": {
-      "views": 2036,
+      "views": 2037,
       "reach": 1115,
       "view_rate_3s": 48.6,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-19 08:15"
-     }
+      "as_of": "2026-11-20 08:15"
+     },
+     "status": "kein_gewinner"
     },
     {
      "time": "16:30",
@@ -608,17 +609,18 @@
      "sound": "5213434452215987 Tinsel and Memories (Reels Sound - Photo Dump)",
      "audioType": "music",
      "result": {
-      "views": 10537,
-      "reach": 4469,
-      "view_rate_3s": 63.9,
+      "views": 11356,
+      "reach": 4816,
+      "view_rate_3s": 64.1,
       "comments": 2,
       "saves": 14,
       "shares": 8,
-      "as_of": "2026-11-19 08:15"
-     }
+      "as_of": "2026-11-20 08:15"
+     },
+     "status": "teilen_empfohlen"
     }
    ],
-   "note": "18.11. Prüfung (~16 h): 1.331 / 4.110 Aufrufe (16:30 Bargeld: 3-s-Rate 63,9 %, 3 Reaktionen) < Median 5.797 → läuft, 72-h-Grenze 20.11. | 19.11. Prüfung: 16:30 Bargeld-News 10.537 Aufrufe (3,7× Median 2.867 der letzten 2 Wochen inkl. Trials; ≥ Median normale Reels 5.797), 2 Kommentare, 14 Saves, 8 Shares, 3-s-Rate 63,9 % → Kashish soll in der App mit Followern teilen. 16:00 €100K-Netto 2.036, 0 Reaktionen → läuft bis 20.11., voraussichtlich kein_gewinner."
+   "note": "18.11. Prüfung (~16 h): 1.331 / 4.110 Aufrufe (16:30 Bargeld: 3-s-Rate 63,9 %, 3 Reaktionen) < Median 5.797 → läuft, 72-h-Grenze 20.11. | 19.11. Prüfung: 16:30 Bargeld-News 10.537 Aufrufe (3,7× Median 2.867 der letzten 2 Wochen inkl. Trials; ≥ Median normale Reels 5.797), 2 Kommentare, 14 Saves, 8 Shares, 3-s-Rate 63,9 % → Kashish soll in der App mit Followern teilen. 16:00 €100K-Netto 2.036, 0 Reaktionen → läuft bis 20.11., voraussichtlich kein_gewinner. | 20.11. Prüfung (~64 h): 16:00 €100K-Netto 2.037 Aufrufe (+1 seit 19.11.), 0 Reaktionen = 0,34× Median 5.940 (normale Reels 23.10.–19.11., 59 Reels) → Median bis 72 h unerreichbar → kein_gewinner. 16:30 Bargeld 11.356 (bereits 19.11. gemeldet, nicht erneut)."
   },
   {
    "date": "2026-11-18",
@@ -650,13 +652,13 @@
      "audioType": "music",
      "note": "Original-Behauptung 'Preise teils verdoppelt, Gehalt +34 %' nicht je Posten belegbar → nur belegte Destatis-Indizes (Gehalt +35 %, Preise +29 %, Kaufkraft +5 %).",
      "result": {
-      "views": 2264,
-      "reach": 1221,
-      "view_rate_3s": 49.3,
+      "views": 2420,
+      "reach": 1288,
+      "view_rate_3s": 49.9,
       "comments": 0,
       "saves": 1,
       "shares": 0,
-      "as_of": "2026-11-19 08:15"
+      "as_of": "2026-11-20 08:15"
      }
     },
     {
@@ -676,17 +678,17 @@
      "sound": "622819303274042 Good Time – Alex Blue",
      "audioType": "music",
      "result": {
-      "views": 1956,
-      "reach": 1043,
-      "view_rate_3s": 46.4,
+      "views": 2025,
+      "reach": 1083,
+      "view_rate_3s": 45.9,
       "comments": 0,
       "saves": 1,
       "shares": 0,
-      "as_of": "2026-11-19 08:15"
+      "as_of": "2026-11-20 08:15"
      }
     }
    ],
-   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'. | 19.11. Prüfung (~17 h): 2.264 / 1.956 Aufrufe < Median 5.908 → läuft, 72-h-Grenze 21.11. 16:00/16:30."
+   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'. | 19.11. Prüfung (~17 h): 2.264 / 1.956 Aufrufe < Median 5.908 → läuft, 72-h-Grenze 21.11. 16:00/16:30. | 20.11. Prüfung (~40 h): 2.420 / 2.025 Aufrufe (+156 / +69 in 24 h) < Median 5.940 → läuft, 72-h-Grenze 21.11.; Median praktisch unerreichbar."
   },
   {
    "date": "2026-11-19/20",
@@ -701,31 +703,51 @@
      "format": "Farbtabelle Miete 10 Jahre",
      "metricool_uuid": "-6610656892305128928",
      "sound": "2603949126473975",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 3518,
+      "reach": 1787,
+      "view_rate_3s": 49.6,
+      "comments": 5,
+      "saves": 3,
+      "shares": 3,
+      "as_of": "2026-11-20 08:15"
+     }
     },
     {
      "time": "19.11. 16:30",
      "format": "Farbtabelle PKV +15%",
      "metricool_uuid": "-669262268622877361",
      "sound": "2488847887958999",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 720,
+      "reach": 402,
+      "view_rate_3s": 38.3,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-20 08:15"
+     }
     },
     {
      "time": "20.11. 16:00",
      "format": "Farbtabelle Kinder-Rente",
      "metricool_uuid": "-3378893037468038946",
-     "sound": "5213434452215987",
-     "audioType": "music"
+     "sound": "5490902791025441",
+     "audioType": "music",
+     "sound_name": "C'est La Vie – Jennah Bell"
     },
     {
      "time": "20.11. 16:30",
      "format": "Farbtabelle Gehalt→Kredit",
      "metricool_uuid": "2351670009418105996",
-     "sound": "1108285910189784",
-     "audioType": "music"
+     "sound": "1220205582894644",
+     "audioType": "music",
+     "sound_name": "Sheesh – Sugartapes"
     }
    ],
-   "note": "19.11.: Slots 19.11./20.11. 16:00/16:30 damit belegt → an diesen Tagen kein Recycling (max. 2 Trials/Tag, Kashish 18.11.); alle 4 audioType music geprüft."
+   "note": "19.11.: Slots 19.11./20.11. 16:00/16:30 damit belegt → an diesen Tagen kein Recycling (max. 2 Trials/Tag, Kashish 18.11.); alle 4 audioType music geprüft. | 20.11. Prüfung (~16 h): 19.11. 16:00 Miete 10 J. 3.518 Aufrufe, 5 Kommentare, 3 Saves, 3 Shares (bestes Kommentar-Trial bisher) · 16:30 PKV +15 % 720, 0 Reaktionen, 3-s-Rate 38,3 % – beide < Median 5.940 → läuft bis 22.11. Sounds 20.11. laut Metricool (getScheduledPosts 20.11.): C'est La Vie / Sheesh, audioType music. 20.11. kein Recycling (Slots belegt)."
   }
  ]
 }
