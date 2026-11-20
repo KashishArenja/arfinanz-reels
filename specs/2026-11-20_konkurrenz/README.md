@@ -8,7 +8,7 @@
 - Zahlen: §9 Abs. 1 Nr. 5 EStG (Unterkunft max. €1.000/Monat, 1 Familienheimfahrt/Woche), Verpflegung §9 Abs. 4a EStG €28/€14 erste 3 Monate. Beispiel (Python): 800×12 + 2×900 + (14 + 89×28) = 13.906 € → × 30 % = 4.172 € ≈ €4.200.
 - Slot: **27.11. 11:00**, Sound Showcase – Shanice 1351750949663964 (music ✅). IG uuid -762888466194349734 · TikTok+YouTube uuid -3125204783154574649 (Musik: What We Love).
 
-## k2 – Eltern zu Besuch → Visum-Reisekrankenversicherung (§34d, CALL, MOFU)
+## k2 – Eltern zu Besuch – ❌ VERWORFEN (Kashish 20.11.: „bockt nicht“), beide Posts in Metricool auf Entwurf gesetzt, 26.11. 13:30 wieder frei, IMG_0623 wieder ungenutzt → Visum-Reisekrankenversicherung (§34d, CALL, MOFU)
 - Clip IMG_0623.MOV (erstmals, Raj im Cabrio = „Eltern vom Flughafen abholen“), start 0,0; Text oben im Dachbereich, Gesicht frei. IMG_4854/IMG_6327 verworfen (Gesicht wandert durch den Textbereich).
 - Hooks: 1) „Parents visiting you in Germany? 🇩🇪 Their €30,000 visa insurance has a TRAP“ 80/85/85/90/90 → **84 STRONG** ✅ · 2) „SHOCK in a German hospital: your parents' visa insurance doesn't pay“ 80/70/90/85/75 → 76 · 3) „Mom has diabetes? Her Germany visa insurance may not cover it“ 80/80/85/80/80 → 80.
 - Fakten: Schengen-Visum braucht Reisekrankenversicherung mit mind. €30.000 Deckung (Visakodex Art. 15); Vorerkrankungen oft ausgeschlossen bzw. nur „akut unvorhersehbar“; Direktabrechnung vs. Vorkasse je Tarif – in der Caption als „often/check“ formuliert, kein Tarifvergleich.
