@@ -627,7 +627,7 @@
    "topic": "Recycling: Gehalt vs. Preise seit 2015 (STRATEGY) + Tilgung 1/2/3 % (HOME)",
    "keyword": "STRATEGY / HOME",
    "evaluate_after": "2026-11-21T16:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-18_recycling",
    "sources": [
     "Destatis Nominallohnindex 2015 73,9 → 2025 100 (+35 %), Reallohnindex 95,3 → 100 (+5 %), 2019 100,5 (über Stuttgarter Zeitung 'Alles wird immer teurer', 2026); Destatis PM 068 vom 27.02.2026: Reallohnindex 2025 = 100 vs 2019 = 100,5",
@@ -652,13 +652,13 @@
      "audioType": "music",
      "note": "Original-Behauptung 'Preise teils verdoppelt, Gehalt +34 %' nicht je Posten belegbar → nur belegte Destatis-Indizes (Gehalt +35 %, Preise +29 %, Kaufkraft +5 %).",
      "result": {
-      "views": 2420,
-      "reach": 1288,
-      "view_rate_3s": 49.9,
+      "views": 2482,
+      "reach": 1318,
+      "view_rate_3s": 50.0,
       "comments": 0,
       "saves": 1,
       "shares": 0,
-      "as_of": "2026-11-20 08:15"
+      "as_of": "2026-11-21 08:10"
      }
     },
     {
@@ -684,11 +684,11 @@
       "comments": 0,
       "saves": 1,
       "shares": 0,
-      "as_of": "2026-11-20 08:15"
+      "as_of": "2026-11-21 08:10"
      }
     }
    ],
-   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'. | 19.11. Prüfung (~17 h): 2.264 / 1.956 Aufrufe < Median 5.908 → läuft, 72-h-Grenze 21.11. 16:00/16:30. | 20.11. Prüfung (~40 h): 2.420 / 2.025 Aufrufe (+156 / +69 in 24 h) < Median 5.940 → läuft, 72-h-Grenze 21.11.; Median praktisch unerreichbar."
+   "note": "18.11. ~09:00 v2 nach Feedback Kashish (Tabellen größer, Hook besser, Englisch zu schwer): 6 Tabellenzeilen ('Find your pay' / 'Find your EMI'), neue Hooks, kurze Alltagssätze; Metricool-Posts per update ersetzt (uuids gleich, audioType music). ~09:07 v3: Hooks ≥ 90 (Kashish), Metricool erneut per update ersetzt (music). ~10:50 v4: Kashish – v3-Hooks trotz 92 Punkten unverständlich → Alltagssätze, länger erlaubt; r1-Tabelle als Beispiel-Rechnung (€4.000 → €5.413, +€1.413, −€1.159 Preise, +€254 wirklich mehr), r2-Spalten 'You pay monthly / Years to pay / Extra to the bank'. | 19.11. Prüfung (~17 h): 2.264 / 1.956 Aufrufe < Median 5.908 → läuft, 72-h-Grenze 21.11. 16:00/16:30. | 20.11. Prüfung (~40 h): 2.420 / 2.025 Aufrufe (+156 / +69 in 24 h) < Median 5.940 → läuft, 72-h-Grenze 21.11.; Median praktisch unerreichbar. | 21.11. Prüfung (~64 h, 72-h-Grenze heute 16:00/16:30): 2.482 / 2.025 Aufrufe (+62 / +0 in 24 h), je 1 Save < Median 5.697 (58 normale Reels 24.10.–20.11.) → kein_gewinner (Abstand uneinholbar)."
   },
   {
    "date": "2026-11-19/20",
@@ -705,14 +705,17 @@
      "sound": "2603949126473975",
      "audioType": "music",
      "result": {
-      "views": 3518,
-      "reach": 1787,
-      "view_rate_3s": 49.6,
-      "comments": 5,
-      "saves": 3,
-      "shares": 3,
-      "as_of": "2026-11-20 08:15"
-     }
+      "views": 6795,
+      "reach": 3284,
+      "view_rate_3s": 52.2,
+      "comments": 7,
+      "saves": 10,
+      "shares": 10,
+      "as_of": "2026-11-21 08:10"
+     },
+     "status": "teilen_empfohlen",
+     "teilen_empfohlen": "2026-11-21",
+     "hook": "You pay €1,238 rent in Hamburg. In 10 years that's €148,500 – and you own nothing 🇩🇪"
     },
     {
      "time": "19.11. 16:30",
@@ -721,13 +724,13 @@
      "sound": "2488847887958999",
      "audioType": "music",
      "result": {
-      "views": 720,
-      "reach": 402,
-      "view_rate_3s": 38.3,
+      "views": 1908,
+      "reach": 1057,
+      "view_rate_3s": 45.0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-20 08:15"
+      "as_of": "2026-11-21 08:10"
      }
     },
     {
@@ -736,7 +739,16 @@
      "metricool_uuid": "-3378893037468038946",
      "sound": "5490902791025441",
      "audioType": "music",
-     "sound_name": "C'est La Vie – Jennah Bell"
+     "sound_name": "C'est La Vie – Jennah Bell",
+     "result": {
+      "views": 1409,
+      "reach": 807,
+      "view_rate_3s": 44.0,
+      "comments": 0,
+      "saves": 2,
+      "shares": 3,
+      "as_of": "2026-11-21 08:10"
+     }
     },
     {
      "time": "20.11. 16:30",
@@ -744,10 +756,70 @@
      "metricool_uuid": "2351670009418105996",
      "sound": "1220205582894644",
      "audioType": "music",
-     "sound_name": "Sheesh – Sugartapes"
+     "sound_name": "Sheesh – Sugartapes",
+     "result": {
+      "views": 2257,
+      "reach": 1221,
+      "view_rate_3s": 42.5,
+      "comments": 0,
+      "saves": 4,
+      "shares": 0,
+      "as_of": "2026-11-21 08:10"
+     }
     }
    ],
-   "note": "19.11.: Slots 19.11./20.11. 16:00/16:30 damit belegt → an diesen Tagen kein Recycling (max. 2 Trials/Tag, Kashish 18.11.); alle 4 audioType music geprüft. | 20.11. Prüfung (~16 h): 19.11. 16:00 Miete 10 J. 3.518 Aufrufe, 5 Kommentare, 3 Saves, 3 Shares (bestes Kommentar-Trial bisher) · 16:30 PKV +15 % 720, 0 Reaktionen, 3-s-Rate 38,3 % – beide < Median 5.940 → läuft bis 22.11. Sounds 20.11. laut Metricool (getScheduledPosts 20.11.): C'est La Vie / Sheesh, audioType music. 20.11. kein Recycling (Slots belegt)."
+   "note": "19.11.: Slots 19.11./20.11. 16:00/16:30 damit belegt → an diesen Tagen kein Recycling (max. 2 Trials/Tag, Kashish 18.11.); alle 4 audioType music geprüft. | 20.11. Prüfung (~16 h): 19.11. 16:00 Miete 10 J. 3.518 Aufrufe, 5 Kommentare, 3 Saves, 3 Shares (bestes Kommentar-Trial bisher) · 16:30 PKV +15 % 720, 0 Reaktionen, 3-s-Rate 38,3 % – beide < Median 5.940 → läuft bis 22.11. Sounds 20.11. laut Metricool (getScheduledPosts 20.11.): C'est La Vie / Sheesh, audioType music. 20.11. kein Recycling (Slots belegt). | 21.11. Prüfung: Median 5.697. 19.11. 16:00 Miete 10 J. 6.795 Aufrufe, 7 Kommentare, 10 Saves, 10 Shares → ABGEGANGEN, Kashish per Push + Nachricht 21.11. ~08:10 gebeten, es ‚mit Followern teilen‘ (teilen_empfohlen). 19.11. 16:30 PKV 1.908 (0 Reaktionen), 20.11. 16:00 Kinder-Rente 1.409 (2 Saves, 3 Shares), 20.11. 16:30 Gehalt→Kredit 2.257 (4 Saves) → laufen weiter (72 h: 22.11./23.11.)."
+  },
+  {
+   "date": "2026-11-21",
+   "topic": "Recycling: Autokredit → weniger Baufinanzierung (HOME) + Mietkaution/Mietrechtsschutz (CALL)",
+   "keyword": "HOME / CALL",
+   "evaluate_after": "2026-11-24T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-21_recycling",
+   "sources": [
+    "Dr. Klein aktuelle Bauzinsen, Stand 21.11.2026: 10 J. Sollzins 4,01 %, eff. 4,11 % (Bestzins); eigene Rechnung €600×12 ÷ (4,01 % + 2 % Tilgung) = €119.800",
+    "RVG/GKG-Tabellen seit 01.06.2025 (KostBRÄG 2025, steuerschroeder.de Rechtsstand 01.07.2026, aequifin.com): Streitwert bis €3.000 RVG 1,0 = €235,50, GKG 1,0 = €125,50 → je Anwalt (1,3+1,2+€20, 19 % USt) €724,41, Gericht 3,0 = €376,50, Kostenrisiko bei Verlust €1.825,32",
+    "test.de Rechtsschutzversicherung im Vergleich (16.06.2026): Mietrechtsschutz allein für Mieter um die €100/Jahr; Wartezeit meist 3 Monate; bestehender Streit nicht versichert (auch transparent-beraten.de 20.10.2026, verivox)"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – Blöcke (Hook rot + 3 weiße Punkte + rote Expat-Zeile, Stichwort unten, split 5)",
+     "original_url": "https://www.instagram.com/reel/DblGffAswT8/",
+     "original_date": "2026-08-03",
+     "original_views": 15836,
+     "spec": "r1_carloan.json",
+     "clip": "IMG_9380.MOV ab 2,3 s (Mann geht zum Auto, Rückenansicht)",
+     "persons": 1,
+     "keyword": "HOME",
+     "hook_old": "Nobody in Germany stayed a renter because of a €5 coffee. But a €40k car loan?",
+     "hook": "Buying a car on EMI in Germany? The HIDDEN cost: €120,000 less home loan 🇩🇪",
+     "hook_score": 77,
+     "metricool_uuid": "8919141065126857256",
+     "sound": "851305135953613 Dale – Giulio Cercato",
+     "audioType": "music",
+     "note": "Zahl geprüft: 4,01 % + 2 % → €119.800 ≈ €120.000 (Original-Zahl bleibt)."
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – Blöcke (Hook rot oben, 3 weiße Punkte + rote Expat-Zeile + Stichwort unten)",
+     "original_url": "https://www.instagram.com/reel/DdEQawKN1jW/",
+     "original_date": "2026-09-09",
+     "original_views": 10633,
+     "spec": "r2_legal.json",
+     "clip": "IMG_8776.mov ab 1,1 s (Mann zeigt auf Mietshaus, dann Fassade)",
+     "persons": 1,
+     "keyword": "CALL",
+     "hook_old": "I wish more people knew this before signing their rental contract in Germany (landlord keeps €2,400 deposit, lawyer €1,500+)",
+     "hook": "Landlord in Germany keeps your €2,400 deposit? BRUTAL truth: a lawyer costs extra 🇩🇪",
+     "hook_score": 75,
+     "metricool_uuid": "-5680083683169450218",
+     "sound": "1351750949663964 Showcase – Shanice",
+     "audioType": "music",
+     "note": "Original 'lawyer €1,500+' und 'from ~€10/month' aktualisiert: Kostenrisiko bei Verlust ≈ €1.825 (RVG/GKG 2025), Mietrechtsschutz ≈ €100/Jahr (test.de 2026); 'most expats give up' (unbelegt) weggelassen."
+    }
+   ]
   }
  ]
 }
