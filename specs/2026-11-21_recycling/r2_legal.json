@@ -1,0 +1,51 @@
+{
+ "start": 1.1,
+ "split": 1,
+ "avoid": [
+  [
+   380,
+   500,
+   1080,
+   940
+  ]
+ ],
+ "blocks": [
+  [
+   "Landlord in Germany keeps your €2,400 deposit? BRUTAL truth: a lawyer costs extra 🇩🇪",
+   54,
+   "red"
+  ],
+  [
+   "Lose in court: about €1,800 ⚖️",
+   48,
+   "white"
+  ],
+  [
+   "Legal insurance: about €100 a year 🛡️",
+   48,
+   "white"
+  ],
+  [
+   "Covers you after a 3-month wait 📅",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 New flat? Get covered early",
+   48,
+   "red"
+  ],
+  [
+   "Comment CALL 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free legal-insurance check",
+   50,
+   "yellow"
+  ]
+ ],
+ "dur": 5.1,
+ "avoid_heads": false
+}

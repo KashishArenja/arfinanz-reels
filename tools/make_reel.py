@@ -267,10 +267,10 @@ def place(blocks, faces, prefer="upper"):
     return lay, y, None
 
 
-def place_split(blocks, faces):
-    """Hook at the top, the rest at the bottom of the safe zone; both clear of faces."""
+def place_split(blocks, faces, n=1):
+    """Hook (first n blocks, spec "split") at the top, the rest at the bottom of the safe zone; both clear of faces."""
     for scale in (1.0, 0.9, 0.8, 0.7):
-        top, th = layout(blocks[:1], scale); bot, bh = layout(blocks[1:], scale)
+        top, th = layout(blocks[:n], scale); bot, bh = layout(blocks[n:], scale)
         ok = lambda lay, y: not any(overlap(r, f) for r in rects_at(lay, y) for f in faces)
         ty = [y for y in range(SAFE["top"], SAFE["bottom"] - th + 1, 10) if ok(top, y)]
         by = [y for y in range(SAFE["top"], SAFE["bottom"] - bh + 1, 10) if ok(bot, y)]
@@ -612,7 +612,7 @@ def main(clip, spec, out):
         parts = None
     if parts == "done":
         pass
-    elif len(blocks) > 1 and (parts := place_split(blocks, faces)[0]):
+    elif len(blocks) > 1 and (parts := place_split(blocks, faces, sp.get("split", 1))[0]):
         scale = None
         y0 = [y for _, y in parts]
         render_parts(parts, ov)

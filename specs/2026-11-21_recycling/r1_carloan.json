@@ -1,0 +1,42 @@
+{
+ "start": 2.3,
+ "split": 5,
+ "blocks": [
+  [
+   "Buying a car on EMI in Germany? The HIDDEN cost: €120,000 less home loan 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "€5 coffee? Banks don't care ☕",
+   48,
+   "white"
+  ],
+  [
+   "€600 car EMI? The bank counts it 🚗",
+   48,
+   "white"
+  ],
+  [
+   "Every EMI = a smaller home loan 🏦",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 Home soon? Skip the car EMI",
+   48,
+   "red"
+  ],
+  [
+   "Comment HOME 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free home-buying guide for expats",
+   50,
+   "yellow"
+  ]
+ ],
+ "dur": 5.1
+}
