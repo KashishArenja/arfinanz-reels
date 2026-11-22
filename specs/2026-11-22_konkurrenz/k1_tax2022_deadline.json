@@ -1,0 +1,28 @@
+{
+ "start": 5.0,
+ "list": {
+  "title": "🚨 Never filed taxes in Germany? 🇩🇪 LAST CHANCE for your 2022 money: 31 December",
+  "items": [
+   "💶 Average refund in Germany: €1,172",
+   "🧾 Tax class 1? Filing is often voluntary",
+   "📅 Your 2022 return: last day 31 December",
+   "✈️ Move from India, laptop, commute count",
+   "🔁 Up to 4 years back: 2022–2025",
+   "🇮🇳 Indian FD interest: declare it too"
+  ]
+ },
+ "blocks": [
+  [
+   "Save this 📌",
+   64,
+   "yellow"
+  ],
+  [
+   "Send it to a friend who never filed",
+   50,
+   "yellow"
+  ]
+ ],
+ "dur": 5.1,
+ "avoid_heads": false
+}

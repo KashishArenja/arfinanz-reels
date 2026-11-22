@@ -1,0 +1,20 @@
+{
+ "start": 1.3,
+ "avoid_heads": false,
+ "list": {
+  "title": "🚨 Moved from India to Germany for a job? 🇩🇪 Your flights can be a HIDDEN tax refund",
+  "items": [
+   "✈️ Flights for you and your family",
+   "📦 Shipping your things from India",
+   "🏠 Agent fee for your rented flat",
+   "❌ Paid by your employer? Doesn't count",
+   "🧾 Claim it in your tax return",
+   "📅 Moved in 2022? Last day 31 December"
+  ]
+ },
+ "blocks": [
+  ["Save this 📌", 64, "yellow"],
+  ["Send it to a friend who just moved here", 50, "yellow"]
+ ],
+ "dur": 5.1
+}
