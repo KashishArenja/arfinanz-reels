@@ -1,0 +1,15 @@
+{
+ "start": 0.6,
+ "dur": 5.1,
+ "split": 1,
+ "avoid": [[0, 600, 1080, 930]],
+ "blocks": [
+  ["Your dream home in Germany has a garden. But the HIDDEN catch: no sun in winter ☀️", 56, "red"],
+  ["Free app ShadeMap: type the address 📱", 48, "white"],
+  ["Move the date to 21 December ❄️", 48, "white"],
+  ["Still sunny? Good sign ✅", 48, "white"],
+  ["🇮🇳 First home? Check the money too", 48, "red"],
+  ["Comment HOME 👇", 64, "yellow"],
+  ["Free home-buying guide for expats", 48, "yellow"]
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "start": 1.3,
+ "dur": 5.1,
+ "blocks": [
+  [
+   "Buying a home in Germany in 3–8 years? Germans lock today's loan interest – their BEST-KEPT secret 🏠",
+   54,
+   "red"
+  ],
+  [
+   "Save a fixed amount every month 💶",
+   48,
+   "white"
+  ],
+  [
+   "Loan interest fixed from day 1 🔒",
+   48,
+   "white"
+  ],
+  [
+   "State bonus: up to €140 a year 🎁",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 New in Germany? Plan your home early",
+   48,
+   "red"
+  ],
+  [
+   "Comment HOME 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free home-buying guide for expats",
+   48,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false,
+ "split": 1
+}
