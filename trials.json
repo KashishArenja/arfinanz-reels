@@ -832,7 +832,8 @@
    "specs": "specs/2026-11-22_recycling",
    "sources": [
     "shademap.app/help (App aktiv, Schatten nach Adresse/Datum/Uhrzeit); 21.12. = Wintersonnenwende, längste Schatten",
-    "Verbraucherzentrale Wohnungsbauprämie FAQ (Stand 10.11.2025) + Finanztip (Stand 18.03.2026): 10 % auf max. €700/€1.400 → max. €70/€140 pro Jahr, zvE-Grenze €35.000/€70.000, wohnwirtschaftliche Verwendung, 7 Jahre; Abschlussgebühr meist ~1 % der Bausparsumme"
+    "Verbraucherzentrale Wohnungsbauprämie FAQ (Stand 10.11.2025) + Finanztip (Stand 18.03.2026): 10 % auf max. €700/€1.400 → max. €70/€140 pro Jahr, zvE-Grenze €35.000/€70.000, wohnwirtschaftliche Verwendung, 7 Jahre; Abschlussgebühr meist ~1 % der Bausparsumme",
+    "finanzierung-mit-kopf.de Bauspartarif-Vergleich (geprüft 06.11.2026): Sollzins 0,45–4,25 %, Niedrigzins-Tarife ~1–2 %"
    ],
    "reels": [
     {
@@ -869,7 +870,7 @@
      "metricool_uuid": "1514566292160466610",
      "sound": "5442350415868235 Super Soca (Instrumental) – Makana",
      "audioType": "music",
-     "note": "Wohnungsbauprämie ergänzt (bis €140/Jahr Paare, mit Einkommensgrenze), Kosten (~1 % Gebühr) in der Caption genannt."
+     "note": "Wohnungsbauprämie ergänzt (bis €140/Jahr Paare, mit Einkommensgrenze), Kosten (~1 % Gebühr) in der Caption genannt. | 22.11. ~10:05 v2 (Kashish): Zeile 'Loan interest 1–2%, fixed from day 1' + Caption (Niedrigzins-Tarife ~1–2 %, andere bis ~4 %; Quelle Tarifvergleich finanzierung-mit-kopf.de, geprüft 06.11.2026: z. B. LBS NordOst Classic20 0,95 %, BHW FI1 1,00 %, Wüstenrot Premium 1,50 %, Alte Leipziger Niedrig 1,75 %). Metricool per update ersetzt (uuid gleich, audioType music)."
     }
    ]
   }
