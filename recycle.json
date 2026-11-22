@@ -722,8 +722,14 @@
    "views": 10552,
    "shares": 24,
    "saves": 42,
-   "topic": "Bausparen – Zins heute sichern (HOME), kein Personen-Vergleich – Kandidat",
-   "recycled": []
+   "topic": "Bausparen – Zins heute sichern (HOME), kein Personen-Vergleich; 22.11. recycelt (Wohnungsbauprämie bis €140/Jahr)",
+   "recycled": [
+    {
+     "date": "2026-11-22",
+     "uuid": "1514566292160466610",
+     "type": "TRIAL_REEL 16:30"
+    }
+   ]
   },
   {
    "posted": "2026-10-08",
@@ -732,8 +738,14 @@
    "views": 10431,
    "shares": 63,
    "saves": 124,
-   "topic": "ShadeMap-App: Garten im Schatten? vor dem Kauf prüfen (HOME), Liste 5 Schritte – Kandidat (breit/TOFU)",
-   "recycled": []
+   "topic": "ShadeMap-App: Garten im Schatten? vor dem Kauf prüfen (HOME), Liste 5 Schritte, kein Personen-Vergleich; 22.11. recycelt",
+   "recycled": [
+    {
+     "date": "2026-11-22",
+     "uuid": "8933479318440199168",
+     "type": "TRIAL_REEL 16:00"
+    }
+   ]
   },
   {
    "posted": "2026-10-24",
