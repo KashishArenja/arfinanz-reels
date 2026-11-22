@@ -1,0 +1,16 @@
+# 22.11.2026 – Konkurrenz-Check → k1 + k2 direkt eingeplant (Muster 26: „Geld vom Finanzamt“ + Save/Send, eigene Zahlen)
+- Konkurrenz: keine neuen Ausreißer ≥ 3× in 48 h. Einziger neuer Post: expats.phil 21.11. „Same job. Same €7,512 gross. One pays €1,624 tax, the other €12“ (Muster 2/6 zum dritten Mal fast wortgleich) = 34 Interaktionen = 1,0× (bestätigt Muster 13). Sandeep 20.11. 0,3×/0,0×. Normalwerte 25.10.–22.11. (Median Interaktionen): Fionn 157 · Phil 35 · Sandeep 39 · Sara 60 (nur 3 Posts). Fionn seit 14.11. ohne neue Reels.
+- Eigene Reels 08.–21.11. (63 inkl. Trials, Median 2.739 Aufrufe, Zeitstempel UTC): §33a 19.11. jetzt **24,6×** (67.428, 730 Saves, 730 Shares); 18.11. AVD „Find your family“ 5,3×; Trial Bargeld 17.11. 4,5×; **21.11. 13:30 Pendlerpauschale „Do you drive to work? Save this 📌“ 2,1× nach < 24 h (5.700, 17 Saves, 20 Shares)**; 20.11. 11:00 Paare §33a 1,9× (33 Saves); 21.11. 11:00 Mietwohnung-Steuer 1,0×; Recycling-Trials 21.11. 0,6×/0,8×.
+- Entscheidung: Muster 24/25 (Geld vom Finanzamt für eine Expat-Lebenslage + Liste + Save/Send) trägt weiter, jetzt auch ohne „Eltern in Indien“ (Pendlerpauschale). Neu: **echte Frist 31.12.2026 für die freiwillige Steuererklärung 2022** als Dringlichkeit.
+
+## k1 – Nie Steuererklärung gemacht? 2022 endet am 31.12.2026 (allgemein, TOFU)
+- Clip IMG_2859.MOV (Baustelle, personenfrei, `avoid_heads: false`), start 5,0 (best_window; 2,0 lief 11.11.). IMG_7163 (Kanzleischild, ungenutzt) probiert → Liste passt nicht (Kopf wandert durch die Bildmitte, y 715–1.000).
+- Hooks (L/S/St/F/A → Gesamt = Mittel×0,6 + Min×0,4): 1) „🚨 Never filed taxes in Germany? 🇩🇪 LAST CHANCE for your 2022 money: 31 December“ 75/90/90/85/90 → **82 STRONG** ✅ · 2) „Average refund in Germany: €1,172. Expats who never file get €0“ 75/85/80/80/80 → 78 · 3) „Tax class 1 in Germany? Your 2022 refund dies on 31 Dec“ 80/80/80/80/75 → 77.
+- Belege: Ø-Erstattung €1.172 (Destatis via VLH 24.02.2026, Steuerjahr 2021); Frist 2022 = 31.12.2026 (service.berlin.de „für das Jahr 2022 also bis zum 31.12.2026“, §169 Abs. 2 Nr. 2 + §170 Abs. 1 AO); Pendlerpauschale 2022 €0,30 / ab km 21 €0,38.
+- Slot **27.11. 13:30**, Sound Dirty – Tony Dark Eyes 344621657711735 (music ✅; 27.11. 11:00 = Showcase). IG uuid 5014702500087022663 · TikTok+YouTube uuid 4823387526998017800 (Musik: Humpty Dumpty – The Soundlings).
+
+## k2 – Aus Indien hergezogen? Umzugskosten = Werbungskosten (allgemein, TOFU)
+- Clip IMG_2855.MOV (Wohnblock → Baufeld, personenfrei), start 1,3 (best_window; 0,0/0,5/2,8 liefen in Trials).
+- Hooks: 1) „🚨 Moved from India to Germany for a job? 🇩🇪 Your flights can be a HIDDEN tax refund“ 75/85/80/90/90 → **81 STRONG** ✅ · 2) „Your move from India = work costs in Germany“ 85/70/65/80/80 → 70 · 3) „Flights from India to Germany? The tax office pays back part“ 80/75/75/80/80 → 76.
+- Belege: §9 Abs. 1 EStG / R 9.9 LStR (beruflich veranlasster Umzug, auch aus dem Ausland); Arbeitnehmer-Pauschbetrag €1.230 (ab 2023); §32b EStG Progressionsvorbehalt im Zuzugsjahr. Python: (2.400 + 1.600 − 1.230) × 0,30 = 831.
+- Slot **28.11. 13:30**, Sound Dale – Giulio Cercato 851305135953613 (music ✅; 28.11. 11:00 = C'est La Vie). IG uuid -7187791295761857883 · TikTok+YouTube uuid -969688136122677758 (Musik: If We Were Together – The Soundlings).
