@@ -695,7 +695,7 @@
    "topic": "Farbtabellen (Inspo Sandeep) – Extra-Runde",
    "keyword": "HOME/PKV/PENSION",
    "evaluate_after": "2026-11-22T16:30",
-   "status": "läuft",
+   "status": "abgeschlossen (19.11. 16:00 teilen_empfohlen, Rest kein_gewinner)",
    "specs": "specs/2026-11-18_colortables",
    "reels": [
     {
@@ -742,14 +742,15 @@
      "audioType": "music",
      "sound_name": "C'est La Vie – Jennah Bell",
      "result": {
-      "views": 2253,
-      "reach": 1297,
-      "view_rate_3s": 43.5,
+      "views": 2370,
+      "reach": 1356,
+      "view_rate_3s": 43.8,
       "comments": 0,
       "saves": 10,
       "shares": 8,
-      "as_of": "2026-11-22 08:10"
-     }
+      "as_of": "2026-11-23 08:10"
+     },
+     "status": "kein_gewinner"
     },
     {
      "time": "20.11. 16:30",
@@ -759,14 +760,15 @@
      "audioType": "music",
      "sound_name": "Sheesh – Sugartapes",
      "result": {
-      "views": 2532,
-      "reach": 1345,
-      "view_rate_3s": 43.6,
+      "views": 2648,
+      "reach": 1390,
+      "view_rate_3s": 44.3,
       "comments": 0,
       "saves": 4,
       "shares": 0,
-      "as_of": "2026-11-22 08:10"
-     }
+      "as_of": "2026-11-23 08:10"
+     },
+     "status": "kein_gewinner"
     }
    ],
    "note": "19.11.: Slots 19.11./20.11. 16:00/16:30 damit belegt → an diesen Tagen kein Recycling (max. 2 Trials/Tag, Kashish 18.11.); alle 4 audioType music geprüft. | 20.11. Prüfung (~16 h): 19.11. 16:00 Miete 10 J. 3.518 Aufrufe, 5 Kommentare, 3 Saves, 3 Shares (bestes Kommentar-Trial bisher) · 16:30 PKV +15 % 720, 0 Reaktionen, 3-s-Rate 38,3 % – beide < Median 5.940 → läuft bis 22.11. Sounds 20.11. laut Metricool (getScheduledPosts 20.11.): C'est La Vie / Sheesh, audioType music. 20.11. kein Recycling (Slots belegt). | 21.11. Prüfung: Median 5.697. 19.11. 16:00 Miete 10 J. 6.795 Aufrufe, 7 Kommentare, 10 Saves, 10 Shares → ABGEGANGEN, Kashish per Push + Nachricht 21.11. ~08:10 gebeten, es ‚mit Followern teilen‘ (teilen_empfohlen). 19.11. 16:30 PKV 1.908 (0 Reaktionen), 20.11. 16:00 Kinder-Rente 1.409 (2 Saves, 3 Shares), 20.11. 16:30 Gehalt→Kredit 2.257 (4 Saves) → laufen weiter (72 h: 22.11./23.11.). | 22.11. Prüfung: Median normale Reels 25.10.–21.11. = 5.246 (61 Reels). 19.11. 16:30 PKV +15 % 1.916 Aufrufe (+8 in 24 h), 0 Reaktionen, ~64 h → Median bis 72 h unerreichbar → kein_gewinner. 20.11. 16:00 Kinder-Rente 2.253 (10 Saves, 8 Shares) · 20.11. 16:30 Gehalt→Kredit 2.532 (4 Saves) < Median → laufen bis 23.11. 16:00/16:30."
@@ -800,7 +802,16 @@
      "metricool_uuid": "8919141065126857256",
      "sound": "851305135953613 Dale – Giulio Cercato",
      "audioType": "music",
-     "note": "Zahl geprüft: 4,01 % + 2 % → €119.800 ≈ €120.000 (Original-Zahl bleibt)."
+     "note": "Zahl geprüft: 4,01 % + 2 % → €119.800 ≈ €120.000 (Original-Zahl bleibt).",
+     "result": {
+      "views": 2181,
+      "reach": 1039,
+      "view_rate_3s": 50.9,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-23 08:10"
+     }
     },
     {
      "time": "16:30",
@@ -818,7 +829,16 @@
      "metricool_uuid": "-5680083683169450218",
      "sound": "1351750949663964 Showcase – Shanice",
      "audioType": "music",
-     "note": "Original 'lawyer €1,500+' und 'from ~€10/month' aktualisiert: Kostenrisiko bei Verlust ≈ €1.825 (RVG/GKG 2025), Mietrechtsschutz ≈ €100/Jahr (test.de 2026); 'most expats give up' (unbelegt) weggelassen."
+     "note": "Original 'lawyer €1,500+' und 'from ~€10/month' aktualisiert: Kostenrisiko bei Verlust ≈ €1.825 (RVG/GKG 2025), Mietrechtsschutz ≈ €100/Jahr (test.de 2026); 'most expats give up' (unbelegt) weggelassen.",
+     "result": {
+      "views": 2299,
+      "reach": 1223,
+      "view_rate_3s": 60.2,
+      "comments": 0,
+      "saves": 2,
+      "shares": 3,
+      "as_of": "2026-11-23 08:10"
+     }
     }
    ],
    "note": "22.11. Prüfung (~16 h): 16:00 Autokredit 1.527 Aufrufe, 0 Reaktionen, 3-s-Rate 50,1 % · 16:30 Mietkaution/Rechtsschutz 2.190, 2 Saves + 3 Shares, 59,4 % – beide < Median 5.246 (normale Reels 25.10.–21.11.) → läuft, 72-h-Grenze 24.11."
@@ -852,7 +872,16 @@
      "metricool_uuid": "8933479318440199168",
      "sound": "503254218286065 Last Summer – Giulio Cercato",
      "audioType": "music",
-     "note": "'6 months a year' (nicht belegbar) weggelassen; 21. Dezember = längste Schatten. Original 125 Saves."
+     "note": "'6 months a year' (nicht belegbar) weggelassen; 21. Dezember = längste Schatten. Original 125 Saves.",
+     "result": {
+      "views": 482,
+      "reach": 355,
+      "view_rate_3s": 29.2,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-23 08:10"
+     }
     },
     {
      "time": "16:30",
@@ -870,7 +899,67 @@
      "metricool_uuid": "1514566292160466610",
      "sound": "5442350415868235 Super Soca (Instrumental) – Makana",
      "audioType": "music",
-     "note": "Wohnungsbauprämie ergänzt (bis €140/Jahr Paare, mit Einkommensgrenze), Kosten (~1 % Gebühr) in der Caption genannt. | 22.11. ~10:05 v2 (Kashish): Zeile 'Loan interest 1–2%, fixed from day 1' + Caption (Niedrigzins-Tarife ~1–2 %, andere bis ~4 %; Quelle Tarifvergleich finanzierung-mit-kopf.de, geprüft 06.11.2026: z. B. LBS NordOst Classic20 0,95 %, BHW FI1 1,00 %, Wüstenrot Premium 1,50 %, Alte Leipziger Niedrig 1,75 %). Metricool per update ersetzt (uuid gleich, audioType music)."
+     "note": "Wohnungsbauprämie ergänzt (bis €140/Jahr Paare, mit Einkommensgrenze), Kosten (~1 % Gebühr) in der Caption genannt. | 22.11. ~10:05 v2 (Kashish): Zeile 'Loan interest 1–2%, fixed from day 1' + Caption (Niedrigzins-Tarife ~1–2 %, andere bis ~4 %; Quelle Tarifvergleich finanzierung-mit-kopf.de, geprüft 06.11.2026: z. B. LBS NordOst Classic20 0,95 %, BHW FI1 1,00 %, Wüstenrot Premium 1,50 %, Alte Leipziger Niedrig 1,75 %). Metricool per update ersetzt (uuid gleich, audioType music).",
+     "result": {
+      "views": 1766,
+      "reach": 1014,
+      "view_rate_3s": 42.5,
+      "comments": 0,
+      "saves": 4,
+      "shares": 4,
+      "as_of": "2026-11-23 08:10"
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "topic": "Recycling: Immobilie an Kinder verkaufen statt verschenken (STRATEGY) + 5 Zeichen, dass es dir finanziell besser geht (CALL)",
+   "keyword": "STRATEGY / CALL",
+   "evaluate_after": "2026-11-26T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-23_recycling",
+   "sources": [
+    "§3 Nr. 6 GrEStG (Erwerb durch Verwandte in gerader Linie steuerfrei), u. a. haufe.de Weilbach-Kommentar, immobilienscout24.de 'Haus innerhalb der Familie verkaufen – Steuern', biallo.de 'Immobilie an die Kinder verkaufen'"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – Blöcke (Hook rot oben, 4 weiße Punkte + rote Expat-Zeile + Stichwort, split 1)",
+     "original_date": "2026-06-08",
+     "original_time_utc": "12:45",
+     "original_url": null,
+     "original_views": 1822210,
+     "spec": "r1_selltokids.json",
+     "clip": "IMG_6330.MOV ab 4,3 s (Mann vor weißer Villa, läuft zum Auto)",
+     "persons": 1,
+     "keyword": "STRATEGY",
+     "hook_old": "Most parents in Germany gift their property to their kids. Smart families sell it instead 👇",
+     "hook": "Own a flat in Germany? The legal LOOPHOLE: sell it to your kids – they pay €0 buying tax 🇩🇪",
+     "hook_score": 74,
+     "metricool_uuid": "3438073831103810837",
+     "sound": "851305135953613 Dale – Giulio Cercato",
+     "audioType": "music",
+     "note": "Original fehlte in recycle.json (vor 29.07.). Personenzahl im Original unbekannt; Inhalt = Verhaltens-Vergleich, kein A/B-Personen-Vergleich."
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – Liste 5 Zeichen (Hook rot oben, 5 weiße Punkte + rote Zeile + Stichwort, split 1)",
+     "original_date": "2026-07-15",
+     "original_time_utc": "09:44",
+     "original_url": null,
+     "original_views": 215492,
+     "spec": "r2_fivesigns.json",
+     "clip": "IMG_8768.MOV ab 1,9 s (Mann im Café mit Handy und Getränk)",
+     "persons": 1,
+     "keyword": "CALL",
+     "hook_old": "Five quiet signs you're actually doing better than you think. 💸",
+     "hook": "Living in Germany? 5 HIDDEN signs you're richer than you think 💸",
+     "hook_score": 71,
+     "metricool_uuid": "-2613537408027177516",
+     "sound": "344621657711735 Dirty – Tony Dark Eyes",
+     "audioType": "music",
+     "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). Liste erscheint ab ~1,5 s (Kopf oben in den ersten Bildern)."
     }
    ]
   }

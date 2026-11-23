@@ -1,6 +1,60 @@
 {
- "_info": "Recycling-Liste (Kashish 14.11.2026): alle eigenen Reels mit 10.000+ Aufrufen. Täglich 2 davon als Trial Reel leicht verändert neu posten (Regeln: WORKFLOW.md „Tägliche Trial Reels“). topic=null → Caption per Metricool IGRE03 (tageweise) nachlesen und eintragen.",
+ "_info": "Recycling-Liste (Kashish 14.11.2026): alle eigenen Reels mit 10.000+ Aufrufen. Täglich 2 davon als Trial Reel leicht verändert neu posten (Regeln: WORKFLOW.md „Tägliche Trial Reels“). topic=null → Caption per Metricool IGRE03 (tageweise) nachlesen und eintragen. | 23.11.: Hits 01.04.–28.07.2026 ergänzt (vorher fehlten sie; Zeit in UTC, URL unbekannt).",
  "reels": [
+  {
+   "posted": "2026-06-20",
+   "time": "10:46 UTC",
+   "url": null,
+   "views": 5256844,
+   "topic": "Ehegattenschaukel 'Same house, same couple' (TAX) – Inhalt am 05.11. neu gepostet → frühestens 17.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-08",
+   "time": "12:45 UTC",
+   "url": null,
+   "views": 1822210,
+   "topic": "Eltern verkaufen Immobilie an Kinder statt Schenkung: GrESt-frei (§3 Nr. 6 GrEStG), Verkäuferdarlehen, neue AfA für Kind (STRATEGY), kein Personen-Vergleich (Verhaltens-Vergleich gift/sell); 23.11. recycelt",
+   "recycled": [
+    {
+     "date": "2026-11-23",
+     "uuid": "3438073831103810837",
+     "type": "TRIAL_REEL 16:00"
+    }
+   ]
+  },
+  {
+   "posted": "2026-07-02",
+   "time": "11:48 UTC",
+   "url": null,
+   "views": 1464910,
+   "topic": "Ehegattenschaukel Husband A/B (TAX, 2-Personen-Vergleich) – wie 05.11. → frühestens 17.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-06",
+   "time": "11:11 UTC",
+   "url": null,
+   "views": 754755,
+   "topic": "€60.000 vs ₹15 Lakh – was nach Steuern/Miete/Auto bleibt (STRATEGY), India-vs-Germany-Tabelle; 23.11. übersprungen: Indien-Kosten nicht belegbar (wie Ärzte-Gehalt), Statistik-Muster fiel als Trial 3× durch",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-27",
+   "time": "11:47 UTC",
+   "url": null,
+   "views": 422181,
+   "topic": "Neubau Damp €18.206 → €90k Vermögenseffekt (STRATEGY) – Fallbeispiel wie Augsburg-WG 10.11. → nicht vor 22.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-24",
+   "time": "13:33 UTC",
+   "url": null,
+   "views": 360721,
+   "topic": "'If you can afford this rent, you can afford this house' (HOME) – wie Farbtabelle Miete 19.11./Miete=EMI 20.11. → nicht vor 01.01.",
+   "recycled": []
+  },
   {
    "posted": "2026-08-18",
    "time": "11:46",
@@ -28,6 +82,22 @@
    "recycled": []
   },
   {
+   "posted": "2026-06-16",
+   "time": "11:04 UTC",
+   "url": null,
+   "views": 265715,
+   "topic": "Kinder-Millionär ETF-Sparplan – §34f, nicht recyceln",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-27",
+   "time": "14:19 UTC",
+   "url": null,
+   "views": 255946,
+   "topic": "Gehaltsklassen brutto/Monat 2026 (HOME/CALL) – wie Gehalts-Perzentile Trial 15.11. → frühestens 27.12.",
+   "recycled": []
+  },
+  {
    "posted": "2026-11-01",
    "time": "15:29",
    "url": "https://www.instagram.com/reel/DfNDc8eNan9/",
@@ -48,6 +118,36 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-03",
+   "time": "11:42 UTC",
+   "url": null,
+   "views": 220131,
+   "topic": "Lohnsteuer-Freibetrag €7.512 brutto → +€1.600 netto (TAX), 2 Personen 'same employer' – wie REEL 23.11. 11:00 Freibetrag → frühestens 04.01.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-15",
+   "time": "09:44 UTC",
+   "url": null,
+   "views": 215492,
+   "topic": "5 quiet signs you're doing better than you think (Lifestyle, CALL), kein Personen-Vergleich; 23.11. recycelt",
+   "recycled": [
+    {
+     "date": "2026-11-23",
+     "uuid": "-2613537408027177516",
+     "type": "TRIAL_REEL 16:30"
+    }
+   ]
+  },
+  {
+   "posted": "2026-07-10",
+   "time": "13:31 UTC",
+   "url": null,
+   "views": 161430,
+   "topic": "Paar €6.000 netto → Kreditprofil, Portfolio (STRATEGY) – wie Millionaire Couple 15.10. → nicht vor 26.11.",
+   "recycled": []
+  },
+  {
    "posted": "2026-08-02",
    "time": "09:05",
    "url": "https://www.instagram.com/reel/DbiDFYDMuaA/",
@@ -58,6 +158,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-05-29",
+   "time": "11:31 UTC",
+   "url": null,
+   "views": 130552,
+   "topic": "Ehegattenschaukel Schritt für Schritt (TAX) – wie 05.11. → frühestens 17.12.",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-28",
    "time": "13:01",
    "url": "https://www.instagram.com/reel/Dd1PbGrMz7w/",
@@ -65,6 +173,38 @@
    "shares": 391,
    "saves": 377,
    "topic": "Augsburg-WG mit €12.500 Kaufnebenkosten, Reno €25k → €10.500 Steuer, ≈€105.500 nach 10 J. (STRATEGY), 'this couple'; am 10.11. als 'WG mit 12.500 €' neu gepostet → frühestens 22.12.; Zahl neu gerechnet 15.11. ≈ €99k (3,93 %, 2 % Wertsteigerung)",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-03",
+   "time": "11:54 UTC",
+   "url": null,
+   "views": 125709,
+   "topic": "Ingenieur €202.900 Wohnung +€268/Monat (STRATEGY) – Fallbeispiel wie Augsburg → nicht vor 22.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-18",
+   "time": "13:10 UTC",
+   "url": null,
+   "views": 116986,
+   "topic": "Juli-2026-Änderungen – abgelaufen, nicht recyceln",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-16",
+   "time": "11:31 UTC",
+   "url": null,
+   "views": 112345,
+   "topic": "0 € Einkommensteuer mit §7b Sonder-AfA (TAX) – wie Degressive-AfA-REEL 19.11. → nicht vor 31.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-22",
+   "time": "13:16 UTC",
+   "url": null,
+   "views": 96443,
+   "topic": "Freibetrag €7.500 → +€1.600 netto (TAX) – wie REEL 23.11. → frühestens 04.01.",
    "recycled": []
   },
   {
@@ -94,6 +234,22 @@
    "recycled": []
   },
   {
+   "posted": "2026-04-29",
+   "time": "15:08 UTC",
+   "url": null,
+   "views": 89183,
+   "topic": "Ärzte-Gehalt Indien vs DE – Indien-Zahlen nicht belegbar, nicht recyceln",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-02",
+   "time": "13:05 UTC",
+   "url": null,
+   "views": 88012,
+   "topic": "€10K reicht für Immobilien-Start (STRATEGY) – wie WG '€50k' 11.11./Augsburg → nicht vor 22.12.",
+   "recycled": []
+  },
+  {
    "posted": "2026-08-08",
    "time": "08:37",
    "url": "https://www.instagram.com/reel/DbxcwYltV2r/",
@@ -114,6 +270,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-06-23",
+   "time": "12:09 UTC",
+   "url": null,
+   "views": 78386,
+   "topic": "15-%-Regel Renovierung (TAX), frei – Kandidat",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-17",
    "time": "11:30",
    "url": "https://www.instagram.com/reel/Deli8rfMt9d/",
@@ -131,6 +295,14 @@
    "shares": 698,
    "saves": 687,
    "topic": "Kindererziehungszeiten V0800 bis €30.000 (PENSION) – V0800 am 13.11. erneut gepostet",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-09",
+   "time": "10:16 UTC",
+   "url": null,
+   "views": 61907,
+   "topic": "Wie viel Haus kannst du dir leisten (HOME) – wie Gehalt→Kredit 20.11. → nicht vor 01.01.",
    "recycled": []
   },
   {
@@ -160,13 +332,37 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-13",
+   "time": "14:59 UTC",
+   "url": null,
+   "views": 52830,
+   "topic": "35-%-Regel Paar (HOME) – wie Gehalt→Kredit 20.11. → nicht vor 01.01.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-05",
+   "time": "09:34 UTC",
+   "url": null,
+   "views": 52541,
+   "topic": "Freibetrag auf Lohnsteuerkarte durch Vermietung (TAX) – wie REEL 23.11. → frühestens 04.01.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-16",
+   "time": "10:24 UTC",
+   "url": null,
+   "views": 52276,
+   "topic": "Miete vs. Rate ~4,2 % + 1,5 % (HOME) – wie Miete=EMI 20.11. → nicht vor 01.01.",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-12",
    "time": "14:26",
    "url": "https://www.instagram.com/reel/DeZcXL9tSJV/",
    "views": 50982,
    "shares": 379,
    "saves": 787,
-   "topic": "Steuer-Quick-Wins (Pendler, Homeoffice, Handwerker) → PENSION",
+   "topic": "Steuer-Quick-Wins (Pendler, Homeoffice, Handwerker) → PENSION – 23.11. übersprungen: Pendler (REEL 21.11.) + Handwerker (REEL 22.11.) gerade einzeln gepostet → frühestens 03.01.",
    "recycled": []
   },
   {
@@ -216,6 +412,22 @@
    "recycled": []
   },
   {
+   "posted": "2026-06-30",
+   "time": "10:05 UTC",
+   "url": null,
+   "views": 45427,
+   "topic": "Why rich people love debt €450k→€610k (STRATEGY) – wie DcIwpWYgCjI → nicht vor 23.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-15",
+   "time": "13:27 UTC",
+   "url": null,
+   "views": 42698,
+   "topic": "Same job, two worlds – Software Engineer DE vs IN (CALL), Kandidat (Zahlen prüfen)",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-16",
    "time": "12:56",
    "url": "https://www.instagram.com/reel/DdWVeVktDbj/",
@@ -236,6 +448,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-20",
+   "time": "12:35 UTC",
+   "url": null,
+   "views": 39606,
+   "topic": "POV you’re an expat family in Germany paying 3.9 % on a mortgage — while the state offers the same money at 0.01 %.",
+   "recycled": []
+  },
+  {
    "posted": "2026-08-09",
    "time": "15:24",
    "url": "https://www.instagram.com/reel/Db0wDOqMHgY/",
@@ -250,6 +470,14 @@
      "type": "TRIAL_REEL 16:30"
     }
    ]
+  },
+  {
+   "posted": "2026-06-04",
+   "time": "13:13 UTC",
+   "url": null,
+   "views": 37757,
+   "topic": "Most people fall in love with the apartment first and check the numbers later. As an investor, you flip that. 🏘️",
+   "recycled": []
   },
   {
    "posted": "2026-08-24",
@@ -268,6 +496,14 @@
    ]
   },
   {
+   "posted": "2026-05-26",
+   "time": "12:34 UTC",
+   "url": null,
+   "views": 36526,
+   "topic": "Sonder-AfA 'tax office hates this' (TAX) – wie AfA-REEL 19.11. → nicht vor 31.12.",
+   "recycled": []
+  },
+  {
    "posted": "2026-08-30",
    "time": "15:32",
    "url": "https://www.instagram.com/reel/Dcq1bnKt9FV/",
@@ -275,6 +511,14 @@
    "shares": 21,
    "saves": 34,
    "topic": "Ärzte-Gehalt Indien vs Deutschland (CALL), Vergleich Länder (keine 2 Personen bekannt) – 17.11. übersprungen: Indien-Zahlen (₹9–12 Lakh / ₹15–30 Lakh) nicht belastbar belegbar (AmbitionBox nur Spanne ₹0,5–13,3 Lakh); DE-Seite geprüft: TV-Ärzte/VKA ab 01.06.2026 Ä1 €5.722–7.355, Ä2 €7.552–9.699/Monat",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-12",
+   "time": "15:39 UTC",
+   "url": null,
+   "views": 35839,
+   "topic": "They passed it on 10 July. 318 votes to 284. And almost nobody in the expat community noticed.",
    "recycled": []
   },
   {
@@ -298,6 +542,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-08",
+   "time": "14:18 UTC",
+   "url": null,
+   "views": 34676,
+   "topic": "Everyone budgets for the €500,000. Almost nobody budgets for the €60,350 on top. 👇",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-25",
    "time": "10:26",
    "url": null,
@@ -305,6 +557,22 @@
    "shares": 126,
    "saves": 187,
    "topic": "AVD Rahul €600 → Staat €840 (AVD) – 100 Kommentare",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-08",
+   "time": "14:49 UTC",
+   "url": null,
+   "views": 32586,
+   "topic": "Most expats in Germany automatically go into public health insurance (gesetzliche Krankenversicherung).",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-18",
+   "time": "13:00 UTC",
+   "url": null,
+   "views": 30920,
+   "topic": "POV: You finally understood how debt makes you rich in Germany 🇮🇳🇩🇪",
    "recycled": []
   },
   {
@@ -318,6 +586,30 @@
    "recycled": []
   },
   {
+   "posted": "2026-06-03",
+   "time": "14:52 UTC",
+   "url": null,
+   "views": 28839,
+   "topic": "🇮🇳➡️🇩🇪 He put in ~€20K of his own money. In 10 years that becomes nearly €100K in equity.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-12",
+   "time": "13:26 UTC",
+   "url": null,
+   "views": 28422,
+   "topic": "This is how an Indian expat in Germany turned €15,480 into €72,736 🇮🇳🇩🇪",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-17",
+   "time": "18:24 UTC",
+   "url": null,
+   "views": 28014,
+   "topic": "Most people think debt is the enemy. The wealthy think differently. 💡",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-14",
    "time": "10:18",
    "url": "https://www.instagram.com/reel/DdQ5zW2tHdh/",
@@ -325,6 +617,14 @@
    "shares": 113,
    "saves": 149,
    "topic": "Risikolebensversicherung 'Main earner in Germany AND back home' (PROTECT) – LV-Trials 12.11. → nicht vor 24.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-14",
+   "time": "11:52 UTC",
+   "url": null,
+   "views": 26176,
+   "topic": "Your Rentenbescheid shows a big number. It’s a lie of omission.",
    "recycled": []
   },
   {
@@ -344,6 +644,22 @@
    ]
   },
   {
+   "posted": "2026-07-20",
+   "time": "11:26 UTC",
+   "url": null,
+   "views": 25343,
+   "topic": "I wish more people knew this: you don’t need €100,000 to start investing in German real estate.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-04-28",
+   "time": "13:34 UTC",
+   "url": null,
+   "views": 24762,
+   "topic": "Neubau-AfA 10 % (TAX) – wie AfA-REEL 19.11. → nicht vor 31.12.",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-01",
    "time": "10:44",
    "url": "https://www.instagram.com/reel/DcveYQxNXXn/",
@@ -354,6 +670,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-07",
+   "time": "15:16 UTC",
+   "url": null,
+   "views": 24636,
+   "topic": "3 of these 2027 headlines are hype. 1 is already law. 👇",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-13",
    "time": "09:31",
    "url": "https://www.instagram.com/reel/DdOPlhVNmDP/",
@@ -361,6 +685,14 @@
    "shares": 91,
    "saves": 89,
    "topic": "Kinder-Sparplan €1.000 + €500/Geburtstag + €250/Monat → ~€162k mit 18 (ETF, Stichwort MILLION) – kein Personen-Vergleich; 18.11. übersprungen: ETF-Anlage = §34f, nicht unsere Erlaubnis, kein passendes Stichwort",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-07",
+   "time": "12:10 UTC",
+   "url": null,
+   "views": 24331,
+   "topic": "Miete = Rate (HOME) – wie Miete=EMI 20.11. → nicht vor 01.01.",
    "recycled": []
   },
   {
@@ -379,6 +711,22 @@
    ]
   },
   {
+   "posted": "2026-06-29",
+   "time": "07:40 UTC",
+   "url": null,
+   "views": 23627,
+   "topic": "Paying €1.450 a month in München? That’s not rent. That’s a mortgage on someone else’s wealth. 🏠",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-04",
+   "time": "12:50 UTC",
+   "url": null,
+   "views": 23326,
+   "topic": "I wish more people knew this — before it hits your paycheck. 🇩🇪",
+   "recycled": []
+  },
+  {
    "posted": "2026-08-02",
    "time": "09:54",
    "url": "https://www.instagram.com/reel/DbiI0myMqT2/",
@@ -389,6 +737,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-23",
+   "time": "13:11 UTC",
+   "url": null,
+   "views": 23035,
+   "topic": "€6,000 gross salary today → €2,652 gross pension.",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-03",
    "time": "11:42",
    "url": "https://www.instagram.com/reel/DeB-gb6Mr1R/",
@@ -396,6 +752,30 @@
    "shares": 71,
    "saves": 153,
    "topic": "Rürup 42 % zurück (PENSION) = wie Trial 15.11. → frühestens 27.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-21",
+   "time": "15:12 UTC",
+   "url": null,
+   "views": 21719,
+   "topic": "How to retire before your boss does.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-20",
+   "time": "11:58 UTC",
+   "url": null,
+   "views": 21624,
+   "topic": "Cold rent for 80 sqm apartment in Germany. 🇩🇪",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-01",
+   "time": "13:01 UTC",
+   "url": null,
+   "views": 21485,
+   "topic": "I wish more people knew this 👇",
    "recycled": []
   },
   {
@@ -414,6 +794,22 @@
    ]
   },
   {
+   "posted": "2026-07-09",
+   "time": "09:43 UTC",
+   "url": null,
+   "views": 21069,
+   "topic": "Don’t scroll — find your number.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-18",
+   "time": "14:56 UTC",
+   "url": null,
+   "views": 20729,
+   "topic": "You see an old German man.",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-08",
    "time": "09:39",
    "url": "https://www.instagram.com/reel/DdBYiPntScr/",
@@ -421,6 +817,14 @@
    "shares": 34,
    "saves": 53,
    "topic": "„I contacted 5 banks“ – Bankregeln Aufenthalt/Probezeit/EK (HOME) = wie 05.11. „I asked 5 banks“ → nicht vor 17.12.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-17",
+   "time": "10:09 UTC",
+   "url": null,
+   "views": 20311,
+   "topic": "“Germany pays less than India!”",
    "recycled": []
   },
   {
@@ -434,6 +838,22 @@
    "recycled": []
   },
   {
+   "posted": "2026-05-16",
+   "time": "15:58 UTC",
+   "url": null,
+   "views": 19974,
+   "topic": "4 changes coming in June 2026 that could cost you money 💸",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-18",
+   "time": "12:34 UTC",
+   "url": null,
+   "views": 19950,
+   "topic": "You did everything right.",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-19",
    "time": "10:29",
    "url": "https://www.instagram.com/reel/DddzBtWNRJj/",
@@ -444,13 +864,21 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-21",
+   "time": "15:22 UTC",
+   "url": null,
+   "views": 19317,
+   "topic": "Most expats think property in Germany starts at €100,000 saved. It doesn’t.",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-14",
    "time": "13:58",
    "url": "https://www.instagram.com/reel/DeeixNut9KT/",
    "views": 18421,
    "shares": 66,
    "saves": 108,
-   "topic": null,
+   "topic": "35-%-Regel Paar €3.000+€2.000 → €1.750 Rate ≈ €380k (HOME) – wie Farbtabelle Gehalt→Kredit 20.11. → nicht vor 01.01.",
    "recycled": []
   },
   {
@@ -461,6 +889,22 @@
    "shares": 26,
    "saves": 43,
    "topic": "40-%-Regel Netto → leistbarer Kaufpreis (HOME), Liste – wie w08 EMI-Tabelle (20.11.) → nicht vor 01.01.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-22",
+   "time": "12:36 UTC",
+   "url": null,
+   "views": 16927,
+   "topic": "I wish more people knew this before they bought.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-04-02",
+   "time": "13:29 UTC",
+   "url": null,
+   "views": 16534,
+   "topic": "Best cities for Indian expats 2010 vs 2026 (Ingolstadt out, Berlin/Karlsruhe in)",
    "recycled": []
   },
   {
@@ -490,6 +934,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-06-18",
+   "time": "16:41 UTC",
+   "url": null,
+   "views": 15069,
+   "topic": "How an Indian expat bought an investment property in Ludwigshafen, Germany 🇮🇳🇩🇪",
+   "recycled": []
+  },
+  {
    "posted": "2026-11-02",
    "time": "10:06",
    "url": "https://www.instagram.com/reel/DfPDWU3N3Ax/",
@@ -510,6 +962,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-01",
+   "time": "11:06 UTC",
+   "url": null,
+   "views": 14598,
+   "topic": "Coming to Germany, most of us only stare at the gross number in the offer letter. 💶",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-28",
    "time": "08:54",
    "url": null,
@@ -517,6 +977,14 @@
    "shares": 29,
    "saves": 25,
    "topic": null,
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-09",
+   "time": "13:17 UTC",
+   "url": null,
+   "views": 14512,
+   "topic": "Same house. Same street. Three completely different financial worlds. 🏡",
    "recycled": []
   },
   {
@@ -536,7 +1004,7 @@
    "views": 14391,
    "shares": 40,
    "saves": 56,
-   "topic": null,
+   "topic": "Nürnberg Co-Living €13.200 Eigenkapital (STRATEGY) – Fallbeispiel wie Augsburg-WG → nicht vor 22.12.",
    "recycled": []
   },
   {
@@ -550,6 +1018,30 @@
    "recycled": []
   },
   {
+   "posted": "2026-06-11",
+   "time": "10:20 UTC",
+   "url": null,
+   "views": 14170,
+   "topic": "Look rich or actually be rich? 💸",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-23",
+   "time": "10:42 UTC",
+   "url": null,
+   "views": 14118,
+   "topic": "€3,000 income in Germany sounds solid… until you see where it actually goes.",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-04",
+   "time": "12:37 UTC",
+   "url": null,
+   "views": 13782,
+   "topic": "Here’s the uncomfortable truth about being a landlord in Germany:",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-11",
    "time": "13:18",
    "url": "https://www.instagram.com/reel/DdJf_KLNOkZ/",
@@ -557,6 +1049,14 @@
    "shares": 31,
    "saves": 25,
    "topic": "Zwei Freunde, gleiche €1.000: Miete vs. Rate nach 30 J. (HOME) – evtl. 2-Personen-Vergleich (\"Two friends\")",
+   "recycled": []
+  },
+  {
+   "posted": "2026-07-08",
+   "time": "10:30 UTC",
+   "url": null,
+   "views": 12763,
+   "topic": "Ehegattenschaukel 'Two Indian expats' (TAX) – wie 05.11. → frühestens 17.12.",
    "recycled": []
   },
   {
@@ -616,7 +1116,7 @@
    "views": 11625,
    "shares": 45,
    "saves": 66,
-   "topic": null,
+   "topic": "7 things for expats who think they can't afford to buy (HOME), Liste – frei ab 25.11.",
    "recycled": []
   },
   {
@@ -630,6 +1130,14 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-23",
+   "time": "09:07 UTC",
+   "url": null,
+   "views": 11145,
+   "topic": "In India, debt is something you kill as fast as possible.",
+   "recycled": []
+  },
+  {
    "posted": "2026-11-01",
    "time": "10:43",
    "url": "https://www.instagram.com/reel/DfMixB2tKAt/",
@@ -637,6 +1145,14 @@
    "shares": 52,
    "saves": 51,
    "topic": "AVD Arjun €50/Monat → €840 (AVD)",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-11",
+   "time": "22:21 UTC",
+   "url": null,
+   "views": 10987,
+   "topic": "€4,000 net per month — and this engineer still ends up +€267 richer every month. Here’s how 👇",
    "recycled": []
   },
   {
@@ -660,6 +1176,22 @@
    "recycled": []
   },
   {
+   "posted": "2026-07-25",
+   "time": "09:47 UTC",
+   "url": null,
+   "views": 10875,
+   "topic": "🇩🇪 How high earners in Germany legally lower their tax bill 👇",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-01",
+   "time": "13:51 UTC",
+   "url": null,
+   "views": 10832,
+   "topic": "Same salary. €373 more in your pocket — every month. 🇮🇳🇩🇪",
+   "recycled": []
+  },
+  {
    "posted": "2026-09-12",
    "time": "09:59",
    "url": "https://www.instagram.com/reel/DdLtzyONt2N/",
@@ -667,6 +1199,14 @@
    "shares": 7,
    "saves": 15,
    "topic": "Hauspreise 1990 vs heute 'Painful to see' (CALL) – Bild-Zahlen unbekannt/nicht prüfbar, Thema Preise wie Trial 18.11. → 21.11. übersprungen",
+   "recycled": []
+  },
+  {
+   "posted": "2026-06-02",
+   "time": "09:23 UTC",
+   "url": null,
+   "views": 10708,
+   "topic": "What an Indian expat needs to buy a home in Germany — and what it really costs 🏡🇩🇪",
    "recycled": []
   },
   {
@@ -732,6 +1272,14 @@
    ]
   },
   {
+   "posted": "2026-05-31",
+   "time": "10:22 UTC",
+   "url": null,
+   "views": 10529,
+   "topic": "Most people think you can only save big on taxes if you’re rich. ",
+   "recycled": []
+  },
+  {
    "posted": "2026-10-08",
    "time": "14:00",
    "url": "https://www.instagram.com/reel/DePGHSbMDlf/",
@@ -746,6 +1294,30 @@
      "type": "TRIAL_REEL 16:00"
     }
    ]
+  },
+  {
+   "posted": "2026-06-10",
+   "time": "10:14 UTC",
+   "url": null,
+   "views": 10257,
+   "topic": "Remember 2020? 🏚️➡️🏗️",
+   "recycled": []
+  },
+  {
+   "posted": "2026-05-21",
+   "time": "09:56 UTC",
+   "url": null,
+   "views": 10228,
+   "topic": "How to properly split €2,500 net as an Indian Expat in Germany. 🇮🇳🇩🇪",
+   "recycled": []
+  },
+  {
+   "posted": "2026-04-02",
+   "time": "11:45 UTC",
+   "url": null,
+   "views": 10198,
+   "topic": "India vs Germany personal loans (10–15% vs 4–8%)",
+   "recycled": []
   },
   {
    "posted": "2026-10-24",
