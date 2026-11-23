@@ -1,0 +1,51 @@
+{
+ "start": 0.2,
+ "dur": 5.1,
+ "split": 1,
+ "blocks": [
+  [
+   "Paying €1,200 rent in Germany? 🇩🇪 BRUTAL truth: that's the EMI on a €240,000 home loan",
+   58,
+   "red"
+  ],
+  [
+   "🏦 Home loan today: 4.01% fixed",
+   50,
+   "white"
+  ],
+  [
+   "📅 10 years rent: €144,000 gone",
+   50,
+   "white"
+  ],
+  [
+   "🏠 10 years EMI: €58,800 paid off",
+   50,
+   "white"
+  ],
+  [
+   "🇮🇳 Blue Card? Banks do finance you",
+   50,
+   "red"
+  ],
+  [
+   "Comment HOME 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free home-buying guide for expats",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false,
+ "avoid": [
+  [
+   340,
+   500,
+   740,
+   830
+  ]
+ ]
+}
