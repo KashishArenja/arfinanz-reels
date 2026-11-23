@@ -950,7 +950,7 @@
      "original_url": null,
      "original_views": 215492,
      "spec": "r2_fivesigns.json",
-     "clip": "IMG_8768.MOV ab 1,9 s (Mann im Café mit Handy und Getränk)",
+     "clip": "IMG_7200.MOV ab 0,8 s (schwarzer Mercedes an Straße, Mann kommt ab ~2 s rechts ins Bild)",
      "persons": 1,
      "keyword": "CALL",
      "hook_old": "Five quiet signs you're actually doing better than you think. 💸",
@@ -959,7 +959,7 @@
      "metricool_uuid": "-2613537408027177516",
      "sound": "344621657711735 Dirty – Tony Dark Eyes",
      "audioType": "music",
-     "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). Liste erscheint ab ~1,5 s (Kopf oben in den ersten Bildern)."
+     "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). v1 mit IMG_8768 verworfen (Liste lag über dem gesenkten Kopf) → v2 IMG_7200, Metricool update 08:17, music."
     }
    ]
   }
