@@ -1,0 +1,14 @@
+{
+ "start": 0.0,
+ "dur": 5.1,
+ "split": 4,
+ "avoid": [[0, 700, 1080, 1270]],
+ "blocks": [
+  ["🚨 Car insurance in Germany? LAST CHANCE to switch: Monday", 60, "red"],
+  ["💸 Cheap plans: about 36% less", 50, "white"],
+  ["📅 Cancel so it ARRIVES by 30 Nov", 50, "white"],
+  ["🇮🇳 New here? You often pay the most", 50, "red"],
+  ["Comment CALL 👇", 60, "yellow"],
+  ["Free car insurance comparison call", 48, "yellow"]
+ ]
+}
