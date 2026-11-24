@@ -778,7 +778,7 @@
    "topic": "Recycling: Autokredit → weniger Baufinanzierung (HOME) + Mietkaution/Mietrechtsschutz (CALL)",
    "keyword": "HOME / CALL",
    "evaluate_after": "2026-11-24T16:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-21_recycling",
    "sources": [
     "Dr. Klein aktuelle Bauzinsen, Stand 21.11.2026: 10 J. Sollzins 4,01 %, eff. 4,11 % (Bestzins); eigene Rechnung €600×12 ÷ (4,01 % + 2 % Tilgung) = €119.800",
@@ -804,14 +804,15 @@
      "audioType": "music",
      "note": "Zahl geprüft: 4,01 % + 2 % → €119.800 ≈ €120.000 (Original-Zahl bleibt).",
      "result": {
-      "views": 2181,
-      "reach": 1039,
+      "views": 2187,
+      "reach": 1041,
       "view_rate_3s": 50.9,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-23 08:10"
-     }
+      "as_of": "2026-11-24 08:05"
+     },
+     "status": "kein_gewinner"
     },
     {
      "time": "16:30",
@@ -831,17 +832,18 @@
      "audioType": "music",
      "note": "Original 'lawyer €1,500+' und 'from ~€10/month' aktualisiert: Kostenrisiko bei Verlust ≈ €1.825 (RVG/GKG 2025), Mietrechtsschutz ≈ €100/Jahr (test.de 2026); 'most expats give up' (unbelegt) weggelassen.",
      "result": {
-      "views": 2299,
-      "reach": 1223,
+      "views": 2304,
+      "reach": 1226,
       "view_rate_3s": 60.2,
       "comments": 0,
       "saves": 2,
       "shares": 3,
-      "as_of": "2026-11-23 08:10"
-     }
+      "as_of": "2026-11-24 08:05"
+     },
+     "status": "kein_gewinner"
     }
    ],
-   "note": "22.11. Prüfung (~16 h): 16:00 Autokredit 1.527 Aufrufe, 0 Reaktionen, 3-s-Rate 50,1 % · 16:30 Mietkaution/Rechtsschutz 2.190, 2 Saves + 3 Shares, 59,4 % – beide < Median 5.246 (normale Reels 25.10.–21.11.) → läuft, 72-h-Grenze 24.11."
+   "note": "22.11. Prüfung (~16 h): 16:00 Autokredit 1.527 Aufrufe, 0 Reaktionen, 3-s-Rate 50,1 % · 16:30 Mietkaution/Rechtsschutz 2.190, 2 Saves + 3 Shares, 59,4 % – beide < Median 5.246 (normale Reels 25.10.–21.11.) → läuft, 72-h-Grenze 24.11. | 24.11. Prüfung (~64 h, 72-h-Grenze heute): Median normale Reels 27.10.–23.11. = 4.215 (62 Reels). 16:00 Autokredit 2.187 Aufrufe, 0 Reaktionen, 3-s-Rate 50,9 % · 16:30 Mietkaution/Rechtsschutz 2.304, 2 Saves + 3 Shares, 60,2 % → beide < Median → kein_gewinner (Learning in WORKFLOW.md)."
   },
   {
    "date": "2026-11-22",
@@ -874,13 +876,13 @@
      "audioType": "music",
      "note": "'6 months a year' (nicht belegbar) weggelassen; 21. Dezember = längste Schatten. Original 125 Saves.",
      "result": {
-      "views": 482,
-      "reach": 355,
-      "view_rate_3s": 29.2,
+      "views": 587,
+      "reach": 414,
+      "view_rate_3s": 31.1,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-23 08:10"
+      "as_of": "2026-11-24 08:05"
      }
     },
     {
@@ -901,16 +903,17 @@
      "audioType": "music",
      "note": "Wohnungsbauprämie ergänzt (bis €140/Jahr Paare, mit Einkommensgrenze), Kosten (~1 % Gebühr) in der Caption genannt. | 22.11. ~10:05 v2 (Kashish): Zeile 'Loan interest 1–2%, fixed from day 1' + Caption (Niedrigzins-Tarife ~1–2 %, andere bis ~4 %; Quelle Tarifvergleich finanzierung-mit-kopf.de, geprüft 06.11.2026: z. B. LBS NordOst Classic20 0,95 %, BHW FI1 1,00 %, Wüstenrot Premium 1,50 %, Alte Leipziger Niedrig 1,75 %). Metricool per update ersetzt (uuid gleich, audioType music).",
      "result": {
-      "views": 1766,
-      "reach": 1014,
-      "view_rate_3s": 42.5,
+      "views": 1967,
+      "reach": 1124,
+      "view_rate_3s": 42.3,
       "comments": 0,
       "saves": 4,
-      "shares": 4,
-      "as_of": "2026-11-23 08:10"
+      "shares": 6,
+      "as_of": "2026-11-24 08:05"
      }
     }
-   ]
+   ],
+   "note": "24.11. Prüfung: alle < Median 4.215 → läuft."
   },
   {
    "date": "2026-11-23",
@@ -940,7 +943,16 @@
      "metricool_uuid": "3438073831103810837",
      "sound": "851305135953613 Dale – Giulio Cercato",
      "audioType": "music",
-     "note": "Original fehlte in recycle.json (vor 29.07.). Personenzahl im Original unbekannt; Inhalt = Verhaltens-Vergleich, kein A/B-Personen-Vergleich."
+     "note": "Original fehlte in recycle.json (vor 29.07.). Personenzahl im Original unbekannt; Inhalt = Verhaltens-Vergleich, kein A/B-Personen-Vergleich.",
+     "result": {
+      "views": 2470,
+      "reach": 1215,
+      "view_rate_3s": 48.8,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-24 08:05"
+     }
     },
     {
      "time": "16:30",
@@ -959,7 +971,67 @@
      "metricool_uuid": "-2613537408027177516",
      "sound": "344621657711735 Dirty – Tony Dark Eyes",
      "audioType": "music",
-     "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). v1 mit IMG_8768 verworfen (Liste lag über dem gesenkten Kopf) → v2 IMG_7200, Metricool update 08:17, music."
+     "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). v1 mit IMG_8768 verworfen (Liste lag über dem gesenkten Kopf) → v2 IMG_7200, Metricool update 08:17, music.",
+     "result": {
+      "views": 565,
+      "reach": 321,
+      "view_rate_3s": 40.9,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-24 08:05"
+     }
+    }
+   ],
+   "note": "24.11. Prüfung: alle < Median 4.215 → läuft."
+  },
+  {
+   "date": "2026-11-24",
+   "topic": "Recycling: 15-%-Regel Renovierung Kapitalanlage (TAX) + Ehepartner-Zuschlag GKV ab 2028 (CALL)",
+   "keyword": "TAX / CALL",
+   "evaluate_after": "2026-11-27T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-24_recycling",
+   "sources": [
+    "§6 Abs. 1 Nr. 1a EStG (anschaffungsnahe Herstellungskosten: >15 % der Gebäude-AK netto in 3 Jahren); BMF-Schreiben 26.01.2026 Abgrenzung Erhaltungsaufwand (kpmg.com, forvismazars.com Newsletter 2/2026); AfA §7 Abs. 4 EStG 2 % (Baujahr 1925–2022) = 50 J.; 15 % × €200.000 = €30.000 (Python)",
+    "GKV-Beitragssatzstabilisierungsgesetz, Bundestag 10.07.2026 (bundestag.de kw28-de-gkv), Zuschlag 2,5 % der beitragspflichtigen Einnahmen für familienversicherte Ehepartner ab 01.01.2028, allein vom Mitglied getragen, Ausnahmen u. a. Kind unter 12 (Entwurf: 7), Pflege, Regelaltersgrenze (rechner-hub.de 23.08.2026, ritzerfeld-partner.de 06.10.2026); 2,5 % × €5.000 = €125/Monat; Zuzahlungen 2027 €7,50–15, Zahnersatz-Festzuschuss −10 Pp."
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – Blöcke (Hook rot oben, 3 weiße Punkte als Beispielrechnung + rote Expat-Zeile + Stichwort; Zeilen auf Kopfhöhe schmal, max. 440 px)",
+     "original_url": "https://www.instagram.com/reel/DZ7YG7nMP5v/",
+     "original_date": "2026-06-23",
+     "original_views": 78386,
+     "spec": "r1_15rule.json",
+     "clip": "IMG_9990.MOV ab 1,3 s (leerer Büroraum, Mann rechts im Bild, Rückenansicht)",
+     "persons": 1,
+     "keyword": "TAX",
+     "hook_old": "The 15% rule decides whether you start saving tax tomorrow — or leave money on the table for the next 30 years.",
+     "hook": "Rental flat in Germany? The renovation TRAP: spend too much and your tax refund can take 50 years 🇩🇪",
+     "hook_score": 76,
+     "metricool_uuid": "-5098028441756282928",
+     "sound": "1220205582894644 Sheesh – Sugartapes",
+     "audioType": "music",
+     "note": "Original-Stichwort STRATEGY → TAX (Steuer-Guide). '33 to 50 years' → 'up to 50 years' (2 % AfA). Original-Clip-Personenzahl unbekannt, kein A/B-Vergleich."
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – News-Blöcke (Hook rot + 3 weiße Punkte + rote Expat-Zeile + Stichwort)",
+     "original_url": "https://www.instagram.com/reel/DasrX3ZtK4N/",
+     "original_date": "2026-07-12",
+     "original_views": 35839,
+     "spec": "r2_spouse.json",
+     "clip": "IMG_2854.mov ab 0,8 s (Autofahrt, Fahrer von hinten links)",
+     "persons": 1,
+     "keyword": "CALL",
+     "hook_old": "They passed it on 10 July. 318 votes to 284. And almost nobody in the expat community noticed.",
+     "hook": "Husband or wife not working in Germany? From 2028 their FREE health insurance ends for many 🇩🇪",
+     "hook_score": 79,
+     "metricool_uuid": "-5492022895734339129",
+     "sound": "1351750949663964 Showcase – Shanice",
+     "audioType": "music",
+     "note": "Korrektur ggü. Original: Ausnahme Kind unter 12 (nicht 7, im Verfahren geändert). Stimmenzahl weggelassen (Quellen uneinheitlich 318/284 vs. 319/286). €6.000-Beispiel weggelassen (BBG 2028 noch offen)."
     }
    ]
   }

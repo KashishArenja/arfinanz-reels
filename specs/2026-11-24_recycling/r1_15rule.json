@@ -1,0 +1,52 @@
+{
+ "start": 1.3,
+ "dur": 5.1,
+ "split": 1,
+ "blocks": [
+  [
+   "Rental flat in Germany? The renovation TRAP: spend too much and your tax refund can take 50 years 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "Example: building €200,000, land not counted 🏠",
+   48,
+   "white",
+   440
+  ],
+  [
+   "Renovate for €30,000 in 3 years: tax back now ✅",
+   48,
+   "white",
+   440
+  ],
+  [
+   "Renovate for €31,000: tax back bit by bit, up to 50 years 📅",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 Buying your first flat to rent out? Plan repairs before you sign",
+   48,
+   "red"
+  ],
+  [
+   "Comment TAX 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free guide: how a rental flat lowers your tax",
+   48,
+   "yellow"
+  ]
+ ],
+ "avoid": [
+  [
+   760,
+   600,
+   1080,
+   900
+  ]
+ ]
+}

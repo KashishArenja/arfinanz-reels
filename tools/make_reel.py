@@ -220,13 +220,15 @@ def layout(blocks, scale, maxw=None):
     maxw = (maxw or MAXW) - 2 * PAD
     maxw = maxw - 2 * LPAD_X + 2 * PAD
     out = []
-    for text, size, style in blocks:
+    for blk in blocks:
+        text, size, style = blk[:3]
+        bmaxw = (blk[3] - 2 * LPAD_X) if len(blk) > 3 else maxw   # optional 4th value: max box width for this block
         px = int(size * scale * FONT_SCALE)
         f = ImageFont.truetype(FONT, px)
         if size <= 46:                   # small hint lines always stay on one line
-            while rich_len(d, text, font=f) > maxw and px > 26:
+            while rich_len(d, text, font=f) > bmaxw and px > 26:
                 px -= 2; f = ImageFont.truetype(FONT, px)
-        lines = wrap_balanced(d, text, f, maxw)
+        lines = wrap_balanced(d, text, f, bmaxw)
         lh = int(f.size * 1.08) + 2 * LPAD_Y     # one tight box per line, boxes touch (Instagram look)
         widths = [rich_len(d, l, font=f) + 2 * LPAD_X for l in lines]
         out.append(dict(lines=lines, widths=widths, font=f, lh=lh, w=max(widths), h=len(lines) * lh, style=style, late=size <= 46))

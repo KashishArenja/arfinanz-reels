@@ -1,0 +1,50 @@
+{
+ "start": 0.8,
+ "dur": 5.1,
+ "split": 1,
+ "blocks": [
+  [
+   "Husband or wife not working in Germany? From 2028 their FREE health insurance ends for many 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "You earn €5,000 before tax? You pay €125 a month extra 💶",
+   48,
+   "white"
+  ],
+  [
+   "Your employer pays nothing of it ❌",
+   48,
+   "white"
+  ],
+  [
+   "Still free: kids, and partners with a child under 12 👶",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 Spouse visa, not working yet? Check your options before 2028",
+   48,
+   "red"
+  ],
+  [
+   "Comment CALL 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free call: check your family's health insurance",
+   48,
+   "yellow"
+  ]
+ ],
+ "avoid": [
+  [
+   0,
+   560,
+   330,
+   960
+  ]
+ ]
+}
