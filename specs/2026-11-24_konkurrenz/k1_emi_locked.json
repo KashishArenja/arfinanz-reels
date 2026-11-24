@@ -1,0 +1,6 @@
+{"start": 1.5, "dur": 5.1, "avoid_heads": true,
+ "compare": {
+  "left": {"title": "🇮🇳 India", "points": ["Most loans: floating", "Rate follows RBI", "SBI now 7.50–8.70%", "EMI or tenure can rise"], "style": "red", "point_style": "white"},
+  "right": {"title": "🇩🇪 Germany", "points": ["Rate fixed 10–15 yrs", "Today about 4% fixed", "Same EMI every month", "Exit free after 10 yrs"], "style": "yellow"}
+ },
+ "blocks": [["Your EMI in India can go up anytime. In Germany 🇩🇪 it's LOCKED for 10 years", 56, "white"], ["Comment HOME 👇", 64, "yellow"], ["Free home-buying guide for expats", 50, "yellow"]]}

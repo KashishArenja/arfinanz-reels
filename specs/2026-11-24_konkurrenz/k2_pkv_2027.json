@@ -1,0 +1,50 @@
+{
+ "start": 2.1,
+ "dur": 5.1,
+ "blocks": [
+  [
+   "🚨 Earn €80,000 in Germany? SHOCK: from 2027 that's too little for private health insurance",
+   58,
+   "red"
+  ],
+  [
+   "📅 Salary line 2026: €77,400 a year",
+   48,
+   "white"
+  ],
+  [
+   "📅 Salary line 2027: €84,150 a year",
+   48,
+   "white"
+  ],
+  [
+   "= €7,012 a month before tax",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 New job here at €80k in 2027? You stay public",
+   48,
+   "red"
+  ],
+  [
+   "Comment PKV 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free private vs public comparison call",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false,
+ "avoid": [
+  [
+   0,
+   500,
+   1080,
+   820
+  ]
+ ]
+}
