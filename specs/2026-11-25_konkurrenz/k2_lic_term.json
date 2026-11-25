@@ -1,0 +1,45 @@
+{
+ "start": 7.5,
+ "dur": 5.1,
+ "avoid_heads": false,
+ "compare": {
+  "left": {
+   "title": "🇮🇳 LIC-type policy",
+   "points": [
+    "Saving + cover mixed",
+    "Money back at the end",
+    "Higher premium",
+    "Less cover for the money"
+   ],
+   "style": "red",
+   "point_style": "white"
+  },
+  "right": {
+   "title": "🇩🇪 Term life",
+   "points": [
+    "Pure cover, no saving",
+    "€500k from about €42",
+    "Pays your family",
+    "Covers your home loan"
+   ],
+   "style": "yellow"
+  }
+ },
+ "blocks": [
+  [
+   "LIC policy back home? In Germany 🇩🇪 €500,000 life insurance from about €42 a month. BEST-KEPT secret",
+   50,
+   "white"
+  ],
+  [
+   "Comment PROTECT 👇",
+   60,
+   "yellow"
+  ],
+  [
+   "Free life insurance guide",
+   50,
+   "yellow"
+  ]
+ ]
+}

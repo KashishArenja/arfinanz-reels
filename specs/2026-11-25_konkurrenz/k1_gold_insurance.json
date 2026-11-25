@@ -1,0 +1,28 @@
+{
+ "start": 1.5,
+ "dur": 5.1,
+ "list": {
+  "title": "🚨 Wedding gold in your flat in Germany? 🇩🇪 HIDDEN limit: insurance may pay only €12,000",
+  "items": [
+   "🪙 Gold + jewellery = valuables",
+   "📉 Often max. 20% of your cover",
+   "🧮 €60,000 cover: €12,000 for gold",
+   "🔐 No safe? Often max. ~€20,000",
+   "💵 Cash at home: often €1,200–1,500",
+   "🇮🇳 Gold from India? Keep photos + bills"
+  ]
+ },
+ "blocks": [
+  [
+   "Comment CALL 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free insurance check",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false
+}
