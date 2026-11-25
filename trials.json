@@ -850,7 +850,7 @@
    "topic": "Recycling: ShadeMap – Garten im Winterschatten vor dem Kauf prüfen (HOME) + Bausparen – Zins heute sichern (HOME)",
    "keyword": "HOME / HOME",
    "evaluate_after": "2026-11-25T16:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-22_recycling",
    "sources": [
     "shademap.app/help (App aktiv, Schatten nach Adresse/Datum/Uhrzeit); 21.12. = Wintersonnenwende, längste Schatten",
@@ -882,8 +882,9 @@
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-24 08:05"
-     }
+      "as_of": "2026-11-25 08:10"
+     },
+     "status": "kein_gewinner"
     },
     {
      "time": "16:30",
@@ -903,17 +904,18 @@
      "audioType": "music",
      "note": "Wohnungsbauprämie ergänzt (bis €140/Jahr Paare, mit Einkommensgrenze), Kosten (~1 % Gebühr) in der Caption genannt. | 22.11. ~10:05 v2 (Kashish): Zeile 'Loan interest 1–2%, fixed from day 1' + Caption (Niedrigzins-Tarife ~1–2 %, andere bis ~4 %; Quelle Tarifvergleich finanzierung-mit-kopf.de, geprüft 06.11.2026: z. B. LBS NordOst Classic20 0,95 %, BHW FI1 1,00 %, Wüstenrot Premium 1,50 %, Alte Leipziger Niedrig 1,75 %). Metricool per update ersetzt (uuid gleich, audioType music).",
      "result": {
-      "views": 1967,
-      "reach": 1124,
-      "view_rate_3s": 42.3,
+      "views": 2001,
+      "reach": 1145,
+      "view_rate_3s": 42.4,
       "comments": 0,
       "saves": 4,
       "shares": 6,
-      "as_of": "2026-11-24 08:05"
-     }
+      "as_of": "2026-11-25 08:10"
+     },
+     "status": "kein_gewinner"
     }
    ],
-   "note": "24.11. Prüfung: alle < Median 4.215 → läuft."
+   "note": "24.11. Prüfung: alle < Median 4.215 → läuft. | 25.11. Prüfung (~64 h, 72-h-Grenze heute): beide < Median 4.491 → kein_gewinner."
   },
   {
    "date": "2026-11-23",
@@ -945,13 +947,13 @@
      "audioType": "music",
      "note": "Original fehlte in recycle.json (vor 29.07.). Personenzahl im Original unbekannt; Inhalt = Verhaltens-Vergleich, kein A/B-Personen-Vergleich.",
      "result": {
-      "views": 2470,
-      "reach": 1215,
-      "view_rate_3s": 48.8,
+      "views": 2990,
+      "reach": 1407,
+      "view_rate_3s": 50.9,
       "comments": 0,
-      "saves": 0,
+      "saves": 1,
       "shares": 0,
-      "as_of": "2026-11-24 08:05"
+      "as_of": "2026-11-25 08:10"
      }
     },
     {
@@ -973,17 +975,17 @@
      "audioType": "music",
      "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). v1 mit IMG_8768 verworfen (Liste lag über dem gesenkten Kopf) → v2 IMG_7200, Metricool update 08:17, music.",
      "result": {
-      "views": 565,
-      "reach": 321,
-      "view_rate_3s": 40.9,
+      "views": 1552,
+      "reach": 806,
+      "view_rate_3s": 47.6,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-24 08:05"
+      "as_of": "2026-11-25 08:10"
      }
     }
    ],
-   "note": "24.11. Prüfung: alle < Median 4.215 → läuft."
+   "note": "24.11. Prüfung: alle < Median 4.215 → läuft. | 25.11. Prüfung: alle < Median 4.491 → läuft."
   },
   {
    "date": "2026-11-24",
@@ -1013,7 +1015,16 @@
      "metricool_uuid": "-5098028441756282928",
      "sound": "1220205582894644 Sheesh – Sugartapes",
      "audioType": "music",
-     "note": "Original-Stichwort STRATEGY → TAX (Steuer-Guide). '33 to 50 years' → 'up to 50 years' (2 % AfA). Original-Clip-Personenzahl unbekannt, kein A/B-Vergleich."
+     "note": "Original-Stichwort STRATEGY → TAX (Steuer-Guide). '33 to 50 years' → 'up to 50 years' (2 % AfA). Original-Clip-Personenzahl unbekannt, kein A/B-Vergleich.",
+     "result": {
+      "views": 2002,
+      "reach": 1052,
+      "view_rate_3s": 43.7,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "as_of": "2026-11-25 08:10"
+     }
     },
     {
      "time": "16:30",
@@ -1031,7 +1042,71 @@
      "metricool_uuid": "-5492022895734339129",
      "sound": "1351750949663964 Showcase – Shanice",
      "audioType": "music",
-     "note": "Korrektur ggü. Original: Ausnahme Kind unter 12 (nicht 7, im Verfahren geändert). Stimmenzahl weggelassen (Quellen uneinheitlich 318/284 vs. 319/286). €6.000-Beispiel weggelassen (BBG 2028 noch offen)."
+     "note": "Korrektur ggü. Original: Ausnahme Kind unter 12 (nicht 7, im Verfahren geändert). Stimmenzahl weggelassen (Quellen uneinheitlich 318/284 vs. 319/286). €6.000-Beispiel weggelassen (BBG 2028 noch offen).",
+     "result": {
+      "views": 3229,
+      "reach": 1358,
+      "view_rate_3s": 54.2,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "as_of": "2026-11-25 08:10"
+     }
+    }
+   ],
+   "note": "25.11. Prüfung: alle < Median 4.491 → läuft."
+  },
+  {
+   "date": "2026-11-25",
+   "topic": "Recycling: Rentenbescheid = brutto, vor KV/PV/Steuer (PENSION) + 2027-Immobilien-Hype vs. echte Änderung Systemrisikopuffer (HOME)",
+   "keyword": "PENSION / HOME",
+   "evaluate_after": "2026-11-28T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-25_recycling",
+   "sources": [
+    "Python-Rechnung: €3.500/Monat, Durchschnittsentgelt 2026 €51.944, Rentenwert €42,52 (ab 01.07.2026): 45 J. = 36,39 EP = €1.547 brutto; KV 7,3 % + 1,45 % Zusatz, PV 3,6 % → €1.356; ESt §32a 2026 (zvE €16.134 → €661/Jahr) → ~€1.301; 37 J. → €1.272 brutto / ~€1.104 netto",
+    "IW-Kurzbericht 23/2026 (18.03.2026): +3,1 %/Jahr nominal bis 2035, Hoch von 2022 nominal ~2027 wieder erreicht; IW-Wohnindex Q3 2026 (IW-Report 44/2026, 23.10.2026): ETW +0,3 % ggü. Vorjahr, gut 10 % unter Hoch 2022",
+    "Bundesbank/AFS: BaFin senkt sektoralen Systemrisikopuffer Wohnimmobilienkredite von 2 % auf 1 % zum 1. Mai 2025",
+    "Dr. Klein Bauzinsen Stand 25.11.2026: 10 J. Sollzins 3,97 %, eff. 4,07 % (Topzins)"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – Blöcke (Hook rot oben, 4 weiße Rechen-Zeilen + rote Expat-Zeile + Stichwort)",
+     "original_url": null,
+     "original_date": "2026-07-14",
+     "original_time_utc": "11:52",
+     "original_views": 26176,
+     "spec": "r1_pensionletter.json",
+     "clip": "IMG_0621.MOV ab 2,4 s (Alpen-Weide mit Kühen, keine Person)",
+     "persons": 0,
+     "keyword": "PENSION",
+     "hook_old": "Your Rentenbescheid shows a big number. It's a lie of omission.",
+     "hook": "Your pension letter in Germany says €1,550. HIDDEN catch: that's before tax and health insurance 🇩🇪",
+     "hook_score": 77,
+     "metricool_uuid": "-8485164015822680452",
+     "sound": "5490902791025441 C'est La Vie – Jennah Bell",
+     "audioType": "music",
+     "note": "Original-Stichwort STRATEGY → PENSION (Thema Rente). Hamburg-Miete-Vergleich weggelassen (nicht neu belegt). Original-Personenzahl unbekannt, kein A/B-Vergleich. v1 mit IMG_0162 verworfen (Text über Kopf)."
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – ❌/✅-Liste (Hook rot, 3 ❌ weiß, ✅ gelb, rote Expat-Zeile, Stichwort)",
+     "original_url": null,
+     "original_date": "2026-07-07",
+     "original_time_utc": "15:16",
+     "original_views": 24636,
+     "spec": "r2_hype2027.json",
+     "clip": "IMG_7878.MOV ab 2,3 s (Dachboden, keine Person)",
+     "persons": 0,
+     "keyword": "HOME",
+     "hook_old": "3 of these 2027 headlines are hype. 1 is already law. 👇",
+     "hook": "Waiting for 2027 to buy a home in Germany? 3 claims are HYPE. 1 is real 🇩🇪",
+     "hook_score": 76,
+     "metricool_uuid": "-8745122237249994373",
+     "sound": "5442350415868235 Super Soca (Instrumental) – Makana",
+     "audioType": "music",
+     "note": "'already law' → 'real' (Puffer = BaFin-Allgemeinverfügung, kein Gesetz). Zahlen aktualisiert: Zins ~4 % (3,97 %), IW +3 %/Jahr, Puffer 2→1 % seit 01.05.2025 (Original: 'freeing €2–2.5bn' weggelassen, nicht belegt). Stichwort STRATEGY → HOME. v1 mit IMG_6328 verworfen (Text über Gesicht)."
     }
    ]
   }
