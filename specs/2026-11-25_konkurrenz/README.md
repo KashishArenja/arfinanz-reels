@@ -1,0 +1,16 @@
+# 25.11.2026 – Konkurrenz-Check → k1 + k2 direkt eingeplant (Muster 29: indische Gewohnheit vs. Deutschland)
+- Konkurrenz: keine neuen Ausreißer ≥ 3× in 48 h. Neu nur expats.phil 24.11. „Almost nobody knows this part of the German tax code“ (Immobilie = Steuer, ohne €-Zahl, Stichwort HOUSE) 7 Interaktionen = 0,2× und 23.11. Checkliste 32 = 0,9×. Normalwerte 28.10.–25.11. (Median Interaktionen): Fionn 164 · Phil 35,5 · Sandeep 43 · Sara 31 (4 Posts). Fionn seit 14.11., Sandeep seit 20.11., Sara seit 22.11. ohne neue Reels.
+- Eigene Reels 11.–24.11. (65 inkl. Trials, Median 2.770 Aufrufe, UTC): **24.11. 13:30 „Gold vs. AVD“ (Mütter kaufen Gold) 3,1× nach < 24 h** (8.584 Aufrufe, 14 Saves, 6 Shares, 69 % 3-s-Rate = beste 3-s-Rate der 2 Wochen, Ø 7,5 s) · 21.11. 13:30 Pendlerpauschale 3,0× · 23.11. 13:30 Flat India vs Germany 1,7×; unter Median: 24.11. 11:00 degressive AfA „like 80C“ 0,5× (Steuer-Fachthema, 43,5 % 3-s-Rate), Trial 24.11. 16:07 15-%-Regel 0,7×, Trial 23.11. 16:31 0,6×.
+- Entscheidung: Muster 29 = **eine typisch indische Geld-Gewohnheit (Gold, LIC-Police) als Einstieg + was in Deutschland anders/besser ist, mit einer €-Zahl** – auf §34d übertragen (Hausrat, Risikoleben), nicht noch ein AVD/Steuer-Reel.
+
+## k1 – Hochzeitsgold zu Hause: Wertsachen-Grenze der Hausratversicherung (CALL, TOFU) – 02.12. 11:00
+- Clip IMG_8769.MOV (rotes Backsteinhaus, personenfrei), start 1,5, `avoid_heads: false` (0,8 läuft 26.11., 2,1 lief 19.11.). Format `list` mit rotem 🚨-Titel.
+- Hooks (L/S/St/F/A → Mittel×0,6 + Min×0,4): 1) „🚨 Wedding gold in your flat in Germany? 🇩🇪 HIDDEN limit: insurance may pay only €12,000“ 75/90/85/85/85 → **80 STRONG** ✅ · 2) „Gold at home in Germany? Many home insurances pay only 20% for it“ 85/75/75/80/75 → 76 (Prozent, Hook-Regel) · 3) „Your mother's gold is in Germany now. Is it insured?“ 85/60/75/80/80 → 68.
+- Belege: Wertsachen meist ~20 % der Versicherungssumme, günstige Tarife teils 10 %, Aufpreis 30–50 % (Verivox; Finanztip Stand 09.07.2026, Beispiel €60.000 → €12.000; Python 60.000 × 0,2 = 12.000); außerhalb Wertschutzschrank Gold/Schmuck ca. €20.000, Bargeld €1.200–1.500 (Verivox).
+- Sound Last Summer – Giulio Cercato 503254218286065 (music ✅). IG uuid 4343167992346593572 · TikTok+YouTube uuid -8504747675728853033 (Musik: What We Love – Rodina).
+
+## k2 – LIC-Police vs. Risikolebensversicherung (PROTECT, TOFU/MOFU) – 02.12. 13:30
+- Clip IMG_2859.MOV (Baustelle, personenfrei), start 7,5 (best_window 5,0/6,0/4,0/7,5; 5,0 läuft 27.11.), `avoid_heads: false`. IMG_4854/IMG_6328 (Personen) → Vergleichskarte passt nicht über Gesichter.
+- Hooks: 1) „LIC policy back home? In Germany 🇩🇪 €500,000 life insurance from about €42 a month. BEST-KEPT secret“ 70/90/80/85/90 → **78 STRONG** ✅ · 2) „Paying LIC premiums for 20 years? In Germany a term plan is a fraction“ 75/60/70/80/85 → 66 · 3) „Life insurance in Germany for €42 a month?“ 90/80/65/80/70 → 72.
+- Belege: Stiftung Warentest Pressemitteilung 09.11.2026 (60 Tarife, 27 Versicherer, €500.000, 35/45 Jahre; Netto-Jahresbeiträge ca. €500 bis über €6.000, teuer > 3× günstig, Faustregel 3–5× Bruttojahresgehalt). €500/12 = €41,67 ≈ €42.
+- Sound C'est La Vie – Jennah Bell 5490902791025441 (music ✅). IG uuid 7348289749711866296 · TikTok+YouTube uuid 1438040296807810806 (Musik: Dont Hang Up – Spitshine).
