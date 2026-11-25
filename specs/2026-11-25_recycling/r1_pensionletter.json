@@ -1,0 +1,47 @@
+{
+ "start": 2.4,
+ "dur": 5.1,
+ "blocks": [
+  [
+   "Your pension letter in Germany says €1,550. HIDDEN catch: that's before tax and health insurance 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "Example: €3,500 salary a month, 45 years of work 💼",
+   48,
+   "white"
+  ],
+  [
+   "Letter: €1,550 a month",
+   48,
+   "white"
+  ],
+  [
+   "After health insurance: about €1,360",
+   48,
+   "white"
+  ],
+  [
+   "After tax: about €1,300 in your pocket 💶",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 Came to Germany at 30? The letter shows only €1,270",
+   48,
+   "red"
+  ],
+  [
+   "Comment PENSION 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free pension guide for expats",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false
+}

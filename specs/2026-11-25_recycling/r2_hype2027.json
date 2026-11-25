@@ -1,0 +1,47 @@
+{
+ "start": 2.3,
+ "dur": 5.1,
+ "blocks": [
+  [
+   "Waiting for 2027 to buy a home in Germany? 3 claims are HYPE. 1 is real 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "❌ \"Prices will explode\" – experts expect about 3% a year",
+   48,
+   "white"
+  ],
+  [
+   "❌ \"Cheap loans are back\" – today about 4%",
+   48,
+   "white"
+  ],
+  [
+   "❌ \"Banks give money to everyone\" – they still check your salary",
+   48,
+   "white"
+  ],
+  [
+   "✅ Real: since May 2025 banks keep less money aside per home loan = easier yes",
+   48,
+   "yellow"
+  ],
+  [
+   "🇮🇳 Blue Card? Your salary + savings matter more than the year",
+   48,
+   "red"
+  ],
+  [
+   "Comment HOME 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free home-buying guide for expats",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false
+}
