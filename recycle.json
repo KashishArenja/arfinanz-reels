@@ -114,8 +114,14 @@
    "views": 227350,
    "shares": 2662,
    "saves": 1349,
-   "topic": "Millionaire Couple €6.4M in 20 Jahren (STRATEGY)",
-   "recycled": []
+   "topic": "Millionaire Couple: He €3.600 / She €2.750 netto, ein Gehalt in Mietwohnungen → €6,4 Mio in 20 J. (STRATEGY, 2-Personen-Vergleich He/She); 26.11. recycelt mit eigener Rechnung €1,6 Mio",
+   "recycled": [
+    {
+     "date": "2026-11-26",
+     "uuid": "7464743088022569718",
+     "type": "TRIAL_REEL 16:00"
+    }
+   ]
   },
   {
    "posted": "2026-07-03",
@@ -144,7 +150,7 @@
    "time": "13:31 UTC",
    "url": null,
    "views": 161430,
-   "topic": "Paar €6.000 netto → Kreditprofil, Portfolio (STRATEGY) – wie Millionaire Couple 15.10. → nicht vor 26.11.",
+   "topic": "Paar €6.000 netto → Kreditprofil, Portfolio (STRATEGY) – wie Millionaire Couple 15.10. → Inhalt am 26.11. als Trial recycelt → frühestens 07.01.",
    "recycled": []
   },
   {
@@ -154,7 +160,7 @@
    "views": 142772,
    "shares": 1119,
    "saves": 860,
-   "topic": "Paar mit hohem Einkommen: Banken finanzieren 1–2 Wohnungen/Jahr → €2–3M Portfolio (STRATEGY), Paar = evtl. 2 Personen; inhaltlich wie Millionaire Couple 15.10. → nicht vor 26.11.",
+   "topic": "Paar mit hohem Einkommen: Banken finanzieren 1–2 Wohnungen/Jahr → €2–3M Portfolio (STRATEGY), Paar = evtl. 2 Personen; inhaltlich wie Millionaire Couple 15.10. → Inhalt am 26.11. als Trial recycelt → frühestens 07.01.",
    "recycled": []
   },
   {
@@ -684,7 +690,7 @@
    "views": 24678,
    "shares": 242,
    "saves": 225,
-   "topic": "Paar €6.000 netto → 1–2 Wohnungen/Jahr, €2–3M Portfolio (STRATEGY), wie Millionaire Couple 15.10. → nicht vor 26.11.",
+   "topic": "Paar €6.000 netto → 1–2 Wohnungen/Jahr, €2–3M Portfolio (STRATEGY), wie Millionaire Couple 15.10. → Inhalt am 26.11. als Trial recycelt → frühestens 07.01.",
    "recycled": []
   },
   {
@@ -783,7 +789,7 @@
    "time": "15:12 UTC",
    "url": null,
    "views": 21719,
-   "topic": "How to retire before your boss does.",
+   "topic": "How to retire before your boss does: €5.000 netto, 2 Wohnungen/Jahr → €2–5 Mio Portfolio (STRATEGY) – wie Millionaire Couple → frühestens 07.01.",
    "recycled": []
   },
   {
@@ -822,7 +828,7 @@
    "time": "09:43 UTC",
    "url": null,
    "views": 21069,
-   "topic": "Don’t scroll — find your number.",
+   "topic": "Haus-Typ-Quiz (4 Häuser, STRATEGY) – Bild-Format (4 Häuser) mit Clips nicht nachbaubar",
    "recycled": []
   },
   {
@@ -830,7 +836,7 @@
    "time": "14:56 UTC",
    "url": null,
    "views": 20729,
-   "topic": "You see an old German man.",
+   "topic": "Rentner sammelt Flaschen, Expat 35 J. €950 vs Deutscher 45 J. €1.400 (PENSION) – wie Renten-Tabelle 10./13.11. + Rentenbescheid-Trial 25.11. → frühestens 06.01.",
    "recycled": []
   },
   {
@@ -848,7 +854,7 @@
    "time": "10:09 UTC",
    "url": null,
    "views": 20311,
-   "topic": "“Germany pays less than India!”",
+   "topic": "Ingenieur-Gehalt Indien vs Deutschland (ENGINEER) – Indien-Zahlen nicht belegbar, nicht recyceln",
    "recycled": []
   },
   {
@@ -874,7 +880,7 @@
    "time": "12:34 UTC",
    "url": null,
    "views": 19950,
-   "topic": "You did everything right.",
+   "topic": "9 Jahre Miete = €102.600 weg (HOME) – wie Farbtabelle Miete 19.11. → nicht vor 01.01.",
    "recycled": []
   },
   {
@@ -920,7 +926,7 @@
    "time": "12:36 UTC",
    "url": null,
    "views": 16927,
-   "topic": "I wish more people knew this before they bought.",
+   "topic": "₹50 Lakh vs €200k Kapitalanlage (TAX) – Indien-Zahlen nicht belegbar, nicht recyceln",
    "recycled": []
   },
   {
@@ -990,7 +996,7 @@
    "time": "11:06 UTC",
    "url": null,
    "views": 14598,
-   "topic": "Coming to Germany, most of us only stare at the gross number in the offer letter. 💶",
+   "topic": "Steuerklasse entscheidet €3.197 vs €4.224 netto bei €6.250 brutto → Kapitalanlage (TAX) – wie REEL Steuerklasse 18.11. → frühestens 30.12.",
    "recycled": []
   },
   {
@@ -1008,7 +1014,7 @@
    "time": "13:17 UTC",
    "url": null,
    "views": 14512,
-   "topic": "Same house. Same street. Three completely different financial worlds. 🏡",
+   "topic": "Gleiches Haus 1980/2020/2026 Preis + Zins (HOME) – Hauspreise nicht belegbar, Timing-Thema wie 2027-Hype-Trial 25.11. → frühestens 06.01.",
    "recycled": []
   },
   {
@@ -1046,7 +1052,7 @@
    "time": "10:20 UTC",
    "url": null,
    "views": 14170,
-   "topic": "Look rich or actually be rich? 💸",
+   "topic": "Look rich or be rich: €410k-Portfolio, 2 Wohnungen/Jahr (STRATEGY) – wie Millionaire Couple → frühestens 07.01.",
    "recycled": []
   },
   {
@@ -1054,7 +1060,7 @@
    "time": "10:42 UTC",
    "url": null,
    "views": 14118,
-   "topic": "€3,000 income in Germany sounds solid… until you see where it actually goes.",
+   "topic": "€3.000-Budget, was übrig bleibt (CALL) – Budgetzahlen nicht belegbar",
    "recycled": []
   },
   {
@@ -1062,7 +1068,7 @@
    "time": "12:37 UTC",
    "url": null,
    "views": 13782,
-   "topic": "Here’s the uncomfortable truth about being a landlord in Germany:",
+   "topic": "Vermieter: Mieter nach Berufen (Lehrer/Anwälte) – diskriminierend, nicht recyceln",
    "recycled": []
   },
   {
@@ -1140,8 +1146,14 @@
    "views": 11625,
    "shares": 45,
    "saves": 66,
-   "topic": "7 things for expats who think they can't afford to buy (HOME), Liste – frei ab 25.11.",
-   "recycled": []
+   "topic": "7 things for expats who think they can't afford to buy (HOME), Liste, kein Personen-Vergleich; 26.11. recycelt",
+   "recycled": [
+    {
+     "date": "2026-11-26",
+     "uuid": "-6685152402818906857",
+     "type": "TRIAL_REEL 16:30"
+    }
+   ]
   },
   {
    "posted": "2026-09-17",
@@ -1276,7 +1288,7 @@
    "views": 10608,
    "shares": 35,
    "saves": 42,
-   "topic": "Paare: Kapitalanlage mit Einkommen statt Ersparnis (STRATEGY) – wie Millionaire Couple → nicht vor 26.11.",
+   "topic": "Paare: Kapitalanlage mit Einkommen statt Ersparnis (STRATEGY) – wie Millionaire Couple → Inhalt am 26.11. als Trial recycelt → frühestens 07.01.",
    "recycled": []
   },
   {

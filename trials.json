@@ -922,7 +922,7 @@
    "topic": "Recycling: Immobilie an Kinder verkaufen statt verschenken (STRATEGY) + 5 Zeichen, dass es dir finanziell besser geht (CALL)",
    "keyword": "STRATEGY / CALL",
    "evaluate_after": "2026-11-26T16:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-23_recycling",
    "sources": [
     "§3 Nr. 6 GrEStG (Erwerb durch Verwandte in gerader Linie steuerfrei), u. a. haufe.de Weilbach-Kommentar, immobilienscout24.de 'Haus innerhalb der Familie verkaufen – Steuern', biallo.de 'Immobilie an die Kinder verkaufen'"
@@ -947,14 +947,16 @@
      "audioType": "music",
      "note": "Original fehlte in recycle.json (vor 29.07.). Personenzahl im Original unbekannt; Inhalt = Verhaltens-Vergleich, kein A/B-Personen-Vergleich.",
      "result": {
-      "views": 2990,
-      "reach": 1407,
-      "view_rate_3s": 50.9,
+      "views": 3091,
+      "reach": 1447,
+      "view_rate_3s": 50.8,
       "comments": 0,
       "saves": 1,
       "shares": 0,
-      "as_of": "2026-11-25 08:10"
-     }
+      "as_of": "2026-11-26 08:10",
+      "median_normal_reels": 4535
+     },
+     "status": "kein_gewinner"
     },
     {
      "time": "16:30",
@@ -975,14 +977,16 @@
      "audioType": "music",
      "note": "Original-Caption nennt 3 Zeichen (bestellen ohne Preis, ersetzen ohne Stress, ruhig bei Rechnung); 2 ergänzt (Geld am Monatsende, erst sparen). v1 mit IMG_8768 verworfen (Liste lag über dem gesenkten Kopf) → v2 IMG_7200, Metricool update 08:17, music.",
      "result": {
-      "views": 1552,
-      "reach": 806,
+      "views": 1557,
+      "reach": 809,
       "view_rate_3s": 47.6,
       "comments": 0,
       "saves": 0,
       "shares": 0,
-      "as_of": "2026-11-25 08:10"
-     }
+      "as_of": "2026-11-26 08:10",
+      "median_normal_reels": 4535
+     },
+     "status": "kein_gewinner"
     }
    ],
    "note": "24.11. Prüfung: alle < Median 4.215 → läuft. | 25.11. Prüfung: alle < Median 4.491 → läuft."
@@ -992,7 +996,7 @@
    "topic": "Recycling: 15-%-Regel Renovierung Kapitalanlage (TAX) + Ehepartner-Zuschlag GKV ab 2028 (CALL)",
    "keyword": "TAX / CALL",
    "evaluate_after": "2026-11-27T16:30",
-   "status": "läuft",
+   "status": "läuft (16:30 teilen_empfohlen 26.11.)",
    "specs": "specs/2026-11-24_recycling",
    "sources": [
     "§6 Abs. 1 Nr. 1a EStG (anschaffungsnahe Herstellungskosten: >15 % der Gebäude-AK netto in 3 Jahren); BMF-Schreiben 26.01.2026 Abgrenzung Erhaltungsaufwand (kpmg.com, forvismazars.com Newsletter 2/2026); AfA §7 Abs. 4 EStG 2 % (Baujahr 1925–2022) = 50 J.; 15 % × €200.000 = €30.000 (Python)",
@@ -1017,13 +1021,14 @@
      "audioType": "music",
      "note": "Original-Stichwort STRATEGY → TAX (Steuer-Guide). '33 to 50 years' → 'up to 50 years' (2 % AfA). Original-Clip-Personenzahl unbekannt, kein A/B-Vergleich.",
      "result": {
-      "views": 2002,
-      "reach": 1052,
-      "view_rate_3s": 43.7,
+      "views": 2168,
+      "reach": 1121,
+      "view_rate_3s": 45.0,
       "comments": 0,
-      "saves": 0,
+      "saves": 2,
       "shares": 0,
-      "as_of": "2026-11-25 08:10"
+      "as_of": "2026-11-26 08:10",
+      "median_normal_reels": 4535
      }
     },
     {
@@ -1044,14 +1049,17 @@
      "audioType": "music",
      "note": "Korrektur ggü. Original: Ausnahme Kind unter 12 (nicht 7, im Verfahren geändert). Stimmenzahl weggelassen (Quellen uneinheitlich 318/284 vs. 319/286). €6.000-Beispiel weggelassen (BBG 2028 noch offen).",
      "result": {
-      "views": 3229,
-      "reach": 1358,
-      "view_rate_3s": 54.2,
+      "views": 13007,
+      "reach": 5053,
+      "view_rate_3s": 60.5,
       "comments": 0,
-      "saves": 1,
-      "shares": 0,
-      "as_of": "2026-11-25 08:10"
-     }
+      "saves": 11,
+      "shares": 20,
+      "as_of": "2026-11-26 08:10",
+      "median_normal_reels": 4535
+     },
+     "status": "teilen_empfohlen",
+     "teilen_empfohlen": "2026-11-26"
     }
    ],
    "note": "25.11. Prüfung: alle < Median 4.491 → läuft."
@@ -1087,7 +1095,17 @@
      "metricool_uuid": "-8485164015822680452",
      "sound": "5490902791025441 C'est La Vie – Jennah Bell",
      "audioType": "music",
-     "note": "Original-Stichwort STRATEGY → PENSION (Thema Rente). Hamburg-Miete-Vergleich weggelassen (nicht neu belegt). Original-Personenzahl unbekannt, kein A/B-Vergleich. v1 mit IMG_0162 verworfen (Text über Kopf)."
+     "note": "Original-Stichwort STRATEGY → PENSION (Thema Rente). Hamburg-Miete-Vergleich weggelassen (nicht neu belegt). Original-Personenzahl unbekannt, kein A/B-Vergleich. v1 mit IMG_0162 verworfen (Text über Kopf).",
+     "result": {
+      "views": 2174,
+      "reach": 1083,
+      "view_rate_3s": 49.7,
+      "comments": 2,
+      "saves": 5,
+      "shares": 1,
+      "as_of": "2026-11-26 08:10",
+      "median_normal_reels": 4535
+     }
     },
     {
      "time": "16:30",
@@ -1106,7 +1124,68 @@
      "metricool_uuid": "-8745122237249994373",
      "sound": "5442350415868235 Super Soca (Instrumental) – Makana",
      "audioType": "music",
-     "note": "'already law' → 'real' (Puffer = BaFin-Allgemeinverfügung, kein Gesetz). Zahlen aktualisiert: Zins ~4 % (3,97 %), IW +3 %/Jahr, Puffer 2→1 % seit 01.05.2025 (Original: 'freeing €2–2.5bn' weggelassen, nicht belegt). Stichwort STRATEGY → HOME. v1 mit IMG_6328 verworfen (Text über Gesicht)."
+     "note": "'already law' → 'real' (Puffer = BaFin-Allgemeinverfügung, kein Gesetz). Zahlen aktualisiert: Zins ~4 % (3,97 %), IW +3 %/Jahr, Puffer 2→1 % seit 01.05.2025 (Original: 'freeing €2–2.5bn' weggelassen, nicht belegt). Stichwort STRATEGY → HOME. v1 mit IMG_6328 verworfen (Text über Gesicht).",
+     "result": {
+      "views": 2376,
+      "reach": 1190,
+      "view_rate_3s": 49.8,
+      "comments": 0,
+      "saves": 0,
+      "shares": 1,
+      "as_of": "2026-11-26 08:10",
+      "median_normal_reels": 4535
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "topic": "Recycling: Ein Gehalt leben, eins in Mietwohnungen (Millionaire Couple, STRATEGY) + 7 Dinge für Expats, die glauben, sie können nicht kaufen (HOME)",
+   "keyword": "STRATEGY / HOME",
+   "evaluate_after": "2026-11-29T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-26_recycling",
+   "sources": [
+    "Dr. Klein Bauzinsen Stand 26.11.2026: 10 J. Topzins 3,88 % Soll / 3,98 % eff.",
+    "Eigene Python-Simulation (scratch model.py, Annahmen in Caption): €33.000/J Sparrate, Wohnung €200k +2 %/J, Miete 4,5 % brutto +2 %/J, NK 10 % aus Ersparnis, 100 % Finanzierung 3,9 % + 2 % Tilgung, €100/Monat nicht umlagefähig, 42 % Steuer, AfA 2 % auf 80 %, Puffer → 20 J.: 11 Wohnungen, Wert €3,27 Mio, Restschuld €1,66 Mio, netto €1,61 Mio (bei 1,5 %/J Wachstum €1,36 Mio). Original-€6,4 Mio/37 Wohnungen nicht belegbar → ersetzt",
+    "rechner-hub.de Grunderwerbsteuer Bundesländer (Stand 16.07.2026): BY 3,5 %, HH 5,5 %, BE 6,0 %; + ~2 % Notar/Grundbuch + 3,57 % Makler → HH €300k ≈ €33.200"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – 2 Personen (IMG_2860), Hook oben weiß, Gehalt 1/Gehalt 2, Ergebnis-Zeile, rote Expat-Zeile, Stichwort",
+     "original_url": "https://www.instagram.com/reel/Deg3pQLt-I4/",
+     "original_date": "2026-10-15",
+     "original_views": 255622,
+     "spec": "r1_onesalary.json",
+     "clip": "IMG_2860.MOV ab 2,2 s (zwei Männer am Audi, stoßen an)",
+     "persons": 2,
+     "keyword": "STRATEGY",
+     "hook_old": "He earns €3,600 net. She earns €2,750 net. Together they built €6.4 million in 20 years.",
+     "hook": "One salary to live on. The SECRET: the other builds €1.6 million in Germany 🇩🇪",
+     "hook_score": 75,
+     "metricool_uuid": "7464743088022569718",
+     "sound": "851305135953613 Dale – Giulio Cercato",
+     "audioType": "music",
+     "note": "Original He/She = 2-Personen-Vergleich → 2-Personen-Clip. Labels über Köpfen getestet (Text zu klein, letzte Zeile fiel weg) → ohne Labels, Gehälter als Zeilen. €6,4 Mio nicht belegbar → eigene Python-Beispielrechnung €1,6 Mio."
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – Liste 7 Punkte (Hook rot, 7 weiße Punkte, rote Expat-Zeile, Stichwort)",
+     "original_url": "https://www.instagram.com/reel/DeeUX9KtwdH/",
+     "original_date": "2026-10-14",
+     "original_views": 11663,
+     "spec": "r2_7things.json",
+     "clip": "IMG_1989.MOV ab 0,3 s (Flachdach, Bäume, keine Person)",
+     "persons": 0,
+     "keyword": "HOME",
+     "hook_old": "7 things I tell every expat who thinks they can't afford to buy 👇",
+     "hook": "Think you can't afford a home in Germany? 7 things I tell every expat. #2 is the TRAP 🇩🇪",
+     "hook_score": 73,
+     "metricool_uuid": "-6685152402818906857",
+     "sound": "344621657711735 Dirty – Tony Dark Eyes",
+     "audioType": "music",
+     "note": "Original-Personenzahl unbekannt, kein A/B-Vergleich. Bonus-Zeile (€15k → €135k/€200k) weggelassen. Kaufnebenkosten-Zahlen neu geprüft."
     }
    ]
   }
