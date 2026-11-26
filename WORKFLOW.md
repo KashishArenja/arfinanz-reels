@@ -124,6 +124,13 @@ Winkel (Funnel):
 - MOFU: Basisrente vs. neues Altersvorsorgedepot 2027 (wer passt wofür)
 - BOFU: „Zurück nach Indien – was passiert mit meiner Basisrente?“ + Termin-CTA
 Zahlen vor dem Rendern immer selbst nachrechnen.
+Zusätzlich (Kashish 26.11.): **„Steuern sparen mit ETFs“** – 2–3 Reels derselben Woche, Keyword TAX. Fakten 2026 (geprüft 26.11.):
+- Sparerpauschbetrag 1.000 € (ledig) / 2.000 € (zusammen) – ohne Freistellungsauftrag zieht die Bank sofort 26,375 % ab (ohne KiSt).
+- Teilfreistellung 30 % bei Aktien-ETFs (Mischfonds 15 %) → nur 70 % der Erträge steuerpflichtig.
+- Vorabpauschale 2026: Basiszins 3,20 %, Abbuchung Anfang Januar 2027 → Geld auf dem Verrechnungskonto lassen. Beispiel 10.000 € Aktien-ETF: 10.000 × 3,2 % × 0,7 = 224 € → nach Teilfreistellung 156,80 € → ca. 41 € Steuer (wenn Freibetrag verbraucht).
+- Brücke zur Basisrente: Basisrente als ETF-Tarif → Beiträge absetzbar.
+Winkel: „HIDDEN 1.000 € tax-free – set this one form at your bank“ (TOFU), Vorabpauschale-„SHOCK in January“ (TOFU/MOFU), Tabelle Depotgröße → Steuer im Januar (MOFU), Basisrente-ETF vs. normales ETF-Depot (MOFU).
+
 
 ## FUNNEL-AUFTEILUNG (Kashish 18.11., ab Wochenpaket 23.11.)
 Jede Woche 14 normale Posts (12 Reels + 2 Karussells) aufteilen:
