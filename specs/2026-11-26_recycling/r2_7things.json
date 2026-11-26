@@ -1,0 +1,62 @@
+{
+ "start": 0.3,
+ "dur": 5.1,
+ "blocks": [
+  [
+   "Think you can't afford a home in Germany? 7 things I tell every expat. #2 is the TRAP 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "1. Check your budget before viewings",
+   48,
+   "white"
+  ],
+  [
+   "2. Hamburg €300k flat: about €33,000 extra from YOUR savings 😳",
+   48,
+   "white"
+  ],
+  [
+   "3. Savings in India count too",
+   48,
+   "white"
+  ],
+  [
+   "4. Last 3 months: no overdraft, no Klarna",
+   48,
+   "white"
+  ],
+  [
+   "5. First flat that fits, not the dream",
+   48,
+   "white"
+  ],
+  [
+   "6. Not forever: sell or rent it out later",
+   48,
+   "white"
+  ],
+  [
+   "7. Stop comparing, only your numbers count",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 Blue Card? Many banks say yes",
+   48,
+   "red"
+  ],
+  [
+   "Comment HOME 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free home-buying guide for expats",
+   50,
+   "yellow"
+  ]
+ ],
+ "avoid_heads": false
+}
