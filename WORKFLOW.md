@@ -113,6 +113,18 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
 
+## THEMEN-SCHWERPUNKT WOCHE 30.11.–06.12.: BASISRENTE (Kashish 26.11.)
+Im Wochenpaket 30.11. mindestens 5 der 12 Reels zur Basisrente (Rürup) + 1 LinkedIn-Post (Mayur) + Test-Reels der Woche bevorzugt Basisrente. Keyword: PENSION.
+Fakten 2026 (geprüft 26.11.): Beiträge zu 100 % absetzbar bis 30.826 € (ledig) / 61.652 € (zusammen veranlagt) – gemeinsamer Höchstbetrag MIT gesetzlicher Rentenversicherung (AN+AG-Anteil wird abgezogen). Zahlung muss bis 31.12. beim Anbieter sein, damit sie für 2026 zählt. Steuerpflichtiger Rentenanteil bei Rentenbeginn 2026: 84 %.
+Ehrlich bleiben (Expats!): nicht kündbar, keine Kapitalauszahlung, nicht beleihbar, Auszahlung frühestens ab 62 als lebenslange Rente – auch nach Rückkehr nach Indien möglich, aber Geld ist bis dahin gebunden.
+Winkel (Funnel):
+- TOFU: Jahresend-Hack „Bis 31. Dezember einzahlen → Steuer zurück“ (Selbstständige: bis 30.826 € absetzbar)
+- TOFU/Trial: „Selbstständig in Deutschland? Bei 42 % Steuersatz zahlt der Staat 42 Cent jedes Euros“
+- MOFU-Tabelle: Brutto-Gehalt → Spielraum nach gesetzlicher RV → Steuer zurück
+- MOFU: Basisrente vs. neues Altersvorsorgedepot 2027 (wer passt wofür)
+- BOFU: „Zurück nach Indien – was passiert mit meiner Basisrente?“ + Termin-CTA
+Zahlen vor dem Rendern immer selbst nachrechnen.
+
 ## FUNNEL-AUFTEILUNG (Kashish 18.11., ab Wochenpaket 23.11.)
 Jede Woche 14 normale Posts (12 Reels + 2 Karussells) aufteilen:
 - **6× TOFU (Aufmerksamkeit):** breite, teilbare Themen, Powerwort-Hooks, Geld-das-dir-zusteht. KPI: Reichweite, Shares. (Test-Reels sind immer TOFU.)
