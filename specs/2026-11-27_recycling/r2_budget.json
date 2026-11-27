@@ -1,0 +1,56 @@
+{
+ "start": 4.5,
+ "dur": 5.1,
+ "blocks": [
+  [
+   "Earning €2,500 net in Germany? Split it like this before it's GONE 🇩🇪",
+   56,
+   "red"
+  ],
+  [
+   "🏠 Rent + bills: €1,000",
+   48,
+   "white"
+  ],
+  [
+   "🛡️ Insurance: €200",
+   48,
+   "white"
+  ],
+  [
+   "🚨 Emergency money: €150",
+   48,
+   "white"
+  ],
+  [
+   "👵 Pension: €150",
+   48,
+   "white"
+  ],
+  [
+   "📈 Investing: €350",
+   48,
+   "white"
+  ],
+  [
+   "🛒 Food + fun: €650",
+   48,
+   "white"
+  ],
+  [
+   "🇮🇳 New in Germany? Don't pay for insurance you don't need",
+   48,
+   "red"
+  ],
+  [
+   "Comment CALL 👇",
+   64,
+   "yellow"
+  ],
+  [
+   "Free insurance check call",
+   50,
+   "yellow"
+  ]
+ ]
+}
