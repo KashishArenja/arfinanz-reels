@@ -1,0 +1,14 @@
+{
+ "start": 1.4,
+ "dur": 5.1,
+ "blocks": [
+  ["Good salary in Germany? 🇩🇪 DEADLINE 31 December to get €1,950 back from tax", 58, "red"],
+  ["Earn €80,000? Put €5,000 into a private pension 💶", 48, "white"],
+  ["The tax office gives you about €1,950 back ✅", 48, "white"],
+  ["📅 The money must arrive by 31 December", 48, "white"],
+  ["🔒 Honest: locked until 62, then paid monthly for life", 48, "white"],
+  ["🇮🇳 Moving back to India? It still pays out there", 48, "red"],
+  ["Comment PENSION 👇", 64, "yellow"],
+  ["Free pension + tax guide for expats", 50, "yellow"]
+ ]
+}
