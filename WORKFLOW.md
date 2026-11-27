@@ -113,6 +113,15 @@ Nicht machen (Feedback Kashish 10.11.): Infos nur in die Caption schieben; Hooks
 - Pflicht-Fußzeile bei Zahlen: „Example calculation, not a guarantee …“ + „Arenja & Raj Finanz GmbH – Immobiliardarlehensvermittler §34i GewO, Versicherungsmakler §34d GewO. No tax advice.“
 - Genau 5 Hashtags, unten
 
+## KURSKORREKTUR AB 30.11. (Kashish 27.11. – gilt VOR allen älteren Regeln und VOR den Prompts der geplanten Aufgaben)
+Analyse 27.11.: Median normale Reels Ende Okt ~5–7k → 15.–21.11. ~4,3k → 22.–26.11. ~3k. Gewinner: Urlaubstage 2027 (251k), Eltern-in-Indien-Steuer (99k), Ehepartner-Verkauf 100k-Unterschied (86k), Rente nach Indien (84k), 7 Geld-Änderungen November (50k), GKV-Zuschlag 2028 (15,5k), EU-Bargeldgrenze (12,9k). Verlierer: Nischen-Investment-Steuerthemen (AfA, 15-%-Regel, Freibetrag, Schenkung) 2–3k; 3-s-Abbruch 50–64 % vs. 31–39 % bei Gewinnern.
+1. **Caption: erste Zeile = Hook** (nie mehr „Comment X and we'll send you…“ als Einstieg). Stichwort-CTA ans Ende vor den Disclaimer.
+2. **Themenmix 70/30:** 70 % breite Geld-Themen, die fast jeden Expat betreffen (Steuer zurück, Familie/Eltern/Indien, neue Gesetze & Fristen, Lifestyle-Geld in Deutschland wie Urlaub/Brückentage, Gehalt). Nur 30 % Investment-/Immobilien-Details. Basisrente als „Steuer zurück vor dem 31.12.“ framen, nicht als Produkterklärung.
+3. **Zielgruppe direkt ansprechen** im Hook: „Indians in Germany, listen up“, „Couples in Germany“, „Parents in Germany“, „Blue Card holders“ – plus echte Zahl + Powerwort.
+4. **Formate mischen:** pro Woche 2–3 Talking-Heads (Skript für Kashish/Mayur im Wochenpaket, 15–25 s, gesprochener Hook), Rest Text-Reels in wechselnden Layouts (nicht jede Woche nur Tabelle/Liste).
+5. **Test-Reels: nur noch 1 pro Tag (16:00)**, ausschließlich Varianten echter Gewinner (Urlaubstage 2027, Eltern-Steuer, Rente nach Indien, Ehepartner-100k-Trick, News/Fristen). 16:30-Slot bleibt frei.
+6. Nach 2 Wochen (ca. 11.12.) Median neu vergleichen und Kashish berichten.
+
 ## THEMEN-SCHWERPUNKT WOCHE 30.11.–06.12.: BASISRENTE (Kashish 26.11.)
 Im Wochenpaket 30.11. mindestens 5 der 12 Reels zur Basisrente (Rürup) + 1 LinkedIn-Post (Mayur) + Test-Reels der Woche bevorzugt Basisrente. Keyword: PENSION.
 Fakten 2026 (geprüft 26.11.): Beiträge zu 100 % absetzbar bis 30.826 € (ledig) / 61.652 € (zusammen veranlagt) – gemeinsamer Höchstbetrag MIT gesetzlicher Rentenversicherung (AN+AG-Anteil wird abgezogen). Zahlung muss bis 31.12. beim Anbieter sein, damit sie für 2026 zählt. Steuerpflichtiger Rentenanteil bei Rentenbeginn 2026: 84 %.
