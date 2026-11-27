@@ -996,7 +996,7 @@
    "topic": "Recycling: 15-%-Regel Renovierung Kapitalanlage (TAX) + Ehepartner-Zuschlag GKV ab 2028 (CALL)",
    "keyword": "TAX / CALL",
    "evaluate_after": "2026-11-27T16:30",
-   "status": "läuft (16:30 teilen_empfohlen 26.11.)",
+   "status": "abgeschlossen (16:00 kein_gewinner 27.11., 16:30 teilen_empfohlen 26.11.)",
    "specs": "specs/2026-11-24_recycling",
    "sources": [
     "§6 Abs. 1 Nr. 1a EStG (anschaffungsnahe Herstellungskosten: >15 % der Gebäude-AK netto in 3 Jahren); BMF-Schreiben 26.01.2026 Abgrenzung Erhaltungsaufwand (kpmg.com, forvismazars.com Newsletter 2/2026); AfA §7 Abs. 4 EStG 2 % (Baujahr 1925–2022) = 50 J.; 15 % × €200.000 = €30.000 (Python)",
@@ -1029,7 +1029,9 @@
       "shares": 0,
       "as_of": "2026-11-26 08:10",
       "median_normal_reels": 4535
-     }
+     },
+     "status": "kein_gewinner",
+     "result_27_11": "~64 h: 2.181 Aufrufe, 1.123 Reichweite, 0 Kommentare, 2 Saves, 0 Shares, 3-s-Rate 45,1 % (Median 4.340)"
     },
     {
      "time": "16:30",
@@ -1136,6 +1138,12 @@
       "median_normal_reels": 4535
      }
     }
+   ],
+   "checks": [
+    {
+     "date": "2026-11-27",
+     "median": 4340
+    }
    ]
   },
   {
@@ -1186,6 +1194,48 @@
      "sound": "344621657711735 Dirty – Tony Dark Eyes",
      "audioType": "music",
      "note": "Original-Personenzahl unbekannt, kein A/B-Vergleich. Bonus-Zeile (€15k → €135k/€200k) weggelassen. Kaufnebenkosten-Zahlen neu geprüft."
+    }
+   ],
+   "checks": [
+    {
+     "date": "2026-11-27",
+     "median": 4340
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "topic": "Recycling: Kredit abbezahlen India vs. Germany – Investoren behalten den Kredit (STRATEGY) + €2.500 netto aufteilen (CALL/Versicherungs-Check)",
+   "keyword": "STRATEGY / CALL",
+   "evaluate_after": "2026-11-30T16:30",
+   "status": "läuft",
+   "specs": "specs/2026-11-27_recycling",
+   "sources": [
+    "Dr. Klein Bauzinsen (Stand 26.11.2026): 10 J. ~3,88 % → €100.000 Sondertilgung spart ~€3.880 Zinsen/Jahr",
+    "Destatis PM Okt. 2026: Inflation 2,8 % (Beispiel mit 2,5 %/J.: €300.000 → real ~€234.360 nach 10 J., Python)",
+    "§9 Abs. 1 Nr. 1 EStG: Schuldzinsen bei Vermietung = Werbungskosten; Eigennutzung nicht absetzbar",
+    "Budget-Aufteilung = Beispiel (Summe per Python geprüft: 1.000+200+150+150+350+650 = 2.500)"
+   ],
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – Blöcke (Hook rot, 4 weiße Punkte, rote Expat-Zeile, Stichwort)",
+     "original_url": "None (Original 23.07.2026 09:07 UTC, 11.145 Aufrufe)",
+     "hook": "In India you pay off your loan fast 🇮🇳 In Germany, smart investors keep it – the SECRET 🇩🇪",
+     "clip": "IMG_6518.MOV start 0.3 (Villen-Straße, keine Person)",
+     "metricool_uuid": "-932881005363705288",
+     "sound": "1220205582894644 Sheesh – Sugartapes",
+     "audioType": "music"
+    },
+    {
+     "time": "16:30",
+     "format": "Recycling – Liste 6 Posten (Hook rot, 6 weiße Zeilen, rote Expat-Zeile, Stichwort)",
+     "original_url": "None (Original 21.05.2026 09:56 UTC, 10.228 Aufrufe)",
+     "hook": "Earning €2,500 net in Germany? Split it like this before it's GONE 🇩🇪",
+     "clip": "IMG_7878.MOV start 4.5 (Dachboden, keine Person)",
+     "metricool_uuid": "6946829031622921933",
+     "sound": "503254218286065 Last Summer – Giulio Cercato",
+     "audioType": "music"
     }
    ]
   }

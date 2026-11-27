@@ -488,7 +488,7 @@
    "time": "13:13 UTC",
    "url": "https://www.instagram.com/reel/DZKkkG6MOWp/",
    "views": 37757,
-   "topic": "3 Zahlen vor dem Kauf: Kaufpreisfaktor, Nettomietrendite, Cashflow (STRATEGY), kein Personen-Vergleich – 24.11. übersprungen (gleiches Thema Kapitalanlage wie 15-%-Regel am selben Tag), Kandidat",
+   "topic": "3 Zahlen vor dem Kauf: Kaufpreisfaktor, Nettomietrendite, Cashflow (STRATEGY), kein Personen-Vergleich – 27.11. übersprungen: gleicher Inhalt wie Investment-Trial 11.11. „Check these 3 numbers first“ → frühestens 23.12.",
    "recycled": []
   },
   {
@@ -771,7 +771,7 @@
    "time": "13:11 UTC",
    "url": null,
    "views": 23035,
-   "topic": "€6,000 gross salary today → €2,652 gross pension.",
+   "topic": "€6.000 brutto → €2.652 Bruttorente, Mietwohnung als zweite Rente (STRATEGY) – Rentenhöhe-Kern wie Rentenbescheid-Trial 25.11. → frühestens 06.01.",
    "recycled": []
   },
   {
@@ -797,7 +797,7 @@
    "time": "11:58 UTC",
    "url": null,
    "views": 21624,
-   "topic": "Cold rent for 80 sqm apartment in Germany. 🇩🇪",
+   "topic": "Kaltmiete 80 m² nach Stadt (München €1.640 … Wuppertal €700) (HOME) – wie Farbtabelle Miete nach Stadt 19.11. (geteilt) → nicht vor 31.12.",
    "recycled": []
   },
   {
@@ -805,7 +805,7 @@
    "time": "13:01 UTC",
    "url": null,
    "views": 21485,
-   "topic": "I wish more people knew this 👇",
+   "topic": "Leipzig-Fallbeispiel €170k, €12.240 Eigenkapital, ~€78/Monat (STRATEGY) – Fallbeispiel wie Augsburg-WG 10.11. → nicht vor 22.12.",
    "recycled": []
   },
   {
@@ -1170,8 +1170,13 @@
    "time": "09:07 UTC",
    "url": null,
    "views": 11145,
-   "topic": "In India, debt is something you kill as fast as possible.",
-   "recycled": []
+   "topic": "Schulden: In Indien schnell tilgen, in DE behalten Investoren den Kredit (Zinsen absetzbar, Inflation, Hebel; Eigenheim schneller tilgen) (STRATEGY), kein Personen-Vergleich; 27.11. recycelt",
+   "recycled": [
+    {
+     "date": "2026-11-27",
+     "uuid": "-932881005363705288"
+    }
+   ]
   },
   {
    "posted": "2026-11-01",
@@ -1216,7 +1221,7 @@
    "time": "09:47 UTC",
    "url": null,
    "views": 10875,
-   "topic": "🇩🇪 How high earners in Germany legally lower their tax bill 👇",
+   "topic": "Steuern senken mit Kapitalanlage: 15-%-Grenze, AfA, RND, Lohnsteuerermäßigung (TAX) – wie 15-%-Trial 24.11. → frühestens 05.01.",
    "recycled": []
   },
   {
@@ -1224,7 +1229,7 @@
    "time": "13:51 UTC",
    "url": null,
    "views": 10832,
-   "topic": "Same salary. €373 more in your pocket — every month. 🇮🇳🇩🇪",
+   "topic": "PKV vs GKV: gleiches Gehalt €84k, +€373 netto mit PKV (PKV), 2 Kollegen – wie PKV-Trials 14./19.11. + REEL 01.12. → nicht vor 12.01.",
    "recycled": []
   },
   {
@@ -1312,7 +1317,7 @@
    "time": "10:22 UTC",
    "url": null,
    "views": 10529,
-   "topic": "Most people think you can only save big on taxes if you’re rich. ",
+   "topic": "15-%-Regel Renovierung €455k → €48k absetzbar (TAX) – wie 15-%-Trial 24.11. → frühestens 05.01.",
    "recycled": []
   },
   {
@@ -1344,15 +1349,20 @@
    "time": "09:56 UTC",
    "url": null,
    "views": 10228,
-   "topic": "How to properly split €2,500 net as an Indian Expat in Germany. 🇮🇳🇩🇪",
-   "recycled": []
+   "topic": "€2.500 netto aufteilen: Wohnen ~€1.000, Versicherung ~€200, Sparen €650, Leben €650 (Budget, CALL/Versicherungs-Check), kein Personen-Vergleich; 27.11. recycelt",
+   "recycled": [
+    {
+     "date": "2026-11-27",
+     "uuid": "6946829031622921933"
+    }
+   ]
   },
   {
    "posted": "2026-04-02",
    "time": "11:45 UTC",
    "url": null,
    "views": 10198,
-   "topic": "India vs Germany personal loans (10–15% vs 4–8%)",
+   "topic": "Privatkredit Indien vs Deutschland (10–15 % vs 4–8 %) – Konsumentenkredit = §34c, nicht unsere Erlaubnis → nicht recyceln",
    "recycled": []
   },
   {
