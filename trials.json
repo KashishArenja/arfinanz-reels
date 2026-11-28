@@ -1071,7 +1071,7 @@
    "topic": "Recycling: Rentenbescheid = brutto, vor KV/PV/Steuer (PENSION) + 2027-Immobilien-Hype vs. echte Änderung Systemrisikopuffer (HOME)",
    "keyword": "PENSION / HOME",
    "evaluate_after": "2026-11-28T16:30",
-   "status": "läuft",
+   "status": "kein_gewinner",
    "specs": "specs/2026-11-25_recycling",
    "sources": [
     "Python-Rechnung: €3.500/Monat, Durchschnittsentgelt 2026 €51.944, Rentenwert €42,52 (ab 01.07.2026): 45 J. = 36,39 EP = €1.547 brutto; KV 7,3 % + 1,45 % Zusatz, PV 3,6 % → €1.356; ESt §32a 2026 (zvE €16.134 → €661/Jahr) → ~€1.301; 37 J. → €1.272 brutto / ~€1.104 netto",
@@ -1099,15 +1099,16 @@
      "audioType": "music",
      "note": "Original-Stichwort STRATEGY → PENSION (Thema Rente). Hamburg-Miete-Vergleich weggelassen (nicht neu belegt). Original-Personenzahl unbekannt, kein A/B-Vergleich. v1 mit IMG_0162 verworfen (Text über Kopf).",
      "result": {
-      "views": 2174,
-      "reach": 1083,
-      "view_rate_3s": 49.7,
+      "views": 2250,
+      "reach": 1116,
+      "view_rate_3s": 50.2,
       "comments": 2,
       "saves": 5,
       "shares": 1,
-      "as_of": "2026-11-26 08:10",
-      "median_normal_reels": 4535
-     }
+      "as_of": "2026-11-28 08:10",
+      "median_normal_reels": 4367
+     },
+     "status": "kein_gewinner"
     },
     {
      "time": "16:30",
@@ -1128,15 +1129,16 @@
      "audioType": "music",
      "note": "'already law' → 'real' (Puffer = BaFin-Allgemeinverfügung, kein Gesetz). Zahlen aktualisiert: Zins ~4 % (3,97 %), IW +3 %/Jahr, Puffer 2→1 % seit 01.05.2025 (Original: 'freeing €2–2.5bn' weggelassen, nicht belegt). Stichwort STRATEGY → HOME. v1 mit IMG_6328 verworfen (Text über Gesicht).",
      "result": {
-      "views": 2376,
-      "reach": 1190,
-      "view_rate_3s": 49.8,
+      "views": 3128,
+      "reach": 1447,
+      "view_rate_3s": 53.5,
       "comments": 0,
       "saves": 0,
       "shares": 1,
-      "as_of": "2026-11-26 08:10",
-      "median_normal_reels": 4535
-     }
+      "as_of": "2026-11-28 08:10",
+      "median_normal_reels": 4367
+     },
+     "status": "kein_gewinner"
     }
    ],
    "checks": [
@@ -1175,7 +1177,18 @@
      "metricool_uuid": "7464743088022569718",
      "sound": "851305135953613 Dale – Giulio Cercato",
      "audioType": "music",
-     "note": "Original He/She = 2-Personen-Vergleich → 2-Personen-Clip. Labels über Köpfen getestet (Text zu klein, letzte Zeile fiel weg) → ohne Labels, Gehälter als Zeilen. €6,4 Mio nicht belegbar → eigene Python-Beispielrechnung €1,6 Mio."
+     "note": "Original He/She = 2-Personen-Vergleich → 2-Personen-Clip. Labels über Köpfen getestet (Text zu klein, letzte Zeile fiel weg) → ohne Labels, Gehälter als Zeilen. €6,4 Mio nicht belegbar → eigene Python-Beispielrechnung €1,6 Mio.",
+     "result": {
+      "views": 3194,
+      "reach": 1570,
+      "view_rate_3s": 52.1,
+      "comments": 1,
+      "saves": 3,
+      "shares": 2,
+      "as_of": "2026-11-28 08:10",
+      "median_normal_reels": 4367
+     },
+     "status": "läuft"
     },
     {
      "time": "16:30",
@@ -1193,7 +1206,18 @@
      "metricool_uuid": "-6685152402818906857",
      "sound": "344621657711735 Dirty – Tony Dark Eyes",
      "audioType": "music",
-     "note": "Original-Personenzahl unbekannt, kein A/B-Vergleich. Bonus-Zeile (€15k → €135k/€200k) weggelassen. Kaufnebenkosten-Zahlen neu geprüft."
+     "note": "Original-Personenzahl unbekannt, kein A/B-Vergleich. Bonus-Zeile (€15k → €135k/€200k) weggelassen. Kaufnebenkosten-Zahlen neu geprüft.",
+     "result": {
+      "views": 2198,
+      "reach": 1091,
+      "view_rate_3s": 48.3,
+      "comments": 0,
+      "saves": 2,
+      "shares": 1,
+      "as_of": "2026-11-28 08:10",
+      "median_normal_reels": 4367
+     },
+     "status": "läuft"
     }
    ],
    "checks": [
@@ -1225,7 +1249,18 @@
      "clip": "IMG_6518.MOV start 0.3 (Villen-Straße, keine Person)",
      "metricool_uuid": "-932881005363705288",
      "sound": "1220205582894644 Sheesh – Sugartapes",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 3502,
+      "reach": 1614,
+      "view_rate_3s": 50.5,
+      "comments": 0,
+      "saves": 10,
+      "shares": 5,
+      "as_of": "2026-11-28 08:10",
+      "median_normal_reels": 4367
+     },
+     "status": "läuft"
     },
     {
      "time": "16:30",
@@ -1235,7 +1270,48 @@
      "clip": "IMG_7878.MOV start 4.5 (Dachboden, keine Person)",
      "metricool_uuid": "6946829031622921933",
      "sound": "503254218286065 Last Summer – Giulio Cercato",
-     "audioType": "music"
+     "audioType": "music",
+     "result": {
+      "views": 2235,
+      "reach": 1187,
+      "view_rate_3s": 50.0,
+      "comments": 2,
+      "saves": 4,
+      "shares": 2,
+      "as_of": "2026-11-28 08:10",
+      "median_normal_reels": 4367
+     },
+     "status": "läuft"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "topic": "Recycling: Beste Städte für Inder 2010 vs 2026 – Gehalt vs. Community, Miete Munich vs Berlin (HOME)",
+   "keyword": "HOME",
+   "evaluate_after": "2026-12-01T16:00",
+   "status": "läuft",
+   "specs": "specs/2026-11-28_recycling",
+   "sources": [
+    "GREIX-Mietpreisindex (IfW Kiel) Q2 2026 via dpa (22.07.2026): 75 m², Angebotsmiete kalt – München €1.778, Frankfurt €1.335, Hamburg €1.238, Berlin €1.148, Leipzig €788; Differenz München–Berlin €630/Monat = €7.560/Jahr (Python)"
+   ],
+   "note": "Nur 1 Trial: kein zweiter recycelbarer Hit ≥ 10k frei (alle übrigen < 6 Wochen inhaltlich gepostet, abgelaufen oder nicht belegbar). 16:30 frei.",
+   "reels": [
+    {
+     "time": "16:00",
+     "format": "Recycling – Blöcke split 1 (Hook rot oben, 3 weiße Zeilen + rote Expat-Zeile + Stichwort)",
+     "original_date": "2026-04-02",
+     "original_url": "None (Original 02.04.2026 13:29 UTC, 16.534 Aufrufe)",
+     "original_hook": "Your friend in 2010: “Move to Ingolstadt. Great job, good pay.” You in 2026: “Where’s Ingolstadt?”",
+     "hook": "Great pay in Germany – but LONELY every weekend? 🇩🇪",
+     "hook_score": "#13 Before/After → 70 STRONG (LENGTH 90, SPEC 60, STAKES 80, FRONT 80, ADDR 75)",
+     "clip": "IMG_6328.MOV start 2.0 (1 Person, Mann mit Laptoptasche allein auf Straße)",
+     "metricool_uuid": "2744801347680881215",
+     "sound": "1351750949663964 Showcase – Shanice",
+     "audioType": "music",
+     "status": null,
+     "result": null,
+     "teilen_empfohlen": null
     }
    ]
   }
